@@ -1537,7 +1537,7 @@ Pas Aqua
 Armor Cannon
 Canon Armure
 Axe Kick
-Coup de Hache
+Talon-Marteau
 Bitter Blade
 Lame Amère
 Blazing Torque

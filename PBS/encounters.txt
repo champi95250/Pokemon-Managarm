@@ -206,10 +206,10 @@ LandNight,21
 PokeRadar,130
     25,LICKITUNG,15,17
     25,MUNCHLAX,15,17
-HeadbuttLow,21
-    20,SMOLIV,14,16
-HeadbuttHigh,21
-    20,SMOLIV,15,17
+HeadbuttLow,40
+    22,SMOLIV,14,16
+HeadbuttHigh,40
+    22,SMOLIV,15,17
 OldRod
     20,MAGIKARP,14,16
 GoodRod
@@ -250,6 +250,10 @@ LandNight,21
     10,MAGNEMITE,15,18
     18,TRUBBISH,14,19
     10,FERROSEED,16,19
+HeadbuttLow,40
+    22,SMOLIV,14,16
+HeadbuttHigh,40
+    22,SMOLIV,15,17
 PokeRadar,130
     25,LITLEO,18,20
     5,STARYU,18,20

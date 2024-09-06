@@ -1,0 +1,18 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+# Luminelle (1) - Route 01 (2)
+1,South,0,2,North,0
+# Route 01 (2) - Floralie (3)
+2,South,9,3,North,0
+# Route 02 (5) - Grodoville (6)
+5,East,20,6,West,0
+# Route 03 (10) - Grodoville (6)
+10,West,0,6,East,13
+# Route 04 (19) - Eudépole (22)
+19,East,0,22,West,0
+# Route 05 (30) - Eudépole (22)
+30,South,0,22,North,2
+# Orhenta (13) - Route 04 (19)
+13,East,3,19,West,0
+# Route 05 (30) - Route 04 (19)
+30,South,0,19,North,62

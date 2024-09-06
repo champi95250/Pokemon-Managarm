@@ -1,0 +1,118 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[001]   # Luminelle
+Name = Luminelle
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,6,12
+#-------------------------------
+[002]   # Route 01
+Name = Route 01
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,6,13
+StillReflections = true
+BattleBack = field
+#-------------------------------
+[003]   # Floralie
+Name = Floralie
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,6,14
+StillReflections = true
+#-------------------------------
+[004]   # Passage
+Name = Passage
+Bicycle = true
+MapPosition = 0,7,14
+#-------------------------------
+[005]   # Route 02
+Name = Route 02
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,7,14
+BattleBack = field
+#-------------------------------
+[006]   # Grodoville
+Name = Grodoville
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,8,14
+BattleBack = indoor2
+#-------------------------------
+[010]   # Route 03
+Name = Route 03
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,14
+BattleBack = field
+#-------------------------------
+[012]   # Grotte Creuset
+Name = Grotte Creuset
+ShowArea = true
+MapPosition = 0,10,14
+DarkMap = true
+BattleBack = rocky
+#-------------------------------
+[013]   # Orhenta
+Name = Orhenta
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,11,14
+BattleBack = indoor3
+#-------------------------------
+[017]   # Forêt Purificatrice
+Name = Forêt Purificatrice
+Outdoor = true
+ShowArea = true
+MapPosition = 0,11,13
+BattleBack = forest
+#-------------------------------
+[019]   # Route 04
+Name = Route 04
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,12,14
+BattleBack = forest
+#-------------------------------
+[022]   # Eudépole
+Name = Eudépole
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,13,13
+BattleBack = indoor3
+MapSize = 2,1111
+#-------------------------------
+[023]   # CentrePokemonBig
+Name = Centre Pokémon
+MapPosition = 0,14,14
+#-------------------------------
+[026]   # Passage
+Name = Passage
+Bicycle = true
+MapPosition = 0,12,14
+#-------------------------------
+[029]   # Center Mark P4
+Name = Center Mark P4
+MapPosition = 0,14,14
+#-------------------------------
+[030]   # Route 05
+Name = Route 05
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,13,11
+MapSize = 1,11
+#-------------------------------
+[081]   # MultiMaison
+Name = Maison
+MapPosition = 0,6,12

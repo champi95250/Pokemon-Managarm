@@ -1,0 +1,291 @@
+﻿# Voir la documentation sur le wiki pour savoir comment éditer ce fichier.
+#-------------------------------
+[002] # Route 01
+LandMorning,21
+    20,YAMPER,2,4
+    20,STARLY,2,4
+    10,MEOWTH,2,4
+    20,HOPPIP,2,4
+    5,MORELULL,2,4
+LandAfternoon,21
+    20,YAMPER,2,4
+    20,STARLY,2,4
+    30,HOPPIP,2,4
+    12,BUDEW,2,4
+    10,TAROUNTULA,2,4
+LandEvening,21
+    20,YAMPER,2,4
+    20,STARLY,2,4
+    10,MEOWTH,2,4
+    20,HOPPIP,2,4
+    5,MORELULL,2,4
+    10,BUDEW,2,4
+LandNight,21
+    20,MORELULL,2,4
+    20,VOLBEAT,2,4
+    20,ILLUMISE,2,4
+    25,HOOTHOOT,2,4
+    10,TAROUNTULA,2,4
+PokeRadar,120
+    20,SHINX,3,5
+HeadbuttLow,21
+    20,HOOTHOOT,2,4
+HeadbuttHigh,21
+    20,HOOTHOOT,2,4
+OldRod
+    20,CHINCHOU,4,5
+GoodRod
+    20,CHINCHOU,5,6
+SuperRod
+    20,CHINCHOU,6,8
+    20,LANTURN,27,30
+Water,2
+    20,CHINCHOU,4,8
+    10,SKWOVET,5,7
+#-------------------------------
+[005] # Route 02
+LandMorning,21
+    15,PARAS,4,6
+    20,NICKIT,4,6
+    20,GROWLITHE,4,6
+    20,ODDISH,4,6
+    15,SEEDOT,4,6
+    7,SUNKERN,4,6
+LandAfternoon,21
+    20,RATTATA,4,6
+    20,PIDGEY,4,6
+    23,GROWLITHE,4,6
+    20,ODDISH,4,6
+    5,SEEDOT,4,6
+    15,SUNKERN,4,6
+    12,VULPIX,4,6
+LandEvening,21
+    20,RATTATA,4,6
+    20,PIDGEY,4,6
+    20,GROWLITHE,4,6
+    15,NICKIT,4,6
+    8,FLETCHLING,3,5
+    12,VULPIX,4,6
+    7,SUNKERN,4,6
+LandNight,21
+    20,PARAS,4,6
+    20,PATRAT,4,6
+    20,KRICKETOT,4,6
+    20,NICKIT,4,6
+    20,SEEDOT,4,6
+    8,FLETCHLING,4,6
+PokeRadar,120
+    20,VENIPEDE,5,7
+    5,FLETCHLING,5,7
+    10,SKWOVET,5,7
+#-------------------------------
+[010] # Route 03
+LandMorning,21
+    20,SKIDDO,9,11
+    10,SPEAROW,9,11
+    16,MACHOP,9,11
+    22,MEDITITE,9,11
+    12,MINCCINO,9,11
+LandAfternoon,21
+    10,SKIDDO,9,11
+    16,MACHOP,9,11
+    4,MEDITITE,9,11
+    20,MINCCINO,9,11
+    12,SCRAGGY,9,11
+LandEvening,21
+    20,SKIDDO,9,11
+    20,SPEAROW,9,11
+    16,MACHOP,9,11
+    18,MINCCINO,9,11
+    18,SCRAGGY,9,11
+LandNight,21
+    10,SPEAROW,9,11
+    10,MEDITITE,9,11
+    20,DUSKULL,9,11
+    12,SCRAGGY,9,11
+    7,HOOTHOOT,8,10
+PokeRadar,120
+    20,PANCHAM,10,12
+    17,MAKUHITA,9,11
+#-------------------------------
+[012] # Grotte Creuset
+CaveMorning,11
+    20,ZUBAT,11,13
+    15,GEODUDE,11,13
+    10,GEODUDE_1,11,13
+    5,SLOWPOKE,10,14
+    12,WOOPER_1,10,14
+    4,ONIX,13,15
+CaveAfternoon,11
+    20,ZUBAT,11,13
+    20,GEODUDE,11,13
+    10,SLOWPOKE,10,13
+    18,WOOPER_1,10,12
+CaveEvening,11
+    20,ZUBAT,11,13
+    15,GEODUDE,11,13
+    10,GEODUDE_1,11,13
+    5,SLOWPOKE,10,14
+    12,WOOPER_1,10,14
+    4,ONIX,13,15
+CaveNight,18
+    30,ZUBAT,11,14
+    20,GEODUDE_1,11,14
+    11,SANDILE,12,14
+    7,ONIX,13,15
+OldRod
+    20,WOOPER_1,11,14
+GoodRod
+    20,WOOPER_1,11,14
+SuperRod
+    20,WOOPER_1,11,15
+    20,CLODSIRE,20,24
+Water,2
+    20,WOOPER_1,12,16
+#-------------------------------
+[017] # Forêt Purificatrice
+LandMorning,21
+    10,APPLIN,13,16
+    15,DEERLING,12,16
+    8,BELLSPROUT,12,15
+    20,COTTONEE,11,15
+LandAfternoon,21
+    20,COTTONEE,12,15
+    8,APPLIN,12,16
+    18,DEERLING,12,15
+    12,BELLSPROUT,13,16
+    10,HOPPIP,11,14
+LandEvening,21
+    20,COTTONEE,11,15
+    10,APPLIN,12,15
+    15,DEERLING,12,15
+    8,BELLSPROUT,11,14
+    7,HOPPIP,11,14
+LandNight,21
+    8,DEERLING,12,16
+    20,PHANTUMP,13,15
+    18,PUMPKABOO,13,15
+    10,PARAS,12,14
+PokeRadar,120
+    20,PINECO,14,17
+OldRod
+    20,WOOPER,11,14
+    20,LOTAD,11,14
+GoodRod
+    20,WOOPER,11,14
+    20,LOTAD,11,14
+SuperRod
+    20,WOOPER,11,15
+    20,LOTAD,11,14
+Water,2
+    20,WOOPER,12,16
+    20,LOTAD,12,15
+#-------------------------------
+[019] # Route 04
+LandMorning,21
+    15,MEOWTH_2,14,16
+    20,ESPURR,14,16
+    10,ZIGZAGOON,14,16
+    10,TANDEMAUS,14,17
+LandAfternoon,21
+    7,MEOWTH_2,14,16
+    18,ESPURR,14,16
+    20,ZIGZAGOON,14,16
+    15,TANDEMAUS,14,17
+LandEvening,21
+    12,MEOWTH_2,14,16
+    10,ESPURR,14,16
+    10,ZIGZAGOON,14,16
+    8,MORPEKO,15,18
+    10,TANDEMAUS,14,17
+LandNight,21
+    20,MEOWTH_2,14,16
+    20,ZIGZAGOON_1,14,16
+    8,MORPEKO,15,18
+    10,CHARCADET,14,17
+PokeRadar,130
+    25,LICKITUNG,15,17
+    25,MUNCHLAX,15,17
+HeadbuttLow,21
+    20,SMOLIV,14,16
+HeadbuttHigh,21
+    20,SMOLIV,15,17
+OldRod
+    20,MAGIKARP,14,16
+GoodRod
+    20,MAGIKARP,16,18
+SuperRod
+    20,GYARADOS,20,22
+Water,2
+    20,MAGIKARP,15,17
+#-------------------------------
+[013] # Orhenta
+OldRod
+    20,MAGIKARP,14,16
+GoodRod
+    20,MAGIKARP,16,18
+SuperRod
+    20,MAGIKARP,20,22
+Water,2
+    20,MAGIKARP,15,17
+#-------------------------------
+[022] # Eudépole
+LandMorning,21
+    10,PURRLOIN,16,19
+    15,ZIGZAGOON,16,18
+    20,CROAGUNK,15,18
+    8,FLETCHLING,14,17
+LandAfternoon,21
+    15,ZIGZAGOON,16,18
+    10,FARFETCHD,16,18
+    25,FLETCHLING,14,17
+LandEvening,21
+    10,PURRLOIN,16,19
+    15,ZIGZAGOON,16,18
+    10,FARFETCHD,16,18
+    10,CROAGUNK,15,18
+    12,FLETCHLING,14,17
+LandNight,21
+    20,PURRLOIN,16,19
+    10,MAGNEMITE,15,18
+    18,TRUBBISH,14,19
+    10,FERROSEED,16,19
+PokeRadar,130
+    25,LITLEO,18,20
+    5,STARYU,18,20
+OldRod
+    20,MAGIKARP,10,12
+GoodRod
+    20,STARYU,16,19
+SuperRod
+    20,STARYU,18,24
+Water,2
+    20,MAGIKARP,15,17
+    20,STARYU,16,20
+#-------------------------------
+[030] # Route 05
+LandMorning,21
+    10,PANPOUR,18,20
+    10,PANSEAR,18,20
+    10,PANSAGE,18,20
+    20,LILLIPUP,17,19
+    10,SHROOMISH,18,20
+    5,VULPIX,18,20
+LandAfternoon,21
+    20,PANPOUR,18,20
+    20,PANSEAR,18,20
+    20,PANSAGE,18,20
+    10,LILLIPUP,17,19
+LandEvening,21
+    10,PANPOUR,18,20
+    10,PANSEAR,18,20
+    10,PANSAGE,18,20
+    20,LILLIPUP,17,19
+    8,VULPIX,18,20
+LandNight,21
+    20,MUNNA,17,20
+    15,SHROOMISH,18,20
+    11,VULPIX,18,20
+PokeRadar,130
+    20,RALTS,17,19
+#-------------------------------

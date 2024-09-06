@@ -1,0 +1,26 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[0]
+Name = Manaland
+Filename = mapRegion0.png
+Point = 6,12,Luminelle,Laboratoire,1,22,11
+Point = 6,13,Route 1
+Point = 6,14,Floralie,,3,19,19
+Point = 7,14,Route 2
+Point = 8,14,Grodoville,,6,19,30
+Point = 9,14,Route 03
+Point = 10,14,Grotte Creuset
+Point = 11,14,Orhenta,,13,13,33
+Point = 11,13,Fôret Purificatrice
+Point = 12,14,Route 04
+Point = 13,14,Eudépole
+Point = 13,13,Eudépole,Casino
+Point = 14,13,Eudépole,Gare Ferroviaire
+Point = 14,14,Eudépole,,22,49,43
+Point = 13,12,Route 5
+Point = 13,11,Route 5
+#-------------------------------
+[1]
+Name = Manaland Regional
+Filename = mapRegion0.png
+Point = 6,12,Luminelle,Laboratoire,21,25

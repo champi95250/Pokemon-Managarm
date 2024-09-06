@@ -1,0 +1,33 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[000]
+EndSpeechLose = WHAT ? BUT HOW ?
+Name = BEN
+PokemonNos = 0,1,2,3,4
+BeginSpeech = JE NE PERDRAI JAMAIS !
+Type = MONTAGNARD
+EndSpeechWin = JE SUIS FORT, N'EST-CE PAS ?
+#-------------------------------
+[001]
+EndSpeechLose = WHAT ? BUT HOW ?
+Name = JOHN
+PokemonNos = 0,1,2,3,4
+BeginSpeech = JE NE PERDRAI JAMAIS !
+Type = MONTAGNARD
+EndSpeechWin = JE SUIS FORT, N'EST-CE PAS ?
+#-------------------------------
+[002]
+EndSpeechLose = WHAT ? BUT HOW ?
+Name = BOT
+PokemonNos = 1,2,3,4
+BeginSpeech = JE NE PERDRAI JAMAIS !
+Type = MONTAGNARD
+EndSpeechWin = JE SUIS FORT, N'EST-CE PAS ?
+#-------------------------------
+[003]
+EndSpeechLose = WHAT ? BUT HOW ?
+Name = BOT
+PokemonNos = 0,2,3,4
+BeginSpeech = JE NE PERDRAI JAMAIS !
+Type = MONTAGNARD
+EndSpeechWin = JE SUIS FORT, N'EST-CE PAS ?

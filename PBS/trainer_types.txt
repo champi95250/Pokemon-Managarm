@@ -1,0 +1,303 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[POKEMONTRAINER_Red]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_Leaf]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_Brendan]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_May]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_Lucas]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_dawn]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_ETHAN]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_lyra]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_Aqua]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_Fire]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[GAMIN]
+Name = Gamin
+Gender = Male
+BaseMoney = 15
+SkillLevel = 10
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[DRESSEUSE01]
+Name = Dresseuse
+Gender = Female
+BaseMoney = 22
+SkillLevel = 50
+IntroBGM = 017 - Mett Super Dresseur
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[ENTRAINEUSE]
+Name = Entraineuse
+Gender = Female
+BaseMoney = 24
+SkillLevel = 100
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[CHAMPION1]
+Name = Champion
+Gender = Female
+BaseMoney = 55
+SkillLevel = 200
+IntroBGM = 012 - Gym Leader Meet
+BattleBGM = 010 - Gym Battle
+VictoryBGM = 011 - Victory Gym Leader
+#-------------------------------
+[CHAMPION2]
+Name = Champion
+Gender = Male
+BaseMoney = 55
+SkillLevel = 200
+IntroBGM = 012 - Gym Leader Meet
+BattleBGM = 010 - Gym Battle
+VictoryBGM = 011 - Victory Gym Leader
+#-------------------------------
+[TRAINER_TAKA]
+Name = King
+Gender = Male
+BaseMoney = 60
+SkillLevel = 200
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[CANON]
+Name = Canon
+Gender = Female
+BaseMoney = 21
+SkillLevel = 20
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[LADY]
+Name = Lady
+Gender = Female
+BaseMoney = 21
+SkillLevel = 25
+IntroBGM = 016 - Meet Gentleman
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[LADY1]
+Name = Lady
+Gender = Female
+BaseMoney = 21
+SkillLevel = 25
+IntroBGM = 016 - Meet Gentleman
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[RICHARD]
+Name = Richard
+Gender = Male
+BaseMoney = 26
+SkillLevel = 30
+IntroBGM = 016 - Meet Gentleman
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[MONTAGNARD]
+Name = Montagnard
+Gender = Male
+BaseMoney = 28
+SkillLevel = 21
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[RANCHER]
+Name = Ranger
+Gender = Male
+BaseMoney = 28
+SkillLevel = 28
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[RANCHER_1]
+Name = Ranger
+Gender = Female
+BaseMoney = 28
+SkillLevel = 28
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[ELEVEUR]
+Name = Ranger
+Gender = Male
+BaseMoney = 28
+SkillLevel = 28
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[ELEVEUSE]
+Name = Ranger
+Gender = Female
+BaseMoney = 28
+SkillLevel = 28
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[SWIMMER_F]
+Name = Nageuse
+Gender = Female
+BaseMoney = 18
+SkillLevel = 30
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[FILLETTE]
+Name = Fillette
+Gender = Female
+BaseMoney = 24
+SkillLevel = 30
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[SWIMMER_M]
+Name = Nageur
+Gender = Male
+BaseMoney = 18
+SkillLevel = 30
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TUBER_M]
+Name = Flotteur
+Gender = Male
+BaseMoney = 15
+SkillLevel = 30
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TUBER_F]
+Name = Flotteusse
+Gender = Female
+BaseMoney = 15
+SkillLevel = 30
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[RIVAL]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 70
+SkillLevel = 100
+IntroBGM = 022 - Rival Appears
+BattleBGM = 023 - Rival Battle
+VictoryBGM = 024 - Victory Rival
+#-------------------------------
+[NINJA]
+Name = Ninja
+Gender = Male
+BaseMoney = 28
+SkillLevel = 40
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[KARATEKA]
+Name = Karateka
+Gender = Male
+BaseMoney = 30
+SkillLevel = 40
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[SUPERDRESSEUR]
+Name = Super Dresseur
+Gender = Male
+BaseMoney = 50
+SkillLevel = 100
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TEAM_MANAGARM]
+Name = Sbire
+Gender = Male
+BaseMoney = 30
+SkillLevel = 30
+IntroBGM = 032 - Team Managarm Aggro
+BattleBGM = 033 - Team Managarm Attack
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[SBIRE_1]
+Name = Super Sbire
+Gender = Male
+BaseMoney = 40
+SkillLevel = 80
+IntroBGM = SM 057 Trainers_ Eyes Meet (Team Skull)
+BattleBGM = XY 080 Battle! (Team Flare)
+VictoryBGM = SM 059 Victory! (Team Skull)
+#-------------------------------
+[SBIRE_2]
+Name = Super Sbire
+Gender = Male
+BaseMoney = 40
+SkillLevel = 80
+IntroBGM = SM 057 Trainers_ Eyes Meet (Team Skull)
+BattleBGM = XY 080 Battle! (Team Flare)
+VictoryBGM = SM 059 Victory! (Team Skull)
+#-------------------------------
+[SBIRE_3]
+Name = Super Sbire
+Gender = Male
+BaseMoney = 40
+SkillLevel = 80
+IntroBGM = SM 057 Trainers_ Eyes Meet (Team Skull)
+BattleBGM = XY 080 Battle! (Team Flare)
+VictoryBGM = SM 059 Victory! (Team Skull)

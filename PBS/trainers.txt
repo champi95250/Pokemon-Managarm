@@ -1,0 +1,277 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[GAMIN,Karim]
+LoseText = Que ... QUOI ?! ...
+Pokemon = ODDISH,5
+Pokemon = PIDGEY,6
+#-------------------------------
+[GAMIN,Marshall]
+LoseText = C'était trop intense pour moi ...
+Pokemon = MEOWTH,6
+Pokemon = HOOTHOOT,6
+#-------------------------------
+[GAMIN,Tristan]
+LoseText = Oh nom de dieu ...
+Pokemon = PANSAGE,10
+Pokemon = PANSEAR,10
+Pokemon = PANPOUR,10
+#-------------------------------
+[LADY1,Caroline]
+LoseText = C'est très méchant ...
+Pokemon = SHINX,7
+#-------------------------------
+[LADY1,Loana]
+LoseText = J'ai plus aucun plaisir ...
+Pokemon = SEEDOT,6
+Pokemon = SUNKERN,7
+#------------------------------- Route 04
+[LADY1,Mélia]
+LoseText = J'était juste perdu ...
+Pokemon = WOOPER,18
+    Form = 1
+Pokemon = VULPIX,19
+    Form = 1
+#-------------------------------
+[DRESSEUSE01,Imene]
+LoseText = 1er fois que je vois quelqu'un d'aussi fort ! 
+Pokemon = SCYTHER,9
+    Form = 0
+    Name = Taka
+    Moves = FURYCUTTER,WINGATTACK,LEER
+    AbilityIndex = 0
+    Gender = male
+    Nature = HASTY
+    IV = 16,3,10,5,10,9
+    EV = 0,0,0,0,0,0
+    Happiness = 200
+    Ball = GREATBALL
+    Size = 125
+    Memento = MIGHTIESTMARK
+    NoTera = true
+    TeraType = GRASS
+#-------------------------------
+[MONTAGNARD,Robert]
+LoseText = Roooh ...
+Pokemon = BINACLE,12
+Pokemon = DIGLETT,12
+    Form = 1
+#-------------------------------
+[MONTAGNARD,Peter]
+LoseText = CREUSONS !!!
+Pokemon = DIGLETT,13
+#-------------------------------
+[MONTAGNARD,Max]
+LoseText = J'aime tellement mes pokémons !
+Pokemon = NACLI,13
+Pokemon = GROWLITHE,14
+    Form = 1
+#-------------------------------
+[MONTAGNARD,Pierre]
+LoseText = Roooh ...
+Pokemon = GEODUDE,11
+Pokemon = ONIX,12
+#-------------------------------
+[CHAMPION1,Blanche]
+Items = SUPERPOTION
+LoseText = Tu m'as rendu fou !
+Pokemon = TEDDIURSA,10
+    Gender = female
+    IV = 18,11,9,11,9,15
+    EV = 0,0,0,0,0,0
+    Moves = LICK,FAKETEARS,FURYSWIPES,ATTRACT
+Pokemon = EEVEE,11
+    Gender = male
+    AbilityIndex = 1
+    IV = 18,16,20,16,20,11
+    EV = 0,0,0,0,0,0
+    Moves = SANDATTACK,SWIFT,QUICKATTACK,DOUBLETEAM 
+Pokemon = MILTANK,13
+    Moves = ROLLOUT,DEFENSECURL,PLAYROUGH,GROWL
+    AbilityIndex = 1
+    IV = 31,31,31,31,31,31
+    EV = 0,0,0,0,0,0
+    Happiness = 250
+    Size = 210
+#-------------------------------
+[CHAMPION2,Flo]
+Items = SUPERPOTION
+Items = TERAORB
+LoseText = Bah, tu m'as littéralement enraciné !
+Pokemon = SUNFLORA,17
+    Moves = FLOWERSHIELD,RAZORLEAF,SUNNYDAY,LEECHSEED 
+    IV = 20,18,12,18,12,20
+    EV = 0,0,0,0,0,0
+    NoTera = true
+Pokemon = TANGELA,18
+    AbilityIndex = 2
+    Moves = SUNNYDAY,GIGADRAIN,GIGAIMPACT,STUNSPORE
+    IV = 23,15,23,15,22,6
+    EV = 0,0,0,0,0,0
+    NoTera = true
+Pokemon = ROSERADE,21
+    Moves = GRASSKNOT,MAGICALLEAF,ENERGYBALL,POISONSTING
+    TeraType = GRASS
+    NoTera = false
+    AbilityIndex = 1
+    IV = 31,31,31,31,31,31
+    EV = 8,0,3,0,3,4
+    Happiness = 250
+    Size = 220
+#-------------------------------
+[RIVAL,Ben]
+LoseText = Tu as déjà trouver ton partenaire on dirai !
+Pokemon = RIOLU,5
+#-------------------------------
+[RIVAL,Ben,1]
+Items = TERAORB
+LoseText = Héhé ! J'ai essayer !
+Pokemon = GASTLY,17
+    IV = 10,20,5,20,5,8
+    EV = 0,0,0,0,0,0
+Pokemon = SKIDDO,17
+    IV = 20,10,20,10,20,10
+    EV = 0,0,0,0,0,0
+Pokemon = KADABRA,18
+    IV = 20,15,20,15,15,12
+    EV = 0,0,0,0,0,0
+Pokemon = RIOLU,20
+    IV = 20,18,12,19,15,22
+    EV = 2,0,0,0,0,0
+    TeraType = DRAGON
+#-------------------------------
+[RANCHER_1,Katrina]
+LoseText = Super entrainement ! 
+Pokemon = DODUO,9
+    IV = 10,10,5,10,5,10
+    EV = 0,0,0,0,0,0
+Pokemon = PONYTA,9
+    IV = 10,10,5,10,5,10
+    EV = 0,0,0,0,0,0
+#-------------------------------
+[FILLETTE,Béatrice]
+LoseText = Tu pense vraiment pouvoir gagner ?
+Pokemon = LILLIPUP,9
+Pokemon = MUNCHLAX,10
+#-------------------------------
+[FILLETTE,Lily]
+LoseText = Quoi ? Ta cru que j'allais te filler plus ?
+Pokemon = PATRAT,9
+Pokemon = RATTATA,10
+#-------------------------------
+[LADY,Clémentine]
+LoseText = Mon p'tit cureuil ?!
+Pokemon = SKWOVET,11
+#-------------------------------
+[LADY1,Christine]
+LoseText = Mon p'tit cureuil ?!
+Pokemon = TANDEMAUS,11
+#-------------------------------
+[TRAINER_TAKA,Takaku]
+LoseText = C'était de l'aide !
+Pokemon = STARLY,12
+    IV = 31,31,31,31,31,31
+    EV = 0,0,0,0,0,0
+    Moves = WINGATTACK,STEELWING,FLY,QUICKATTACK  
+#-------------------------------
+[TEAM_MANAGARM,Paul]
+LoseText = ARG !! Je vous deteste !
+Pokemon = MANKEY,10
+    IV = 5,5,5,5,5,5
+    EV = 0,0,0,0,0,0
+#-------------------------------
+[TEAM_MANAGARM,Lars]
+LoseText = Pff, la chance !
+Pokemon = BEEDRILL,10
+    IV = 5,5,5,5,5,5
+    EV = 0,0,0,0,0,0
+#-------------------------------
+[TEAM_MANAGARM,Ken]
+LoseText = Mon art ! Tu l'as détruit !
+Pokemon = FOUICIRE,15
+    IV = 31,31,31,31,31,31
+    EV = 10,15,10,15,10,15
+    Moves = SHADOWRUSH
+    Gender = male
+    Shadow = true
+#------------------------------- ARENE PLANTE
+[ELEVEUR,Pom]
+LoseText = Pom de reine et Pom d'api !
+Pokemon = APPLIN,16
+Pokemon = APPLIN,17
+#------------------------------- ARENE PLANTE
+[ELEVEUR,Blue]
+LoseText = Pom de reine et Pom d'api !
+Pokemon = PANSAGE,16
+Pokemon = SIMISAGE,18
+#------------------------------- ARENE PLANTE
+[ELEVEUSE,Rosa]
+LoseText = Ne te lance pas trop de rose ! 
+Pokemon = ODDISH,18
+Pokemon = ROSELIA,18
+#------------------------------- ARENE PLANTE
+[ELEVEUSE,Lila]
+LoseText = Ne te lance pas trop de rose ! 
+Pokemon = LILLIGANT,18
+Pokemon = LILLIGANT,18
+    Form = 1
+#------------------------------- ARENE PLANTE
+[ELEVEUSE,Mystic]
+LoseText = Ne te lance pas trop de rose ! 
+Pokemon = SKIDDO,17
+#-------------------------------
+[TEAM_MANAGARM,Eddy]
+LoseText = Je suis fichu !
+Pokemon = PHANTUMP,16
+Pokemon = PUMPKABOO,16
+#------------------------------- ROUTE 04
+[SUPERDRESSEUR,Vic]
+LoseText = Mais laisse toi faire, non ?!
+Pokemon = LARVITAR,17
+Pokemon = THIEVUL,19
+#-------------------------------
+[SUPERDRESSEUR,Vic,1]
+LoseText = Mais laisse toi faire, non ?!
+Pokemon = LARVITAR,20
+Pokemon = THIEVUL,24
+#------------------------------- ROUTE 04
+[GAMIN,Tom]
+LoseText = Aie aie aie ...
+Pokemon = YAMPER,18
+Pokemon = PANCHAM,19
+#-------------------------------
+[SBIRE_1,Flammehaze]
+LoseText = Tu entendra parler de nous ...
+Pokemon = LARVITAR,19
+Pokemon = SNORLAX,20
+Pokemon = CROCONAW,22
+#-------------------------------
+[SBIRE_2,Neoskyblue]
+LoseText = Tu entendra parler de nous ...
+Pokemon = BUIZEL,18
+Pokemon = STARAVIA,20
+Pokemon = MONFERNO,22
+#-------------------------------
+[SBIRE_3,Zeke]
+LoseText = Tu entendra parler de nous ...
+Pokemon = GIBLE,20
+Pokemon = GASTLY,20
+Pokemon = FLORAGATO,22
+#-------------------------------
+[TEAM_MANAGARM,Diddy]
+LoseText = OH OH ?!
+Pokemon = WIGLETT,20
+    Moves = SHADOWRUSH
+    Shadow = true
+#-------------------------------
+[TEAM_MANAGARM,Fox]
+LoseText = Mon pokémon !
+Pokemon = DIGLETT,20
+    Moves = SHADOWRUSH
+    Shadow = true
+#-------------------------------
+[TEAM_MANAGARM,Carole]
+LoseText = MAIS ?!
+Pokemon = DIGLETT,20
+    Form = 1
+    Moves = SHADOWRUSH
+    Shadow = true

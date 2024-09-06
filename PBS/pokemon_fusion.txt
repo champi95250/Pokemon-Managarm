@@ -1,0 +1,56 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[FOUICIRE]
+Name = Fouicire
+Types = NORMAL,FIRE
+BaseStats = 45,40,41,30,56,51
+GenderRatio = FemaleOneEighth
+GrowthRate = Medium
+BaseExp = 64
+EVs = SPECIAL_ATTACK,1
+CatchRate = 255
+Happiness = 50
+Abilities = FLAMEBODY,KEENEYE
+HiddenAbilities = FLASHFIRE
+Moves = 1,TACKLE,1,GROWL,3,EMBER,6,SMOG,12,CONFUSERAY,16,HEX,18,HELPINGHAND,22,WILLOWISP,26,SUCKERPUNCH,32,SHADOWBALL,36,INFERNO,42,IMPRISON,52,MEMENTO
+TutorMoves = FIRESPIN,FLASH,REST,SUNNYDAY,WILLOWISP,MYSTICALFIRE,TERABLAST,HYPNOSIS,FLAMETHROWER
+EggMoves = AMNESIA,REST,WILLOWISP,ENCORE,BLUEFLARE,HYPNOSIS
+EggGroups = Monster
+HatchSteps = 5120
+Height = 0.5
+Weight = 4.5
+Color = White
+Shape = Serpentine
+Habitat = Rare
+Category = Fusion
+Pokedex = Pokémon modifier, Fouinette modifié avec un Funécire, donnant naissance à Fouicire. Ce pokémon peux éclairer très loin grâce à sa tête ou son corps.
+Generation = 10
+Evolutions = FOUINARABRE,Level,26
+Flags = Fusion
+#-------------------------------
+[FOUINARABRE]
+Name = Fouinarabre
+Types = NORMAL,FIRE
+BaseStats = 70,69,72,86,111,78
+GenderRatio = FemaleOneEighth
+GrowthRate = Medium
+BaseExp = 170
+EVs = SPECIAL_ATTACK,1
+CatchRate = 255
+Happiness = 50
+Abilities = FLAMEBODY,KEENEYE
+HiddenAbilities = FLASHFIRE
+Moves = 1,TACKLE,1,GROWL,3,EMBER,6,SMOG,12,CONFUSERAY,16,HEX,18,HELPINGHAND,22,WILLOWISP,26,SUCKERPUNCH,32,SHADOWBALL,36,INFERNO,42,IMPRISON,52,MEMENTO
+TutorMoves = FIRESPIN,FLASH,REST,SUNNYDAY,WILLOWISP,MYSTICALFIRE,TERABLAST,HYPNOSIS,FLAMETHROWER,STRENGTH,CUT,FIREPUNCH,SUPERFANG 
+EggMoves = AMNESIA,REST,WILLOWISP,ENCORE,BLUEFLARE,HYPNOSIS,FURYSWIPES,SUNNYDAY,
+EggGroups = Monster
+HatchSteps = 5120
+Height = 1.4
+Weight = 33.4
+Color = White
+Shape = Serpentine
+Habitat = Rare
+Category = Fusion
+Pokedex = Evolution de Fouicire, a croire que même modifier, un pokémon peux évoluer. Ses flames sont toujours violets mais son corps est devenue noir et blanc. Très étrange. 
+Generation = 10
+Flags = Fusion

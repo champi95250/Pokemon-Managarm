@@ -10,6 +10,7 @@ BackSprite = -7,32
 FrontSprite = 8,7
 ShadowSprite = 4,18,9
 AnimationSpeed = 1
+SuperShinyHue = 200
 #-------------------------------
 [CHARIZARD,2]
 BackSprite = -3,30
@@ -273,6 +274,7 @@ FrontSprite = 4,1
 ShadowSize = -1
 ShadowSprite = 4,13,21
 AnimationSpeed = 3,2
+SuperShinyHue = -11
 #-------------------------------
 [AERODACTYL,1]
 BackSprite = 0,33
@@ -412,6 +414,7 @@ AnimationSpeed = 3,1
 BackSprite = 0,20
 FrontSprite = -1,13
 ShadowSprite = 3,11,3
+SuperShinyHue = -20
 #-------------------------------
 [SHARPEDO,1]
 BackSprite = 0,40
@@ -473,6 +476,7 @@ BackSprite = 6,40
 FrontSprite = -5,21
 ShadowSize = -1
 ShadowSprite = 0,0,8
+SuperShinyHue = -25
 #-------------------------------
 [LATIAS,1]
 BackSprite = 0,72
@@ -550,6 +554,7 @@ AnimationSpeed = 1,2
 BackSprite = 4,51
 FrontSprite = 0,19
 ShadowSprite = 1,-7,-2
+SuperShinyHue = -70
 #-------------------------------
 [ABOMASNOW,1]
 BackSprite = 0,45

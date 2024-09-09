@@ -43,6 +43,24 @@ module PokemonSelections
 
   ]
 
+  Champi_one = [
+    :MILCERY,
+    :SINISTEA,
+    :SWIRLIX,
+    :FOONGUS,
+    :VANILLITE,
+    :CHERUBI,
+    :COMBEE
+  ]
+
+  Dealer_one = [
+    :SPEAROW,
+    :SENTRET,
+    :LOTAD,
+    :POOCHYENA,
+    :HOUNDOUR
+  ]
+
   Mythical = [
     :MEW,
     :CELEBI,

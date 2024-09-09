@@ -3,6 +3,6 @@
 #-------------------------------
 [REGION_NAMES]
 Manaland
-Manaland
+Mystara
 Manaland Regional
-Manaland Regional
+Mystara Island 

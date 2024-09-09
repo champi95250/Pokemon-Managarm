@@ -24,24 +24,29 @@ Pokemon = SHINX,7
 LoseText = J'ai plus aucun plaisir ...
 Pokemon = SEEDOT,6
 Pokemon = SUNKERN,7
-#------------------------------- Route 04
-[LADY1,Mélia]
+#-------------------------------
+[LADY1,Pauline]
 LoseText = J'était juste perdu ...
 Pokemon = WOOPER,18
     Form = 1
 Pokemon = VULPIX,19
     Form = 1
 #-------------------------------
+[LADY1,Mélia]
+LoseText = Le temps se gâte ...
+Pokemon = CASTFORM,18
+Pokemon = SUNFLORA,19
+#-------------------------------
 [DRESSEUSE01,Imene]
-LoseText = 1er fois que je vois quelqu'un d'aussi fort ! 
+LoseText = 1er fois que je vois quelqu'un d'aussi fort !
 Pokemon = SCYTHER,9
     Form = 0
     Name = Taka
     Moves = FURYCUTTER,WINGATTACK,LEER
     AbilityIndex = 0
     Gender = male
-    Nature = HASTY
-    IV = 16,3,10,5,10,9
+    Nature = SASSY
+    IV = 10,3,10,2,10,9
     EV = 0,0,0,0,0,0
     Happiness = 200
     Ball = GREATBALL
@@ -75,48 +80,46 @@ Pokemon = ONIX,12
 Items = SUPERPOTION
 LoseText = Tu m'as rendu fou !
 Pokemon = TEDDIURSA,10
+    Moves = LICK,FAKETEARS,FURYSWIPES,ATTRACT
     Gender = female
     IV = 18,11,9,11,9,15
     EV = 0,0,0,0,0,0
-    Moves = LICK,FAKETEARS,FURYSWIPES,ATTRACT
 Pokemon = EEVEE,11
-    Gender = male
+    Moves = SANDATTACK,SWIFT,QUICKATTACK,DOUBLETEAM
     AbilityIndex = 1
+    Gender = male
     IV = 18,16,20,16,20,11
     EV = 0,0,0,0,0,0
-    Moves = SANDATTACK,SWIFT,QUICKATTACK,DOUBLETEAM 
 Pokemon = MILTANK,13
     Moves = ROLLOUT,DEFENSECURL,PLAYROUGH,GROWL
     AbilityIndex = 1
     IV = 31,31,31,31,31,31
-    EV = 0,0,0,0,0,0
+    EV = 150,10,0,10,0,0
     Happiness = 250
     Size = 210
 #-------------------------------
 [CHAMPION2,Flo]
-Items = SUPERPOTION
 Items = TERAORB
 LoseText = Bah, tu m'as littéralement enraciné !
 Pokemon = SUNFLORA,17
-    Moves = FLOWERSHIELD,RAZORLEAF,SUNNYDAY,LEECHSEED 
+    Moves = FLOWERSHIELD,RAZORLEAF,SUNNYDAY,LEECHSEED
     IV = 20,18,12,18,12,20
     EV = 0,0,0,0,0,0
     NoTera = true
 Pokemon = TANGELA,18
-    AbilityIndex = 2
     Moves = SUNNYDAY,GIGADRAIN,GIGAIMPACT,STUNSPORE
+    AbilityIndex = 2
     IV = 23,15,23,15,22,6
     EV = 0,0,0,0,0,0
     NoTera = true
 Pokemon = ROSERADE,21
     Moves = GRASSKNOT,MAGICALLEAF,ENERGYBALL,POISONSTING
-    TeraType = GRASS
-    NoTera = false
     AbilityIndex = 1
     IV = 31,31,31,31,31,31
-    EV = 8,0,3,0,3,4
+    EV = 58,20,23,20,13,14
     Happiness = 250
     Size = 220
+    TeraType = GRASS
 #-------------------------------
 [RIVAL,Ben]
 LoseText = Tu as déjà trouver ton partenaire on dirai !
@@ -140,7 +143,7 @@ Pokemon = RIOLU,20
     TeraType = DRAGON
 #-------------------------------
 [RANCHER_1,Katrina]
-LoseText = Super entrainement ! 
+LoseText = Super entrainement !
 Pokemon = DODUO,9
     IV = 10,10,5,10,5,10
     EV = 0,0,0,0,0,0
@@ -163,15 +166,15 @@ LoseText = Mon p'tit cureuil ?!
 Pokemon = SKWOVET,11
 #-------------------------------
 [LADY1,Christine]
-LoseText = Mon p'tit cureuil ?!
+LoseText = Ma famille ?!
 Pokemon = TANDEMAUS,11
 #-------------------------------
 [TRAINER_TAKA,Takaku]
 LoseText = C'était de l'aide !
 Pokemon = STARLY,12
+    Moves = WINGATTACK,STEELWING,FLY,QUICKATTACK
     IV = 31,31,31,31,31,31
     EV = 0,0,0,0,0,0
-    Moves = WINGATTACK,STEELWING,FLY,QUICKATTACK  
 #-------------------------------
 [TEAM_MANAGARM,Paul]
 LoseText = ARG !! Je vous deteste !
@@ -188,42 +191,42 @@ Pokemon = BEEDRILL,10
 [TEAM_MANAGARM,Ken]
 LoseText = Mon art ! Tu l'as détruit !
 Pokemon = FOUICIRE,15
-    IV = 31,31,31,31,31,31
-    EV = 10,15,10,15,10,15
     Moves = SHADOWRUSH
     Gender = male
+    IV = 31,31,31,31,31,31
+    EV = 10,15,10,15,10,15
     Shadow = true
-#------------------------------- ARENE PLANTE
+#-------------------------------
 [ELEVEUR,Pom]
 LoseText = Pom de reine et Pom d'api !
 Pokemon = APPLIN,16
 Pokemon = APPLIN,17
-#------------------------------- ARENE PLANTE
+#-------------------------------
 [ELEVEUR,Blue]
 LoseText = Pom de reine et Pom d'api !
 Pokemon = PANSAGE,16
 Pokemon = SIMISAGE,18
-#------------------------------- ARENE PLANTE
+#-------------------------------
 [ELEVEUSE,Rosa]
-LoseText = Ne te lance pas trop de rose ! 
+LoseText = Ne te lance pas trop de rose !
 Pokemon = ODDISH,18
 Pokemon = ROSELIA,18
-#------------------------------- ARENE PLANTE
+#-------------------------------
 [ELEVEUSE,Lila]
-LoseText = Ne te lance pas trop de rose ! 
-Pokemon = LILLIGANT,18
-Pokemon = LILLIGANT,18
+LoseText = Ne te lance pas trop de rose !
+Pokemon = LILLIGANT,16
+Pokemon = LILLIGANT,16
     Form = 1
-#------------------------------- ARENE PLANTE
+#-------------------------------
 [ELEVEUSE,Mystic]
-LoseText = Ne te lance pas trop de rose ! 
+LoseText = Béééééhééé !
 Pokemon = SKIDDO,17
 #-------------------------------
 [TEAM_MANAGARM,Eddy]
 LoseText = Je suis fichu !
 Pokemon = PHANTUMP,16
 Pokemon = PUMPKABOO,16
-#------------------------------- ROUTE 04
+#-------------------------------
 [SUPERDRESSEUR,Vic]
 LoseText = Mais laisse toi faire, non ?!
 Pokemon = LARVITAR,17
@@ -233,7 +236,7 @@ Pokemon = THIEVUL,19
 LoseText = Mais laisse toi faire, non ?!
 Pokemon = LARVITAR,20
 Pokemon = THIEVUL,24
-#------------------------------- ROUTE 04
+#-------------------------------
 [GAMIN,Tom]
 LoseText = Aie aie aie ...
 Pokemon = YAMPER,18
@@ -275,3 +278,29 @@ Pokemon = DIGLETT,20
     Form = 1
     Moves = SHADOWRUSH
     Shadow = true
+#-------------------------------
+[CHAMPI,Champi]
+Items = TERAORB,HYPERPOTION
+LoseText = Tu es un vrai stratége 
+Pokemon = ABSOL,21
+    Name = Absolument
+    IV = 7,26,5,20,26,5
+    EV = 10,70,10,30,70,10
+Pokemon = PONYTA,21
+    Name = Ponaytta
+    Form = 1
+    Moves = ZENHEADBUTT,PLAYROUGH,HIGHHORSEPOWER,WILDCHARGE
+    IV = 31,10,20,31,20,10
+    EV = 0,0,0,200,0,0
+Pokemon = GENGAR,25
+    Name = Eggto
+    Moves = SHADOWBALL,SLUDGEWAVE,FOCUSBLAST,THUNDERBOLT  
+    AbilityIndex = 0
+    Nature = TIMID
+    IV = 31,24,12,31,24,12
+    EV = 125,20,10,20,30,70
+    Happiness = 255
+    SuperShiny = true
+    Ball = DREAMBALL
+    Size = 225
+    TeraType = GHOST

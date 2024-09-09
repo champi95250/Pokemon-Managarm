@@ -24,15 +24,13 @@ BattleRequest = Do you want to battle? I'm going to win this time!\mI'll be wait
 #-------------------------------
 [SUPERDRESSEUR,Vic]
 Intro = Hey ! C'est \TN.
-Intro = HE HOOOO ! C'est \TN.
 IntroMorning = Hey, \PN ! C'est \TN ! Quel belle matinée tu trouve pas ?
-IntroAfternoon = Hello, \PN! C'est \TN ici.
+IntroAfternoon = Hey, \PN! C'est \TN ici, en direct, tu coco.
 IntroEvening = \PN, Bonsoir ! C'est \TN.
-Body = J'ai hâte que mon entrainement soit fini pour te recombatre !
+Body1 = Si tu savais comme je m'entraine pour un jour te battre. 
 Body1 = J'ai battu un \TE L'autre fois ! C'était chaud !
-Body1 = J'ai battu un \TE L'autre fois ! C'était chaud !
-Body2 = Au plaisir de te reparler \PN ! A plus !
-Body2 = Au plaisir de te reparler \PN ! A plus !
+Body2 = \TP deviens de plus en plus fort. Bref. 
+Body2 = Bref le temps passe ! 
 BattleRequest = Tu veux te battre ? Tu sais où me trouver ?.\mJe t'attendrai sur \TM.
 BattleRemind = Où es-tu ? On se voit quand !? Je t'attends...
 End = A plus !

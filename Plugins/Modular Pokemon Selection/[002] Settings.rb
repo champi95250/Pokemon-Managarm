@@ -21,4 +21,11 @@ module PokemonSelections
     min_iv: 20,
     pokeball: :POKEBALL
   }
+
+  SHADOW = {
+    level: 5,
+    min_iv: 15,
+    pokeball: :POKEBALL,
+    shadow: true
+  }
 end

@@ -153,7 +153,6 @@ DRAGONITE
 MEWTWO
 MEW
 #-------------------------------
-[1]
 CHIKORITA
 BAYLEEF
 MEGANIUM
@@ -255,7 +254,6 @@ LUGIA
 HOOH
 CELEBI
 #-------------------------------
-[2]
 TREECKO
 GROVYLE
 SCEPTILE
@@ -392,7 +390,6 @@ RAYQUAZA
 JIRACHI
 DEOXYS
 #-------------------------------
-[3]
 TURTWIG
 GROTLE
 TORTERRA
@@ -501,7 +498,6 @@ DARKRAI
 SHAYMIN
 ARCEUS
 #-------------------------------
-[4]
 VICTINI
 SNIVY
 SERVINE
@@ -659,7 +655,6 @@ KELDEO
 MELOETTA
 GENESECT
 #-------------------------------
-[5]
 CHESPIN
 QUILLADIN
 CHESNAUGHT
@@ -733,7 +728,6 @@ DIANCIE
 HOOPA
 VOLCANION
 #-------------------------------
-[6]
 ROWLET
 DARTRIX
 DECIDUEYE
@@ -823,7 +817,6 @@ ZERAORA
 MELTAN
 MELMETAL
 #-------------------------------
-[7]
 GROOKEY
 THWACKEY
 RILLABOOM
@@ -921,7 +914,6 @@ SNEASLER
 OVERQWIL
 ENAMORUS
 #-------------------------------
-[8]
 SPRIGATITO
 FLORAGATO
 MEOWSCARADA
@@ -1043,6 +1035,5 @@ IRONCROWN
 TERAPAGOS
 PECHARUNT
 #-------------------------------
-[9]
 FOUICIRE
 FOUINARABRE

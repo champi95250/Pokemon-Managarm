@@ -75,6 +75,12 @@ ShowArea = true
 MapPosition = 0,11,13
 BattleBack = forest
 #-------------------------------
+[018]   # Route 07
+Name = Route 7
+Outdoor = true
+ShowArea = true
+MapPosition = 0,15,14
+#-------------------------------
 [019]   # Route 04
 Name = Route 04
 Outdoor = true
@@ -112,6 +118,11 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,13,11
 MapSize = 1,11
+#-------------------------------
+[034]   # Canal 01
+Name = Canal 01
+Outdoor = true
+Weather = Rain,100
 #-------------------------------
 [081]   # MultiMaison
 Name = Maison

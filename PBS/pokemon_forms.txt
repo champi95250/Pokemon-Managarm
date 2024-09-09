@@ -1215,6 +1215,13 @@ BaseStats = 50,65,107,86,105,107
 BaseExp = 182
 Pokedex = This is Rotom after it's seized control of a lawn mower that has a special motor. As it mows down grass, it scatters the clippings everywhere.
 #-------------------------------
+[ROTOM,6]
+FormName = Pc Rotom
+Types = ELECTRIC,STEEL
+BaseStats = 50,65,107,86,105,107
+BaseExp = 182
+Pokedex = Voici Motisma après avoir pris le contrôle d'un Pc. De quoi bien s'amuser partout.
+#-------------------------------
 [GIRATINA,1]
 FormName = Origin Forme
 BaseStats = 150,120,100,90,120,100

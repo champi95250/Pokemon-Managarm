@@ -3,45 +3,45 @@
 #-------------------------------
 [POKEDEX_ENTRIES]
 Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
-Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+Bulbizarre fait souvent la sieste sous un soleil radieux. Il porte une graine sur son dos, qui grandit peu à peu en absorbant les rayons du soleil.
 To support its bulb, Ivysaur's legs grow sturdy. If it spends more time lying in the sunlight, the bud will soon bloom into a large flower.
-To support its bulb, Ivysaur's legs grow sturdy. If it spends more time lying in the sunlight, the bud will soon bloom into a large flower.
+Pour soutenir son bulbe, les pattes d'Herbizarre deviennent robustes. S'il passe beaucoup de temps sous le soleil, le bourgeon éclora bientôt en une grande fleur.
 Venusaur's flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.
-Venusaur's flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.
+On dit que la fleur de Florizarre prend des couleurs vives si elle reçoit beaucoup de nutriments et de soleil. Le parfum de la fleur apaise les émotions des gens.
 The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is happy, and blazes when it is enraged.
-The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is happy, and blazes when it is enraged.
+La flamme qui brûle au bout de la queue de Salamèche reflète ses émotions. Elle vacille lorsqu'il est heureux et flamboie quand il est en colère.
 Without pity, its sharp claws destroy foes. If it encounters a strong enemy, it becomes agitated, and the flame on its tail flares with a bluish white color.
-Without pity, its sharp claws destroy foes. If it encounters a strong enemy, it becomes agitated, and the flame on its tail flares with a bluish white color.
+Sans pitié, ses griffes acérées détruisent ses ennemis. S'il rencontre un adversaire puissant, il s'agite et la flamme au bout de sa queue devient bleuâtre.
 A Charizard flies about in search of strong opponents. It breathes intense flames that can melt any material. However, it will never torch a weaker foe.
-A Charizard flies about in search of strong opponents. It breathes intense flames that can melt any material. However, it will never torch a weaker foe.
+Un Dracaufeu vole à la recherche d'adversaires puissants. Il crache des flammes intenses capables de fondre n'importe quel matériau. Cependant, il n'attaquera jamais un adversaire plus faible.
 Its shell is not just for protection. Its rounded shape and the grooves on its surface minimize resistance in water, enabling Squirtle to swim at high speeds.
-Its shell is not just for protection. Its rounded shape and the grooves on its surface minimize resistance in water, enabling Squirtle to swim at high speeds.
+Sa carapace ne sert pas uniquement de protection. Sa forme arrondie et les rainures à sa surface réduisent la résistance dans l'eau, permettant à Carapuce de nager à grande vitesse.
 Its large tail is covered with rich, thick fur that deepens in color with age. The scratches on its shell are evidence of this Pokémon's toughness in battle.
-Its large tail is covered with rich, thick fur that deepens in color with age. The scratches on its shell are evidence of this Pokémon's toughness in battle.
+Sa grande queue est recouverte d'une fourrure épaisse qui s'assombrit avec l'âge. Les éraflures sur sa carapace témoignent de la robustesse de ce Pokémon au combat.
 The waterspouts that protrude from its shell are highly accurate. Their bullets of water can precisely nail tin cans from a distance of over 160 feet.
-The waterspouts that protrude from its shell are highly accurate. Their bullets of water can precisely nail tin cans from a distance of over 160 feet.
+Les canons à eau qui dépassent de sa carapace sont d'une précision extrême. Leurs projectiles peuvent atteindre des cibles à plus de 50 mètres.
 Its voracious appetite compels it to devour leaves bigger than itself without hesitation. It releases a terribly strong odor from its antennae.
-Its voracious appetite compels it to devour leaves bigger than itself without hesitation. It releases a terribly strong odor from its antennae.
+Son appétit vorace le pousse à dévorer des feuilles plus grandes que lui sans hésiter. Il émet une odeur extrêmement forte par ses antennes.
 Its shell is as hard as an iron slab. A Metapod does not move very much because it is preparing its soft innards for evolution inside the shell.
-Its shell is as hard as an iron slab. A Metapod does not move very much because it is preparing its soft innards for evolution inside the shell.
+Sa carapace est aussi dure qu'une plaque de fer. Un Chrysacier ne bouge pas beaucoup car il prépare ses entrailles molles à l'évolution à l'intérieur de sa coquille.
 It has a superior ability to search for delicious honey from flowers. It can seek, extract, and carry honey from flowers blooming over six miles away.
-It has a superior ability to search for delicious honey from flowers. It can seek, extract, and carry honey from flowers blooming over six miles away.
+Il a une capacité supérieure à rechercher le miel délicieux des fleurs. Il peut détecter, extraire et transporter du miel de fleurs poussant à plus de 10 kilomètres.
 A Weedle has an extremely acute sense of smell. It distinguishes its favorite kinds of leaves from those it dislikes by sniffing with its big red proboscis (nose).
-A Weedle has an extremely acute sense of smell. It distinguishes its favorite kinds of leaves from those it dislikes by sniffing with its big red proboscis (nose).
+Un Aspicot a un sens de l'odorat extrêmement aigu. Il distingue ses feuilles préférées de celles qu'il n'aime pas en les reniflant avec sa grosse trompe rouge.
 It remains virtually immobile while it clings to a tree. However, on the inside, it busily prepares for evolution. This is evident from how hot its shell becomes.
-It remains virtually immobile while it clings to a tree. However, on the inside, it busily prepares for evolution. This is evident from how hot its shell becomes.
+Il reste quasiment immobile lorsqu'il s'accroche à un arbre. Cependant, à l'intérieur, il prépare activement son évolution. Cela se voit à la chaleur que dégage sa carapace.
 A Beedrill is extremely territorial. For safety reasons, no one should ever approach its nest. If angered, they will attack in a swarm.
-A Beedrill is extremely territorial. For safety reasons, no one should ever approach its nest. If angered, they will attack in a swarm.
+Un Dardargnan est extrêmement territorial. Pour des raisons de sécurité, il ne faut jamais s'approcher de son nid. S'il est en colère, il attaquera en groupe.
 It has an extremely sharp sense of direction. It can unerringly return home to its nest, however far it may be removed from its familiar surroundings.
-It has an extremely sharp sense of direction. It can unerringly return home to its nest, however far it may be removed from its familiar surroundings.
+Il a un sens de l'orientation extrêmement affûté. Il peut revenir à son nid sans se tromper, peu importe la distance à laquelle il est éloigné de son territoire.
 This Pokémon flies around, patrolling its large territory. If its living space is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.
-This Pokémon flies around, patrolling its large territory. If its living space is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.
+Ce Pokémon vole en patrouillant son vaste territoire. Si son espace de vie est violé, il ne montre aucune pitié et punit sévèrement l'intrus avec ses griffes acérées.
 Pidgeot has gorgeous, glossy feathers. Many trainers are so captivated by the beautiful feathers on its head that they choose Pidgeot as their Pokémon.
-Pidgeot has gorgeous, glossy feathers. Many trainers are so captivated by the beautiful feathers on its head that they choose Pidgeot as their Pokémon.
+Roucarnage a de magnifiques plumes brillantes. De nombreux dresseurs sont captivés par la beauté de ses plumes, au point qu'ils choisissent Roucarnage comme Pokémon.
 A Rattata is cautious in the extreme. Even while it is asleep, it constantly moves its ears and listens for danger. It will make its nest anywhere.
-A Rattata is cautious in the extreme. Even while it is asleep, it constantly moves its ears and listens for danger. It will make its nest anywhere.
+Un Rattata est extrêmement prudent. Même en dormant, il bouge constamment ses oreilles pour écouter le danger. Il peut faire son nid n'importe où.
 A Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.
-A Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.
+Les crocs robustes d'un Rattatac poussent continuellement. Pour les user, il ronge des rochers et des bûches. Il peut même mâchouiller les murs des maisons.
 Its loud cry can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.
 Its loud cry can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.
 Its long neck and elongated beak are ideal for catching prey in soil or water. It deftly moves this extended and skinny beak to pluck prey.

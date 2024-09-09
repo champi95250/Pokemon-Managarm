@@ -203,453 +203,453 @@ Multi Exp
 Amulet Coin
 Pièce Rune
 Soothe Bell
-Soothe Bell
+Grelot Zen
 Cleanse Tag
-Cleanse Tag
+Rune Purifiante
 Choice Band
-Choice Band
+Bandeau Choix
 Choice Specs
-Choice Specs
+Lunettes Choix
 Choice Scarf
-Choice Scarf
+Mouchoir Choix
 Heat Rock
-Heat Rock
+Roche Chaude
 Damp Rock
-Damp Rock
+Roche Humide
 Smooth Rock
-Smooth Rock
+Roche Lisse
 Icy Rock
-Icy Rock
+Roche Glace
 Terrain Extender
-Terrain Extender
+Pouvoir Extensif
 Light Clay
-Light Clay
+Lumargile
 Grip Claw
-Grip Claw
+Accro Griffe
 Binding Band
-Binding Band
+Bandeau
 Big Root
-Big Root
+Grosse Racine
 Black Sludge
-Black Sludge
+Boue Noire
 Leftovers
-Leftovers
+Restes
 Shell Bell
-Shell Bell
+Grelot Coque
 Mental Herb
-Mental Herb
+Herbe Mental
 White Herb
-White Herb
+Herbe Blanche
 Power Herb
-Power Herb
+Herbe Pouvoir
 Absorb Bulb
-Absorb Bulb
+Bulbe
 Cell Battery
-Cell Battery
+Pile
 Luminous Moss
-Luminous Moss
+Mousse Énergie
 Snowball
-Snowball
+Boule de Neige
 Weakness Policy
-Weakness Policy
+Vulné-Assurance
 Blunder Policy
-Blunder Policy
+Assurance Échec
 Throat Spray
-Throat Spray
+Spray Gorge
 Adrenaline Orb
-Adrenaline Orb
+Orbe Vie
 Room Service
 Room Service
 Electric Seed
-Electric Seed
+Graine Électrik
 Grassy Seed
-Grassy Seed
+Graine Herbe
 Misty Seed
-Misty Seed
+Graine Brume
 Psychic Seed
-Psychic Seed
+Graine Psychée
 Life Orb
-Life Orb
+Orbe Vie
 Expert Belt
-Expert Belt
+Ceinture Pro
 Metronome
-Metronome
+Métronome
 Muscle Band
-Muscle Band
+Bandeau Muscle
 Wise Glasses
-Wise Glasses
+Lunettes Sages
 Razor Claw
-Razor Claw
+Griffe Rasoir
 Scope Lens
-Scope Lens
+Lentilscope
 Wide Lens
-Wide Lens
+Loupe
 Zoom Lens
-Zoom Lens
+Lentille Zoom
 King's Rock
-King's Rock
+Roche Royale
 Razor Fang
-Razor Fang
+Croc Rasoir
 Lagging Tail
-Lagging Tail
+Queue Ralenti
 Quick Claw
-Quick Claw
+Vive Griffe
 Focus Band
-Focus Band
+Bandeau
 Focus Sash
-Focus Sash
+Ceinture Force
 Flame Orb
-Flame Orb
+Orbe Flamme
 Toxic Orb
-Toxic Orb
+Orbe Toxique
 Sticky Barb
-Sticky Barb
+Piquants
 Iron Ball
-Iron Ball
+Balle Fer
 Ring Target
-Ring Target
+Point de Mire
 Macho Brace
-Macho Brace
+Brac. Macho
 Power Weight
-Power Weight
+Poids Pouvoir
 Power Bracer
-Power Bracer
+Poignet Pouvoir
 Power Belt
-Power Belt
+Ceinture Pouvoir
 Power Lens
-Power Lens
+Lentille Pouvoir
 Power Band
-Power Band
+Bandeau Pouvoir
 Power Anklet
-Power Anklet
+Chaîne Pouvoir
 Lax Incense
-Lax Incense
+Encens Doux
 Full Incense
-Full Incense
+Encens Plein
 Luck Incense
-Luck Incense
+Encens Veine
 Pure Incense
-Pure Incense
+Encens Pur
 Sea Incense
-Sea Incense
+Encens Mer
 Wave Incense
-Wave Incense
+Encens Vague
 Rose Incense
-Rose Incense
+Encens Fleur
 Odd Incense
-Odd Incense
+Encens Bizarre
 Rock Incense
-Rock Incense
+Encens Roc
 Charcoal
-Charcoal
+Charbon
 Mystic Water
-Mystic Water
+Eau Mystique
 Magnet
-Magnet
+Aimant
 Miracle Seed
-Miracle Seed
+Graine Miracle
 Never-Melt Ice
-Never-Melt Ice
+Glace Éternelle
 Black Belt
-Black Belt
+Ceinture Noire
 Poison Barb
-Poison Barb
+Pic Venin
 Soft Sand
-Soft Sand
+Sable Doux
 Sharp Beak
-Sharp Beak
+Bec Pointu
 Twisted Spoon
-Twisted Spoon
+Cuillère Tordue
 Silver Powder
-Silver Powder
+Poudre Argentée
 Hard Stone
-Hard Stone
+Pierre Dure
 Spell Tag
-Spell Tag
+Rune Sort
 Dragon Fang
-Dragon Fang
+Croc Dragon
 Black Glasses
-Black Glasses
+Lunet. Noires
 Metal Coat
-Metal Coat
+Peau Métal
 Silk Scarf
-Silk Scarf
+Mouchoir Soie
 Flame Plate
-Flame Plate
+Plaque Flamme
 Splash Plate
-Splash Plate
+Plaque Hydro
 Zap Plate
-Zap Plate
+Plaque Volt
 Meadow Plate
-Meadow Plate
+Plaque Herbe
 Icicle Plate
-Icicle Plate
+Plaque Glace
 Fist Plate
-Fist Plate
+Plaque Poing
 Toxic Plate
-Toxic Plate
+Plaque Toxik
 Earth Plate
-Earth Plate
+Plaque Terre
 Sky Plate
-Sky Plate
+Plaque Ciel
 Mind Plate
-Mind Plate
+Plaque Esprit
 Insect Plate
-Insect Plate
+Plaque Insecte
 Stone Plate
-Stone Plate
+Plaque Roc
 Spooky Plate
-Spooky Plate
+Plaque Fantô
 Draco Plate
-Draco Plate
+Plaque Draco
 Dread Plate
-Dread Plate
+Plaque Ombre
 Iron Plate
-Iron Plate
+Plaque Fer
 Pixie Plate
-Pixie Plate
+Plaque Pixie
 Fire Gem
-Fire Gem
+Joyau Feu
 Water Gem
-Water Gem
+Joyau Eau
 Electric Gem
-Electric Gem
+Joyau Électrik
 Grass Gem
-Grass Gem
+Joyau Plante
 Ice Gem
-Ice Gem
+Joyau Glace
 Fighting Gem
-Fighting Gem
+Joyau Combat
 Poison Gem
-Poison Gem
+Joyau Poison
 Ground Gem
-Ground Gem
+Joyau Sol
 Flying Gem
-Flying Gem
+Joyau Vol
 Psychic Gem
-Psychic Gem
+Joyau Psy
 Bug Gem
-Bug Gem
+Joyau Insecte
 Rock Gem
-Rock Gem
+Joyau Roche
 Ghost Gem
-Ghost Gem
+Joyau Spectre
 Dragon Gem
-Dragon Gem
+Joyau Dragon
 Dark Gem
-Dark Gem
+Joyau Ténèbres
 Steel Gem
-Steel Gem
+Joyau Acier
 Fairy Gem
-Fairy Gem
+Joyau Fée
 Normal Gem
-Normal Gem
+Joyau Normal
 Light Ball
-Light Ball
+Balle Lumière
 Lucky Punch
-Lucky Punch
+Poing Chance
 Metal Powder
-Metal Powder
+Poudre Métal
 Quick Powder
-Quick Powder
+Poudre Vite
 Thick Club
-Thick Club
+Masse Os
 Leek
-Leek
+Poireau
 Soul Dew
-Soul Dew
+Rosée Âme
 Deep Sea Tooth
-Deep Sea Tooth
+Dent Océan
 Deep Sea Scale
-Deep Sea Scale
+Écaille Océan
 Adamant Orb
-Adamant Orb
+Orbe Adamant
 Lustrous Orb
-Lustrous Orb
+Orbe Perlé
 Griseous Orb
-Griseous Orb
+Orbe Platiné
 Rusted Sword
-Rusted Sword
+Épée Rouillée
 Rusted Shield
-Rusted Shield
+Bouclier Rouillé
 Douse Drive
-Douse Drive
+Module Aqua
 Shock Drive
-Shock Drive
+Module Choc
 Burn Drive
-Burn Drive
+Module Pyro
 Chill Drive
-Chill Drive
+Module Cryo
 Fire Memory
-Fire Memory
+ROM Feu
 Water Memory
-Water Memory
+ROM Eau
 Electric Memory
-Electric Memory
+ROM Électrik
 Grass Memory
-Grass Memory
+ROM Plante
 Ice Memory
-Ice Memory
+ROM Glace
 Fighting Memory
-Fighting Memory
+ROM Combat
 Poison Memory
-Poison Memory
+ROM Poison
 Ground Memory
-Ground Memory
+ROM Sol
 Flying Memory
-Flying Memory
+ROM Vol
 Psychic Memory
-Psychic Memory
+ROM Psy
 Bug Memory
-Bug Memory
+ROM Insecte
 Rock Memory
-Rock Memory
+ROM Roche
 Ghost Memory
-Ghost Memory
+ROM Spectre
 Dragon Memory
-Dragon Memory
+ROM Dragon
 Dark Memory
-Dark Memory
+ROM Ténèbres
 Steel Memory
-Steel Memory
+ROM Acier
 Fairy Memory
-Fairy Memory
+ROM Fée
 Everstone
-Everstone
+Pierre Stase
 Dragon Scale
-Dragon Scale
+Écaille Draco
 Upgrade
-Upgrade
+Améliorator
 Dubious Disc
-Dubious Disc
+CD Douteux
 Protector
-Protector
+Protecteur
 Electirizer
-Electirizer
+Électiriseur
 Magmarizer
-Magmarizer
+Magmariseur
 Reaper Cloth
-Reaper Cloth
+Tissu Fauche
 Prism Scale
-Prism Scale
+Écaille Prism
 Oval Stone
-Oval Stone
+Pierre Ovale
 Whipped Dream
-Whipped Dream
+Chantibonbon
 Sachet
-Sachet
+Sachet Senteur
 Strawberry Sweet
-Strawberry Sweet
+Bonbon Fraise
 Love Sweet
-Love Sweet
+Bonbon Cœur
 Berry Sweet
-Berry Sweet
+Bonbon Baie
 Clover Sweet
-Clover Sweet
+Bonbon Trèfle
 Flower Sweet
-Flower Sweet
+Bonbon Fleur
 Star Sweet
-Star Sweet
+Bonbon Étoile
 Ribbon Sweet
-Ribbon Sweet
+Bonbon Ruban
 Venusaurite
-Venusaurite
+Vénusarite
 Charizardite X
-Charizardite X
+Dracaufite X
 Charizardite Y
-Charizardite Y
+Dracaufite Y
 Blastoisinite
-Blastoisinite
+Tortankite
 Beedrillite
-Beedrillite
+Dardargnite
 Pidgeotite
-Pidgeotite
+Roucarnagite
 Alakazite
-Alakazite
+Alakazamite
 Slowbronite
-Slowbronite
+Flagadossite
 Gengarite
-Gengarite
+Ectoplasmite
 Kangaskhanite
-Kangaskhanite
+Kangourexite
 Pinsirite
-Pinsirite
+Scarabruteite
 Gyaradosite
-Gyaradosite
+Léviatorite
 Aerodactylite
-Aerodactylite
+Ptéraïte
 Mewtwonite X
-Mewtwonite X
+Mewtwoïte X
 Mewtwonite Y
-Mewtwonite Y
+Mewtwoïte Y
 Ampharosite
-Ampharosite
+Pharampite
 Steelixite
 Steelixite
 Scizorite
-Scizorite
+Cizayoxite
 Heracronite
-Heracronite
+Scarhinoïte
 Houndoominite
-Houndoominite
+Démolossite
 Tyranitarite
-Tyranitarite
+Tyranocivite
 Sceptilite
-Sceptilite
+Jungkoïte
 Blazikenite
-Blazikenite
+Braségaliite
 Swampertite
-Swampertite
+Laggronite
 Gardevoirite
 Gardevoirite
 Sablenite
-Sablenite
+Ténéfixite
 Mawilite
-Mawilite
+Mysdibulite
 Aggronite
-Aggronite
+Galekingite
 Medichamite
-Medichamite
+Charminite
 Manectite
-Manectite
+Élecsprintite
 Sharpedonite
-Sharpedonite
+Sharpedite
 Cameruptite
-Cameruptite
+Caméruptite
 Altarianite
-Altarianite
+Altérite
 Banettite
-Banettite
+Branettite
 Absolite
 Absolite
 Glalitite
-Glalitite
+Oniglalite
 Salamencite
-Salamencite
+Drattakite
 Metagrossite
-Metagrossite
+Métalossite
 Latiasite
 Latiasite
 Latiosite
 Latiosite
 Lopunnite
-Lopunnite
+Lockpinite
 Garchompite
-Garchompite
+Carchacrokite
 Lucarionite
-Lucarionite
+Lucarite
 Abomasite
-Abomasite
+Blizzarite
 Galladite
-Galladite
+Gallamite
 Audinite
-Audinite
+Nanméouïte
 Diancite
 Diancite
 Red Orb
-Red Orb
+Orbe Rouge
 Blue Orb
-Blue Orb
+Orbe Bleu
 Potion
 Potion
 Super Potion
@@ -659,209 +659,209 @@ Hyper Potion
 Max Potion
 Max Potion
 Full Restore
-Full Restore
+Guérison
 Sacred Ash
-Sacred Ash
+Cendre Sacrée
 Awakening
-Awakening
+Réveil
 Antidote
 Antidote
 Burn Heal
-Burn Heal
+Anti-Brûle
 Paralyze Heal
-Paralyze Heal
+Anti-Para
 Ice Heal
-Ice Heal
+Anti-Glace
 Full Heal
-Full Heal
+Total Soin
 Pewter Crunchies
-Pewter Crunchies
+Crok'Argenta
 Rage Candy Bar
-Rage Candy Bar
+Bonbon Rage
 Lava Cookie
 Lava Cookie
 Old Gateau
-Old Gateau
+Vieux Gâteau
 Casteliacone
-Casteliacone
+Glace Volute
 Lumiose Galette
-Lumiose Galette
+Galette Illumis
 Shalour Sable
-Shalour Sable
+Sablé Yantreizh
 Big Malasada
-Big Malasada
+Grosse Malasada
 Revive
-Revive
+Rappel
 Max Revive
-Max Revive
+Rappel Max
 Berry Juice
-Berry Juice
+Jus de Baie
 Sweet Heart
-Sweet Heart
+Cœur Sucré
 Fresh Water
-Fresh Water
+Eau Fraîche
 Soda Pop
-Soda Pop
+Soda Cool
 Lemonade
-Lemonade
+Limonade
 Moomoo Milk
-Moomoo Milk
+Lait Meumeu
 Energy Powder
-Energy Powder
+Poudre Énergie
 Energy Root
-Energy Root
+Racine Énergie
 Heal Powder
-Heal Powder
+Poudre Soin
 Revival Herb
-Revival Herb
+Herbe Rappel
 Max Honey
-Max Honey
+Miel Max
 Ether
-Ether
+Élixir
 Max Ether
-Max Ether
+Max Élixir
 Elixir
-Elixir
+Élixir
 Max Elixir
-Max Elixir
+Max Élixir
 PP Up
-PP Up
+PP Plus
 PP Max
 PP Max
 HP Up
-HP Up
+PV Plus
 Protein
-Protein
+Protéine
 Iron
-Iron
+Fer
 Calcium
 Calcium
 Zinc
 Zinc
 Carbos
-Carbos
+Carbone
 Health Feather
-Health Feather
+Aile Santé
 Muscle Feather
-Muscle Feather
+Aile Force
 Resist Feather
-Resist Feather
+Aile Défense
 Genius Feather
-Genius Feather
+Aile Esprit
 Clever Feather
-Clever Feather
+Aile Sagesse
 Swift Feather
-Swift Feather
+Aile Sprint
 Lonely Mint
-Lonely Mint
+Menthe Solo
 Adamant Mint
-Adamant Mint
+Menthe Rigide
 Naughty Mint
-Naughty Mint
+Menthe Mauvais
 Brave Mint
-Brave Mint
+Menthe Brave
 Bold Mint
-Bold Mint
+Menthe Assuré
 Impish Mint
-Impish Mint
+Menthe Malin
 Lax Mint
-Lax Mint
+Menthe Lâche
 Relaxed Mint
-Relaxed Mint
+Menthe Relax
 Modest Mint
-Modest Mint
+Menthe Modeste
 Mild Mint
-Mild Mint
+Menthe Doux
 Rash Mint
-Rash Mint
+Menthe Fougue
 Quiet Mint
-Quiet Mint
+Menthe Discret
 Calm Mint
-Calm Mint
+Menthe Calme
 Gentle Mint
-Gentle Mint
+Menthe Gentil
 Careful Mint
-Careful Mint
+Menthe Prudent
 Sassy Mint
-Sassy Mint
+Menthe Malpoli
 Timid Mint
-Timid Mint
+Menthe Timide
 Hasty Mint
-Hasty Mint
+Menthe Pressé
 Jolly Mint
-Jolly Mint
+Menthe Jovial
 Naive Mint
-Naive Mint
+Menthe Naïf
 Serious Mint
-Serious Mint
+Menthe Sérieux
 Ability Capsule
-Ability Capsule
+Pilule Talent
 Ability Patch
-Ability Patch
+Patch Talent
 Exp. Candy XS
-Exp. Candy XS
+Bonbon Exp. XS
 Exp. Candy S
-Exp. Candy S
+Bonbon Exp. S
 Exp. Candy M
-Exp. Candy M
+Bonbon Exp. M
 Exp. Candy L
-Exp. Candy L
+Bonbon Exp. L
 Exp. Candy XL
-Exp. Candy XL
+Bonbon Exp. XL
 Rare Candy
-Rare Candy
+Super Bonbon
 Master Ball
 Master Ball
 Ultra Ball
 Ultra Ball
 Great Ball
-Great Ball
+Super Ball
 Poké Ball
 Poké Ball
 Safari Ball
 Safari Ball
 Sport Ball
-Sport Ball
+Compét'Ball
 Net Ball
-Net Ball
+Filet Ball
 Dive Ball
-Dive Ball
+Scuba Ball
 Nest Ball
-Nest Ball
+Faiblo Ball
 Repeat Ball
-Repeat Ball
+Bis Ball
 Timer Ball
-Timer Ball
+Chrono Ball
 Luxury Ball
-Luxury Ball
+Luxe Ball
 Premier Ball
-Premier Ball
+Honor Ball
 Dusk Ball
-Dusk Ball
+Sombre Ball
 Heal Ball
-Heal Ball
+Soin Ball
 Quick Ball
-Quick Ball
+Rapide Ball
 Cherish Ball
-Cherish Ball
+Mémory Ball
 Fast Ball
-Fast Ball
+Speed Ball
 Level Ball
-Level Ball
+Niveau Ball
 Lure Ball
-Lure Ball
+Appât Ball
 Heavy Ball
-Heavy Ball
+Lourd Ball
 Love Ball
 Love Ball
 Friend Ball
-Friend Ball
+Copain Ball
 Moon Ball
-Moon Ball
+Lune Ball
 Dream Ball
-Dream Ball
+Rêve Ball
 Beast Ball
-Beast Ball
+Ultra Ball
 TM01
 TM01
 TM02
@@ -1075,420 +1075,420 @@ HM05
 HM06
 HM06
 Cheri Berry
-Cheri Berry
+Baie Ceriz
 Chesto Berry
-Chesto Berry
+Baie Maron
 Pecha Berry
-Pecha Berry
+Baie Pêcha
 Rawst Berry
-Rawst Berry
+Baie Fraive
 Aspear Berry
-Aspear Berry
+Baie Willia
 Leppa Berry
-Leppa Berry
+Baie Mepo
 Oran Berry
-Oran Berry
+Baie Oran
 Persim Berry
-Persim Berry
+Baie Kika
 Lum Berry
-Lum Berry
+Baie Prine
 Sitrus Berry
-Sitrus Berry
+Baie Sitrus
 Figy Berry
-Figy Berry
+Baie Figuy
 Wiki Berry
-Wiki Berry
+Baie Wiki
 Mago Berry
-Mago Berry
+Baie Mago
 Aguav Berry
-Aguav Berry
+Baie Gowav
 Iapapa Berry
-Iapapa Berry
+Baie Papaya
 Razz Berry
-Razz Berry
+Baie Framby
 Bluk Berry
-Bluk Berry
+Baie Remu
 Nanab Berry
-Nanab Berry
+Baie Nanab
 Wepear Berry
-Wepear Berry
+Baie Repoi
 Pinap Berry
-Pinap Berry
+Baie Nanana
 Pomeg Berry
-Pomeg Berry
+Baie Grena
 Kelpsy Berry
-Kelpsy Berry
+Baie Alga
 Qualot Berry
-Qualot Berry
+Baie Qualot
 Hondew Berry
-Hondew Berry
+Baie Lonme
 Grepa Berry
-Grepa Berry
+Baie Resin
 Tamato Berry
-Tamato Berry
+Baie Tamato
 Cornn Berry
-Cornn Berry
+Baie Siam
 Magost Berry
-Magost Berry
+Baie Mangou
 Rabuta Berry
-Rabuta Berry
+Baie Rabuta
 Nomel Berry
-Nomel Berry
+Baie Tronci
 Spelon Berry
-Spelon Berry
+Baie Kiwan
 Pamtre Berry
-Pamtre Berry
+Baie Palma
 Watmel Berry
-Watmel Berry
+Baie Stekpa
 Durin Berry
-Durin Berry
+Baie Durin
 Belue Berry
-Belue Berry
+Baie Myrte
 Occa Berry
-Occa Berry
+Baie Chocco
 Passho Berry
-Passho Berry
+Baie Pocpoc
 Wacan Berry
-Wacan Berry
+Baie Parma
 Rindo Berry
-Rindo Berry
+Baie Grinja
 Yache Berry
-Yache Berry
+Baie Nanone
 Chople Berry
-Chople Berry
+Baie Pomroz
 Kebia Berry
-Kebia Berry
+Baie Kébia
 Shuca Berry
-Shuca Berry
+Baie Jouca
 Coba Berry
-Coba Berry
+Baie Cobaba
 Payapa Berry
-Payapa Berry
+Baie Yapap
 Tanga Berry
-Tanga Berry
+Baie Rangma
 Charti Berry
-Charti Berry
+Baie Charti
 Kasib Berry
-Kasib Berry
+Baie Sédra
 Haban Berry
-Haban Berry
+Baie Fraigo
 Colbur Berry
-Colbur Berry
+Baie Lampou
 Babiri Berry
-Babiri Berry
+Baie Babiri
 Roseli Berry
-Roseli Berry
+Baie Selro
 Chilan Berry
-Chilan Berry
+Baie Zalis
 Liechi Berry
-Liechi Berry
+Baie Litchi
 Ganlon Berry
-Ganlon Berry
+Baie Lingan
 Salac Berry
-Salac Berry
+Baie Sailak
 Petaya Berry
-Petaya Berry
+Baie Pitaye
 Apicot Berry
-Apicot Berry
+Baie Abriko
 Lansat Berry
-Lansat Berry
+Baie Lansat
 Starf Berry
-Starf Berry
+Baie Frista
 Enigma Berry
-Enigma Berry
+Baie Enigma
 Micle Berry
-Micle Berry
+Baie Micle
 Custap Berry
-Custap Berry
+Baie Chérim
 Jaboca Berry
-Jaboca Berry
+Baie Jaboca
 Rowap Berry
-Rowap Berry
+Baie Pommo
 Kee Berry
-Kee Berry
+Baie Éka
 Maranga Berry
-Maranga Berry
+Baie Maranga
 Grass Mail
-Grass Mail
+Lettre Herbe
 Flame Mail
-Flame Mail
+Lettre Flamme
 Bubble Mail
-Bubble Mail
+Lettre Bulle
 Bloom Mail
-Bloom Mail
+Lettre Floral
 Tunnel Mail
-Tunnel Mail
+Lettre Tunnel
 Steel Mail
-Steel Mail
+Lettre Acier
 Heart Mail
-Heart Mail
+Lettre Cœur
 Snow Mail
-Snow Mail
+Lettre Neige
 Space Mail
-Space Mail
+Lettre Cosmos
 Air Mail
-Air Mail
+Lettre Air
 Mosaic Mail
-Mosaic Mail
+Lettre Mosaïque
 Brick Mail
-Brick Mail
+Lettre Brique
 X Attack
-X Attack
+Attaque +
 X Attack 2
-X Attack 2
+Attaque +2
 X Attack 3
-X Attack 3
+Attaque +3
 X Attack 6
-X Attack 6
+Attaque +6
 X Defense
-X Defense
+Défense +
 X Defense 2
-X Defense 2
+Défense +2
 X Defense 3
-X Defense 3
+Défense +3
 X Defense 6
-X Defense 6
+Défense +6
 X Sp. Atk
-X Sp. Atk
+Attaque Spé +
 X Sp. Atk 2
-X Sp. Atk 2
+Attaque Spé +2
 X Sp. Atk 3
-X Sp. Atk 3
+Attaque Spé +3
 X Sp. Atk 6
-X Sp. Atk 6
+Attaque Spé +6
 X Sp. Def
-X Sp. Def
+Défense Spé +
 X Sp. Def 2
-X Sp. Def 2
+Défense Spé +2
 X Sp. Def 3
-X Sp. Def 3
+Défense Spé +3
 X Sp. Def 6
-X Sp. Def 6
+Défense Spé +6
 X Speed
-X Speed
+Vitesse +
 X Speed 2
-X Speed 2
+Vitesse +2
 X Speed 3
-X Speed 3
+Vitesse +3
 X Speed 6
-X Speed 6
+Vitesse +6
 X Accuracy
-X Accuracy
+Précision +
 X Accuracy 2
-X Accuracy 2
+Précision +2
 X Accuracy 3
-X Accuracy 3
+Précision +3
 X Accuracy 6
-X Accuracy 6
+Précision +6
 Max Mushrooms
-Max Mushrooms
+Maxi Champi
 Dire Hit
-Dire Hit
+Scope +
 Dire Hit 2
-Dire Hit 2
+Scope +2
 Dire Hit 3
-Dire Hit 3
+Scope +3
 Guard Spec.
-Guard Spec.
+Garde Spec
 Reset Urge
-Reset Urge
+Envie Restaure
 Ability Urge
-Ability Urge
+Envie Talent
 Item Urge
-Item Urge
+Envie Objet
 Item Drop
-Item Drop
+Largage Objet
 Blue Flute
-Blue Flute
+Flûte Bleue
 Yellow Flute
-Yellow Flute
+Flûte Jaune
 Red Flute
-Red Flute
+Flûte Rouge
 Poké Doll
-Poké Doll
+Poké Poupée
 Fluffy Tail
-Fluffy Tail
+Queue Skitty
 Poké Toy
-Poké Toy
+Jouet Pokémon
 Bicycle
-Bicycle
+Bicyclette
 Old Rod
-Old Rod
+Canne
 Good Rod
-Good Rod
+Super Canne
 Super Rod
-Super Rod
+Méga Canne
 Itemfinder
-Itemfinder
+Cherche Objet
 Dowsing Machine
-Dowsing Machine
+Cherch'Objet
 Poké Radar
 Poké Radar
 Town Map
-Town Map
+Carte
 Escape Rope
-Escape Rope
+Corde Sortie
 Coin Case
-Coin Case
+Boîte Jetons
 Poké Flute
-Poké Flute
+Poké Flûte
 Soot Sack
-Soot Sack
+Sac Suie
 Silph Scope
-Silph Scope
+Scope Sylphe
 Devon Scope
-Devon Scope
+Scope Devon
 Squirt Bottle
-Squirt Bottle
+Bouteille à Eau
 Sprayduck
-Sprayduck
+Nénupiot
 Wailmer Pail
-Wailmer Pail
+Arrosoir Wailmer
 Sprinklotad
-Sprinklotad
+Arrosoir Nénupiot
 Gracidea
-Gracidea
+Gracidée
 Reveal Glass
-Reveal Glass
+Miroir Sacré
 Prison Bottle
-Prison Bottle
+Flacon Scellé
 Rotom Catalog
-Rotom Catalog
+Catalogue Motisma
 Zygarde Cube
-Zygarde Cube
+Cube Zygarde
 DNA Splicers
-DNA Splicers
+Pointeau ADN
 N-Solarizer
 N-Solarizer
 N-Lunarizer
 N-Lunarizer
 Reins of Unity
-Reins of Unity
+Rênes de l'Unité
 Oval Charm
-Oval Charm
+Charme Ovale
 Shiny Charm
-Shiny Charm
+Charme Chroma
 Catching Charm
-Catching Charm
+Charme Capture
 Exp. Charm
-Exp. Charm
+Charme Exp
 Mega Ring
-Mega Ring
+Méga-Anneau
 Pokémon Box Link
-Pokémon Box Link
+Boîte Pokémon
 Aurora Ticket
-Aurora Ticket
+Ticket Aurore
 Old Sea Map
-Old Sea Map
+Vieille Carte Mer
 Black Augurite
-Black Augurite
+Augurite Noire
 Peat Block
-Peat Block
+Bloc de Tourbe
 Linking Cord
-Linking Cord
+Fil de Liaison
 Adamant Crystal
-Adamant Crystal
+Cristal Adamant
 Lustrous Globe
-Lustrous Globe
+Globe Perlé
 Legend Plate
-Legend Plate
+Plaque Légende
 Blank Plate
-Blank Plate
+Plaque Vide
 Hopo Berry
-Hopo Berry
+Baie Hopo
 Griseous Core
-Griseous Core
+Noyau Platiné
 Feather Ball
-Feather Ball
+Plume Ball
 Wing Ball
-Wing Ball
+Ball'Aile
 Jet Ball
-Jet Ball
+Ball'Jet
 Leaden Ball
-Leaden Ball
+Ball'Ferro
 Gigaton Ball
-Gigaton Ball
+Ball'Gigoton
 Origin Ball
-Origin Ball
+Ball'Origine
 Strange Ball
-Strange Ball
+Ball'Étrange
 Auspicious Armor
-Auspicious Armor
+Armure de Chance
 Malicious Armor
-Malicious Armor
+Armure Maléfique
 Scroll of Darkness
-Scroll of Darkness
+Rouleau des Ténèbres
 Scroll of Waters
-Scroll of Waters
+Rouleau des Eaux
 Leader's Crest
-Leader's Crest
+Cimier de Chef
 Booster Energy
-Booster Energy
+Énergie Booster
 Ability Shield
-Ability Shield
+Bouclier Talent
 Clear Amulet
-Clear Amulet
+Amulette Pure
 Mirror Herb
-Mirror Herb
+Herbe Copieuse
 Punching Glove
-Punching Glove
+Gant de Boxe
 Covert Cloak
-Covert Cloak
+Cape Secrète
 Loaded Dice
-Loaded Dice
+Dés Pipés
 Gimmighoul Coin
-Gimmighoul Coin
+Pièce Mordudor
 Tiny Bamboo Shoot
-Tiny Bamboo Shoot
+Jeune Pousse Bambou
 Big Bamboo Shoot
-Big Bamboo Shoot
+Grande Pousse Bambou
 Rotom Phone
-Rotom Phone
+Motismart
 Scarlet Book
-Scarlet Book
+Livre Écarlate
 Violet Book
-Violet Book
+Livre Violet
 Health Mochi
-Health Mochi
+Mochi Santé
 Muscle Mochi
-Muscle Mochi
+Mochi Force
 Resist Mochi
-Resist Mochi
+Mochi Défense
 Genius Mochi
-Genius Mochi
+Mochi Esprit
 Clever Mochi
-Clever Mochi
+Mochi Sagesse
 Swift Mochi
-Swift Mochi
+Mochi Sprint
 Fresh-Start Mochi
-Fresh-Start Mochi
+Mochi Nouvelle Vie
 Fairy Feather
-Fairy Feather
+Plume Féérique
 Syrupy Apple
-Syrupy Apple
+Pomme Gluante
 Unremarkable Teacup
-Unremarkable Teacup
+Tasse Banale
 Masterpiece Teacup
-Masterpiece Teacup
+Tasse Maîtresse
 Wellspring Mask
-Wellspring Mask
+Masque Source
 Hearthflame Mask
-Hearthflame Mask
+Masque Brasier
 Cornerstone Mask
-Cornerstone Mask
+Masque Fondement
 Teal Mask
-Teal Mask
+Masque Turquoise
 Metal Alloy
-Metal Alloy
+Alliage Métal
 Indigo Disk
-Indigo Disk
+Disque Indigo
 Mythical Pecha Berry
-Mythical Pecha Berry
+Baie Pêcha Mythique
 Synchro Machine
-Synchro Machine
+Machine Synchro
 Meteorite
-Meteorite
+Météorite
 Briar's Book
-Briar's Book
+Livre de Briar
 Mark Charm
-Mark Charm
+Charme Marques

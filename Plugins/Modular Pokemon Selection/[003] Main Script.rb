@@ -1,15 +1,3 @@
-#===============================================================================
-# Modular Pokemon Selection
-#===============================================================================
-# Main Script page
-# Just don't touch it?
-#===============================================================================
-# How to use:
-# pbPokemonSelection(list, must_choose, settings)
-# list - the list name as you set it on Pokemon Lists.rb
-# must_choose (true by default) - must choose or can they cancel?
-# setting (:DEFAULT by default) - the settings name as you set it on Settings.rb
-#===============================================================================
 class ModularSelection_Scene
   def pbUpdate
     pbUpdateSpriteHash(@sprites)
@@ -19,6 +7,7 @@ class ModularSelection_Scene
     @pokemonlist = []
     level = 5
     level = settings[:level] if settings[:level]
+    is_shadow = settings[:shadow] ? true : false  # Vérifie si le Pokémon doit être Shadow
     pokemonlist.each do |species|
       pkmn = Pokemon.new(species, level)
       min_iv = (settings[:min_iv] ? settings[:min_iv] : 0)
@@ -27,6 +16,10 @@ class ModularSelection_Scene
         pkmn.iv[s.id] = rand(min_iv, max_iv)
       end
       pkmn.poke_ball = settings[:pokeball] if settings[:pokeball]
+
+      # Ajouter l'état Shadow si l'option est activée
+      pkmn.makeShadow if is_shadow
+
       @pokemonlist.push(pkmn)
     end
     @index = 0
@@ -46,6 +39,7 @@ class ModularSelection_Scene
       @sprites["pkmnicon#{i}"] = PokemonIconSprite.new(@pokemonlist[i], @viewport)
       @sprites["pkmnicon#{i}"].setOffset(PictureOrigin::CENTER)
       @sprites["pkmnicon#{i}"].y = 44
+      @sprites["pkmnicon#{i}"].x = 208  # Initial position for icons
     end
     @sprites["leftarrow"] = AnimatedSprite.new("Graphics/UI/left_arrow", 8, 40, 28, 2, @viewport)
     @sprites["leftarrow"].x = 188
@@ -67,87 +61,93 @@ class ModularSelection_Scene
     @viewport.dispose
   end
 
-  def updateMenuBar(move = false)
-    every_side = (@pokemonlist.length - 1) / 2
-    every_side = PokemonSelections::MAX_PER_SIDE if every_side > PokemonSelections::MAX_PER_SIDE
-    if move
-      duration = (Graphics.frame_rate / 8)
-      x_movement = []
-      zoom_movement = []
-      opacity_movement = []
-      @sprites["leftarrow"].visible = false
-      @sprites["rightarrow"].visible = false
-      for i in 0...@pokemonlist.length
-        location = i - @index
-        if location.abs <= (every_side + 1)
-        elsif i <= (every_side + 1) && @pokemonlist.length - (every_side + 1) <= @index
-          location = i + @pokemonlist.length - @index
-        elsif @pokemonlist.length - i <= (every_side + 1) && @index <= (every_side + 1)
-          location = i - @pokemonlist.length - @index
-        end
-        case location.abs
-        when 0
-          x_movement.push((256 - @sprites["pkmnicon#{i}"].x) / duration)
-          zoom_movement.push((1 - @sprites["pkmnicon#{i}"].zoom_x) / duration)
-          opacity_movement.push((255 - @sprites["pkmnicon#{i}"].opacity) / duration)
-        when 1..every_side
-          x_movement.push((((location > 0 ? 304 : 208) + (208 / (every_side + 1)) * location) - @sprites["pkmnicon#{i}"].x) / duration)
-          zoom_movement.push((0.5 - @sprites["pkmnicon#{i}"].zoom_x) / duration)
-          opacity_movement.push((255 - @sprites["pkmnicon#{i}"].opacity) / duration)
-        when (every_side + 1)
-          x_movement.push((((location > 0 ? 304 : 208) + (208 / (every_side + 1)) * location) - @sprites["pkmnicon#{i}"].x) / duration)
-          zoom_movement.push((0.5 - @sprites["pkmnicon#{i}"].zoom_x) / duration)
-          opacity_movement.push((0 - @sprites["pkmnicon#{i}"].opacity) / duration)
-        else
-          x_movement.push(0)
-          zoom_movement.push((0.5 - @sprites["pkmnicon#{i}"].zoom_x) / duration)
-          opacity_movement.push((0 - @sprites["pkmnicon#{i}"].opacity) / duration)
-        end
+ def updateMenuBar(move = false)
+  every_side = (@pokemonlist.length - 1) / 2
+  every_side = PokemonSelections::MAX_PER_SIDE if every_side > PokemonSelections::MAX_PER_SIDE
+  if move
+    duration = (Graphics.frame_rate / 8)
+    x_movement = []
+    zoom_movement = []
+    opacity_movement = []
+    @sprites["leftarrow"].visible = false
+    @sprites["rightarrow"].visible = false
+
+    # Calcul des mouvements pour chaque Pokémon
+    for i in 0...@pokemonlist.length
+      location = i - @index
+      if location.abs <= (every_side + 1)
+      elsif i <= (every_side + 1) && @pokemonlist.length - (every_side + 1) <= @index
+        location = i + @pokemonlist.length - @index
+      elsif @pokemonlist.length - i <= (every_side + 1) && @index <= (every_side + 1)
+        location = i - @pokemonlist.length - @index
       end
-      duration.times do
-        Graphics.update if move
-        pbUpdateSpriteHash(@sprites) if move
-        for i in 0...@pokemonlist.length
-          @sprites["pkmnicon#{i}"].x += x_movement[i]
-          @sprites["pkmnicon#{i}"].zoom_x += zoom_movement[i]
-          @sprites["pkmnicon#{i}"].zoom_y += zoom_movement[i]
-          @sprites["pkmnicon#{i}"].opacity += opacity_movement[i]
-        end
+      case location.abs
+      when 0
+        x_movement.push((256 - @sprites["pkmnicon#{i}"].x) / duration)
+        zoom_movement.push((1 - @sprites["pkmnicon#{i}"].zoom_x) / duration)
+        opacity_movement.push((255 - @sprites["pkmnicon#{i}"].opacity) / duration)
+      when 1..every_side
+        x_movement.push((((location > 0 ? 304 : 208) + (208 / (every_side + 1)) * location) - @sprites["pkmnicon#{i}"].x) / duration)
+        zoom_movement.push((0.5 - @sprites["pkmnicon#{i}"].zoom_x) / duration)
+        opacity_movement.push((255 - @sprites["pkmnicon#{i}"].opacity) / duration)
+      when (every_side + 1)
+        x_movement.push((((location > 0 ? 304 : 208) + (208 / (every_side + 1)) * location) - @sprites["pkmnicon#{i}"].x) / duration)
+        zoom_movement.push((0.5 - @sprites["pkmnicon#{i}"].zoom_x) / duration)
+        opacity_movement.push((0 - @sprites["pkmnicon#{i}"].opacity) / duration)
+      else
+        x_movement.push(0)
+        zoom_movement.push((0.5 - @sprites["pkmnicon#{i}"].zoom_x) / duration)
+        opacity_movement.push((0 - @sprites["pkmnicon#{i}"].opacity) / duration)
       end
-      @sprites["leftarrow"].visible = true
-      @sprites["rightarrow"].visible = true
-      updateMenuBar
-    else
+    end
+
+    # Exécute les animations des icônes de Pokémon
+    duration.times do
+      Graphics.update if move
+      pbUpdateSpriteHash(@sprites) if move
       for i in 0...@pokemonlist.length
-        location = i - @index
-        if location.abs <= (every_side + 1)
-        elsif i <= (every_side + 1) && @pokemonlist.length - (every_side + 1) <= @index
-          location = i + @pokemonlist.length - @index
-        elsif @pokemonlist.length - i <= (every_side + 1) && @index <= (every_side + 1)
-          location = i - @pokemonlist.length - @index
-        end
-        case location.abs
-        when 0
-          @sprites["pkmnicon#{i}"].x = 256
-          @sprites["pkmnicon#{i}"].zoom_x = 1
-          @sprites["pkmnicon#{i}"].zoom_y = 1
-          @sprites["pkmnicon#{i}"].opacity = 255
-        when 1..every_side
-          @sprites["pkmnicon#{i}"].x = (location > 0 ? 304 : 208) + (208 / (every_side + 1)) * location
-          @sprites["pkmnicon#{i}"].zoom_x = 0.5
-          @sprites["pkmnicon#{i}"].zoom_y = 0.5
-          @sprites["pkmnicon#{i}"].opacity = 255
-        when (every_side + 1)
-          @sprites["pkmnicon#{i}"].x = (location > 0 ? 304 : 208) + (208 / (every_side + 1)) * location
-          @sprites["pkmnicon#{i}"].zoom_x = 0.5
-          @sprites["pkmnicon#{i}"].zoom_y = 0.5
-          @sprites["pkmnicon#{i}"].opacity = 0
-        else
-          @sprites["pkmnicon#{i}"].opacity = 0
-        end
+        @sprites["pkmnicon#{i}"].x += x_movement[i]
+        @sprites["pkmnicon#{i}"].zoom_x += zoom_movement[i]
+        @sprites["pkmnicon#{i}"].zoom_y += zoom_movement[i]
+        @sprites["pkmnicon#{i}"].opacity += opacity_movement[i]
+      end
+    end
+
+    @sprites["leftarrow"].visible = true
+    @sprites["rightarrow"].visible = true
+    updateMenuBar
+  else
+    # Ajustement statique des icônes sans mouvement
+    for i in 0...@pokemonlist.length
+      location = i - @index
+      if location.abs <= (every_side + 1)
+      elsif i <= (every_side + 1) && @pokemonlist.length - (every_side + 1) <= @index
+        location = i + @pokemonlist.length - @index
+      elsif @pokemonlist.length - i <= (every_side + 1) && @index <= (every_side + 1)
+        location = i - @pokemonlist.length - @index
+      end
+      case location.abs
+      when 0
+        @sprites["pkmnicon#{i}"].x = 256
+        @sprites["pkmnicon#{i}"].zoom_x = 1
+        @sprites["pkmnicon#{i}"].zoom_y = 1
+        @sprites["pkmnicon#{i}"].opacity = 255
+      when 1..every_side
+        @sprites["pkmnicon#{i}"].x = (location > 0 ? 304 : 208) + (208 / (every_side + 1)) * location
+        @sprites["pkmnicon#{i}"].zoom_x = 0.5
+        @sprites["pkmnicon#{i}"].zoom_y = 0.5
+        @sprites["pkmnicon#{i}"].opacity = 255
+      when (every_side + 1)
+        @sprites["pkmnicon#{i}"].x = (location > 0 ? 304 : 208) + (208 / (every_side + 1)) * location
+        @sprites["pkmnicon#{i}"].zoom_x = 0.5
+        @sprites["pkmnicon#{i}"].zoom_y = 0.5
+        @sprites["pkmnicon#{i}"].opacity = 0
+      else
+        @sprites["pkmnicon#{i}"].opacity = 0
       end
     end
   end
+end
 
   def drawPage
     @pokemon = @pokemonlist[@index]
@@ -155,8 +155,6 @@ class ModularSelection_Scene
     overlay.clear
     base   = Color.new(248, 248, 248)
     shadow = Color.new(104, 104, 104)
-    dexNumBase   = (@pokemon.shiny?) ? Color.new(248, 56, 32) : Color.new(64, 64, 64)
-    dexNumShadow = (@pokemon.shiny?) ? Color.new(224, 152, 144) : Color.new(176, 176, 176)
     @sprites["pokemon"].setPokemonBitmap(@pokemon)
     imagepos = []
     ballimage = sprintf("Graphics/UI/Summary/icon_ball_%s", @pokemon.poke_ball)
@@ -166,7 +164,6 @@ class ModularSelection_Scene
     textpos = [
       [@pokemon.name, 46, 84, :left, base, shadow],
       [@pokemon.level.to_s, 46, 114, :left, Color.new(64, 64, 64), Color.new(176, 176, 176)],
-      [_INTL("Dex No."), 238, 126, :left, base, shadow],
       [_INTL("Species"), 238, 158, :left, base, shadow],
       [@pokemon.speciesName, 435, 158, :center, Color.new(64, 64, 64), Color.new(176, 176, 176)],
       [_INTL("Nature"), 238, 190, :left, base, shadow],
@@ -180,27 +177,9 @@ class ModularSelection_Scene
     elsif @pokemon.female?
       textpos.push([_INTL("♀"), 178, 84, :left, Color.new(248, 56, 32), Color.new(224, 152, 144)])
     end
-    dexnum = 0
-    dexnumshift = false
-    if $player.pokedex.unlocked?(-1)   # National Dex is unlocked
-      dexnum = @nationalDexList.index(@pokemon.species_data.species) || 0
-      dexnumshift = true if Settings::DEXES_WITH_OFFSETS.include?(-1)
-    else
-      ($player.pokedex.dexes_count - 1).times do |i|
-        next if !$player.pokedex.unlocked?(i)
-        num = pbGetRegionalNumber(i, @pokemon.species)
-        break if num <= 0
-        dexnum = num
-        dexnumshift = true if Settings::DEXES_WITH_OFFSETS.include?(i)
-        break
-      end
-    end
-    if dexnum <= 0
-      textpos.push(["???", 435, 126, :center, dexNumBase, dexNumShadow])
-    else
-      dexnum -= 1 if dexnumshift
-      textpos.push([sprintf("%03d", dexnum), 435, 126, :center, dexNumBase, dexNumShadow])
-    end
+
+    # Suppression de la section gérant le numéro du Pokédex
+
     ability = @pokemon.ability
     if ability
       textpos.push([ability.name, 362, 290, :left, Color.new(64, 64, 64), Color.new(176, 176, 176)])
@@ -252,9 +231,8 @@ class ModularSelection_Scene
     end
   end
 end
-#===============================================================================
-#
-#===============================================================================
+
+# La classe suivante reste inchangée
 class ModularSelectionScreen
   def initialize(scene)
     @scene = scene
@@ -267,9 +245,7 @@ class ModularSelectionScreen
     return ret
   end
 end
-#===============================================================================
-#
-#===============================================================================
+
 def pbPokemonSelection(list, must_choose = true, settings = nil)
   if list.kind_of?(Array)
     pokemonlist = list

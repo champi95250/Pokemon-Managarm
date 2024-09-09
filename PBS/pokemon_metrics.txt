@@ -270,6 +270,7 @@ ShadowSprite = 0,-6,-3
 BackSprite = -3,16
 FrontSprite = 5,2
 ShadowSprite = 0,10,6
+SuperShinyHue = -26
 #-------------------------------
 [PERSIAN]
 BackSprite = 0,42
@@ -482,11 +483,13 @@ ShadowSprite = 4,-4,12
 BackSprite = 0,23
 FrontSprite = -1,11
 ShadowSprite = 1,6,2
+SuperShinyHue = 30
 #-------------------------------
 [ONIX]
 BackSprite = -2,51
 FrontSprite = 0,4
 ShadowSprite = 2,-4,9
+SuperShinyHue = -210
 #-------------------------------
 [DROWZEE]
 BackSprite = 5,17
@@ -522,6 +525,7 @@ ShadowSprite = 0,5,6
 BackSprite = 0,20
 FrontSprite = -1,14
 ShadowSprite = 0,-14,-1
+SuperShinyHue = -10
 #-------------------------------
 [EXEGGUTOR]
 BackSprite = 0,25
@@ -657,12 +661,14 @@ ShadowSprite = 2,-14,-4
 BackSprite = 9,27
 FrontSprite = 0,-1
 ShadowSprite = 4,0,15
+SuperShinyHue = 235
 #-------------------------------
 [GYARADOS]
 BackSprite = -9,46
 FrontSprite = 1,15
 ShadowSize = -1
 ShadowSprite = 8,7,10
+SuperShinyHue = -20
 #-------------------------------
 [LAPRAS]
 BackSprite = 0,38
@@ -868,6 +874,7 @@ BackSprite = 7,57
 FrontSprite = 2,18
 ShadowSize = -1
 ShadowSprite = 0,-19,8
+SuperShinyHue = -80
 #-------------------------------
 [CHINCHOU]
 BackSprite = 7,14
@@ -1015,6 +1022,7 @@ ShadowSprite = 1,3,3
 BackSprite = 0,10
 FrontSprite = 3,3
 ShadowSprite = 2,3,3
+SuperShinyHue = 160
 #-------------------------------
 [MURKROW]
 BackSprite = 0,12
@@ -1332,6 +1340,7 @@ ShadowSprite = 0,8,5
 BackSprite = 0,14
 FrontSprite = 2,2
 ShadowSprite = 0,13,6
+SuperShinyHue = 95
 #-------------------------------
 [SWAMPERT]
 BackSprite = 8,39
@@ -1806,6 +1815,7 @@ ShadowSprite = 2,23,19
 BackSprite = -2,42
 FrontSprite = 12,11
 ShadowSprite = 0,-4,6
+SuperShinyHue = 230
 #-------------------------------
 [CASTFORM]
 BackSprite = 6,4
@@ -1869,6 +1879,7 @@ BackSprite = 3,19
 FrontSprite = 1,4
 ShadowSize = -1
 ShadowSprite = 0,3,10
+SuperShinyHue = -165
 #-------------------------------
 [SPHEAL]
 BackSprite = -3,8
@@ -1962,6 +1973,7 @@ BackSprite = 0,41
 FrontSprite = 2,1
 ShadowSize = -1
 ShadowSprite = 0,6,19
+SuperShinyHue = 10
 #-------------------------------
 [LATIOS]
 BackSprite = 0,40
@@ -2315,6 +2327,7 @@ ShadowSprite = 0,8,3
 BackSprite = 0,27
 FrontSprite = 1,3
 ShadowSprite = 0,14,6
+SuperShinyHue = -60
 #-------------------------------
 [HIPPOPOTAS]
 BackSprite = 2,17
@@ -2430,6 +2443,7 @@ ShadowSprite = 0,10,21
 BackSprite = -5,25
 FrontSprite = 5,4
 ShadowSprite = 2,0,5
+SuperShinyHue = 30
 #-------------------------------
 [GLACEON]
 BackSprite = 0,20
@@ -3770,6 +3784,7 @@ BackSprite = 0,53
 FrontSprite = -1,31
 ShadowSprite = 1,-34,-11
 AnimationSpeed = 1
+SuperShinyHue = 25
 #-------------------------------
 [TORRACAT]
 BackSprite = 6,47
@@ -3902,6 +3917,7 @@ ShadowSprite = 2,-28,1
 BackSprite = 10,53
 FrontSprite = -1,13
 ShadowSprite = 2,-13,4
+SuperShinyHue = 235
 #-------------------------------
 [DEWPIDER]
 BackSprite = 1,14
@@ -4225,6 +4241,7 @@ ShadowSprite = 0,2,5
 BackSprite = 11,64
 FrontSprite = -5,17
 ShadowSprite = 4,-10,-1
+SuperShinyHue = -40
 #-------------------------------
 [GROOKEY]
 BackSprite = 0,22
@@ -4270,6 +4287,7 @@ ShadowSprite = 2,-22,-7
 BackSprite = -6,42
 FrontSprite = 5,10
 ShadowSprite = 3,3,5
+SuperShinyHue = -20
 #-------------------------------
 [SKWOVET]
 BackSprite = 5,47
@@ -4693,3 +4711,27 @@ ShadowSprite = 2,4,1
 BackSprite = 0,37
 FrontSprite = 3,11
 ShadowSprite = 2,23,8
+#-------------------------------
+[FOUICIRE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+#-------------------------------
+[FOUINARABRE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+SuperShinyHue = 255
+#-------------------------------
+[GYARADOS,,female]
+BackSprite = -9,46
+FrontSprite = 1,15
+ShadowSize = -1
+ShadowSprite = 8,7,10
+SuperShinyHue = 40
+#-------------------------------
+[ROTOM,6]
+BackSprite = 0,43
+FrontSprite = 0,9
+ShadowSprite = 2,2,10
+SuperShinyHue = 25

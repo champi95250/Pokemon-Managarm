@@ -203,6 +203,7 @@ ShadowSprite = 0,12,0
 BackSprite = 0,48
 FrontSprite = 6,10
 ShadowSprite = 1,16,5
+SuperShinyHue = 80
 #-------------------------------
 [FUECOCO]
 BackSprite = -2,14
@@ -317,6 +318,7 @@ BackSprite = 8,18
 FrontSprite = 2,34
 ShadowSprite = 0,5,-12
 AnimationSpeed = 1,2
+SuperShinyHue = 225
 #-------------------------------
 [DOLLIV]
 BackSprite = 1,38

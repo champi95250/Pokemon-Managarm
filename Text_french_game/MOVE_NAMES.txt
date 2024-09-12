@@ -1143,7 +1143,7 @@ Bras de Coquille
 Sludge Bomb
 Bombe Boue
 Poison Jab
-Poing Venin
+Direct Toxik
 Cross Poison
 Poison Croisé
 Sludge

@@ -609,75 +609,75 @@ BGM joué en vélo.
 Bill
 Bill
 ID number of this player.
-ID number of this player.
+Numéro d'identification de ce joueur.
 Trainer type of this player.
-Trainer type of this player.
+Type de dresseur de ce joueur.
 Charset used while the player is still or walking.
-Charset used while the player is still or walking.
+Charset utilisé lorsque le joueur est immobile ou marche.
 Charset used while the player is running. Uses WalkCharset if undefined.
-Charset used while the player is running. Uses WalkCharset if undefined.
+Charset utilisé lorsque le joueur court. Utilise WalkCharset si non défini.
 Charset used while the player is cycling. Uses RunCharset if undefined.
-Charset used while the player is cycling. Uses RunCharset if undefined.
+Charset utilisé lorsque le joueur fait du vélo. Utilise RunCharset si non défini.
 Charset used while the player is surfing. Uses CycleCharset if undefined.
-Charset used while the player is surfing. Uses CycleCharset if undefined.
+Charset utilisé lorsque le joueur surfe. Utilise CycleCharset si non défini.
 Charset used while the player is diving. Uses SurfCharset if undefined.
-Charset used while the player is diving. Uses SurfCharset if undefined.
+Charset utilisé lorsque le joueur plonge. Utilise SurfCharset si non défini.
 Charset used while the player is fishing. Uses WalkCharset if undefined.
-Charset used while the player is fishing. Uses WalkCharset if undefined.
+Charset utilisé lorsque le joueur pêche. Utilise WalkCharset si non défini.
 Charset used while the player is fishing while surfing. Uses FishCharset if undefined.
-Charset used while the player is fishing while surfing. Uses FishCharset if undefined.
+Charset utilisé lorsque le joueur pêche en surfant. Utilise FishCharset si non défini.
 ID number of this map.
-ID number of this map.
+Numéro d'identification de cette carte.
 The name of the map, as seen by the player. Can be different to the map's name as seen in RMXP.
-The name of the map, as seen by the player. Can be different to the map's name as seen in RMXP.
+Le nom de la carte tel que vu par le joueur. Peut être différent du nom de la carte tel qu'il apparaît dans RMXP.
 If true, this map is an outdoor map and will be tinted according to time of day.
-If true, this map is an outdoor map and will be tinted according to time of day.
+Si vrai, cette carte est une carte extérieure et sera teintée en fonction du moment de la journée.
 If true, the game will display the map's name upon entry.
-If true, the game will display the map's name upon entry.
+Si vrai, le jeu affichera le nom de la carte à l'entrée.
 If true, the bicycle can be used on this map.
-If true, the bicycle can be used on this map.
+Si vrai, le vélo peut être utilisé sur cette carte.
 If true, the bicycle will be mounted automatically on this map and cannot be dismounted.
-If true, the bicycle will be mounted automatically on this map and cannot be dismounted.
+Si vrai, le vélo sera monté automatiquement sur cette carte et ne pourra pas être démonté.
 Map ID of this Pokémon Center's town, and X and Y coordinates of its entrance within that town.
-Map ID of this Pokémon Center's town, and X and Y coordinates of its entrance within that town.
+ID de carte de la ville de ce Centre Pokémon, et coordonnées X et Y de son entrée dans cette ville.
 Weather conditions in effect for this map.
-Weather conditions in effect for this map.
+Conditions météorologiques en vigueur pour cette carte.
 Identifies the point on the regional map for this map.
-Identifies the point on the regional map for this map.
+Identifie le point sur la carte régionale pour cette carte.
 Specifies the underwater layer of this map. Use only if this map has deep water.
-Specifies the underwater layer of this map. Use only if this map has deep water.
+Spécifie la couche sous-marine de cette carte. Utilisez uniquement si cette carte a de l'eau profonde.
 If true, this map is dark and a circle of light appears around the player. Flash can be used to expand the circle.
-If true, this map is dark and a circle of light appears around the player. Flash can be used to expand the circle.
+Si vrai, cette carte est sombre et un cercle de lumière apparaît autour du joueur. Flash peut être utilisé pour agrandir le cercle.
 If true, this map is part of the Safari Zone (both indoor and outdoor). Not to be used in the reception desk.
-If true, this map is part of the Safari Zone (both indoor and outdoor). Not to be used in the reception desk.
+Si vrai, cette carte fait partie de la Zone Safari (intérieur et extérieur). Ne doit pas être utilisé à la réception.
 If true, when the player goes near this map's edge, the game doesn't center the player as usual.
-If true, when the player goes near this map's edge, the game doesn't center the player as usual.
+Si vrai, lorsque le joueur s'approche du bord de cette carte, le jeu ne centre pas le joueur comme d'habitude.
 If true, reflections of events and the player will not ripple horizontally.
-If true, reflections of events and the player will not ripple horizontally.
+Si vrai, les reflets des événements et du joueur ne feront pas de vagues horizontales.
 If true, this map has a randomly generated layout. See the wiki for more information.
-If true, this map has a randomly generated layout. See the wiki for more information.
+Si vrai, cette carte a une disposition générée aléatoirement. Voir le wiki pour plus d'informations.
 PNG files named 'XXX_bg', 'XXX_base0', 'XXX_base1', 'XXX_message' in Battlebacks folder, where XXX is this property's value.
-PNG files named 'XXX_bg', 'XXX_base0', 'XXX_base1', 'XXX_message' in Battlebacks folder, where XXX is this property's value.
+Fichiers PNG nommés 'XXX_bg', 'XXX_base0', 'XXX_base1', 'XXX_message' dans le dossier Battlebacks, où XXX est la valeur de cette propriété.
 Default BGM for wild Pokémon battles on this map.
-Default BGM for wild Pokémon battles on this map.
+BGM par défaut pour les combats de Pokémon sauvages sur cette carte.
 Default BGM for trainer battles on this map.
-Default BGM for trainer battles on this map.
+BGM par défaut pour les combats de dresseurs sur cette carte.
 Default BGM played after winning a wild Pokémon battle on this map.
-Default BGM played after winning a wild Pokémon battle on this map.
+BGM par défaut joué après avoir remporté un combat de Pokémon sauvage sur cette carte.
 Default BGM played after winning a Trainer battle on this map.
-Default BGM played after winning a Trainer battle on this map.
+BGM par défaut joué après avoir remporté un combat de dresseur sur cette carte.
 Default ME played after catching a wild Pokémon on this map.
-Default ME played after catching a wild Pokémon on this map.
+ME par défaut joué après avoir capturé un Pokémon sauvage sur cette carte.
 The width of the map in Town Map squares, and a string indicating which squares are part of this map.
-The width of the map in Town Map squares, and a string indicating which squares are part of this map.
+La largeur de la carte en carrés de Carte de Ville, et une chaîne indiquant quels carrés font partie de cette carte.
 The default battle environment for battles on this map.
-The default battle environment for battles on this map.
+L'environnement de combat par défaut pour les batailles sur cette carte.
 Words/phrases that distinguish this map from others.
-Words/phrases that distinguish this map from others.
+Mots/phrases qui distinguent cette carte des autres.
 Party 1 has no Pokémon.
-Party 1 has no Pokémon.
+L'équipe 1 n'a pas de Pokémon.
 Party 2 has no Pokémon.
-Party 2 has no Pokémon.
+L'équipe 2 n'a pas de Pokémon.
 The opposing {1}
 L'adversaire {1}
 The wild {1}
@@ -701,31 +701,31 @@ Des vents mystérieux et puissants protègent les Pokémon de type Vol !
 A shadow sky appeared!
 Un ciel ombragé est apparu !
 {1}'s {2} activated!
-{1}'s {2} activated!
+La capacité {2} de {1} s'est activée !
 An electric current runs across the battlefield!
-An electric current runs across the battlefield!
+Un courant électrique parcourt le champ de bataille !
 Grass grew to cover the battlefield!
-Grass grew to cover the battlefield!
+L'herbe a recouvert le champ de bataille !
 Mist swirled about the battlefield!
-Mist swirled about the battlefield!
+La brume tourbillonne autour du champ de bataille !
 The battlefield got weird!
-The battlefield got weird!
+Le champ de bataille est devenu étrange !
 Can't have battles larger than 2v2 where both sides have multiple trainers
-Can't have battles larger than 2v2 where both sides have multiple trainers
+Impossible d'avoir des combats de plus de 2v2 avec plusieurs dresseurs de chaque côté
 Error: def pbGetOwnerIndexFromBattlerIndex gives invalid owner index ({1} for battle type {2}v{3}, trainers {4}v{5})
-Error: def pbGetOwnerIndexFromBattlerIndex gives invalid owner index ({1} for battle type {2}v{3}, trainers {4}v{5})
+Erreur : def pbGetOwnerIndexFromBattlerIndex renvoie un index de propriétaire invalide ({1} pour un combat de type {2}v{3}, dresseurs {4}v{5})
 Player-side trainer {1} has no battler position for their Pokémon to go (trying {2}v{3} battle)
-Player-side trainer {1} has no battler position for their Pokémon to go (trying {2}v{3} battle)
+Le dresseur côté joueur {1} n'a pas de position pour que son Pokémon combatte (tentative de combat {2}v{3})
 Opposing trainer {1} has no battler position for their Pokémon to go (trying {2}v{3} battle)
-Opposing trainer {1} has no battler position for their Pokémon to go (trying {2}v{3} battle)
+Le dresseur adverse {1} n'a pas de position pour que son Pokémon combatte (tentative de combat {2}v{3})
 Player-side trainer {1} has no able Pokémon
-Player-side trainer {1} has no able Pokémon
+Le dresseur côté joueur {1} n'a plus de Pokémon capables de combattre
 Opposing trainer {1} has no able Pokémon
-Opposing trainer {1} has no able Pokémon
+Le dresseur adverse {1} n'a plus de Pokémon capables de combattre
 Couldn't lower either side's size any further, battle isn't possible
-Couldn't lower either side's size any further, battle isn't possible
+Impossible de réduire davantage la taille des deux équipes, le combat n'est pas possible
 Battler index {1} already exists
-Battler index {1} already exists
+L'index du combattant {1} existe déjà
 Oh! A wild {1} appeared!
 Oh ! Un {1} sauvage apparaît !
 Oh! A wild {1} and {2} appeared!
@@ -857,15 +857,15 @@ D'accord, {1} ! Reviens !
 {1} withdrew {2}!
 {1} a rappelé {2} !
 You're in charge, {1}!
-Tu es aux commandes, {1} !
+À toi de jouer, {1} !
 Go for it, {1}!
 Vas-y, {1} !
 Just a little more! Hang in there, {1}!
-Encore un petit effort ! Accroche-toi, {1} !
+Encore un petit effort ! Tiens bon, {1} !
 Your opponent's weak! Get 'em, {1}!
-Ton adversaire est faible ! Attrape-le, {1} !
+Ton adversaire est faible ! Vas-y, {1} !
 Oh!<<n>>A Shadow Pokémon!
-Oh !<<n>>Un Pokémon Obscur !
+Oh !<<n>>Un Pokémon Shadow !
 The healing wish came true for {1}!
 Le souhait de guérison s'est réalisé pour {1} !
 {1} became cloaked in mystical moonlight!
@@ -2297,155 +2297,155 @@ A glint appears in {1}'s eyes!
 VS
 VS
 Mind
-Mind
+Mental
 Skill
-Skill
+Talent
 Body
-Body
+Corps
 Judgment
-Judgment
+Jugement
 REFEREE: {1} VS {2}!<<n>>Commence battling!
-REFEREE: {1} VS {2}!<<n>>Commence battling!
+ARBITRE : {1} VS {2} !<<n>>Que le combat commence !
 REFEREE: That's it! We will now go to judging to determine the winner!
-REFEREE: That's it! We will now go to judging to determine the winner!
+ARBITRE : C'est terminé ! Nous allons maintenant passer au jugement pour déterminer le vainqueur !
 REFEREE: Judging category 1, Mind!<<n>>The Pokémon showing the most guts!
-REFEREE: Judging category 1, Mind!<<n>>The Pokémon showing the most guts!
+ARBITRE : Catégorie 1, Mental !<<n>>Le Pokémon qui montre le plus de courage !
 REFEREE: Judging category 2, Skill!<<n>>The Pokémon using moves the best!
-REFEREE: Judging category 2, Skill!<<n>>The Pokémon using moves the best!
+ARBITRE : Catégorie 2, Talent !<<n>>Le Pokémon qui utilise le mieux ses capacités !
 REFEREE: Judging category 3, Body!<<n>>The Pokémon with the most vitality!
-REFEREE: Judging category 3, Body!<<n>>The Pokémon with the most vitality!
+ARBITRE : Catégorie 3, Corps !<<n>>Le Pokémon avec le plus de vitalité !
 REFEREE: Judgment: {1} to {2}!<<n>>We have a draw!
-REFEREE: Judgment: {1} to {2}!<<n>>We have a draw!
+ARBITRE : Jugement : {1} contre {2} !<<n>>C'est un match nul !
 REFEREE: Judgment: {1} to {2}!<<n>>The winner is {3}'s {4}!
-REFEREE: Judgment: {1} to {2}!<<n>>The winner is {3}'s {4}!
+ARBITRE : Jugement : {1} contre {2} !<<n>>Le vainqueur est le {4} de {3} !
 REFEREE: Judgment: {1} to {2}!<<n>>The winner is {3}!
-REFEREE: Judgment: {1} to {2}!<<n>>The winner is {3}!
+ARBITRE : Jugement : {1} contre {2} !<<n>>Le vainqueur est {3} !
 The game has detected that the battery is low. You should save soon to avoid losing your progress.
-The game has detected that the battery is low. You should save soon to avoid losing your progress.
-{1} survived the poisoning.\<<n>>The poison faded away!
-{1} survived the poisoning.\<<n>>The poison faded away!
+Le jeu a détecté que la batterie est faible. Vous devriez sauvegarder rapidement pour éviter de perdre votre progression.
+{1} survived the poisoning.<<n>>The poison faded away!
+{1} a survécu à l'empoisonnement.<<n>>Le poison s'est dissipé !
 {1} fainted...
-{1} fainted...
+{1} s'est évanoui...
 You found \c[1]{1}\c[0]!
-You found \c[1]{1}\c[0]!
+Vous avez trouvé \c[1]{1}\c[0] !
 You found {1} \c[1]{2} {3}\c[0]!
-You found {1} \c[1]{2} {3}\c[0]!
+Vous avez trouvé {1} \c[1]{2} {3}\c[0] !
 You found \c[1]{1} {2}\c[0]!
-You found \c[1]{1} {2}\c[0]!
+Vous avez trouvé \c[1]{1} {2}\c[0] !
 You found {1} \c[1]{2}\c[0]!
-You found {1} \c[1]{2}\c[0]!
+Vous avez trouvé {1} \c[1]{2}\c[0] !
 You found an \c[1]{1}\c[0]!
-You found an \c[1]{1}\c[0]!
+Vous avez trouvé un \c[1]{1}\c[0] !
 You found a \c[1]{1}\c[0]!
-You found a \c[1]{1}\c[0]!
-You put the {1} in\<<n>>your Bag's <icon=bagPocket{2}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> pocket.
-You put the {1} in\<<n>>your Bag's <icon=bagPocket{2}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> pocket.
+Vous avez trouvé une \c[1]{1}\c[0] !
+You put the {1} in<<n>>your Bag's <icon=bagPocket{2}>\c<<[>>1<<]>>{3}\c<<[>>0<<]>> pocket.
+Vous avez placé le {1} dans<<n>>la poche {3} de votre sac <icon=bagPocket{2}>\c<<[>>1<<]>>.
 But your Bag is full...
-But your Bag is full...
+Mais votre sac est plein...
 You obtained \c[1]{1}\c[0]!
-You obtained \c[1]{1}\c[0]!
+Vous avez obtenu \c[1]{1}\c[0] !
 You obtained {1} \c[1]{2} {3}\c[0]!
-You obtained {1} \c[1]{2} {3}\c[0]!
+Vous avez obtenu {1} \c[1]{2} {3}\c[0] !
 You obtained \c[1]{1} {2}\c[0]!
-You obtained \c[1]{1} {2}\c[0]!
+Vous avez obtenu \c[1]{1} {2}\c[0] !
 You obtained {1} \c[1]{2}\c[0]!
-You obtained {1} \c[1]{2}\c[0]!
+Vous avez obtenu {1} \c[1]{2}\c[0] !
 You obtained an \c[1]{1}\c[0]!
-You obtained an \c[1]{1}\c[0]!
+Vous avez obtenu un \c[1]{1}\c[0] !
 You obtained a \c[1]{1}\c[0]!
-You obtained a \c[1]{1}\c[0]!
+Vous avez obtenu une \c[1]{1}\c[0] !
 Sunday
-Sunday
+Dimanche
 Monday
-Monday
+Lundi
 Tuesday
-Tuesday
+Mardi
 Wednesday
-Wednesday
+Mercredi
 Thursday
-Thursday
+Jeudi
 Friday
-Friday
+Vendredi
 Saturday
-Saturday
+Samedi
 January
-January
+Janvier
 February
-February
+Février
 March
-March
+Mars
 April
-April
+Avril
 May
-May
+Mai
 June
-June
+Juin
 July
-July
+Juillet
 August
-August
+Août
 September
-September
+Septembre
 October
-October
+Octobre
 November
-November
+Novembre
 December
-December
+Décembre
 Jan.
-Jan.
+Janv.
 Feb.
-Feb.
+Févr.
 Mar.
-Mar.
+Mars
 Apr.
-Apr.
+Avr.
 Jun.
-Jun.
+Juin
 Jul.
-Jul.
+Juil.
 Aug.
-Aug.
+Août
 Sep.
-Sep.
+Sept.
 Oct.
 Oct.
 Nov.
 Nov.
 Dec.
-Dec.
+Déc.
 Spring
-Spring
+Printemps
 Summer
-Summer
+Été
 Autumn
-Autumn
+Automne
 Winter
-Winter
+Hiver
 Sorry, a new Badge is required.
-Sorry, a new Badge is required.
+Désolé, un nouveau Badge est requis.
 This tree looks like it can be cut down.
-This tree looks like it can be cut down.
+Cet arbre semble pouvoir être coupé.
 This tree looks like it can be cut down!<<n>>Would you like to cut it?
-This tree looks like it can be cut down!<<n>>Would you like to cut it?
+Cet arbre semble pouvoir être coupé !<<n>>Voulez-vous le couper ?
 You can't use that here.
-You can't use that here.
+Vous ne pouvez pas utiliser cela ici.
 It can't be used when you have someone with you.
-It can't be used when you have someone with you.
+Cela ne peut pas être utilisé quand quelqu'un est avec vous.
 Want to escape from here and return to {1}?
-Want to escape from here and return to {1}?
+Voulez-vous fuir d'ici et retourner à {1} ?
 The sea is deep here. A Pokémon may be able to go underwater.
-The sea is deep here. A Pokémon may be able to go underwater.
+La mer est profonde ici. Un Pokémon pourrait peut-être plonger sous l'eau.
 The sea is deep here. Would you like to use Dive?
-The sea is deep here. Would you like to use Dive?
+La mer est profonde ici. Voulez-vous utiliser Plongée ?
 Light is filtering down from above. A Pokémon may be able to surface here.
-Light is filtering down from above. A Pokémon may be able to surface here.
+La lumière filtre d'en haut. Un Pokémon pourrait remonter à la surface ici.
 Light is filtering down from above. Would you like to use Dive?
-Light is filtering down from above. Would you like to use Dive?
+La lumière filtre d'en haut. Voulez-vous utiliser Plongée ?
 Flash is already being used.
-Flash is already being used.
+Flash est déjà utilisé.
 Nope. Nothing...
-Nope. Nothing...
+Non. Rien...
 A Pokémon could be in this tree. Maybe a Pokémon could shake it.
 A Pokémon could be in this tree. Maybe a Pokémon could shake it.
 A Pokémon could be in this tree. Would you like to use Headbutt?
@@ -2523,43 +2523,43 @@ The plant seemed to be delighted.
 It's soft, earthy soil.
 It's soft, earthy soil.
 Fertilize
-Fertilize
+Fertiliser
 Plant Berry
-Plant Berry
+Planter une Baie
 Exit
-Exit
+Quitter
 The {1} was scattered on the soil.
-The {1} was scattered on the soil.
+Le {1} a été répandu sur le sol.
 That won't fertilize the soil!
-That won't fertilize the soil!
+Cela ne fertilisera pas le sol !
 It's soft, loamy soil. Want to plant a berry?
-It's soft, loamy soil. Want to plant a berry?
+Le sol est meuble et fertile. Voulez-vous planter une baie ?
 Want to plant a Berry?
-Want to plant a Berry?
+Voulez-vous planter une baie ?
 The {1} was planted in the soft, earthy soil.
-The {1} was planted in the soft, earthy soil.
+Le {1} a été planté dans le sol meuble et fertile.
 {1} planted an {2} in the soft loamy soil.
-{1} planted an {2} in the soft loamy soil.
+{1} a planté un {2} dans le sol meuble et fertile.
 {1} planted a {2} in the soft loamy soil.
-{1} planted a {2} in the soft loamy soil.
+{1} a planté un {2} dans le sol meuble et fertile.
 There are {1} \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!<<n>>Want to pick them?
-There are {1} \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!<<n>>Want to pick them?
+Il y a {1} \c<<[>>1<<]>>{2}\c<<[>>0<<]>>!<<n>>Voulez-vous les cueillir ?
 There is 1 \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>Want to pick it?
-There is 1 \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>Want to pick it?
+Il y a 1 \c<<[>>1<<]>>{1}\c<<[>>0<<]>>!<<n>>Voulez-vous le cueillir ?
 Too bad...<<n>>The Bag is full...
-Too bad...<<n>>The Bag is full...
+Dommage...<<n>>Le Sac est plein...
 You picked the {1} \c[1]{2}\c[0].
-You picked the {1} \c[1]{2}\c[0].
+Vous avez cueilli le {1} \c[1]{2}\c[0].
 You picked the \c[1]{1}\c[0].
-You picked the \c[1]{1}\c[0].
+Vous avez cueilli le \c[1]{1}\c[0].
 The soil returned to its soft and earthy state.
-The soil returned to its soft and earthy state.
+Le sol est redevenu meuble et fertile.
 The soil returned to its soft and loamy state.
-The soil returned to its soft and loamy state.
+Le sol est redevenu meuble et fertile.
 Egg
-Egg
+Œuf
 Day-Care Couple
-Day-Care Couple
+Couple de la Pension
 {1} (♂, Lv.{2})
 {1} (♂, Lv.{2})
 {1} (♀, Lv.{2})
@@ -3455,63 +3455,63 @@ Graphics/UI/Bag/icon_register
 x{1: 3d}
 x{1: 3d}
 Close bag.
-Close bag.
+Fermer le sac.
 Toss
-Toss
+Jeter
 Deselect
-Deselect
+Désélectionner
 Register
-Register
+Enregistrer
 The {1} can't be held.
-The {1} can't be held.
+Le {1} ne peut pas être tenu.
 Toss out how many {1}?
-Toss out how many {1}?
+Jeter combien de {1} ?
 Is it OK to throw away {1} {2}?
-Is it OK to throw away {1} {2}?
+Est-ce correct de jeter {1} {2} ?
 Threw away {1} {2}.
-Threw away {1} {2}.
+A jeté {1} {2}.
 Change quantity
-Change quantity
+Changer la quantité
 Make Mystery Gift
-Make Mystery Gift
+Créer un Cadeau Mystère
 Choose new quantity of {1} (max. {2}).
-Choose new quantity of {1} (max. {2}).
+Choisir une nouvelle quantité de {1} (max. {2}).
 How many do you want to withdraw?
-How many do you want to withdraw?
+Combien voulez-vous retirer ?
 Withdrew {1} {2}.
-Withdrew {1} {2}.
+A retiré {1} {2}.
 There's no more room in the Bag.
-There's no more room in the Bag.
+Il n'y a plus de place dans le sac.
 How many do you want to deposit?
-How many do you want to deposit?
+Combien voulez-vous déposer ?
 Deposited {1} {2}.
-Deposited {1} {2}.
+A déposé {1} {2}.
 There's no room to store items.
-There's no room to store items.
+Il n'y a pas de place pour stocker les objets.
 That's too important to toss out!
-That's too important to toss out!
+C'est trop important pour être jeté !
 Map
-Map
+Carte
 Phone
-Phone
+Téléphone
 Jukebox
 Jukebox
 The map data cannot be found.
-The map data cannot be found.
+Les données de la carte sont introuvables.
 Set the name for this point.
-Set the name for this point.
+Définir le nom de ce point.
 ACTION: Fly
-ACTION: Fly
+ACTION : Voler
 ACTION: Cancel Fly
-ACTION: Cancel Fly
+ACTION : Annuler Vol
 Save changes?
-Save changes?
+Enregistrer les modifications ?
 Exit from the map?
-Exit from the map?
+Quitter la carte ?
 Would you like to use Fly to go to {1}?
-Would you like to use Fly to go to {1}?
+Voulez-vous utiliser Vol pour aller à {1} ?
 Registered
-Registered
+Enregistré
 Waiting for a rematch
 Waiting for a rematch
 There are no phone numbers stored.
@@ -3801,165 +3801,165 @@ Toss<<n>>Item
 x{1:03d}
 x{1:03d}
 Withdraw Item
-Withdraw Item
+Retirer un objet
 Deposit Item
-Deposit Item
+Déposer un objet
 Toss Item
-Toss Item
+Jeter un objet
 Take out items from the PC.
-Take out items from the PC.
+Retirer des objets du PC.
 Store items in the PC.
-Store items in the PC.
+Stocker des objets dans le PC.
 Throw away items stored in the PC.
-Throw away items stored in the PC.
+Jeter des objets stockés dans le PC.
 Go back to the previous menu.
-Go back to the previous menu.
+Revenir au menu précédent.
 There are no items.
-There are no items.
+Il n'y a aucun objet.
 There's no Mail here.
-There's no Mail here.
+Il n'y a pas de courrier ici.
 What do you want to do with {1}'s Mail?
-What do you want to do with {1}'s Mail?
+Que voulez-vous faire avec le courrier de {1} ?
 Move to Bag
-Move to Bag
+Déplacer vers le Sac
 The message will be lost. Is that OK?
-The message will be lost. Is that OK?
+Le message sera perdu. Est-ce que ça vous va ?
 The Mail was returned to the Bag with its message erased.
-The Mail was returned to the Bag with its message erased.
+Le courrier a été déplacé dans le Sac avec son message effacé.
 The Bag is full.
-The Bag is full.
+Le Sac est plein.
 {1} booted up the PC.
-{1} booted up the PC.
+{1} a démarré le PC.
 Item Storage
-Item Storage
+Stockage d'objets
 Mailbox
-Mailbox
+Boîte aux lettres
 Turn Off
-Turn Off
+Éteindre
 Which PC should be accessed?
-Which PC should be accessed?
+Quel PC souhaitez-vous accéder ?
 {1}'s PC
-{1}'s PC
+Le PC de {1}
 Someone's PC
-Someone's PC
+Le PC de quelqu'un
 The Pokémon Storage System was opened.
-The Pokémon Storage System was opened.
+Le système de stockage des Pokémon a été ouvert.
 Organize Boxes
-Organize Boxes
+Organiser les Boîtes
 Withdraw Pokémon
-Withdraw Pokémon
+Retirer un Pokémon
 Deposit Pokémon
-Deposit Pokémon
+Déposer un Pokémon
 See ya!
-See ya!
+À plus !
 Organize the Pokémon in Boxes and in your party.
-Organize the Pokémon in Boxes and in your party.
+Organisez les Pokémon dans les Boîtes et votre équipe.
 Move Pokémon stored in Boxes to your party.
-Move Pokémon stored in Boxes to your party.
+Déplacer les Pokémon stockés dans les Boîtes vers votre équipe.
 Store Pokémon in your party in Boxes.
-Store Pokémon in your party in Boxes.
+Stocker les Pokémon de votre équipe dans les Boîtes.
 Return to the previous menu.
-Return to the previous menu.
+Retourner au menu précédent.
 Your party is full!
-Your party is full!
+Votre équipe est pleine !
 Can't deposit the last Pokémon!
-Can't deposit the last Pokémon!
+Impossible de déposer le dernier Pokémon !
 Accessed {1}'s PC.
-Accessed {1}'s PC.
+Accès au PC de {1}.
 Log off
-Log off
+Déconnexion
 $ {1}
 $ {1}
 Quit shopping.
-Quit shopping.
+Quitter les achats.
 In Bag:<r>{1}
-In Bag:<r>{1}
+Dans le Sac :<r>{1}
 Money:<<n>><r>{1}
-Money:<<n>><r>{1}
+Argent :<<n>><r>{1}
 x{1}<r>$ {2}
 x{1}<r>$ {2}
 You don't have enough money.
-You don't have enough money.
+Vous n'avez pas assez d'argent.
 So you want the {1}?<<n>>It'll be ${2}. All right?
-So you want the {1}?<<n>>It'll be ${2}. All right?
+Alors, vous voulez le {1} ?<<n>>Ça fera ${2}. C'est d'accord ?
 So how many {1}?
-So how many {1}?
+Combien de {1} voulez-vous ?
 So you want {1} {2}?<<n>>They'll be ${3}. All right?
-So you want {1} {2}?<<n>>They'll be ${3}. All right?
+Donc, vous voulez {1} {2} ?<<n>>Ça fera ${3}. C'est d'accord ?
 So you want {1} {2}?<<n>>It'll be ${3}. All right?
-So you want {1} {2}?<<n>>It'll be ${3}. All right?
+Donc, vous voulez {1} {2} ?<<n>>Ça fera ${3}. C'est d'accord ?
 Here you are! Thank you!
-Here you are! Thank you!
+Voilà ! Merci !
 And have {1} {2} on the house!
-And have {1} {2} on the house!
+Et voici {1} {2} en cadeau !
 And have 1 {1} on the house!
-And have 1 {1} on the house!
+Et voici 1 {1} en cadeau !
 Failed to delete stored items
-Failed to delete stored items
+Impossible de supprimer les objets stockés
 You have no room in your Bag.
-You have no room in your Bag.
+Il n'y a plus de place dans votre Sac.
 Oh, no. I can't buy {1}.
-Oh, no. I can't buy {1}.
+Oh non. Je ne peux pas acheter {1}.
 How many {1} would you like to sell?
-How many {1} would you like to sell?
+Combien de {1} voulez-vous vendre ?
 I can pay ${1}.<<n>>Would that be OK?
-I can pay ${1}.<<n>>Would that be OK?
+Je peux vous donner ${1}.<<n>>Ça vous va ?
 You turned over the {1} and got ${2}.
-You turned over the {1} and got ${2}.
+Vous avez vendu le {1} et obtenu ${2}.
 I'm here to buy
-I'm here to buy
+Je suis ici pour acheter
 I'm here to sell
-I'm here to sell
+Je suis ici pour vendre
 No, thanks
-No, thanks
+Non, merci
 Welcome! How may I help you?
-Welcome! How may I help you?
+Bienvenue ! Comment puis-je vous aider ?
 Do come again!
-Do come again!
+Revenez quand vous voulez !
 Is there anything else I can do for you?
-Is there anything else I can do for you?
+Puis-je faire autre chose pour vous ?
 {1} BP
-{1} BP
+{1} PCo
 Battle Points:<<n>><r>{1}
-Battle Points:<<n>><r>{1}
+Points de Combat :<<n>><r>{1}
 x{1}<r>{2} BP
-x{1}<r>{2} BP
+x{1}<r>{2} PCo
 You don't have enough BP.
-You don't have enough BP.
+Vous n'avez pas assez de Points de Combat.
 You would like the {1}?<<n>>That will be {2} BP.
-You would like the {1}?<<n>>That will be {2} BP.
+Vous voulez le {1} ?<<n>>Cela coûtera {2} PCo.
 How many {1} would you like?
-How many {1} would you like?
+Combien de {1} voulez-vous ?
 You would like {1} {2}?<<n>>They'll be {3} BP.
-You would like {1} {2}?<<n>>They'll be {3} BP.
+Vous voulez {1} {2} ?<<n>>Cela coûtera {3} PCo.
 So you want {1} {2}?<<n>>It'll be {3} BP.
-So you want {1} {2}?<<n>>It'll be {3} BP.
+Donc, vous voulez {1} {2} ?<<n>>Ça fera {3} PCo.
 I'm sorry, you don't have enough BP.
-I'm sorry, you don't have enough BP.
+Je suis désolé, vous n'avez pas assez de Points de Combat.
 Welcome to the Exchange Service Corner!
-Welcome to the Exchange Service Corner!
+Bienvenue au Coin d'Échange !
 We can exchange your BP for fabulous items.
-We can exchange your BP for fabulous items.
+Nous pouvons échanger vos Points de Combat contre de fabuleux objets.
 Thank you for visiting.
-Thank you for visiting.
+Merci de votre visite.
 Please visit us again when you have saved up more BP.
-Please visit us again when you have saved up more BP.
+Revenez nous voir lorsque vous aurez accumulé plus de Points de Combat.
 Teach which move?
-Teach which move?
+Enseigner quelle capacité ?
 Teach {1}?
-Teach {1}?
+Enseigner {1} ?
 Give up trying to teach a new move to {1}?
-Give up trying to teach a new move to {1}?
+Renoncer à enseigner une nouvelle capacité à {1} ?
 Your {1} in the Purify Chamber is ready for purification!
-Your {1} in the Purify Chamber is ready for purification!
+Votre {1} dans la Chambre de Purification est prêt à être purifié !
 Can't place an egg there.
-Can't place an egg there.
+Impossible de placer un œuf ici.
 Only a Shadow Pokémon can go there.
-Only a Shadow Pokémon can go there.
+Seul un Pokémon Obscur peut aller ici.
 Can't place a Shadow Pokémon there.
-Can't place a Shadow Pokémon there.
+Impossible de placer un Pokémon Obscur ici.
 This {1} is ready to open its heart. However, there must be at least one regular Pokémon in the set to perform a purification ceremony.
-This {1} is ready to open its heart. However, there must be at least one regular Pokémon in the set to perform a purification ceremony.
+Ce {1} est prêt à ouvrir son cœur. Cependant, il doit y avoir au moins un Pokémon normal dans l'ensemble pour effectuer une cérémonie de purification.
 MOVE
 DÉPLACER
 SUMMARY

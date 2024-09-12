@@ -50,15 +50,31 @@ module PokemonSelections
     :FOONGUS,
     :VANILLITE,
     :CHERUBI,
-    :COMBEE
+    :COMBEE,
   ]
 
   Dealer_one = [
     :SPEAROW,
     :SENTRET,
-    :LOTAD,
+    :BUIZEL,
     :POOCHYENA,
-    :HOUNDOUR
+    :DUCKLETT,
+  ]
+
+  Dealer_two = [
+    :DEWPIDER,
+    :DRILBUR,
+    :CHEWTLE,
+    :SHROODLE,
+    :FOMANTIS,
+  ]
+
+  Dealer_three = [
+    :VAROOM,
+    :WINGULL,
+    :LITLEO,
+    :EKANS,
+    :BLITZLE,
   ]
 
   Mythical = [

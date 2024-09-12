@@ -120,6 +120,7 @@ ShadowSprite = 0,9,16
 BackSprite = -11,17
 FrontSprite = 10,12
 ShadowSprite = 1,-4,-2
+SuperShinyHue = 30
 #-------------------------------
 [ARBOK]
 BackSprite = 18,34
@@ -131,6 +132,7 @@ ShadowSprite = 6,2,6
 BackSprite = -5,5
 FrontSprite = 7,4
 ShadowSprite = 1,12,4
+SuperShinyHue = -20
 #-------------------------------
 [RAICHU]
 BackSprite = 10,27
@@ -326,6 +328,7 @@ ShadowSprite = 0,-3,-2
 BackSprite = 0,25
 FrontSprite = 0,-3
 ShadowSprite = 0,10,17
+SuperShinyHue = -40
 #-------------------------------
 [KADABRA]
 BackSprite = 0,36
@@ -679,6 +682,7 @@ ShadowSprite = 5,-9,2
 BackSprite = 4,15
 FrontSprite = 1,12
 ShadowSprite = 0,-10,0
+SuperShinyHue = 155
 #-------------------------------
 [EEVEE]
 BackSprite = 0,8
@@ -1863,6 +1867,7 @@ ShadowSprite = 4,35,24
 BackSprite = 0,28
 FrontSprite = 2,9
 ShadowSprite = 3,-2,-1
+SuperShinyHue = 240
 #-------------------------------
 [WYNAUT]
 BackSprite = 6,11
@@ -1947,11 +1952,13 @@ ShadowSprite = 4,21,20
 BackSprite = 7,34
 FrontSprite = -3,10
 ShadowSprite = 0,0,8
+SuperShinyHue = -20
 #-------------------------------
 [METAGROSS]
 BackSprite = -1,50
 FrontSprite = -1,24
 ShadowSprite = 1,-25,-7
+SuperShinyHue = -20
 #-------------------------------
 [REGIROCK]
 BackSprite = 2,35
@@ -3541,6 +3548,7 @@ BackSprite = 0,41
 FrontSprite = 0,24
 ShadowSize = -1
 ShadowSprite = 2,12,4
+SuperShinyHue = 180
 #-------------------------------
 [SPRITZEE]
 BackSprite = 0,57
@@ -3694,6 +3702,7 @@ ShadowSprite = 0,-22,4
 BackSprite = 2,55
 FrontSprite = 1,9
 ShadowSprite = 2,7,6
+SuperShinyHue = 170
 #-------------------------------
 [PUMPKABOO]
 BackSprite = -1,47

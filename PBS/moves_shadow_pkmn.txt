@@ -10,7 +10,7 @@ TotalPP = 0
 Target = NearOther
 FunctionCode = UserLosesHalfHP
 Flags = Contact,CanProtect
-Description = A shadowy aura ram attack that also rebounds on the user.
+Description = Une attaque bélier auréolée d'ombre qui rebondit également sur l'utilisateur.
 #-------------------------------
 [SHADOWSTORM]
 Name = Shadow Storm
@@ -22,7 +22,7 @@ TotalPP = 0
 Target = AllFoes
 FunctionCode = DoublePowerIfTargetUnderwater
 Flags = CanProtect
-Description = A shadowy aura is used to whip up a vicious tornado.
+Description = Une aura d'ombre est utilisée pour créer une tornade vicieuse.
 #-------------------------------
 [SHADOWBLAST]
 Name = Shadow Blast
@@ -34,7 +34,7 @@ TotalPP = 0
 Target = NearOther
 FunctionCode = None
 Flags = CanProtect,HighCriticalHitRate
-Description = A wicked blade of air is formed using a shadowy aura.
+Description = Une lame d'air maléfique est formée à l'aide d'une aura d'ombre.
 #-------------------------------
 [SHADOWBOLT]
 Name = Shadow Bolt
@@ -47,7 +47,7 @@ Target = NearOther
 FunctionCode = ParalyzeTarget
 Flags = CanProtect
 EffectChance = 10
-Description = A shadowy thunder attack that may paralyze.
+Description = Une attaque d'ombre qui peut paralyser.
 #-------------------------------
 [SHADOWBREAK]
 Name = Shadow Break
@@ -59,7 +59,7 @@ TotalPP = 0
 Target = NearOther
 FunctionCode = None
 Flags = Contact,CanProtect
-Description = A shattering ram attack with a shadowy aura.
+Description = Une attaque de bélier fracassante avec une aura d'ombre.
 #-------------------------------
 [SHADOWCHILL]
 Name = Shadow Chill
@@ -72,7 +72,7 @@ Target = NearOther
 FunctionCode = FreezeTarget
 Flags = CanProtect
 EffectChance = 10
-Description = A shadowy ice attack that may freeze.
+Description = Attaques de glace ombrageuses qui peuvent geler.
 #-------------------------------
 [SHADOWFIRE]
 Name = Shadow Fire
@@ -85,7 +85,7 @@ Target = NearOther
 FunctionCode = BurnTarget
 Flags = CanProtect
 EffectChance = 10
-Description = A shadowy fireball attack that may inflict a burn.
+Description = Une attaque de boule de feu ombrageuse qui peut infliger une brûlure.
 #-------------------------------
 [SHADOWRAVE]
 Name = Shadow Rave
@@ -97,7 +97,7 @@ TotalPP = 0
 Target = AllFoes
 FunctionCode = None
 Flags = CanProtect
-Description = A shadowy aura in the ground is used to launch spikes.
+Description = Une aura d'ombre dans le sol est utilisée pour lancer des pics.
 #-------------------------------
 [SHADOWRUSH]
 Name = Shadow Rush
@@ -109,7 +109,7 @@ TotalPP = 0
 Target = NearOther
 FunctionCode = None
 Flags = Contact,CanProtect
-Description = A reckless move that also hurts the user.
+Description = Un mouvement imprudent qui blesse également l'utilisateur.
 #-------------------------------
 [SHADOWWAVE]
 Name = Shadow Wave
@@ -121,7 +121,7 @@ TotalPP = 0
 Target = AllFoes
 FunctionCode = None
 Flags = CanProtect
-Description = Shadowy aura waves are loosed to inflict damage.
+Description = Des vagues d'auras ombrageuses sont libérées pour infliger des dégâts.
 #-------------------------------
 [SHADOWBLITZ]
 Name = Shadow Blitz
@@ -133,7 +133,7 @@ TotalPP = 0
 Target = NearOther
 FunctionCode = None
 Flags = Contact,CanProtect
-Description = A Pokémon throws this tackle while casting a shadowy aura.
+Description = Un Pokémon lance ce tacle tout en projetant une aura d'ombre.
 #-------------------------------
 [SHADOWDOWN]
 Name = Shadow Down
@@ -144,7 +144,7 @@ TotalPP = 0
 Target = AllFoes
 FunctionCode = LowerTargetDefense2
 Flags = CanProtect
-Description = A shadowy aura sharply cuts the foe's Defense.
+Description = Une aura d'ombre réduit fortement la Défense de l'ennemi.
 #-------------------------------
 [SHADOWHALF]
 Name = Shadow Half
@@ -155,7 +155,7 @@ TotalPP = 0
 Target = AllBattlers
 FunctionCode = AllBattlersLoseHalfHPUserSkipsNextTurn
 Flags = CanProtect
-Description = A shadowy aura's energy cuts everyone's HP by half.
+Description = L'énergie d'une aura d'ombre réduit de moitié les PV de tout le monde.
 #-------------------------------
 [SHADOWHOLD]
 Name = Shadow Hold
@@ -166,7 +166,7 @@ TotalPP = 0
 Target = AllFoes
 FunctionCode = TrapTargetInBattle
 Flags = CanProtect
-Description = The opponent Pokémon cannot escape.
+Description = Le Pokémon adverse ne peut pas s'échapper.
 #-------------------------------
 [SHADOWMIST]
 Name = Shadow Mist
@@ -177,7 +177,7 @@ TotalPP = 0
 Target = AllFoes
 FunctionCode = LowerTargetEvasion2
 Flags = CanProtect
-Description = A shadowy aura sharply cuts the foe's evasiveness.
+Description = Une aura d'ombre coupe net la capacité d'évasion de l'ennemi.
 #-------------------------------
 [SHADOWPANIC]
 Name = Shadow Panic
@@ -188,7 +188,7 @@ TotalPP = 0
 Target = AllFoes
 FunctionCode = ConfuseTarget
 Flags = CanProtect,Sound
-Description = A shadowy aura emanates to confuse the foe.
+Description = Une aura d'ombre émane pour semer la confusion dans l'esprit de l'ennemi.
 #-------------------------------
 [SHADOWSHED]
 Name = Shadow Shed
@@ -210,4 +210,4 @@ TotalPP = 0
 Target = BothSides
 FunctionCode = StartShadowSkyWeather
 Flags = CanProtect
-Description = Darkness hurts all but Shadow Pokémon for 5 turns.
+Description = La noirceur blesse tous les Pokémon sauf les Pokémon Obscurs pendant 5 tours.

@@ -121,6 +121,37 @@ Pokemon = ROSERADE,21
     Size = 220
     TeraType = GRASS
 #-------------------------------
+[CHAMPION3,Chrisys]
+Items = TERAORB
+LoseText = Hé bien ! C'était impressionnant dit donc ! 
+Pokemon = DONDOZO,26
+    Moves = WATERFALL,REST,SLEEPTALK,AVALANCHE
+    IV = 20,18,12,18,12,20
+    EV = 0,0,0,0,0,0
+    NoTera = true
+Pokemon = GOLISOPOD,26
+    Moves = AQUAJET,LIQUIDATION,BRICKBREAK,RAINDANCE
+    AbilityIndex = 2
+    IV = 23,15,23,15,22,6
+    EV = 0,0,0,0,0,0
+    NoTera = true
+Pokemon = GYARADOS,28
+    SuperShiny = true
+    Moves = DRAGONDANCE,WATERFALL,BOUNCE,RAINDANCE
+    SuperShiny = true
+    AbilityIndex = 0
+    NoTera = true
+    IV = 10,31,10,20,31,10
+    EV = 0,50,0,30,50,0
+Pokemon = LAPRAS,29
+    Moves = HYDROPUMP,ICEBEAM,BUBBLEBEAM,ANCIENTPOWER
+    AbilityIndex = 0
+    IV = 31,30,30,30,31,31
+    EV = 20,0,0,10,60,60
+    Happiness = 250
+    Size = 220
+    TeraType = WATER
+#-------------------------------
 [RIVAL,Ben]
 LoseText = Tu as déjà trouver ton partenaire on dirai !
 Pokemon = RIOLU,5
@@ -303,4 +334,125 @@ Pokemon = GENGAR,25
     SuperShiny = true
     Ball = DREAMBALL
     Size = 225
+    TeraType = GHOST
+#------------------------------- ROUTE 05
+[POKEFAN,Damien]
+LoseText = Oulà ! Mon dos ...
+Pokemon = PIKACHU,20
+Pokemon = EEVEE,20
+#------------------------------- ROUTE 05
+[CAMERAMAN,Jammy]
+LoseText = J'ai mal cadré ... on refait ?
+Pokemon = MACHOP,19
+Pokemon = LUXIO,20
+#------------------------------- ROUTE 05
+[REPORTER,Jessica]
+LoseText = C'est sûr que on passera au 20h avec ça ! 
+Pokemon = ESPURR,19
+Pokemon = CHATOT,20
+#------------------------------- ROUTE 05
+[CANON2,Mélinda]
+LoseText = Je reste fraiche malgrès ma défaite 
+Pokemon = FLAAFFY,20
+Pokemon = BEAUTIFLY,20
+Pokemon = MIGHTYENA,20
+#------------------------------- ROUTE 05
+[CANON2,Brigitte]
+LoseText = J'espère que je l'ai impresionner malgrès tout ! 
+Pokemon = CLAMPERL,20
+#------------------------------- ROUTE 05
+[RICHARD,Emmanuel]
+LoseText = Tu croit qu'elle à été impresionner par mon pokémon ?
+Pokemon = ONIX,20
+    Shiny = true
+#------------------------------- ROUTE 05
+[SOCIALISTE,Raymonde]
+LoseText = Heuresement que ta famille paye déjà ma retraite ... 
+Pokemon = GOTHITA,19
+Pokemon = FIDOUGH,20
+Pokemon = FLOETTE,20
+#------------------------------- ROUTE 05
+[RICHARD,Armand]
+LoseText = Quoi ? Même mes talents de stratège ne suffisent pas à gagner ?!
+Pokemon = MEOWTH,19
+Pokemon = FURFROU,21
+    Form = 2
+#------------------------------- ROUTE 05
+[CAMPER,Maxime]
+LoseText = Je suppose que j'ai encore du chemin à faire
+Pokemon = GROWLITHE,20
+Pokemon = GLOOM,21
+#------------------------------- ROUTE 05
+[ECOLIER,Théo]
+LoseText = Ah... Bon, je pense que c'était... faillible, finalement...
+Pokemon = CORVISQUIRE,18
+Pokemon = KRICKETUNE,19
+Pokemon = HERDIER,19
+#------------------------------- ARENE EAU
+[TUBER_M,Arthur]
+LoseText = Ça manque d'harmonie... On a été décalés. 
+Pokemon = WINGULL,25
+Pokemon = QUAGSIRE,25
+#------------------------------- ARENE EAU
+[TUBER_F,Céline]
+LoseText = L'eau n'était pas de notre côté aujourd'hui...
+Pokemon = DUCKLETT,25
+Pokemon = OCTILLERY,25
+#------------------------------- ARENE EAU
+[TUBER_M,Marcel]
+LoseText = Ouf, on a été balayés comme une vaguelette...
+Pokemon = SHELLOS,25
+    Form = 1
+Pokemon = SEAKING,27
+#------------------------------- ARENE EAU
+[TUBER_F,Ondine]
+LoseText = Même les meilleurs nageurs peuvent couler de temps en temps...
+Pokemon = SHELLOS,25
+    Form = 0
+Pokemon = GOLDEEN,26
+#------------------------------- ARENE EAU
+[SWIMMER_F,Aqua]
+LoseText = La marée m’a emporté...
+Pokemon = STARMIE,26
+Pokemon = LANTURN,27
+#------------------------------- ARENE EAU
+[SWIMMER_M,Enzo]
+LoseText = Eh bien... Je suppose que c'était un contre-courant.
+Pokemon = GYARADOS,26
+Pokemon = FLOATZEL,27
+#------------------------------- ARENE EAU
+[SWIMMER_F,Emma]
+LoseText = Je n'ai pas vu cette vague arriver...
+Pokemon = FINNEON,27
+Pokemon = LUVDISC,28
+#------------------------------- PLAINE ECARLATE
+[ARTISTE,Jean-paul]
+LoseText = Mon magnifique paysage, ruiné par toi ! 
+Pokemon = BRUXISH,23
+Pokemon = SIGILYPH,23
+Pokemon = VIVILLON,23
+#-------------------------------
+[ZEKE,Zéké]
+Items = TERAORB
+LoseText = Tu es un vrai stratége 
+Pokemon = PIKACHU,25
+    Item = LIGHTBALL
+    SuperShiny = true
+    AbilityIndex = 1
+    IV = 7,10,31,31,7,7
+    EV = 6,0,0,50,50,0
+    Moves = THUNDERBOLT,SURF,FLY,GRASSKNOT
+Pokemon = DITTO,27
+    Name = Masuda
+    SuperShiny = true
+    AbilityIndex = 1
+    IV = 31,31,31,31,31,31
+    EV = 13,13,13,13,13,13
+Pokemon = TREVENANT,28
+    Item = CHESTOBERRY
+    Shiny = true
+    Moves = REST,POISONJAB,SEEDBOMB,SHADOWCLAW 
+    AbilityIndex = 2
+    IV = 10,20,20,0,20,0
+    EV = 0,20,20,0,20,0
     TeraType = GHOST

@@ -80,7 +80,7 @@ VictoryBGM = 031 - Victory 01
 [CHAMPION1]
 Name = Champion
 Gender = Female
-BaseMoney = 55
+BaseMoney = 54
 SkillLevel = 100
 Flags = ReserveLastPokemon,UsePokemonInOrder
 IntroBGM = 012 - Gym Leader Meet
@@ -97,6 +97,16 @@ IntroBGM = 012 - Gym Leader Meet
 BattleBGM = 010 - Gym Battle
 VictoryBGM = 011 - Victory Gym Leader
 #-------------------------------
+[CHAMPION3]
+Name = Champion
+Gender = Male
+BaseMoney = 56
+SkillLevel = 100
+Flags = ReserveLastPokemon,UsePokemonInOrder
+IntroBGM = 012 - Gym Leader Meet
+BattleBGM = 047 - Gym Leader 2v2
+VictoryBGM = 011 - Victory Gym Leader
+#-------------------------------
 [TRAINER_TAKA]
 Name = King
 Gender = Male
@@ -111,6 +121,24 @@ Name = Canon
 Gender = Female
 BaseMoney = 21
 SkillLevel = 20
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[CANON2]
+Name = Canon
+Gender = Female
+BaseMoney = 28
+SkillLevel = 30
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[ARTISTE]
+Name = Artiste
+Gender = Male
+BaseMoney = 36
+SkillLevel = 40
 IntroBGM = 013 - Meet kid
 BattleBGM = 030 - Battle 01
 VictoryBGM = 031 - Victory 01
@@ -142,11 +170,65 @@ IntroBGM = 016 - Meet Gentleman
 BattleBGM = 030 - Battle 01
 VictoryBGM = 031 - Victory 01
 #-------------------------------
+[SOCIALISTE]
+Name = Socialiste
+Gender = Female
+BaseMoney = 46
+SkillLevel = 36
+IntroBGM = 016 - Meet Gentleman
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
 [MONTAGNARD]
 Name = Montagnard
 Gender = Male
 BaseMoney = 28
 SkillLevel = 21
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[CAMPER]
+Name = Camper
+Gender = Male
+BaseMoney = 24
+SkillLevel = 18
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[ECOLIER]
+Name = Ecolier
+Gender = Male
+BaseMoney = 20
+SkillLevel = 22
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[CAMERAMAN]
+Name = Cameraman
+Gender = Male
+BaseMoney = 28
+SkillLevel = 40
+IntroBGM = 017 - Mett Super Dresseur
+BattleBGM = 045 - Reportage
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[REPORTER]
+Name = Reporter
+Gender = Female
+BaseMoney = 28
+SkillLevel = 40
+IntroBGM = 017 - Mett Super Dresseur
+BattleBGM = 045 - Reportage
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[POKEFAN]
+Name = PokeFan 
+Gender = Male
+BaseMoney = 26
+SkillLevel = 32
 IntroBGM = 013 - Meet kid
 BattleBGM = 030 - Battle 01
 VictoryBGM = 031 - Victory 01
@@ -183,19 +265,19 @@ IntroBGM = 013 - Meet kid
 BattleBGM = 030 - Battle 01
 VictoryBGM = 031 - Victory 01
 #-------------------------------
-[SWIMMER_F]
-Name = Nageuse
+[FILLETTE]
+Name = Fillette
 Gender = Female
-BaseMoney = 18
+BaseMoney = 24
 SkillLevel = 30
 IntroBGM = 013 - Meet kid
 BattleBGM = 030 - Battle 01
 VictoryBGM = 031 - Victory 01
 #-------------------------------
-[FILLETTE]
-Name = Fillette
+[SWIMMER_F]
+Name = Nageuse
 Gender = Female
-BaseMoney = 24
+BaseMoney = 18
 SkillLevel = 30
 IntroBGM = 013 - Meet kid
 BattleBGM = 030 - Battle 01
@@ -304,4 +386,13 @@ SkillLevel = 100
 Flags = ReserveLastPokemon
 IntroBGM = 042 - Une rencontre innatendu
 BattleBGM = 043 - Le createur
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[ZEKE]
+Name = Leadeur Managarm 
+Gender = Male
+BaseMoney = 40
+SkillLevel = 100
+IntroBGM = 032 - Team Managarm Aggro
+BattleBGM = 049 - Leader Managarm Phase 1
 VictoryBGM = 031 - Victory 01

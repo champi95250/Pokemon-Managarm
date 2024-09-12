@@ -9,6 +9,7 @@ ShadowSprite = 0,-6,1
 BackSprite = -5,5
 FrontSprite = 8,5
 ShadowSprite = 1,12,3
+SuperShinyHue = -30
 #-------------------------------
 [RAICHU,,female]
 BackSprite = 8,27

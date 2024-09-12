@@ -3,303 +3,303 @@
 #-------------------------------
 [ITEM_DESCRIPTIONS]
 An item that prevents weak wild Pokémon from appearing for 100 steps after its use.
-An item that prevents weak wild Pokémon from appearing for 100 steps after its use.
+Un objet qui empêche les Pokémon sauvages faibles d'apparaître pendant 100 pas après son utilisation.
 An item that prevents weak wild Pokémon from appearing for 200 steps after its use.
-An item that prevents weak wild Pokémon from appearing for 200 steps after its use.
+Un objet qui empêche les Pokémon sauvages faibles d'apparaître pendant 200 pas après son utilisation.
 An item that prevents weak wild Pokémon from appearing for 250 steps after its use.
-An item that prevents weak wild Pokémon from appearing for 250 steps after its use.
+Un objet qui empêche les Pokémon sauvages faibles d'apparaître pendant 250 pas après son utilisation.
 A black flute made from blown glass. Its melody makes wild Pokémon less likely to appear.
-A black flute made from blown glass. Its melody makes wild Pokémon less likely to appear.
+Une flûte noire faite de verre soufflé. Sa mélodie rend les Pokémon sauvages moins susceptibles d'apparaître.
 A white flute made from blown glass. Its melody makes wild Pokémon more likely to appear.
-A white flute made from blown glass. Its melody makes wild Pokémon more likely to appear.
+Une flûte blanche faite de verre soufflé. Sa mélodie rend les Pokémon sauvages plus susceptibles d'apparaître.
 A sweet honey with a lush aroma that attracts wild Pokémon when used in tall grass, in caves, or elsewhere.
-A sweet honey with a lush aroma that attracts wild Pokémon when used in tall grass, in caves, or elsewhere.
+Un miel sucré au parfum riche qui attire les Pokémon sauvages lorsqu'il est utilisé dans les hautes herbes, dans les grottes ou ailleurs.
 A small red shard. It appears to be from some sort of implement made long ago.
-A small red shard. It appears to be from some sort of implement made long ago.
+Un petit éclat rouge. Il semble provenir d'un ancien outil.
 A small yellow shard. It appears to be from some sort of implement made long ago.
-A small yellow shard. It appears to be from some sort of implement made long ago.
+Un petit éclat jaune. Il semble provenir d'un ancien outil.
 A small blue shard. It appears to be from some sort of implement made long ago.
-A small blue shard. It appears to be from some sort of implement made long ago.
+Un petit éclat bleu. Il semble provenir d'un ancien outil.
 A small green shard. It appears to be from some sort of implement made long ago.
-A small green shard. It appears to be from some sort of implement made long ago.
+Un petit éclat vert. Il semble provenir d'un ancien outil.
 A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.
-A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.
+Une pierre particulière qui fait évoluer certaines espèces de Pokémon. Elle est de couleur orange.
 A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.
-A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.
+Une pierre particulière qui fait évoluer certaines espèces de Pokémon. Elle a un motif d'éclair.
 A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue.
-A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue.
+Une pierre particulière qui fait évoluer certaines espèces de Pokémon. Elle est d'un bleu clair et limpide.
 A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.
-A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.
+Une pierre particulière qui fait évoluer certaines espèces de Pokémon. Elle a un motif de feuille.
 A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.
-A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.
+Une pierre particulière qui fait évoluer certaines espèces de Pokémon. Elle est aussi noire que le ciel nocturne.
 A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.
-A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.
+Une pierre particulière qui fait évoluer certaines espèces de Pokémon. Elle est aussi rouge que le soleil.
 A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.
-A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.
+Une pierre particulière qui fait évoluer certaines espèces de Pokémon. Elle est aussi sombre que possible.
 A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes.
-A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes.
+Une pierre particulière qui fait évoluer certaines espèces de Pokémon. Elle scintille comme des yeux.
 A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.
-A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.
+Une pierre particulière qui fait évoluer certaines espèces de Pokémon. Elle brille d'une lumière éblouissante.
 A peculiar stone that makes certain species of Pokémon evolve. It has a snowflake pattern.
-A peculiar stone that makes certain species of Pokémon evolve. It has a snowflake pattern.
+Une pierre particulière qui fait évoluer certaines espèces de Pokémon. Elle a un motif de flocon de neige.
 A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally sweet.
-A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally sweet.
+Une pomme particulière qui peut faire évoluer une certaine espèce de Pokémon. Elle est exceptionnellement sucrée.
 A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally tart.
-A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally tart.
+Une pomme particulière qui peut faire évoluer une certaine espèce de Pokémon. Elle est exceptionnellement acidulée.
 A peculiar cracked teapot that can make a certain species of Pokémon evolve. It makes delicious tea.
-A peculiar cracked teapot that can make a certain species of Pokémon evolve. It makes delicious tea.
+Une théière fissurée particulière qui peut faire évoluer une certaine espèce de Pokémon. Elle fait un thé délicieux.
 A peculiar chipped teapot that can make a certain species of Pokémon evolve. It makes delicious tea.
-A peculiar chipped teapot that can make a certain species of Pokémon evolve. It makes delicious tea.
+Une théière ébréchée particulière qui peut faire évoluer une certaine espèce de Pokémon. Elle fait un thé délicieux.
 A cuff made from woven-together Galarica Twigs. Giving it to a Galarian Slowpoke would make it very happy.
-A cuff made from woven-together Galarica Twigs. Giving it to a Galarian Slowpoke would make it very happy.
+Un bracelet fait de brindilles de Galarica tressées. Le donner à un Ramoloss de Galar le rendrait très heureux.
 A wreath made from woven-together Galarica Twigs. A Galarian Slowpoke wearing this would be very happy.
-A wreath made from woven-together Galarica Twigs. A Galarian Slowpoke wearing this would be very happy.
+Une couronne faite de brindilles de Galarica tressées. Un Ramoloss de Galar la portant serait très heureux.
 A red Apricorn. It assails your nostrils.
-A red Apricorn. It assails your nostrils.
+Un Noigrume rouge. Il assaille vos narines.
 A yellow Apricorn. It has an invigorating scent.
-A yellow Apricorn. It has an invigorating scent.
+Un Noigrume jaune. Il a un parfum vivifiant.
 A blue Apricorn. It smells a bit like grass.
-A blue Apricorn. It smells a bit like grass.
+Un Noigrume bleu. Il sent un peu l'herbe.
 A green Apricorn. It has a mysterious, aromatic scent.
-A green Apricorn. It has a mysterious, aromatic scent.
+Un Noigrume vert. Il a une odeur aromatique et mystérieuse.
 A pink Apricorn. It has a nice, sweet scent.
-A pink Apricorn. It has a nice, sweet scent.
+Un Noigrume rose. Il a une douce odeur agréable.
 A white Apricorn. It doesn't smell like anything.
-A white Apricorn. It doesn't smell like anything.
+Un Noigrume blanc. Il ne sent absolument rien.
 A black Apricorn. It has an indescribable scent.
-A black Apricorn. It has an indescribable scent.
+Un Noigrume noir. Il a une odeur indescriptible.
 A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a seashell.
-A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a seashell.
+Un fossile d'un Pokémon ancien qui vivait dans la mer. Il semble être une partie d'un coquillage.
 A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a shell.
-A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a shell.
+Un fossile d'un Pokémon ancien qui vivait dans la mer. Il semble être une partie d'une coquille.
 A piece of amber that contains the genes of an ancient Pokémon. It is clear with a reddish tint.
-A piece of amber that contains the genes of an ancient Pokémon. It is clear with a reddish tint.
+Un morceau d'ambre contenant les gènes d'un Pokémon ancien. Il est transparent avec une teinte rougeâtre.
 A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a plant root.
-A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a plant root.
+Un fossile d'un Pokémon ancien qui vivait dans la mer. Il semble être une partie d'une racine de plante.
 A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a claw.
-A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a claw.
+Un fossile d'un Pokémon ancien qui vivait dans la mer. Il semble être une partie d'une griffe.
 A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a head.
-A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a head.
+Un fossile d'un Pokémon préhistorique qui vivait sur la terre. Il semble être une partie d'une tête.
 A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a collar.
-A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a collar.
+Un fossile d'un Pokémon préhistorique qui vivait sur la terre. Il semble être une partie d'un collier.
 A fossil of an ancient Pokémon that lived in the sea in ancient times. It appears to be part of its back.
-A fossil of an ancient Pokémon that lived in the sea in ancient times. It appears to be part of its back.
+Un fossile d'un Pokémon ancien qui vivait dans la mer autrefois. Il semble être une partie de son dos.
 A fossil of an ancient Pokémon that flew in the sky in ancient times. It appears to be part of its wing.
-A fossil of an ancient Pokémon that flew in the sky in ancient times. It appears to be part of its wing.
+Un fossile d'un Pokémon ancien qui volait dans le ciel autrefois. Il semble être une partie de son aile.
 A fossil from a prehistoric Pokémon that once lived on the land. It appears to be part of a large jaw.
-A fossil from a prehistoric Pokémon that once lived on the land. It appears to be part of a large jaw.
+Un fossile d'un Pokémon préhistorique qui vivait autrefois sur la terre. Il semble être une partie d'une grande mâchoire.
 A fossil from a prehistoric Pokémon that once lived on the land. It looks like the impression from a skin sail.
-A fossil from a prehistoric Pokémon that once lived on the land. It looks like the impression from a skin sail.
+Un fossile d'un Pokémon préhistorique qui vivait autrefois sur la terre. Il ressemble à l'impression d'une voile de peau.
 The fossil of an ancient Pokémon that once soared through the sky. What it looked like is a mystery.
-The fossil of an ancient Pokémon that once soared through the sky. What it looked like is a mystery.
+Le fossile d'un Pokémon ancien qui survolait autrefois le ciel. Son apparence reste un mystère.
 The fossil of an ancient Pokémon that once lived in the sea. What it looked like is a mystery.
-The fossil of an ancient Pokémon that once lived in the sea. What it looked like is a mystery.
+Le fossile d'un Pokémon ancien qui vivait autrefois dans la mer. Son apparence reste un mystère.
 The fossil of an ancient Pokémon that once roamed the land. What it looked like is a mystery.
-The fossil of an ancient Pokémon that once roamed the land. What it looked like is a mystery.
+Le fossile d'un Pokémon ancien qui parcourait autrefois la terre. Son apparence reste un mystère.
 Though this feather is beautiful, it's just a regular feather and has no effect on Pokémon.
-Though this feather is beautiful, it's just a regular feather and has no effect on Pokémon.
+Bien que cette plume soit belle, c'est juste une plume ordinaire et elle n'a aucun effet sur les Pokémon.
 A small and rare mushroom. It is sought after by collectors.
-A small and rare mushroom. It is sought after by collectors.
+Un petit et rare champignon. Il est recherché par les collectionneurs.
 A large and rare mushroom. It is sought after by collectors.
-A large and rare mushroom. It is sought after by collectors.
+Un grand et rare champignon. Il est recherché par les collectionneurs.
 A rare mushroom which gives off a nice fragrance. A maniac will buy it for a high price.
-A rare mushroom which gives off a nice fragrance. A maniac will buy it for a high price.
+Un champignon rare qui dégage un agréable parfum. Un maniaque l'achètera à un prix élevé.
 A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.
-A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.
+Une petite perle qui scintille d'une belle couleur argentée. Elle peut être vendue à bas prix dans les boutiques.
 A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.
-A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.
+Une assez grande perle qui scintille d'une belle couleur argentée. Elle peut être vendue à un prix élevé dans les boutiques.
 Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price.
-Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price.
+De très grandes perles qui scintillent d'une belle couleur argentée. Un maniaque les achètera à un prix élevé.
 Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops.
-Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops.
+De jolis sables rouges au toucher soyeux et léger. Ils peuvent être vendus à un prix élevé dans les boutiques.
 A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.
-A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.
+Un éclat d'un joli bijou qui scintille d'une couleur rouge. Il peut être vendu à un prix élevé dans les boutiques.
 A shard which fell to the ground when a comet approached. A maniac will buy it for a high price.
-A shard which fell to the ground when a comet approached. A maniac will buy it for a high price.
+Un éclat tombé au sol lors du passage d'une comète. Un maniaque l'achètera à un prix élevé.
 A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.
-A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.
+Un pépite d'or pur qui dégage une brillance éclatante. Elle peut être vendue à un prix élevé dans les boutiques.
 A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.
-A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.
+Une grosse pépite d'or pur qui dégage une brillance éclatante. Un maniaque l'achètera à un prix élevé.
 A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.
-A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.
+Une jolie écaille en forme de cœur, extrêmement rare. Elle luit légèrement avec les couleurs de l'arc-en-ciel.
 A very tasty tail of something. It can be sold at a high price to shops.
-A very tasty tail of something. It can be sold at a high price to shops.
+Une queue délicieuse de quelque chose. Elle peut être vendue à un prix élevé dans les boutiques.
 A bone that is extremely valuable for Pokémon archaeology. It can be sold for a high price to shops.
-A bone that is extremely valuable for Pokémon archaeology. It can be sold for a high price to shops.
+Un os extrêmement précieux pour l'archéologie Pokémon. Il peut être vendu à un prix élevé dans les boutiques.
 A copper coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.
-A copper coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Une pièce en cuivre utilisée dans une civilisation il y a environ 3 000 ans. Un maniaque l'achètera à un prix élevé.
 A silver coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.
-A silver coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Une pièce en argent utilisée dans une civilisation il y a environ 3 000 ans. Un maniaque l'achètera à un prix élevé.
 A gold coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.
-A gold coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Une pièce en or utilisée dans une civilisation il y a environ 3 000 ans. Un maniaque l'achètera à un prix élevé.
 A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
-A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Un vase fabriqué dans une civilisation il y a environ 3 000 ans. Un maniaque l'achètera à un prix élevé.
 A bracelet made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
-A bracelet made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Un bracelet fabriqué dans une civilisation il y a environ 3 000 ans. Un maniaque l'achètera à un prix élevé.
 A stone figure made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
-A stone figure made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Une figurine en pierre fabriquée dans une civilisation il y a environ 3 000 ans. Un maniaque l'achètera à un prix élevé.
 A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
-A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Une couronne fabriquée dans une civilisation il y a environ 3 000 ans. Un maniaque l'achètera à un prix élevé.
 A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
-A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Un engrais à étaler sur un sol meuble dans les régions où les Baies poussent. Un maniaque l'achètera à un prix élevé.
 Pure salt that can be discovered deep inside the Shoal Cave. A maniac will buy it for a high price.
-Pure salt that can be discovered deep inside the Shoal Cave. A maniac will buy it for a high price.
+Du sel pur que l'on peut découvrir au fond de la Grotte Tréfonds. Un maniaque l'achètera à un prix élevé.
 A pretty seashell that can be found deep inside the Shoal Cave. A maniac will buy it for a high price.
-A pretty seashell that can be found deep inside the Shoal Cave. A maniac will buy it for a high price.
+Un joli coquillage que l'on peut trouver au fond de la Grotte Tréfonds. Un maniaque l'achètera à un prix élevé.
 A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.
-A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.
+Un objet vital nécessaire pour empêcher une tour en pierre de s'effondrer. Des voix peuvent parfois être entendues à partir de celui-ci.
 A flower nectar obtained at Ula'ula Meadow. It changes the form of certain species of Pokémon.
-A flower nectar obtained at Ula'ula Meadow. It changes the form of certain species of Pokémon.
+Un nectar de fleur obtenu dans la Prairie d'Ula-Ula. Il change la forme de certaines espèces de Pokémon.
 A flower nectar obtained at Melemele Meadow. It changes the form of certain species of Pokémon.
-A flower nectar obtained at Melemele Meadow. It changes the form of certain species of Pokémon.
+Un nectar de fleur obtenu dans la Prairie de Mele-Mele. Il change la forme de certaines espèces de Pokémon.
 A flower nectar obtained from shrubs on Royal Avenue. It changes the form of certain species of Pokémon.
-A flower nectar obtained from shrubs on Royal Avenue. It changes the form of certain species of Pokémon.
+Un nectar de fleur obtenu dans les buissons de l'Avenue Royale. Il change la forme de certaines espèces de Pokémon.
 A flower nectar obtained at Poni Meadow. It changes the form of certain species of Pokémon.
-A flower nectar obtained at Poni Meadow. It changes the form of certain species of Pokémon.
+Un nectar de fleur obtenu dans la Prairie de Poni. Il change la forme de certaines espèces de Pokémon.
 An item to be held by a Pokémon. The holder will float in the air until hit. Once hit, this item will burst.
-An item to be held by a Pokémon. The holder will float in the air until hit. Once hit, this item will burst.
+Un objet à tenir par un Pokémon. Le porteur flottera dans les airs jusqu'à ce qu'il soit touché. Une fois touché, l'objet éclatera.
 An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent's accuracy.
-An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent's accuracy.
+Un objet à tenir par un Pokémon. Il projette un éclat trompeur qui diminue la précision de l'adversaire.
 A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def if the holder can still evolve.
-A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def if the holder can still evolve.
+Une mystérieuse pierre évolutive. Lorsqu'elle est tenue, elle augmente la Défense et la Défense Spéciale si le porteur peut encore évoluer.
 A very light stone. It reduces the weight of a Pokémon when held.
-A very light stone. It reduces the weight of a Pokémon when held.
+Une pierre très légère. Elle réduit le poids d'un Pokémon lorsqu'elle est tenue.
 A long, thin, bright-red string to be held by a Pokémon. If the holder becomes infatuated, so does the foe.
-A long, thin, bright-red string to be held by a Pokémon. If the holder becomes infatuated, so does the foe.
+Une longue et fine ficelle rouge vif à tenir par un Pokémon. Si le porteur tombe amoureux, l'adversaire aussi.
 If the holder of this item takes damage, the attacker will also be damaged upon contact.
-If the holder of this item takes damage, the attacker will also be damaged upon contact.
+Si le porteur de cet objet subit des dégâts, l'attaquant subira également des dommages lors du contact.
 An item to be held by a Pokémon. This offensive vest raises Sp. Def but prevents the use of status moves.
-An item to be held by a Pokémon. This offensive vest raises Sp. Def but prevents the use of status moves.
+Un objet à tenir par un Pokémon. Ce gilet offensif augmente la Défense Spéciale mais empêche l'utilisation de capacités de statut.
 An item to be held by a Pokémon. They protect the holder from weather-related damage and powder.
-An item to be held by a Pokémon. They protect the holder from weather-related damage and powder.
+Un objet à tenir par un Pokémon. Il protège le porteur des dégâts liés aux intempéries et des poudres.
 An item to be held by a Pokémon. They protect the holder from effects caused by making contact.
-An item to be held by a Pokémon. They protect the holder from effects caused by making contact.
+Un objet à tenir par un Pokémon. Il protège le porteur des effets causés par le contact.
 These boots prevent the effects of traps set on the battlefield.
-These boots prevent the effects of traps set on the battlefield.
+Ces bottes empêchent les effets des pièges installés sur le terrain de bataille.
 An item to be held by a Pokémon. This sturdy umbrella protects the holder from the effects of rain and sun.
-An item to be held by a Pokémon. This sturdy umbrella protects the holder from the effects of rain and sun.
+Un objet à tenir par un Pokémon. Ce parapluie robuste protège le porteur des effets de la pluie et du soleil.
 If the holder is hit by an attack, it will switch with another Pokémon in your party.
-If the holder is hit by an attack, it will switch with another Pokémon in your party.
+Si le porteur est touché par une attaque, il sera échangé avec un autre Pokémon de votre équipe.
 An item to be held by a Pokémon. When the holder's stats are lowered, it will be switched out of battle.
-An item to be held by a Pokémon. When the holder's stats are lowered, it will be switched out of battle.
+Un objet à tenir par un Pokémon. Lorsque les statistiques du porteur sont diminuées, il sera échangé hors du combat.
 A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.
-A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.
+Une carte dotée d'un pouvoir mystérieux. Lorsque le porteur est frappé par un ennemi, l'attaquant est retiré du combat.
 An item to be held by a Pokémon. This discarded carapace lets the holder switch out of battle without fail.
-An item to be held by a Pokémon. This discarded carapace lets the holder switch out of battle without fail.
+Un objet à tenir par un Pokémon. Cette carapace jetée permet au porteur de se retirer du combat sans faute.
 An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.
-An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.
+Un objet à tenir par un Pokémon. Il permet au porteur de fuir n'importe quel Pokémon sauvage sans faute.
 An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
-An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
+Un objet à tenir par un Pokémon. C'est un œuf rempli de bonheur qui permet de gagner des points d'Exp supplémentaires en combat.
 An item to be held by a Pokémon. The holder gets a share of a battle's Exp. Points without battling.
-An item to be held by a Pokémon. The holder gets a share of a battle's Exp. Points without battling.
+Un objet à tenir par un Pokémon. Le porteur reçoit une part des points d'Exp d'un combat sans y participer.
 An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.
-An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.
+Un objet à tenir par un Pokémon. Il double l'argent du prix d'un combat si le Pokémon porteur participe.
 An item to be held by a Pokémon. The comforting chime of this bell calms the holder, making it friendly.
-An item to be held by a Pokémon. The comforting chime of this bell calms the holder, making it friendly.
+Un objet à tenir par un Pokémon. Le tintement apaisant de cette cloche calme le porteur, le rendant amical.
 An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.
-An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.
+Un objet à tenir par un Pokémon. Il aide à éloigner les Pokémon sauvages si le porteur est le premier de l'équipe.
 An item to be held by a Pokémon. This headband ups Attack, but allows the use of only one move.
-An item to be held by a Pokémon. This headband ups Attack, but allows the use of only one move.
+Un objet à tenir par un Pokémon. Ce bandeau augmente l'Attaque, mais permet d'utiliser seulement une seule capacité.
 An item to be held by a Pokémon. These curious glasses boost Sp. Atk but allows the use of only one move.
-An item to be held by a Pokémon. These curious glasses boost Sp. Atk but allows the use of only one move.
+Un objet à tenir par un Pokémon. Ces lunettes curieuses augmentent l'Attaque Spéciale mais permettent d'utiliser seulement une seule capacité.
 An item to be held by a Pokémon. This scarf boosts Speed but allows the use of only one move.
-An item to be held by a Pokémon. This scarf boosts Speed but allows the use of only one move.
+Un objet à tenir par un Pokémon. Cette écharpe augmente la Vitesse mais permet d'utiliser seulement une seule capacité.
 A Pokémon held item that extends the duration of the move Sunny Day used by the holder.
-A Pokémon held item that extends the duration of the move Sunny Day used by the holder.
+Un objet tenu par un Pokémon qui prolonge la durée de l'attaque Zénith utilisée par le porteur.
 A Pokémon held item that extends the duration of the move Rain Dance used by the holder.
-A Pokémon held item that extends the duration of the move Rain Dance used by the holder.
+Un objet tenu par un Pokémon qui prolonge la durée de l'attaque Danse Pluie utilisée par le porteur.
 A Pokémon held item that extends the duration of the move Sandstorm used by the holder.
-A Pokémon held item that extends the duration of the move Sandstorm used by the holder.
+Un objet tenu par un Pokémon qui prolonge la durée de l'attaque Tempête de Sable utilisée par le porteur.
 A Pokémon held item that extends the duration of the move Hail used by the holder.
-A Pokémon held item that extends the duration of the move Hail used by the holder.
+Un objet tenu par un Pokémon qui prolonge la durée de l'attaque Grêle utilisée par le porteur.
 An item to be held by a Pokémon. It extends the duration of the terrain caused by the holder.
-An item to be held by a Pokémon. It extends the duration of the terrain caused by the holder.
+Un objet à tenir par un Pokémon. Il prolonge la durée du terrain provoqué par le porteur.
 An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective longer.
-An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective longer.
+Un objet à tenir par un Pokémon. Les capacités défensives comme Mur Lumière et Protection dureront plus longtemps.
 A Pokémon held item that extends the duration of multiturn attacks like Bind and Wrap.
-A Pokémon held item that extends the duration of multiturn attacks like Bind and Wrap.
+Un objet tenu par un Pokémon qui prolonge la durée des attaques à plusieurs tours comme Ligotage et Étreinte.
 A band that increases the power of binding moves when held.
-A band that increases the power of binding moves when held.
+Un objet à tenir par un Pokémon qui augmente la puissance des attaques de ligotage lorsqu'il est tenu.
 A Pokémon held item that boosts the power of HP-stealing moves to let the holder recover more HP.
-A Pokémon held item that boosts the power of HP-stealing moves to let the holder recover more HP.
+Un objet tenu par un Pokémon qui augmente la puissance des capacités volantes de PV pour permettre au porteur de récupérer plus de PV.
 A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.
-A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.
+Un objet tenu qui restaure progressivement les PV des Pokémon de type Poison. Il inflige des dégâts aux autres types.
 An item to be held by a Pokémon. The holder's HP is gradually restored during battle.
-An item to be held by a Pokémon. The holder's HP is gradually restored during battle.
+Un objet à tenir par un Pokémon. Les PV du porteur sont progressivement restaurés pendant le combat.
 An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.
-An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.
+Un objet à tenir par un Pokémon. Les PV du porteur sont un peu restaurés à chaque fois qu'il inflige des dégâts.
 An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.
-An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.
+Un objet à tenir par un Pokémon. Il libère le porteur de l'amour. Il ne peut être utilisé qu'une seule fois.
 An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.
-An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.
+Un objet à tenir par un Pokémon. Il restaure toute statistique réduite en combat. Il ne peut être utilisé qu'une seule fois.
 A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges up first.
-A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges up first.
+Un objet à usage unique à tenir par un Pokémon. Il permet l'utilisation immédiate d'une capacité qui nécessite un tour de chargement.
 A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.
-A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.
+Un bulbe consommable. Si le porteur est touché par une attaque de type Eau, son Attaque Spéciale augmentera.
 A consumable battery. If the holder is hit by an Electric-type move, its Attack will rise.
-A consumable battery. If the holder is hit by an Electric-type move, its Attack will rise.
+Une batterie consommable. Si le porteur est touché par une attaque de type Électrik, son Attaque augmentera.
 An item to be held by a Pokémon. It boosts Sp. Def if hit by a Water-type attack. It can only be used once.
-An item to be held by a Pokémon. It boosts Sp. Def if hit by a Water-type attack. It can only be used once.
+Un objet à tenir par un Pokémon. Il augmente la Défense Spéciale si le porteur est touché par une attaque de type Eau. Il ne peut être utilisé qu'une seule fois.
 An item to be held by a Pokémon. It boosts Attack if hit by an Ice-type attack. It can only be used once.
-An item to be held by a Pokémon. It boosts Attack if hit by an Ice-type attack. It can only be used once.
+Un objet à tenir par un Pokémon. Il augmente l'Attaque si le porteur est touché par une attaque de type Glace. Il ne peut être utilisé qu'une seule fois.
 An item to be held by a Pokémon. The holder's Attack and Sp. Atk sharply increase if hit by a move it's weak to.
-An item to be held by a Pokémon. The holder's Attack and Sp. Atk sharply increase if hit by a move it's weak to.
+Un objet à tenir par un Pokémon. L'Attaque et l'Attaque Spéciale du porteur augmentent fortement s'il est touché par une attaque à laquelle il est vulnérable.
 Raises Speed sharply when a Pokémon misses with a move because of accuracy.
-Raises Speed sharply when a Pokémon misses with a move because of accuracy.
+Augmente considérablement la Vitesse lorsqu'un Pokémon manque une attaque à cause de la précision.
 Raises Sp. Atk when a Pokémon uses a sound-based move.
-Raises Sp. Atk when a Pokémon uses a sound-based move.
+Augmente l'Attaque Spéciale lorsqu'un Pokémon utilise une capacité basée sur le son.
 An item to be held by a Pokémon. It boosts Speed when intimidated. It can be used only once.
-An item to be held by a Pokémon. It boosts Speed when intimidated. It can be used only once.
+Un objet à tenir par un Pokémon. Il augmente la Vitesse lorsque le porteur est intimidé. Il ne peut être utilisé qu'une seule fois.
 An item to be held by a Pokémon. Lowers Speed when Trick Room takes effect.
-An item to be held by a Pokémon. Lowers Speed when Trick Room takes effect.
+Un objet à tenir par un Pokémon. Il réduit la Vitesse lorsque la Distorsion prend effet.
 An item to be held by a Pokémon. It boosts Defense on Electric Terrain. It can only be used once.
-An item to be held by a Pokémon. It boosts Defense on Electric Terrain. It can only be used once.
+Un objet à tenir par un Pokémon. Il augmente la Défense sur un Champ Électrifié. Il ne peut être utilisé qu'une seule fois.
 An item to be held by a Pokémon. It boosts Defense on Grassy Terrain. It can only be used once.
-An item to be held by a Pokémon. It boosts Defense on Grassy Terrain. It can only be used once.
+Un objet à tenir par un Pokémon. Il augmente la Défense sur un Champ Herbu. Il ne peut être utilisé qu'une seule fois.
 An item to be held by a Pokémon. It boosts Sp. Def on Misty Terrain. It can only be used once.
-An item to be held by a Pokémon. It boosts Sp. Def on Misty Terrain. It can only be used once.
+Un objet à tenir par un Pokémon. Il augmente la Défense Spéciale sur un Champ Brumeux. Il ne peut être utilisé qu'une seule fois.
 An item to be held by a Pokémon. It boosts Sp. Def on Psychic Terrain. It can only be used once.
-An item to be held by a Pokémon. It boosts Sp. Def on Psychic Terrain. It can only be used once.
+Un objet à tenir par un Pokémon. Il augmente la Défense Spéciale sur un Champ Psychique. Il ne peut être utilisé qu'une seule fois.
 An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit.
-An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit.
+Un objet à tenir par un Pokémon. Il augmente la puissance des capacités, mais au prix de quelques PV à chaque coup.
 An item to be held by a Pokémon. It is a well-worn belt that slightly boosts the power of supereffective moves.
-An item to be held by a Pokémon. It is a well-worn belt that slightly boosts the power of supereffective moves.
+Un objet à tenir par un Pokémon. C'est une ceinture usée qui augmente légèrement la puissance des attaques super efficaces.
 A Pokémon held item that boosts a move used consecutively. Its effect is reset if another move is used.
-A Pokémon held item that boosts a move used consecutively. Its effect is reset if another move is used.
+Un objet tenu par un Pokémon qui augmente la puissance d'une attaque utilisée consécutivement. Son effet est annulé si une autre attaque est utilisée.
 An item to be held by a Pokémon. It is a headband that slightly boosts the power of physical moves.
-An item to be held by a Pokémon. It is a headband that slightly boosts the power of physical moves.
+Un objet à tenir par un Pokémon. C'est un bandeau qui augmente légèrement la puissance des attaques physiques.
 An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.
-An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.
+Un objet à tenir par un Pokémon. Ce sont des lunettes épaisses qui augmentent légèrement la puissance des attaques spéciales.
 An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder's critical-hit ratio.
-An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder's critical-hit ratio.
+Un objet à tenir par un Pokémon. C'est une griffe acérée qui augmente le taux de coups critiques du porteur.
 An item to be held by a Pokémon. It is a lens that boosts the holder's critical-hit ratio.
-An item to be held by a Pokémon. It is a lens that boosts the holder's critical-hit ratio.
+Un objet à tenir par un Pokémon. C'est une lentille qui augmente le taux de coups critiques du porteur.
 An item to be held by a Pokémon. It is a magnifying lens that slightly boosts the accuracy of moves.
-An item to be held by a Pokémon. It is a magnifying lens that slightly boosts the accuracy of moves.
+Un objet à tenir par un Pokémon. C'est une loupe qui augmente légèrement la précision des attaques.
 An item to be held by a Pokémon. If the holder moves after its target, its accuracy will be boosted.
-An item to be held by a Pokémon. If the holder moves after its target, its accuracy will be boosted.
+Un objet à tenir par un Pokémon. Si le porteur agit après sa cible, sa précision sera augmentée.
 An item to be held by a Pokémon. When the holder inflicts damage, the target may flinch.
-An item to be held by a Pokémon. When the holder inflicts damage, the target may flinch.
+Un objet à tenir par un Pokémon. Lorsque le porteur inflige des dégâts, la cible peut avoir peur.
 An item to be held by a Pokémon. It may make foes and allies flinch when the holder inflicts damage.
-An item to be held by a Pokémon. It may make foes and allies flinch when the holder inflicts damage.
+Un objet à tenir par un Pokémon. Il peut faire peur aux ennemis et aux alliés lorsque le porteur inflige des dégâts.
 An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.
-An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.
+Un objet à tenir par un Pokémon. Il est extrêmement lourd et ralentit le porteur plus que d'habitude.
 An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally.
-An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally.
+Un objet à tenir par un Pokémon. Une griffe légère et acérée qui permet au porteur d'agir en premier de temps en temps.
 An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.
-An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.
+Un objet à tenir par un Pokémon. Le porteur peut survivre à une attaque potentiellement fatale, en restant à 1 PV.
 An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.
-An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.
+Un objet à tenir par un Pokémon. S'il a tous ses PV, le porteur endurera une attaque potentiellement fatale, en restant à 1 PV.
 An item to be held by a Pokémon. It is a bizarre orb that inflicts a burn on the holder in battle.
-An item to be held by a Pokémon. It is a bizarre orb that inflicts a burn on the holder in battle.
+Un objet à tenir par un Pokémon. C'est un orbe étrange qui inflige une brûlure au porteur en combat.
 An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle.
-An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle.
+Un objet à tenir par un Pokémon. C'est un orbe étrange qui empoisonne gravement le porteur en combat.
 A held item that damages the holder on every turn. It may latch on to Pokémon that touch the holder.
-A held item that damages the holder on every turn. It may latch on to Pokémon that touch the holder.
+Un objet tenu qui inflige des dégâts au porteur à chaque tour. Il peut s'accrocher aux Pokémon qui touchent le porteur.
 A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.
-A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.
+Un objet tenu par un Pokémon qui réduit la Vitesse. Il rend les Pokémon volants et lévitants vulnérables aux attaques de type Sol.
 Moves that would otherwise have no effect will land on the Pokémon that holds it.
-Moves that would otherwise have no effect will land on the Pokémon that holds it.
+Les attaques qui n'auraient normalement aucun effet toucheront le Pokémon qui tient cet objet.
 An item to be held by a Pokémon. It is a stiff, heavy brace that promotes strong growth but lowers Speed.
 An item to be held by a Pokémon. It is a stiff, heavy brace that promotes strong growth but lowers Speed.
 A Pokémon held item that promotes HP gain on leveling, but reduces the Speed stat.

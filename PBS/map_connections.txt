@@ -1,19 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Route 02 (5) - Grodoville (6)
-5,East,20,6,West,0
-# Route 03 (10) - Grodoville (6)
-10,West,0,6,East,13
-# Orhenta (13) - Route 04 (19)
-13,East,3,19,West,0
-# Route 07 (18) - Eudépole (22)
-18,West,0,22,East,49
-# Route 04 (19) - Eudépole (22)
-19,East,0,22,West,0
-# Route 05 (30) - Route 04 (19)
-30,South,0,19,North,62
-# Route 05 (30) - Eudépole (22)
-30,South,0,22,North,2
 # Route 01 (2) - Luminelle (1)
 2,North,0,1,South,0
 # Canal 01 (34) - Luminelle (1)
@@ -22,3 +8,21 @@
 3,North,0,2,South,9
 # Canal 01 (34) - Route 01 (2)
 34,West,36,2,East,0
+# Route 02 (5) - Grodoville (6)
+5,East,20,6,West,0
+# Route 03 (10) - Grodoville (6)
+10,West,0,6,East,13
+# Route 04 (19) - Route 05 (30)
+19,North,62,30,South,0
+# Eudépole (22) - Route 05 (30)
+22,North,2,30,South,0
+# SUBMERALIS (36) - Route 05 (30)
+36,South,27,30,North,0
+# PlaineEcarlate (39) - Route 05 (30)
+39,West,0,30,East,4
+# Orhenta (13) - Route 04 (19)
+13,East,3,19,West,0
+# Eudépole (22) - Route 04 (19)
+22,West,0,19,East,0
+# Route 07 (18) - Eudépole (22)
+18,West,0,22,East,49

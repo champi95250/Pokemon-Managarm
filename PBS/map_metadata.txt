@@ -45,6 +45,14 @@ Bicycle = true
 MapPosition = 0,8,14
 BattleBack = indoor2
 #-------------------------------
+[008]   # CenterPKM
+Name = Centre Pokemon de Grodoville
+MapPosition = 0,8,14
+#-------------------------------
+[009]   # Grodoville Maison
+Name = Grodoville
+MapPosition = 0,8,14
+#-------------------------------
 [010]   # Route 03
 Name = Route 03
 Outdoor = true
@@ -52,6 +60,9 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,9,14
 BattleBack = field
+#-------------------------------
+[011]   # ShopPKM
+MapPosition = 0,8,14
 #-------------------------------
 [012]   # Grotte Creuset
 Name = Grotte Creuset
@@ -68,6 +79,14 @@ Bicycle = true
 MapPosition = 0,11,14
 BattleBack = indoor3
 #-------------------------------
+[015]   # Appart
+Name = Appart
+MapPosition = 0,14,14
+#-------------------------------
+[016]   # Creche
+Name = Crêche
+MapPosition = 0,11,14
+#-------------------------------
 [017]   # Forêt Purificatrice
 Name = Forêt Purificatrice
 Outdoor = true
@@ -80,6 +99,7 @@ Name = Route 7
 Outdoor = true
 ShowArea = true
 MapPosition = 0,15,14
+BattleBack = field
 #-------------------------------
 [019]   # Route 04
 Name = Route 04
@@ -88,6 +108,10 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,12,14
 BattleBack = forest
+#-------------------------------
+[021]   # Casino
+Name = Casino
+MapPosition = 0,13,13
 #-------------------------------
 [022]   # Eudépole
 Name = Eudépole
@@ -117,13 +141,43 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,13,11
+BattleBack = field
 MapSize = 1,11
 #-------------------------------
+[033]   # Maison Route 7
+Name = Maison
+MapPosition = 0,15,14
+#-------------------------------
 [034]   # Canal 01
-Name = Canal 01
+Name = Rivière Félicité
 Outdoor = true
 Weather = Rain,100
+MapPosition = 0,7,12
+#-------------------------------
+[036]   # SUBMERALIS
+Name = Submeralis
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,10
+BattleBack = indoor1
+#-------------------------------
+[039]   # PlaineEcarlate
+Name = Plaine Ecarlate
+Outdoor = true
+ShowArea = true
+MapPosition = 0,14,11
+BattleBack = elite3
+Environment = TallGrass
+Flags = NoFly
+#-------------------------------
+[040]   # Passage
+Name = Passage
+MapPosition = 0,14,11
 #-------------------------------
 [081]   # MultiMaison
 Name = Maison
+MapPosition = 0,6,12
+#-------------------------------
+[082]   # Laboratoire
+Name = Laboratoire
 MapPosition = 0,6,12

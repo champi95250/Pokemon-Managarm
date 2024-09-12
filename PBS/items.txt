@@ -4913,7 +4913,7 @@ Price = 3000
 BPPrice = 32
 FieldUse = TM
 Flags = Fling_80
-Move = DARKPULSE
+Move = DARKPULSE 
 Description = The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.
 #-------------------------------
 [TM80]
@@ -6610,3 +6610,13 @@ Pocket = 1
 Price = 0
 FieldUse = OnPokemon
 Description = A marvellous flute that can summon Celebi to instantly purify a Shadow Pokémon.
+#-------------------------------
+[HISUISTONE]
+Name = Hisui Stone
+NamePlural = Hisui Stones
+Pocket = 1
+Price = 3000
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = Une pierre particulière qui fait évoluer certaines espèces de Pokémon.

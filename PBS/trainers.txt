@@ -431,7 +431,14 @@ LoseText = Mon magnifique paysage, ruiné par toi !
 Pokemon = BRUXISH,23
 Pokemon = SIGILYPH,23
 Pokemon = VIVILLON,23
-#-------------------------------
+#------------------------------- TEAM_MANAGARM
+[TEAM_MANAGARM,Loic]
+LoseText = Maitre Z va me tuer ... 
+Pokemon = KOFFING,23
+Pokemon = RATICATE,23
+    Form = 1
+Pokemon = WIMPOD,24
+#------------------------------- TEAM_MANAGARM
 [ZEKE,Zéké]
 Items = TERAORB
 LoseText = Tu es un vrai stratége 

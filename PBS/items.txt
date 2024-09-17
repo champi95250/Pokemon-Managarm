@@ -6620,3 +6620,27 @@ BPPrice = 5
 FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
 Description = Une pierre particulière qui fait évoluer certaines espèces de Pokémon.
+#-------------------------------
+[PASSNUMERO1]
+Name = Pass Numero 1
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = Un pass pour ouvrir des portes
+#-------------------------------
+[PASSNUMERO2]
+Name = Pass Numero 2
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = Un pass pour ouvrir des portes
+#-------------------------------
+[PASSNUMERO3]
+Name = Pass Numero 3
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = Un pass pour ouvrir des portes

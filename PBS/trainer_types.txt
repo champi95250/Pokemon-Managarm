@@ -274,6 +274,24 @@ IntroBGM = 013 - Meet kid
 BattleBGM = 030 - Battle 01
 VictoryBGM = 031 - Victory 01
 #-------------------------------
+[COMBATTANTE]
+Name = Combattante
+Gender = Female
+BaseMoney = 24
+SkillLevel = 30
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[LOUBARD]
+Name = Loubard
+Gender = Female
+BaseMoney = 24
+SkillLevel = 30
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
 [SWIMMER_F]
 Name = Nageuse
 Gender = Female
@@ -306,6 +324,15 @@ Name = Flotteusse
 Gender = Female
 BaseMoney = 15
 SkillLevel = 30
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[ENTRAINEUR]
+Name = Entraineur
+Gender = Male
+BaseMoney = 42
+SkillLevel = 60
 IntroBGM = 013 - Meet kid
 BattleBGM = 030 - Battle 01
 VictoryBGM = 031 - Victory 01
@@ -395,4 +422,38 @@ BaseMoney = 40
 SkillLevel = 100
 IntroBGM = 032 - Team Managarm Aggro
 BattleBGM = 049 - Leader Managarm Phase 1
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[VACANCIERE_1]
+Name = Vacancière 
+Gender = Female
+BaseMoney = 44
+SkillLevel = 100
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[GENTLEMAN]
+Name = Gentleman
+Gender = Male
+BaseMoney = 40
+IntroBGM = 016 - Meet Gentleman
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[POKEFAN_2]
+Name = Pokefan
+Gender = Female
+BaseMoney = 36
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TRAINER_SHEENA]
+Name = Maitresse 
+Gender = Female
+BaseMoney = 40
+SkillLevel = 100
+IntroBGM = 054 - Sheena s en mele
+BattleBGM = 055 - Sheena veux se battre
 VictoryBGM = 031 - Victory 01

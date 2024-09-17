@@ -62,6 +62,7 @@ MapPosition = 0,9,14
 BattleBack = field
 #-------------------------------
 [011]   # ShopPKM
+Name = ShopPKM
 MapPosition = 0,8,14
 #-------------------------------
 [012]   # Grotte Creuset
@@ -95,7 +96,7 @@ MapPosition = 0,11,13
 BattleBack = forest
 #-------------------------------
 [018]   # Route 07
-Name = Route 7
+Name = Route 07
 Outdoor = true
 ShowArea = true
 MapPosition = 0,15,14
@@ -148,7 +149,7 @@ MapSize = 1,11
 Name = Maison
 MapPosition = 0,15,14
 #-------------------------------
-[034]   # Canal 01
+[034]   # Rivière Félicité
 Name = Rivière Félicité
 Outdoor = true
 Weather = Rain,100
@@ -173,6 +174,51 @@ Flags = NoFly
 [040]   # Passage
 Name = Passage
 MapPosition = 0,14,11
+#-------------------------------
+[042]   # Route 08
+Name = Route 08
+Outdoor = true
+MapPosition = 0,16,14
+#-------------------------------
+[043]   # Route 06
+Name = Route 06
+Outdoor = true
+MapPosition = 0,12,10
+#-------------------------------
+[044]   # Cryodeser
+Name = Cryodeser
+Outdoor = true
+ShowArea = true
+HealingSpot = 44,41,35
+MapPosition = 0,17,14
+#-------------------------------
+[045]   # CenterPKM and Market
+Name = CenterPKM and Market
+MapPosition = 0,17,14
+#-------------------------------
+[047]   # Canal 1
+Name = Canal
+Outdoor = true
+MapPosition = 0,12,15
+#-------------------------------
+[048]   # Desert Cryodeser
+Name = Desert Cryodeser
+Outdoor = true
+ShowArea = true
+Weather = Sandstorm,70
+MapPosition = 0,18,14
+#-------------------------------
+[049]   # Route 09
+Name = Route 09
+Outdoor = true
+ShowArea = true
+MapPosition = 0,17,13
+#-------------------------------
+[050]   # Route 10
+Name = Route 10
+Outdoor = true
+ShowArea = true
+MapPosition = 0,17,12
 #-------------------------------
 [081]   # MultiMaison
 Name = Maison

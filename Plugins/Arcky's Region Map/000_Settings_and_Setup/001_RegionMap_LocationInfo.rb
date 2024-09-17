@@ -115,5 +115,35 @@ module ARMLocationPreview
     south: [13, 12],
   }
 
+  DesertCryodeser = {
+    description: _INTL("<ac>Un desert remplis de pokémon sauvage, le jour un desert aride, le soir un desert froid</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    west: [17, 14],
+  }
+
+  Cryodeser = {
+    description: _INTL("<ac>Une ville chaleureuse le jour, et froide la nuit.</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    west: [16, 14],
+    east: [18, 14],
+    north: [17, 13],
+  }
+
+  Route08 = {
+    description: _INTL("<ac>Une route qui monte jusqu'a Cryodeser</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    west: [15, 14],
+    east: [17, 14],
+  }
+
+  Route07 = {
+    description: _INTL("<ac>Une route rempli de mystère et de relique en tout genre.</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    west: [14, 14],
+    east: [16, 14],
+  }
+
+  Route09 = {
+    description: _INTL("<ac>Une route remplis de futur top dresseurs.</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    south: [17, 14],
+    north: [17, 12],
+  }
+
 
 end

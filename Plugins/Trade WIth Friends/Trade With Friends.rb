@@ -199,7 +199,7 @@ end
 # ================================================================== #
 def startFriendTradeScene(pkmn)
   # Validates species exists in the game
-  valid = validateSpecies(pkmn.species)
+  valid = validateSpecies(pkmn.species, pkmn.gender, pkmn.shiny?)
   if valid
     if $player.friendTrade.nil?
       pbMessage(_INTL("Please choose a Pokémon to trade for {1}'s {2}.", pkmn.owner.name, pkmn.name))
@@ -230,7 +230,7 @@ def startFriendTradeScene(pkmn)
 end
 
 # Method to validate the species of the incoming Pokémon
-def validateSpecies(species)
+def validateSpecies(species, gender, shiny)
   GameData::Species.each do |tradedSpecies|
     return true if tradedSpecies.id == species
   end

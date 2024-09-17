@@ -53,6 +53,15 @@ module PokemonSelections
     :COMBEE,
   ]
 
+  Champi_two = [
+    :SQUIRTLE,
+    :CHARMANDER,
+    :BULBASAUR,
+    :TREECKO,
+    :TORCHIC,
+    :MUDKIP,
+  ]
+
   Dealer_one = [
     :SPEAROW,
     :SENTRET,
@@ -75,6 +84,14 @@ module PokemonSelections
     :LITLEO,
     :EKANS,
     :BLITZLE,
+  ]
+
+  Dealer_quatre = [
+    :SLIGGOO,
+    :AXEW,
+    :HONEDGE,
+    :PAWNIARD,
+    :CRANIDOS,
   ]
 
   Mythical = [

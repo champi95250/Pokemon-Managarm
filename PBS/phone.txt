@@ -34,3 +34,13 @@ Body2 = Bref le temps passe !
 BattleRequest = Tu veux te battre ? Tu sais où me trouver ?.\mJe t'attendrai sur \TM.
 BattleRemind = Où es-tu ? On se voit quand !? Je t'attends...
 End = A plus !
+#-------------------------------
+[ENTRAINEUR,Alex]
+Intro = Hey HEY HEYYYYYY ! C'est \TN.
+Body1 = Si tu savais comme je m'entraine, tu serai surpris ! 
+Body1 = J'ai battu un \TE L'autre fois ! Une facilité sans nom.
+Body2 = \TP deviens super fort !
+Body2 = Bref le temps passe ! 
+BattleRequest = Tu veux te battre ? Tu sais où me trouver ?.\mJe t'attendrai sur \TM.
+BattleRemind = Où es-tu ? On se voit quand !? Je t'attends...
+End = Adios Amigos ! 

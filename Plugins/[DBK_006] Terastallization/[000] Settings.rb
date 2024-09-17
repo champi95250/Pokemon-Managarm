@@ -10,12 +10,12 @@ module Settings
   #-----------------------------------------------------------------------------
   # Switch used to determine whether Terstallization functionality is available.
   #-----------------------------------------------------------------------------
-  NO_TERASTALLIZE   = 77
+  NO_TERASTALLIZE   = 80
   
   #-----------------------------------------------------------------------------
   # Switch used to determine whether the player's Tera Orb requires recharging.
   #-----------------------------------------------------------------------------
-  TERA_ORB_ALWAYS_CHARGED = 78
+  TERA_ORB_ALWAYS_CHARGED = 79
   
   #-----------------------------------------------------------------------------
   # Switch used to determine if Pokemon should generate with random Tera types.

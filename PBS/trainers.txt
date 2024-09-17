@@ -147,7 +147,7 @@ Pokemon = LAPRAS,29
     Moves = HYDROPUMP,ICEBEAM,BUBBLEBEAM,ANCIENTPOWER
     AbilityIndex = 0
     IV = 31,30,30,30,31,31
-    EV = 20,0,0,10,60,60
+    EV = 30,0,0,10,60,60
     Happiness = 250
     Size = 220
     TeraType = WATER
@@ -171,6 +171,23 @@ Pokemon = KADABRA,18
 Pokemon = RIOLU,20
     IV = 20,18,12,19,15,22
     EV = 2,0,0,0,0,0
+    TeraType = DRAGON
+#-------------------------------
+[RIVAL,Ben,2]
+Items = TERAORB
+LoseText = Tu progresse tellement mieux que moi ! 
+Pokemon = HAUNTER,29
+    IV = 20,20,16,25,31,31
+    EV = 0,0,0,4,70,70
+Pokemon = SKIDDO,29
+    IV = 20,15,31,12,20,31
+    EV = 0,70,50,0,0,70
+Pokemon = KLEAVOR,30
+    IV = 10,15,20,31,15,20
+    EV = 0,110,0,4,110,0
+Pokemon = LUCARIO,32
+    IV = 22,18,22,31,18,22
+    EV = 0,0,0,4,160,160
     TeraType = DRAGON
 #-------------------------------
 [RANCHER_1,Katrina]
@@ -463,3 +480,224 @@ Pokemon = TREVENANT,28
     IV = 10,20,20,0,20,0
     EV = 0,20,20,0,20,0
     TeraType = GHOST
+#------------------------------- ROUTE 07
+[RICHARD,Armand]
+LoseText = Un froid que tu viens de me lancer là ...
+Pokemon = SANDSLASH,24
+    Form = 1
+Pokemon = NINETALES,24
+    Form = 1
+#-------------------------------
+[MONTAGNARD,Jean]
+LoseText = Ca a bien chauffer entre nous.
+Pokemon = ARCANINE,25
+    Form = 1
+Pokemon = CARKOL,25
+#-------------------------------
+[MONTAGNARD,Bertrand]
+LoseText = Oh, j'était déconcentré ! 
+Pokemon = ARCANINE,25
+    Form = 1
+Pokemon = CARKOL,25
+#-------------------------------
+[COMBATTANTE,Jennifer]
+LoseText = Oh, Le froid arrive ! 
+Pokemon = FLAMIGO,28
+Pokemon = SNEASLER,29
+#-------------------------------
+[LOUBARD,Karl]
+LoseText = Hé bah, pour un gamin ...
+Pokemon = SEVIPER,28
+Pokemon = MIGHTYENA,29
+Pokemon = GURDURR,29
+#-------------------------------
+[LOUBARD,Pat]
+LoseText = Hé bah, pour un gamin ...
+Pokemon = SKORUPI,29
+Pokemon = MIENFOO,29
+Pokemon = KROKOROK,30
+#-------------------------------
+[MONTAGNARD,Pierre-louis]
+LoseText = Oh, tu as chaud donc tu es team T-shirt ?
+Pokemon = NUMEL,30
+Pokemon = ARCANINE,30
+#-------------------------------
+[MONTAGNARD,Alfred]
+LoseText = Oh, tu as froid donc tu es team Pantalon ?
+Pokemon = PILOSWINE,30
+Pokemon = SANDSLASH,30
+    Form = 1
+#-------------------------------
+[ENTRAINEUR,Alex]
+LoseText = Hey bien, j'ai encore beaucoup d'entrainement à faire ... ! 
+Pokemon = HIPPOPOTAS,30
+Pokemon = GREAVARD,30
+    Moves = SLEEPTALK,REST,BODYPRESS,NIGHTSHADE
+    IV = 20,20,20,20,20,20
+    EV = 200,0,150,0,0,4
+    TeraType = GHOST
+Pokemon = TINKATUFF,30
+    Moves = STEALTHROCK,PLAYROUGH,KNOCKOFF,THUNDERWAVE
+    IV = 20,20,20,20,20,20
+    EV = 0,130,0,4,130,0
+    TeraType = FAIRY
+#-------------------------------
+[ENTRAINEUR,Alex,1]
+LoseText = Hey bien, j'ai ENCORE besoin d'entrainement ! 
+Pokemon = HIPPOWDON,34
+Pokemon = GREAVARD,35
+    Moves = SLEEPTALK,REST,BODYPRESS,NIGHTSHADE
+    IV = 24,20,20,20,20,20
+    EV = 210,0,160,0,0,4
+    TeraType = GHOST
+Pokemon = TINKATUFF,36
+    Moves = STEALTHROCK,PLAYROUGH,KNOCKOFF,THUNDERWAVE
+    IV = 24,20,20,20,20,20
+    EV = 0,160,0,4,160,0
+    TeraType = FAIRY
+#-------------------------------
+[ENTRAINEUR,Alex,2]
+Items = TERAORB
+LoseText = Même avec la Teracrystalisation, je ne réussis pas à te battre ...
+Pokemon = HIPPOWDON,38
+Pokemon = GREAVARD,39
+    Moves = SLEEPTALK,REST,BODYPRESS,NIGHTSHADE
+    IV = 24,24,20,22,20,20
+    EV = 210,0,160,0,0,4
+    TeraType = GHOST
+Pokemon = TINKATON,40
+    Moves = STEALTHROCK,PLAYROUGH,KNOCKOFF,THUNDERWAVE
+    IV = 31,20,31,26,20,31
+    EV = 0,160,0,4,160,0
+    TeraType = FAIRY
+#-------------------------------
+[VACANCIERE_1,Ondine]
+Items = TERAORB
+LoseText = C'était un super combat ! Tu es d'ailleur très doué ! 
+Pokemon = STARMIE,30
+Pokemon = GOLDUCK,31
+Pokemon = SEAKING,33
+    TeraType = WATER
+#------------------------------- ROUTE 9
+[GENTLEMAN,Augustin]
+LoseText = Hé bien, en voilà des manières.
+Pokemon = BOLTUND,31
+Pokemon = CERULEDGE,33
+#------------------------------- ROUTE 9
+[POKEFAN_2,Juliette]
+LoseText = Le meilleurs Pokémon de Kanto pour toi ?
+Pokemon = VAPOREON,32
+Pokemon = JOLTEON,32
+Pokemon = FLAREON,32
+#------------------------------- ROUTE 9
+[POKEFAN_2,Paulette]
+LoseText = Le meilleurs Pokémon de Kanto pour toi ?
+Pokemon = DELIBIRD,33
+Pokemon = SKARMORY,33
+Pokemon = SMEARGLE,33
+#------------------------------- ROUTE 9
+[TRAINER_SHEENA,Sheena,1]
+Items = TERAORB
+LoseText = Quand je te regarde combattre, je vois une grande détermination dans tes yeux.
+Pokemon = ROSERADE,33
+    IV = 24,10,10,0,15,15
+    EV = 0,0,0,0,0,0
+Pokemon = MILOTIC,34
+    IV = 24,10,10,31,20,20
+    EV = 150,0,100,0,20,50
+    Moves = SCALD,RECOVER,SURF,WRAP 
+Pokemon = DUSKNOIR,34
+    IV = 24,20,31,0,20,31
+    EV = 250,0,60,0,0,60
+    Moves = TRICKROOM,WILLOWISP,BRICKBREAK,SHADOWSNEAK 
+Pokemon = SYLVEON,36
+    IV = 31,31,31,31,31,31
+    EV = 0,0,30,0,190,190
+    Moves = MOONBLAST,MYSTICALFIRE,PSYSHOCK,QUICKATTACK 
+    TeraType = FAIRY
+    AbilityIndex = 2
+    Gender = female
+    Nature = MODEST
+#------------------------------- Repere Numero 4 
+[TEAM_MANAGARM,Fabien]
+LoseText = Mais PUTAIN ! C'est quoi ce bordel dans ce repère ! 
+Pokemon = LOKIX,33
+Pokemon = FOUINARABRE,34
+#------------------------------- Repere Numero 4 
+[TEAM_MANAGARM,Mathéo]
+LoseText = On ferai mieux de fuir ! Ca sent pas bon !  
+Pokemon = ARMAROUGE,34
+Pokemon = MABOSSTIFF,34
+#------------------------------- Repere Numero 4 
+[TEAM_MANAGARM,Simon]
+Items = MEGARING
+LoseText = On ferai mieux de fuir ! Ca sent pas bon !  
+Pokemon = ELECTRODE,34
+    AbilityIndex = 2
+    IV = 10,15,10,30,15,10
+    EV = 0,0,0,240,0,0
+    Moves = THUNDERBOLT,HIDDENPOWER,SIGNALBEAM,LIGHTSCREEN
+Pokemon = MANECTRIC,35
+    Item = MANECTITE
+    IV = 20,15,15,31,15,15
+    EV = 0,0,4,0,135,135
+#------------------------------- Repere Numero 4 
+[TEAM_MANAGARM,Amadou]
+LoseText = J'avais chercher une sorti, la voici ! 
+Pokemon = QWILFISH,35
+Pokemon = GRANBULL,35
+#------------------------------- Repere Numero 4 
+[TEAM_MANAGARM,Gaby]
+LoseText = Un p'tit coup de main, c'est ce que je voulais ! 
+Pokemon = AMBIPOM,35
+Pokemon = HONCHKROW,35
+#------------------------------- Repere Numero 4 
+[TEAM_MANAGARM,???]
+Items = MEGARING
+LoseText = On ferai mieux de fuir ! Ca sent pas bon !  
+Pokemon = LYCANROC,34
+    Form = 1
+    IV = 31,31,31,31,31,31
+    EV = 0,0,0,0,0,0
+Pokemon = GRENINJA,34
+    Form = 1
+    IV = 31,31,31,31,31,31
+    EV = 0,0,0,0,0,0
+Pokemon = LUCARIO,36
+    Item = LUCARIONITE
+    IV = 31,31,31,31,31,31
+    EV = 0,0,4,0,0,0
+#-------------------------------
+[CHAMPI,Champi,1]
+Items = MEGARING,HYPERPOTION
+LoseText = Tu es un vrai stratége 
+Pokemon = WOBBUFFET,34
+    Name = Culbuté
+    IV = 7,26,5,20,26,5
+    EV = 10,70,10,30,70,10
+Pokemon = RAPIDASH,34
+    Name = Galope
+    Form = 1
+    IV = 31,10,20,31,20,10
+    EV = 0,0,0,200,0,0
+Pokemon = METAGROSS,38
+    Item = METAGROSSITE
+    Name = MEGROBITE
+    Moves = SHADOWBALL,SLUDGEWAVE,FOCUSBLAST,THUNDERBOLT  
+    AbilityIndex = 0
+    Nature = TIMID
+    IV = 31,24,12,31,24,12
+    EV = 125,20,10,20,30,70
+    Happiness = 255
+    SuperShiny = true
+    Ball = DREAMBALL
+    Size = 225
+#------------------------------- Route 10
+[LADY1,Béa]
+LoseText = Trop de soleil ici ...
+Pokemon = ALTARIA,35
+#------------------------------- ROUTE 10
+[CAMPER,Joel]
+LoseText = Tu n'aime pas les insectes toi ...
+Pokemon = ARIADOS,33
+Pokemon = SCIZOR,33

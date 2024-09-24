@@ -229,6 +229,10 @@ ShowArea = true
 Weather = Rain,40
 MapPosition = 0,17,10
 #-------------------------------
+[054]   # Arène
+Name = Arène
+MapPosition = 0,17,10
+#-------------------------------
 [055]   # Safari ?
 Name = Safari entrance
 #-------------------------------

@@ -5,6 +5,7 @@
 # Description: Ce plugin permet de combattre un autre joueur via un code.
 #===============================================================================
 
+
 def pbBattleFriend
   # Création du menu avec trois options
   commands = ["Envoyer Code", "Combattre Amis", "Partir"]
@@ -28,48 +29,46 @@ def send_code_to_friend
   trainer_sprite = GameData::TrainerType.get(trainer.trainer_type).id.to_s  # Nom interne du sprite du dresseur
 
   # Ouvre/crée le fichier .txt pour écrire les infos
-  File.open("battle_info.txt", "w") do |file|
-    # Informations du dresseur
-    file.puts "[#{trainer_sprite},#{trainer_name}]"
+  # Informations du dresseur
+  data = "[#{trainer_sprite},#{trainer_name}]\n"
 
-    # Informations sur chaque Pokémon de l'équipe
-    trainer.party.each_with_index do |pokemon, index|
-      species_data = GameData::Species.get(pokemon.species)  # Récupère les données de l'espèce
-      file.puts "Pokemon = #{species_data.id.to_s.upcase},#{pokemon.level}"
-      
-      # Surnom du Pokémon (optionnel)
-      if pokemon.name && pokemon.name != species_data.name
-        file.puts "\tName = #{pokemon.name}"
-      end
-
-      # N'écrit la ligne Item que si un item est présent
-      if pokemon.item
-        file.puts "\tItem = #{GameData::Item.get(pokemon.item).id.to_s.upcase}"
-      end
-
-      file.puts "\tShiny = #{pokemon.shiny? ? 'True' : 'False'}"
-      file.puts "\tSuperShiny = #{pokemon.super_shiny? ? 'True' : 'False'}"
-      file.puts "\tTeraType = #{pokemon.tera_type ? GameData::Type.get(pokemon.tera_type).id.to_s.upcase : 'NONE'}"
-      file.puts "\tNature = #{GameData::Nature.get(pokemon.nature).id.to_s.upcase}"  # Nature en anglais
-      file.puts "\tAbility = #{pokemon.ability ? GameData::Ability.get(pokemon.ability).id.to_s.upcase : 'NONE'}"
-      
-      # IVs et EVs en une seule ligne
-      file.puts "\tIV = #{pokemon.iv[:HP]},#{pokemon.iv[:ATTACK]},#{pokemon.iv[:DEFENSE]},#{pokemon.iv[:SPECIAL_ATTACK]},#{pokemon.iv[:SPECIAL_DEFENSE]},#{pokemon.iv[:SPEED]}"
-      file.puts "\tEV = #{pokemon.ev[:HP]},#{pokemon.ev[:ATTACK]},#{pokemon.ev[:DEFENSE]},#{pokemon.ev[:SPECIAL_ATTACK]},#{pokemon.ev[:SPECIAL_DEFENSE]},#{pokemon.ev[:SPEED]}"
-
-      # Moveset en une ligne
-      move_ids = pokemon.moves.map { |move| GameData::Move.get(move.id).id.to_s.upcase }
-      file.puts "\tMoveset = #{move_ids.join(',')}"
+  # Informations sur chaque Pokémon de l'équipe
+  trainer.party.each_with_index do |pokemon, index|
+    species_data = GameData::Species.get(pokemon.species)  # Récupère les données de l'espèce
+    data += "Pokemon = #{species_data.id.to_s.upcase},#{pokemon.level}\n"
+    
+    # Surnom du Pokémon (optionnel)
+    if pokemon.name && pokemon.name != species_data.name
+      data += "\tName = #{pokemon.name}\n"
     end
-  end
 
-  pbMessage("Les informations du combat ont été sauvegardées dans 'battle_info.txt'.")
+    # N'écrit la ligne Item que si un item est présent
+    if pokemon.item
+      data += "\tItem = #{GameData::Item.get(pokemon.item).id.to_s.upcase}\n"
+    end
+
+    data += "\tShiny = #{pokemon.shiny? ? 'True' : 'False'}\n"
+    data += "\tSuperShiny = #{pokemon.super_shiny? ? 'True' : 'False'}\n"
+    data += "\tTeraType = #{pokemon.tera_type ? GameData::Type.get(pokemon.tera_type).id.to_s.upcase : 'NONE'}\n"
+    data += "\tNature = #{GameData::Nature.get(pokemon.nature).id.to_s.upcase}\n"  # Nature en anglais
+    data += "\tAbility = #{pokemon.ability ? GameData::Ability.get(pokemon.ability).id.to_s.upcase : 'NONE'}\n"
+    
+    # IVs et EVs en une seule ligne
+    data += "\tIV = #{pokemon.iv[:HP]},#{pokemon.iv[:ATTACK]},#{pokemon.iv[:DEFENSE]},#{pokemon.iv[:SPECIAL_ATTACK]},#{pokemon.iv[:SPECIAL_DEFENSE]},#{pokemon.iv[:SPEED]}\n"
+    data += "\tEV = #{pokemon.ev[:HP]},#{pokemon.ev[:ATTACK]},#{pokemon.ev[:DEFENSE]},#{pokemon.ev[:SPECIAL_ATTACK]},#{pokemon.ev[:SPECIAL_DEFENSE]},#{pokemon.ev[:SPEED]}\n"
+
+    # Moveset en une ligne
+    move_ids = pokemon.moves.map { |move| GameData::Move.get(move.id).id.to_s.upcase }
+    data += "\tMoveset = #{move_ids.join(',')}\n"
+  end
+  encrypt_and_save_data(data)
+  #-pbMessage("Les informations du combat ont été sauvegardées dans 'battle_info.txt'.")
 end
 
 #-------------------------------------------------------------------------------------------
 #Check file
 def check_battle_with_friend
-  file_path = "battle_info.txt"
+  file_path = "EncryptedBattleData\\Battle_Info.txt"
   
   # Vérifie si le fichier existe
   return File.exist?(file_path)
@@ -77,77 +76,60 @@ end
 
 
 #-------------------------------------------------------------------------------------------
-# Fonction pour "Combattre Amis" - Ajoute ici ta logique
 def start_battle_with_friend
-  #---pbMessage("Connexion avec votre ami pour démarrer le combat...")
+  # Déchiffre et récupère les données du fichier
+  decrypted_data = decrypt_data_from_file
+  return pbMessage("Fichier de combat introuvable.") unless decrypted_data
 
-  # Lire les données du fichier 'battle_info.txt'
-  file_path = "battle_info.txt"
-  return pbMessage("Fichier de combat introuvable.") unless File.exist?(file_path)
-  
+  # Vérification si `decrypted_data` est bien une chaîne de caractères
+  unless decrypted_data.is_a?(String)
+    return pbMessage("Données de combat invalides.")
+  end
+
   trainer_name = ""
   trainer_sprite = ""
   pokemon_team = []
-  current_pokemon = nil  # Définir `current_pokemon` en dehors de la boucle
+  current_pokemon = nil
 
-  File.open(file_path, "r") do |file|
-    file.each_line do |line|
-      line.strip!
-      if line.start_with?("[")
-        # Récupère le sprite et le nom du dresseur
-        trainer_sprite, trainer_name = line.scan(/\[(.*?),(.*?)\]/).flatten
-        puts "Trainer: #{trainer_name}, Sprite: #{trainer_sprite}"  # Debug
-      elsif line.start_with?("Pokemon")
-        # Si un nouveau Pokémon est rencontré, on initialise un nouveau dictionnaire
-        species, level = line.match(/Pokemon = (\w+),(\d+)/).captures
-        current_pokemon = { species: species.to_sym, level: level.to_i }
-        pokemon_team << current_pokemon
-        puts "Pokemon: #{species}, Level: #{level}"  # Debug
-      elsif current_pokemon  # S'assure que `current_pokemon` est bien défini
-        if line.start_with?("Name")
-          current_pokemon[:name] = line.match(/Name = (.*)/).captures[0]
-          puts "Name: #{current_pokemon[:name]}"  # Debug
-        elsif line.start_with?("Item")
-          current_pokemon[:item] = line.match(/Item = (\w+)/).captures[0].to_sym
-          puts "Item: #{current_pokemon[:item]}"  # Debug
-        elsif line.start_with?("Shiny")
-          current_pokemon[:shiny] = (line.match(/Shiny = (True|False)/).captures[0] == "True")
-          puts "Shiny: #{current_pokemon[:shiny]}"  # Debug
-        elsif line.start_with?("SuperShiny")
-          current_pokemon[:super_shiny] = (line.match(/SuperShiny = (True|False)/).captures[0] == "True")
-          puts "SuperShiny: #{current_pokemon[:super_shiny]}"  # Debug
-        elsif line.start_with?("TeraType")
-          current_pokemon[:tera_type] = line.match(/TeraType = (\w+)/).captures[0].to_sym
-          puts "TeraType: #{current_pokemon[:tera_type]}"  # Debug
-        elsif line.start_with?("Nature")
-          current_pokemon[:nature] = line.match(/Nature = (\w+)/).captures[0].to_sym
-          puts "Nature: #{current_pokemon[:nature]}"  # Debug
-        elsif line.start_with?("Ability")
-          current_pokemon[:ability] = line.match(/Ability = (\w+)/).captures[0].to_sym
-          puts "Ability: #{current_pokemon[:ability]}"  # Debug
-        elsif line.start_with?("IV")
-          current_pokemon[:iv] = line.match(/IV = ([\d,]+)/).captures[0].split(",").map(&:to_i)
-          puts "IV: #{current_pokemon[:iv].join(',')}"  # Debug
-        elsif line.start_with?("EV")
-          current_pokemon[:ev] = line.match(/EV = ([\d,]+)/).captures[0].split(",").map(&:to_i)
-          puts "EV: #{current_pokemon[:ev].join(',')}"  # Debug
-        elsif line.start_with?("Moveset")
-          current_pokemon[:moveset] = line.match(/Moveset = ([\w,]+)/).captures[0].split(",").map(&:to_sym)
-          puts "Moveset: #{current_pokemon[:moveset].join(',')}"  # Debug
-        end
+  # Lis les données déchiffrées comme avant
+  decrypted_data.each_line do |line|
+    line.strip!
+    if line.start_with?("[")
+      trainer_sprite, trainer_name = line.scan(/\[(.*?),(.*?)\]/).flatten
+      puts "Trainer: #{trainer_name}, Sprite: #{trainer_sprite}"  # Debug
+    elsif line.start_with?("Pokemon")
+      species, level = line.match(/Pokemon = (\w+),(\d+)/).captures
+      current_pokemon = { species: species.to_sym, level: level.to_i }
+      pokemon_team << current_pokemon
+      puts "Pokemon: #{species}, Level: #{level}"  # Debug
+    elsif current_pokemon
+      if line.start_with?("Name")
+        current_pokemon[:name] = line.match(/Name = (.*)/).captures[0]
+      elsif line.start_with?("Item")
+        current_pokemon[:item] = line.match(/Item = (\w+)/).captures[0].to_sym
+      elsif line.start_with?("Shiny")
+        current_pokemon[:shiny] = (line.match(/Shiny = (True|False)/).captures[0] == "True")
+      elsif line.start_with?("SuperShiny")
+        current_pokemon[:super_shiny] = (line.match(/SuperShiny = (True|False)/).captures[0] == "True")
+      elsif line.start_with?("TeraType")
+        current_pokemon[:tera_type] = line.match(/TeraType = (\w+)/).captures[0].to_sym
+      elsif line.start_with?("Nature")
+        current_pokemon[:nature] = line.match(/Nature = (\w+)/).captures[0].to_sym
+      elsif line.start_with?("Ability")
+        current_pokemon[:ability] = line.match(/Ability = (\w+)/).captures[0].to_sym
+      elsif line.start_with?("IV")
+        current_pokemon[:iv] = line.match(/IV = ([\d,]+)/).captures[0].split(",").map(&:to_i)
+      elsif line.start_with?("EV")
+        current_pokemon[:ev] = line.match(/EV = ([\d,]+)/).captures[0].split(",").map(&:to_i)
+      elsif line.start_with?("Moveset")
+        current_pokemon[:moveset] = line.match(/Moveset = ([\w,]+)/).captures[0].split(",").map(&:to_sym)
       end
     end
   end
 
-  # Afficher un message si le fichier a été bien lu
-  pbMessage("Votre prochain combat est prêt")
-
-  # Créer l'équipe de Pokémon pour le dresseur avec les détails ajoutés
+  # Créer l'équipe de Pokémon pour le dresseur
   party = pokemon_team.map do |pkmn_data|
     pokemon = Pokemon.new(pkmn_data[:species], pkmn_data[:level])
-
-    # Appliquer les informations spécifiques au Pokémon
-    puts "Création du Pokémon #{pkmn_data[:species]} de niveau #{pkmn_data[:level]}"  # Debug
     pokemon.item = pkmn_data[:item] ? GameData::Item.get(pkmn_data[:item]).id : nil
     pokemon.shiny = pkmn_data[:shiny] unless pkmn_data[:shiny].nil?
     pokemon.super_shiny = pkmn_data[:super_shiny] unless pkmn_data[:super_shiny].nil?
@@ -156,26 +138,57 @@ def start_battle_with_friend
     pokemon.ability = GameData::Ability.get(pkmn_data[:ability]).id if pkmn_data[:ability]
     pokemon.iv = pkmn_data[:iv] if pkmn_data[:iv]
     pokemon.ev = pkmn_data[:ev] if pkmn_data[:ev]
-
-    # Appliquer le surnom si présent
     pokemon.name = pkmn_data[:name] if pkmn_data[:name]
-
-    # Appliquer les moves
     if pkmn_data[:moveset]
       pkmn_data[:moveset].each_with_index do |move, index|
         pokemon.moves[index] = Pokemon::Move.new(GameData::Move.get(move).id)
-        puts "Move #{index + 1}: #{move}"  # Debug
       end
     end
-
     pokemon
   end
 
-  # Créer le dresseur avec le sprite et nom récupérés
+  # Créer le dresseur et lancer le combat
   trainer = NPCTrainer.new(trainer_name, GameData::TrainerType.get(trainer_sprite.to_sym).id)
   trainer.party = party
-
-  # Lancer le combat contre ce dresseur
   TrainerBattle.start(trainer)
 end
+
+
+def encrypt_and_save_data(decrypted_data)
+  Dir.mkdir("EncryptedBattleData") unless File.exists?("EncryptedBattleData")
+  file_path = "EncryptedBattleData\\Battle_Info.txt"
+  
+  begin
+    File.open(file_path, "w") do |file|
+      puts "Données à chiffrer : #{decrypted_data}"  # Debug : Affiche les données à chiffrer
+      encrypted_data = [Zlib::Deflate.deflate(Marshal.dump(decrypted_data))].pack("m")
+      file.puts "(\"#{encrypted_data}\")"
+      pbMessage("Les données de combat ont été chiffrées et sauvegardées.")
+    end
+  rescue StandardError => e
+    pbMessage("Erreur lors de la sauvegarde des données : #{e.message}")
+  end
+end
+
+def decrypt_data_from_file
+  rootFolder = File.dirname(__FILE__)
+  filePath = Dir.glob(File.join(rootFolder, "**", "Battle_Info.txt")).first
+
+  if filePath.nil?
+    puts "Battle info file not found"
+    return false
+  end
+
+  begin
+    encrypted_data = File.read(filePath)
+    decrypted_data = Marshal.restore(Zlib::Inflate.inflate(encrypted_data.unpack("m")[0]))
+    puts "Déchiffrement réussi : #{decrypted_data}"  # Debug
+    return decrypted_data
+  rescue StandardError => e
+    pbMessage(_INTL("Erreur lors du déchiffrement des données : {1}", e.message))
+    return nil
+  end
+end
+
+
 

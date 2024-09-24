@@ -37,6 +37,11 @@ def send_code_to_friend
       species_data = GameData::Species.get(pokemon.species)  # Récupère les données de l'espèce
       file.puts "Pokemon = #{species_data.id.to_s.upcase},#{pokemon.level}"
       
+      # Surnom du Pokémon (optionnel)
+      if pokemon.name && pokemon.name != species_data.name
+        file.puts "\tName = #{pokemon.name}"
+      end
+
       # N'écrit la ligne Item que si un item est présent
       if pokemon.item
         file.puts "\tItem = #{GameData::Item.get(pokemon.item).id.to_s.upcase}"
@@ -62,9 +67,19 @@ def send_code_to_friend
 end
 
 #-------------------------------------------------------------------------------------------
+#Check file
+def check_battle_with_friend
+  file_path = "battle_info.txt"
+  
+  # Vérifie si le fichier existe
+  return File.exist?(file_path)
+end
+
+
+#-------------------------------------------------------------------------------------------
 # Fonction pour "Combattre Amis" - Ajoute ici ta logique
 def start_battle_with_friend
-  pbMessage("Connexion avec votre ami pour démarrer le combat...")
+  #---pbMessage("Connexion avec votre ami pour démarrer le combat...")
 
   # Lire les données du fichier 'battle_info.txt'
   file_path = "battle_info.txt"
@@ -89,7 +104,10 @@ def start_battle_with_friend
         pokemon_team << current_pokemon
         puts "Pokemon: #{species}, Level: #{level}"  # Debug
       elsif current_pokemon  # S'assure que `current_pokemon` est bien défini
-        if line.start_with?("Item")
+        if line.start_with?("Name")
+          current_pokemon[:name] = line.match(/Name = (.*)/).captures[0]
+          puts "Name: #{current_pokemon[:name]}"  # Debug
+        elsif line.start_with?("Item")
           current_pokemon[:item] = line.match(/Item = (\w+)/).captures[0].to_sym
           puts "Item: #{current_pokemon[:item]}"  # Debug
         elsif line.start_with?("Shiny")
@@ -122,7 +140,7 @@ def start_battle_with_friend
   end
 
   # Afficher un message si le fichier a été bien lu
-  pbMessage("Fichier de combat chargé. Création du dresseur...")
+  pbMessage("Votre prochain combat est prêt")
 
   # Créer l'équipe de Pokémon pour le dresseur avec les détails ajoutés
   party = pokemon_team.map do |pkmn_data|
@@ -138,6 +156,9 @@ def start_battle_with_friend
     pokemon.ability = GameData::Ability.get(pkmn_data[:ability]).id if pkmn_data[:ability]
     pokemon.iv = pkmn_data[:iv] if pkmn_data[:iv]
     pokemon.ev = pkmn_data[:ev] if pkmn_data[:ev]
+
+    # Appliquer le surnom si présent
+    pokemon.name = pkmn_data[:name] if pkmn_data[:name]
 
     # Appliquer les moves
     if pkmn_data[:moveset]

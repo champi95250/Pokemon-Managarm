@@ -59,6 +59,24 @@ IntroBGM = 013 - Meet kid
 BattleBGM = 030 - Battle 01
 VictoryBGM = 031 - Victory 01
 #-------------------------------
+[GAMIN3]
+Name = Gamin
+Gender = Male
+BaseMoney = 21
+SkillLevel = 10
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[SCOUT]
+Name = Scout
+Gender = Male
+BaseMoney = 21
+SkillLevel = 10
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
 [DRESSEUSE01]
 Name = Dresseuse
 Gender = Female
@@ -81,7 +99,7 @@ VictoryBGM = 031 - Victory 01
 Name = Champion
 Gender = Female
 BaseMoney = 54
-SkillLevel = 100
+SkillLevel = 31
 Flags = ReserveLastPokemon,UsePokemonInOrder
 IntroBGM = 012 - Gym Leader Meet
 BattleBGM = 010 - Gym Battle
@@ -91,7 +109,7 @@ VictoryBGM = 011 - Victory Gym Leader
 Name = Champion
 Gender = Male
 BaseMoney = 55
-SkillLevel = 100
+SkillLevel = 31
 Flags = ReserveLastPokemon,UsePokemonInOrder
 IntroBGM = 012 - Gym Leader Meet
 BattleBGM = 010 - Gym Battle
@@ -101,6 +119,16 @@ VictoryBGM = 011 - Victory Gym Leader
 Name = Champion
 Gender = Male
 BaseMoney = 56
+SkillLevel = 100
+Flags = ReserveLastPokemon,UsePokemonInOrder
+IntroBGM = 012 - Gym Leader Meet
+BattleBGM = 047 - Gym Leader 2v2
+VictoryBGM = 011 - Victory Gym Leader
+#-------------------------------
+[QUENTIN]
+Name = Champion
+Gender = Male
+BaseMoney = 57
 SkillLevel = 100
 Flags = ReserveLastPokemon,UsePokemonInOrder
 IntroBGM = 012 - Gym Leader Meet
@@ -128,8 +156,17 @@ VictoryBGM = 031 - Victory 01
 [CANON2]
 Name = Canon
 Gender = Female
-BaseMoney = 28
+BaseMoney = 26
 SkillLevel = 30
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[CANON3]
+Name = Canon
+Gender = Female
+BaseMoney = 27
+SkillLevel = 40
 IntroBGM = 013 - Meet kid
 BattleBGM = 030 - Battle 01
 VictoryBGM = 031 - Victory 01
@@ -456,4 +493,49 @@ BaseMoney = 40
 SkillLevel = 100
 IntroBGM = 054 - Sheena s en mele
 BattleBGM = 055 - Sheena veux se battre
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[POLICIER]
+Name = Policier
+Gender = Male
+BaseMoney = 22
+SkillLevel = 46
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[MYSTIC]
+Name = Mystic
+Gender = Female
+BaseMoney = 30
+SkillLevel = 40
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[MYSTIC2]
+Name = Mystic
+Gender = Female
+BaseMoney = 30
+SkillLevel = 40
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[JARDINIERE]
+Name = Jardinière
+Gender = Female
+BaseMoney = 28
+SkillLevel = 38
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[LIVREUR]
+Name = Livreur
+Gender = Male
+BaseMoney = 28
+SkillLevel = 26
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
 VictoryBGM = 031 - Victory 01

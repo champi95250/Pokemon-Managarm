@@ -6644,3 +6644,11 @@ Price = 0
 Flags = KeyItem
 FieldUse = Direct
 Description = Un pass pour ouvrir des portes
+#-------------------------------
+[POKESEARCH]
+Name = Poke search
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = Une technologie avancé qui attire un pokémon spécifique

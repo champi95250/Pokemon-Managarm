@@ -263,7 +263,7 @@ class MosaicBattlerSprite < Battle::Scene::BattlerSprite
   end
 
   def mosaicRefresh(bitmap)
-    return if @inrefresh
+    return if @inrefresh || !bitmap
     @inrefresh = true
     @oldbitmap = bitmap
     if @mosaic <= 0 || !@oldbitmap

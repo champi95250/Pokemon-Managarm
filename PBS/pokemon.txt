@@ -3393,7 +3393,7 @@ Category = Mantis
 Pokedex = Its blindingly fast speed adds to the sharpness of its twin forearm scythes. The scythes can slice through thick logs in one wicked stroke.
 Generation = 1
 Flags = HasGenderedSprites
-Evolutions = SCIZOR,TradeItem,METALCOAT
+Evolutions = SCIZOR,TradeItem,METALCOAT,KLEAVOR,Item,BLACKAUGURITE
 CallRateSOS = 3
 #-------------------------------
 [JYNX]
@@ -5947,6 +5947,7 @@ Habitat = Mountain
 Category = Hibernator
 Pokedex = In forests, it is said that there are many streams and towering trees where an Ursaring gathers food. It walks through its forest collecting food every day.
 Generation = 2
+Evolutions = URSALUNA,ItemNight,PEATBLOCK
 Flags = HasGenderedSprites
 #-------------------------------
 [SLUGMA]
@@ -6411,6 +6412,7 @@ Habitat = Forest
 Category = Big Horn
 Pokedex = Stantler's magnificent antlers were once traded at high prices as works of art. As a result, this Pokémon was hunted close to extinction.
 Generation = 2
+Evolutions = WYRDEER,LevelUseMoveCount,PSYSHIELDBASH
 CallRateSOS = 9
 #-------------------------------
 [SMEARGLE]
@@ -14807,7 +14809,7 @@ Category = Bulb
 Pokedex = Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.
 Generation = 5
 WildItemUncommon = ABSORBBULB
-Evolutions = LILLIGANT,Item,SUNSTONE
+Evolutions = LILLIGANT,Item,SUNSTONE,LILLIGANT,Item,HISUISTONE
 CallRateSOS = 9
 #-------------------------------
 [LILLIGANT]
@@ -23106,6 +23108,7 @@ Shape = HeadBase
 Category = Cream
 Pokedex = When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.
 Generation = 8
+Flags = AllFormsShareGmax
 #-------------------------------
 [FALINKS]
 Name = Falinks
@@ -23592,7 +23595,7 @@ Shape = Quadruped
 Category = Warrior
 Pokedex = Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.
 Generation = 8
-Flags = Legendary
+Flags = Legendary,CannotDynamax
 WildItemCommon = RUSTEDSWORD
 WildItemUncommon = RUSTEDSWORD
 WildItemRare = RUSTEDSWORD
@@ -23620,7 +23623,7 @@ Shape = Quadruped
 Category = Warrior
 Pokedex = This Pokémon slept for aeons while in the form of a statue. It was asleep for so long, people forgot that it ever existed.
 Generation = 8
-Flags = Legendary
+Flags = Legendary,CannotDynamax
 WildItemCommon = RUSTEDSHIELD
 WildItemUncommon = RUSTEDSHIELD
 WildItemRare = RUSTEDSHIELD

@@ -90,7 +90,7 @@ Pokemon = EEVEE,11
     Gender = male
     IV = 18,16,20,16,20,11
     EV = 0,0,0,0,0,0
-Pokemon = MILTANK,13
+Pokemon = MILTANK,14
     Moves = ROLLOUT,DEFENSECURL,PLAYROUGH,GROWL
     AbilityIndex = 1
     IV = 31,31,31,31,31,31
@@ -151,6 +151,36 @@ Pokemon = LAPRAS,29
     Happiness = 250
     Size = 220
     TeraType = WATER
+#------------------------------- QUENTIN
+[QUENTIN,XIII]
+Items = MEGARING
+LoseText = Hé bien ! La musique était à ton gout au moins ? 
+Pokemon = MIMIKYU,40
+    Moves = SHADOWSNEAK,SWORDSDANCE,SHADOWCLAW,PLAYROUGH
+    IV = 31,31,12,20,24,24
+    EV = 0,200,0,4,0,200
+    NoTera = true
+Pokemon = SKELEDIRGE,41
+    Moves = SHADOWBALL,SLACKOFF,TORCHSONG,WILLOWISP
+    AbilityIndex = 2
+    IV = 28,15,28,15,22,15
+    EV = 200,0,200,0,0,0
+    NoTera = true
+Pokemon = GHOLDENGO,41
+    SuperShiny = true
+    Moves = SHADOWBALL,RECOVER,NASTYPLOT,MAKEITRAIN
+    AbilityIndex = 0
+    NoTera = true
+    IV = 30,15,30,25,25,28
+    EV = 150,0,100,50,0,70
+Pokemon = GENGAR,44
+    Moves = SHADOWBALL,SLUDGEWAVE,ICYWIND,THUNDER
+    AbilityIndex = 0
+    IV = 31,30,30,30,31,31
+    EV = 0,0,0,4,252,252
+    Happiness = 250
+    Size = 220
+    TeraType = GHOST
 #-------------------------------
 [RIVAL,Ben]
 LoseText = Tu as déjà trouver ton partenaire on dirai !
@@ -487,6 +517,16 @@ Pokemon = SANDSLASH,24
     Form = 1
 Pokemon = NINETALES,24
     Form = 1
+#------------------------------- ROUTE 7
+[SCOUT,Loic]
+LoseText = Je vais repenser mes stratégies dans la nature.
+Pokemon = PARASECT,24
+Pokemon = KRICKETUNE,24
+#------------------------------- ROUTE 7
+[LIVREUR,Mourade]
+LoseText = Oups, ça m'apprendra à me précipiter… 
+Pokemon = DELIBIRD,24
+Pokemon = FLETCHINDER,24
 #-------------------------------
 [MONTAGNARD,Jean]
 LoseText = Ca a bien chauffer entre nous.
@@ -699,5 +739,165 @@ Pokemon = ALTARIA,35
 #------------------------------- ROUTE 10
 [CAMPER,Joel]
 LoseText = Tu n'aime pas les insectes toi ...
-Pokemon = ARIADOS,33
-Pokemon = SCIZOR,33
+Pokemon = ARIADOS,34
+Pokemon = SCIZOR,34
+#------------------------------- ROUTE 10
+[CAMPER,Bastien]
+LoseText = Le temps est bof ici ...
+Pokemon = SWADLOON,33
+Pokemon = KLEAVOR,34
+#------------------------------- TEAM_MANAGARM HANGAR 4
+[ZEKE,Zéké,1]
+Items = MEGARING,HYPERPOTION
+LoseText = Mais c'est juste pas possible ! Tu es insupportable comme morveux ! 
+Pokemon = SKARMORY,38
+    Item = ROCKYHELMET
+    SuperShiny = true
+    Nature = BOLD
+    AbilityIndex = 0
+    IV = 31,12,31,11,12,31
+    EV = 100,0,75,30,0,0
+    Moves = STEALTHROCK,WHIRLWIND,BRAVEBIRD,ROOST 
+Pokemon = BARRASKEWDA,40
+    Item = CHOICEBAND
+    AbilityIndex = 2
+    Nature = ADAMANT
+    Shiny = true
+    Moves = LIQUIDATION,CRUNCH,PSYCHICFANGS,CLOSECOMBAT 
+    IV = 27,27,27,27,27,27
+    EV = 100,100,0,0,0,0
+Pokemon = SABLEYE,40
+    Item = SABLENITE
+    AbilityIndex = 2
+    Nature = CALM
+    Shiny = true
+    Moves = RECOVER,PROTECT,KNOCKOFF,WILLOWISP 
+    IV = 30,11,30,11,11,30
+    EV = 100,0,50,0,0,75
+Pokemon = FEUNEVOIR,40
+    AbilityIndex = 2
+    Nature = CALM
+    Shiny = true
+    Moves = AURASPHERE,PSYCHIC,FLAMETHROWER,CONFUSERAY 
+    IV = 30,22,22,20,31,31
+    EV = 80,0,0,0,80,80
+#------------------------------- ROUTE 10
+[CANON3,Aya]
+LoseText = Tu veux tout bombarder ...
+Pokemon = TSAREENA,34
+Pokemon = GARDEVOIR,34
+#------------------------------- ROUTE 9
+[CANON3,Maya]
+LoseText = Mais je peux être tranquille ?
+Pokemon = SOLROCK,32
+Pokemon = VESPIQUEN,32
+#------------------------------- ROUTE 10
+[POLICIER,Jordan]
+LoseText = Je pensais que tu était un de la team Managarm ...
+Pokemon = BOLTUND,34
+Pokemon = STARAPTOR,34
+Pokemon = AEGISLASH,36
+#------------------------------- ROUTE 09
+[POLICIER,Eric]
+LoseText = Continuez à suivre les règles et tout ira bien pour vous.
+Pokemon = STOUTLAND,32
+Pokemon = STARAPTOR,33
+#------------------------------- ROUTE 10
+[SCOUT,Benjamin]
+LoseText = Tu avais de l'insecticide ou quoi ?
+Pokemon = HERACROSS,35
+Pokemon = PINSIR,35
+#------------------------------- ROUTE 9
+[JARDINIERE,Marisa]
+LoseText = Bon, un p'tit pastis pour fêter ta victoire ?
+Pokemon = SCOVILLAIN,34
+Pokemon = ARBOLIVA,35
+#------------------------------- ROUTE 9
+[GAMIN3,Youssef]
+LoseText = Bon, un p'tit pastis pour fêter ta victoire ?
+Pokemon = SILICOBRA,32
+Pokemon = KROKOROK,32
+#------------------------------- ARENE SERAPHYS
+[MYSTIC,Elodie]
+LoseText = Je sens une présence encore plus forte que la tienne...
+Pokemon = MISDREAVUS,38
+Pokemon = BANETTE,38
+#------------------------------- ARENE SERAPHYS
+[MYSTIC,Lucie]
+LoseText = Les esprits m'ont avertie... Mais je n'ai pas écouté.
+Pokemon = HAUNTER,38
+Pokemon = PUMPKABOO,40
+#------------------------------- ARENE SERAPHYS
+[MYSTIC,Morgane]
+LoseText = Le voile des ombres s'est levé, mais tu n'as pas encore gagné la bataille...
+Pokemon = PHANTUMP,40
+Pokemon = LITWICK,41
+#------------------------------- ARENE SERAPHYS
+[MYSTIC2,Sarah]
+LoseText = L'obscurité est un refuge... mais pas cette fois.
+Pokemon = DUSKULL,38
+Pokemon = SABLEYE,40
+#------------------------------- ARENE SERAPHYS
+[MYSTIC2,Camille]
+LoseText = Les esprits ricanent... Tu es plus fort que je ne le pensais.
+Pokemon = DRIFBLIM,39
+Pokemon = SPIRITOMB,41
+#------------------------------- ARENE SERAPHYS
+[POKEMONTRAINER_Brendan,Ben]
+Pokemon = FERALIGATR,37
+    Item = ASSAULTVEST
+    Shiny = False
+    SuperShiny = False
+    TeraType = DARK
+    Nature = QUIRKY
+    Ability = TORRENT
+    IV = 31,28,27,29,31,31
+    EV = 9,26,5,21,8,25
+    Moveset = ICEFANG,CRUNCH,WATERGUN,LOWKICK
+Pokemon = FEUNEVOIR,40
+    Shiny = True
+    SuperShiny = True
+    TeraType = FIRE
+    Nature = MODEST
+    Ability = FLASHFIRE
+    IV = 11,21,21,24,7,6
+    EV = 0,2,3,1,0,0
+    Moveset = FLAMETHROWER,QUICKATTACK,DISARMINGVOICE,FIRESPIN
+Pokemon = INFERNAPE,40
+    Item = LEFTOVERS
+    Shiny = False
+    SuperShiny = False
+    TeraType = WATER
+    Nature = NAUGHTY
+    Ability = BLAZE
+    IV = 31,30,27,29,26,31
+    EV = 6,252,0,0,0,252
+    Moveset = TORMENT,POWERUPPUNCH,FLAMEWHEEL,CLOSECOMBAT
+Pokemon = CORVISQUIRE,34
+    Shiny = False
+    SuperShiny = False
+    TeraType = FLYING
+    Nature = IMPISH
+    Ability = KEENEYE
+    IV = 8,29,0,18,12,2
+    EV = 3,0,2,0,0,0
+    Moveset = DRILLPECK,HONECLAWS,FURYATTACK,PLUCK
+Pokemon = LILLIGANT,34
+    Shiny = False
+    SuperShiny = False
+    TeraType = PSYCHIC
+    Nature = BRAVE
+    Ability = HUSTLE
+    IV = 12,4,18,8,14,26
+    EV = 0,0,0,0,0,0
+    Moveset = STUNSPORE,MEGADRAIN,AROMATHERAPY,MAGICALLEAF
+Pokemon = GHOLDENGO,34
+    Shiny = False
+    SuperShiny = False
+    TeraType = DARK
+    Nature = BRAVE
+    Ability = GOODASGOLD
+    IV = 4,1,2,28,10,23
+    EV = 0,0,0,0,0,0
+    Moveset = ASTONISH,TACKLE,SUBSTITUTE,METALSOUND
+

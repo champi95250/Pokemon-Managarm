@@ -40,6 +40,8 @@ ShadowSprite = 1,0,0
 [SNEASEL,1,female]
 BackSprite = 3,16
 FrontSprite = -2,8
+DmaxBackSprite = 0,60
+DmaxFrontSprite = 0,12
 ShadowSprite = 1,5,0
 #-------------------------------
 [COMBUSKEN,,female]

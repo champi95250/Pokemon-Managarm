@@ -71,3 +71,23 @@ SurfCharset = NPC_203_Ethan_surf
 DiveCharset = NPC_203_Ethan_surf
 FishCharset = NPC_203_Ethan_fishing
 SurfFishCharset = NPC_203_Ethan_fishing
+#-------------------------------
+[7]
+TrainerType = POKEMONTRAINER_Brendan
+WalkCharset = trProtag_BoyRubisWalk
+RunCharset = trProtag_BoyRubisRun
+CycleCharset = trProtag_BoyRubisBike
+SurfCharset = trProtag_BoyRubisSurf
+DiveCharset = trProtag_BoyRubisSurf
+FishCharset = trProtag_BoyRubisFish_offset
+SurfFishCharset = trProtag_BoyRubisFish_offset
+#-------------------------------
+[8]
+TrainerType = POKEMONTRAINER_May
+WalkCharset = trProtag_GirlMayWalk
+RunCharset = trProtag_GirlMayRun
+CycleCharset = trProtag_GirlMayBike
+SurfCharset = trProtag_GirlMaySurf
+DiveCharset = trProtag_GirlMaySurf
+FishCharset = trProtag_GirlMayFish_offset
+SurfFishCharset = trProtag_GirlMayFish_offset

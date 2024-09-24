@@ -60,6 +60,7 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,9,14
 BattleBack = field
+Flags = PowerSpot
 #-------------------------------
 [011]   # ShopPKM
 Name = ShopPKM
@@ -70,7 +71,7 @@ Name = Grotte Creuset
 ShowArea = true
 MapPosition = 0,10,14
 DarkMap = true
-BattleBack = rocky
+BattleBack = cave
 #-------------------------------
 [013]   # Orhenta
 Name = Orhenta
@@ -155,7 +156,7 @@ Outdoor = true
 Weather = Rain,100
 MapPosition = 0,7,12
 #-------------------------------
-[036]   # SUBMERALIS
+[036]   # Submeralis
 Name = Submeralis
 Outdoor = true
 ShowArea = true
@@ -178,6 +179,7 @@ MapPosition = 0,14,11
 [042]   # Route 08
 Name = Route 08
 Outdoor = true
+ShowArea = true
 MapPosition = 0,16,14
 #-------------------------------
 [043]   # Route 06
@@ -201,7 +203,7 @@ Name = Canal
 Outdoor = true
 MapPosition = 0,12,15
 #-------------------------------
-[048]   # Desert Cryodeser
+[048]   # Desert Cryodese
 Name = Desert Cryodeser
 Outdoor = true
 ShowArea = true
@@ -219,6 +221,27 @@ Name = Route 10
 Outdoor = true
 ShowArea = true
 MapPosition = 0,17,12
+#-------------------------------
+[053]   # Séraphys
+Name = Séraphys
+Outdoor = true
+ShowArea = true
+Weather = Rain,40
+MapPosition = 0,17,10
+#-------------------------------
+[055]   # Safari ?
+Name = Safari entrance
+#-------------------------------
+[056]   # safarii
+Name = SAFARI
+Outdoor = true
+ShowArea = true
+SafariMap = true
+Flags = PowerSpot
+#-------------------------------
+[057]   # CenterPKM
+Name = Centre Pokémon
+MapPosition = 0,17,10
 #-------------------------------
 [081]   # MultiMaison
 Name = Maison

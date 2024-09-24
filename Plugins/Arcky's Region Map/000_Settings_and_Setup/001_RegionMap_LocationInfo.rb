@@ -140,9 +140,19 @@ module ARMLocationPreview
   }
 
   Route09 = {
-    description: _INTL("<ac>Une route remplis de futur top dresseurs.</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    description: _INTL("<ac>Une route remplis de dresseurs.<br>Zone aprécier d'une certaine génération</ac>"), # <ac>text</ac> can be used to center text horizontally.
     south: [17, 14],
     north: [17, 12],
+  }
+  Route10 = {
+    description: _INTL("<ac>Une route remplis de dresseurs.<br>Zone aprécier d'une autre génération</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    south: [17, 13],
+    north: [17, 10],
+  }
+  Séraphys = {
+    description: _INTL("<ac>Une ville remplis de mystère avec une météo très changeante</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    south: [17, 12],
+    north: [17, 9],
   }
 
 

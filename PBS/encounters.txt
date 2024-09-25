@@ -701,3 +701,7 @@ Land,21
     20,BULBASAUR,5
     20,CHARMANDER,5
     20,SQUIRTLE,5
+#-------------------------------
+[060] # Grotte des secrets
+Cave,6
+    20,UNOWN,10,15

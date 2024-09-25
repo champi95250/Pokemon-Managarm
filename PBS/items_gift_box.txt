@@ -1,0 +1,14 @@
+﻿#-------------------------------
+[GIFTBOX]
+Name = Boite Mystere
+Pocket = 1
+Price = 5000
+FieldUse = Direct
+Description = A gift box filled with items.
+#-------------------------------
+[GIFTBOXRARE]
+Name = Boite Mystere Rare
+Pocket = 1
+Price = 15000
+FieldUse = Direct
+Description = A rare gift box filled with valuable items.

@@ -132,7 +132,7 @@ BaseMoney = 57
 SkillLevel = 100
 Flags = ReserveLastPokemon,UsePokemonInOrder
 IntroBGM = 012 - Gym Leader Meet
-BattleBGM = 047 - Gym Leader 2v2
+BattleBGM = 060 - XIII
 VictoryBGM = 011 - Victory Gym Leader
 #-------------------------------
 [TRAINER_TAKA]

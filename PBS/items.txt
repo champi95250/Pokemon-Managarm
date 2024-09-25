@@ -6652,3 +6652,20 @@ Price = 0
 Flags = KeyItem
 FieldUse = Direct
 Description = Une technologie avancé qui attire un pokémon spécifique
+#-------------------------------
+[CLEBAUDRIVE]
+Name = Clé Bizarre
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = Une clé de forme bizarre, trouver par un Baudrive aujourd'hui décédé. 
+#-------------------------------
+[DRIFBLITINE]
+Name = Drifblitine
+NamePlural = Drifblitines
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Drifblim hold it, and it will be able to Mega Evolve.

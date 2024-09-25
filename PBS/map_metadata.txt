@@ -222,6 +222,12 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,17,12
 #-------------------------------
+[051]   # Camp Numéro 4 Managarm
+Name = Hangar Managarm
+ShowArea = true
+MapPosition = 0,17,11
+BattleBack = hangar
+#-------------------------------
 [053]   # Séraphys
 Name = Séraphys
 Outdoor = true
@@ -236,7 +242,7 @@ MapPosition = 0,17,10
 [055]   # Safari ?
 Name = Safari entrance
 #-------------------------------
-[056]   # safarii
+[056]   # SafariG1
 Name = SAFARI
 Outdoor = true
 ShowArea = true
@@ -246,6 +252,11 @@ Flags = PowerSpot
 [057]   # CenterPKM
 Name = Centre Pokémon
 MapPosition = 0,17,10
+#-------------------------------
+[060]   # Grotte des secrets
+Name = Grotte des secrets
+ShowArea = true
+MapPosition = 0,15,14
 #-------------------------------
 [081]   # MultiMaison
 Name = Maison

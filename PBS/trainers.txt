@@ -167,20 +167,20 @@ Pokemon = SKELEDIRGE,41
     EV = 200,0,200,0,0,0
     NoTera = true
 Pokemon = GHOLDENGO,41
-    SuperShiny = true
     Moves = SHADOWBALL,RECOVER,NASTYPLOT,MAKEITRAIN
     AbilityIndex = 0
     NoTera = true
     IV = 30,15,30,25,25,28
     EV = 150,0,100,50,0,70
 Pokemon = GENGAR,44
+    Item = GENGARITE
     Moves = SHADOWBALL,SLUDGEWAVE,ICYWIND,THUNDER
+    SuperShiny = true
     AbilityIndex = 0
     IV = 31,30,30,30,31,31
     EV = 0,0,0,4,252,252
     Happiness = 250
     Size = 220
-    TeraType = GHOST
 #-------------------------------
 [RIVAL,Ben]
 LoseText = Tu as déjà trouver ton partenaire on dirai !

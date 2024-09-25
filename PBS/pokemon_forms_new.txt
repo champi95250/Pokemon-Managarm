@@ -2,7 +2,7 @@
 [DRIFBLIM,1]
 FormName = Mega Drifblim
 MegaStone = DRIFBLITINE
-BaseStats = 175,95,54,80,105,64
+BaseStats = 172,85,65,70,105,65
 BaseExp = 256
 Abilities = THERMALEXCHANGE
 Height = 2.0

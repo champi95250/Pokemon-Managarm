@@ -62,6 +62,14 @@ module PokemonSelections
     :MUDKIP,
   ]
 
+  Champi_three = [
+    :FLABEBE,
+    :FLABEBE_1,
+    :FLABEBE_2,
+    :FLABEBE_3,
+    :FLABEBE_4,
+  ]
+
   Dealer_one = [
     :SPEAROW,
     :SENTRET,
@@ -92,6 +100,12 @@ module PokemonSelections
     :HONEDGE,
     :PAWNIARD,
     :CRANIDOS,
+  ]
+  Dealer_cinqe = [
+    :TYPHLOSION_1,
+    :SAMUROTT_1,
+    :DECIDUEYE_1,
+    :ZORUA_1,
   ]
 
   Mythical = [

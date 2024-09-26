@@ -11,15 +11,49 @@ ItemHandlers::UseFromBag.add(:GIFTBOX,proc{|item|
 		#[itemID, weight, quantity (optional)]
 		# - set quantity to an array of 2 numbers for a range of possible quantities => [min quantity, max quantity]
 		# make sure to sort your items by weight (so the largest number is at the top), to make sure common items are common/rare items are rare
-		[:POTION, 30, [3,6]], 
-		[:SUPERPOTION, 15, [2,4]], 
-		[:HYPERPOTION , 5, [1,3]], 
-		[:POKEBALL, 30, [3,6]], 
-		[:GREATBALL, 15, [2,4]], 
-		[:ULTRABALL, 5, [1,3]], 
-		[:RARECANDY, 1]
+		[:POTION, 30, [5,12]], 			# 100 - 500/1200
+		[:SUPERPOTION, 15, [4,7]],  # 350 - 1050/2450
+		[:HYPERPOTION , 5, [3,5]],  # 750 - 1500/3750
+		[:POKEBALL, 30, [5,12]],  	# 100 - 500/1200
+		[:GREATBALL, 15, [6,9]], 		# 300 - 1800/2700
+		[:ULTRABALL, 5, [5,8]], 		# 400 - 2000/3200
+		[:RARECANDY, 1] 						# 5000
 	]
 	pull_count = 3
+	allow_repeats = false
+	
+	ret = pbOpenGiftBox(item, pulls, pull_count, allow_repeats)
+	next ret
+})
+
+ItemHandlers::UseFromBag.add(:GIFTBOXSAFARIE,proc{|item|
+	#Settings
+	pulls = [
+		#[itemID, weight, quantity (optional)]
+		# - set quantity to an array of 2 numbers for a range of possible quantities => [min quantity, max quantity]
+		# make sure to sort your items by weight (so the largest number is at the top), to make sure common items are common/rare items are rare
+		[:POKEBALL, 30, [8,15]],  	# 100 - 800/1200
+		[:GREATBALL, 12, [7,12]], 		# 300 - 2000/2700
+		[:ULTRABALL, 8, [5,6]], 		# 400 - 2000/3200
+		[:NETBALL, 5, [2,5]],  	# 150 - 300/750
+		[:DIVEBALL, 5, [2,5]], 		
+		[:NESTBALL, 5, [2,5]], 		
+		[:REPEATBALL, 5, [2,5]],  	
+		[:TIMERBALL, 5, [2,5]], 		
+		[:LUXURYBALL, 5, [2,5]], 		
+		[:DUSKBALL, 5, [2,5]], 		
+		[:HEALBALL, 5, [2,5]],  	
+		[:QUICKBALL, 5, [2,5]], 		
+		[:FASTBALL, 5, [2,5]], 		
+		[:HEAVYBALL, 5, [2,5]],  	
+		[:LOVEBALL, 5, [2,5]], 		
+		[:LUREBALL, 5, [2,5]], 		
+		[:FRIENDBALL, 5, [2,5]],  	
+		[:MOONBALL, 5, [2,5]], 		
+		[:DREAMBALL, 5, [2,5]], 		
+		[:RARECANDY, 1] 						# 5000
+	]
+	pull_count = 5
 	allow_repeats = false
 	
 	ret = pbOpenGiftBox(item, pulls, pull_count, allow_repeats)

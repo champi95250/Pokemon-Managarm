@@ -28,4 +28,22 @@ module PokemonSelections
     pokeball: :POKEBALL,
     shadow: true
   }
+  SHADOW_2 = {
+    level: 17,
+    min_iv: 16,
+    pokeball: :POKEBALL,
+    shadow: true
+  }
+  SHADOW_3 = {
+    level: 29,
+    min_iv: 17,
+    pokeball: :POKEBALL,
+    shadow: true
+  }
+  SHADOW_HISUI = {
+    level: 32,
+    min_iv: 18,
+    pokeball: :POKEBALL,
+    shadow: true
+  }
 end

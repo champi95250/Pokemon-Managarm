@@ -6,6 +6,13 @@ Price = 5000
 FieldUse = Direct
 Description = A gift box filled with items.
 #-------------------------------
+[GIFTBOXSAFARIE]
+Name = Boite Mystere Safari
+Pocket = 1
+Price = 5000
+FieldUse = Direct
+Description = A gift box filled with pokeball.
+#-------------------------------
 [GIFTBOXRARE]
 Name = Boite Mystere Rare
 Pocket = 1

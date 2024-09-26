@@ -696,12 +696,314 @@ PokeRadar,130
     20,HOUNDSTONE,33,36
     15,MIMIKYU,33,36
 #-------------------------------
-[056] # safarii
+[056] # safari G1
 Land,21
+    20,RHYHORN,5,6
+    20,EKANS,5,10
+    20,KOFFING,5,10
+    20,MANKEY,8,14
+    20,VENONAT,5,10
+    20,PONYTA,5,10
+    20,DODUO,5,10
+    20,DROWZEE,7,12
+    20,VOLTORB,6,10
+    20,KANGASKHAN,5,10
+    20,PINSIR,7,12
+    20,VOLTORB,6,10
+PokeRadar,140
     20,BULBASAUR,5
     20,CHARMANDER,5
     20,SQUIRTLE,5
+    20,PIKACHU,5
+OldRod
+    20,MAGIKARP,10,12
+GoodRod
+    20,MAGIKARP,10,12
+    15,KRABBY,15,18
+SuperRod
+    10,KRABBY,20,22
+Water,2
+    20,SLOWPOKE,10,12
+    20,HORSEA,10,12
+    20,GOLDEEN,10,12
+    20,STARYU,10,12
+#-------------------------------
+[063] # safari G2
+Land,21
+    20,NATU,8,15
+    20,MAREEP,8,15
+    20,SUDOWOODO,8,15
+    20,WOBBUFFET,8,15
+    20,SNUBBULL,8,15
+    20,QWILFISH,8,15
+    20,HERACROSS,8,15
+    20,PHANPY,8,15
+    20,STANTLER,8,15
+    20,TYROGUE,8,15
+OldRod
+    20,CHINCHOU,10,12
+GoodRod
+    20,CHINCHOU,10,12
+SuperRod
+    20,CHINCHOU,20,22
+Water,2
+    20,CHINCHOU,10,12
+    20,WOOPER,10,12
+    20,CORSOLA,10,12
+PokeRadar,140
+    20,CHIKORITA,5
+    20,CYNDAQUIL,5
+    20,TOTODILE,5
+#-------------------------------
+[064] # safari G3
+Land,21
+    20,WURMPLE,4,6
+    20,TAILLOW,8,12
+    20,RALTS,8,12
+    20,SLAKOTH,8,12
+    20,WHISMUR,8,12
+    20,MAKUHITA,8,12
+    20,SKITTY,8,12
+    20,ELECTRIKE,8,12
+    20,GULPIN,8,12
+    20,SPOINK,8,12
+    20,SWABLU,8,12
+    20,SEVIPER,8,12
+    20,SWABLU,8,12
+OldRod
+    20,LOTAD,10,12
+GoodRod
+    20,CORPHISH,10,12
+SuperRod
+    20,CORPHISH,20,22
+    20,FEEBAS,15,22
+Water,2
+    20,LOTAD,10,12
+    20,WINGULL,10,12
+    20,SURSKIT,10,12
+    20,AZURILL,10,12
+    20,SHARPEDO,10,12
+PokeRadar,140
+    20,TREECKO,5
+    20,TORCHIC,5
+    20,MUDKIP,5
+#-------------------------------
+[065] # safari G4
+Land,21
+    20,BIDOOF,4,9
+    20,COMBEE,4,9
+    20,GLAMEOW,4,9
+    20,CHINGLING,4,9
+    20,HAPPINY,4,9
+    20,MUNCHLAX,4,9
+    20,CROAGUNK,4,9
+OldRod
+    20,SHELLOS,10,12
+GoodRod
+    20,SHELLOS,10,12
+SuperRod
+    20,FINNEON,20,22
+    20,SHELLOS,15,22
+Water,2
+    20,BIDOOF,10,12
+    20,BUIZEL,4,9
+    20,FINNEON,4,9
+    20,BIDOOF,4,9
+PokeRadar,140
+    20,TURTWIG,5
+    20,CHIMCHAR,5
+    20,PIPLUP,5
+#-------------------------------
+[066] # safari G5
+Land,21
+    20,PANSAGE,4,9
+    20,PANSEAR,4,9
+    20,PANPOUR,4,9
+    20,MUNNA,4,9
+    20,PIDOVE,4,9
+    20,THROH,4,9
+    20,SAWK,4,9
+    20,COTTONEE,4,9
+    20,PETILIL,4,9
+    20,MINCCINO,4,9
+    20,SOLOSIS,4,9
+    20,DUCKLETT,4,9
+    20,DEERLING_2,4,9
+    20,DEERLING_1,4,9
+    20,DEERLING_3,4,9
+    20,DEERLING,4,9
+    20,FOONGUS,4,9
+    20,FERROSEED,4,9
+    20,MIENFOO,4,9
+OldRod
+    20,TYMPOLE,10,12
+GoodRod
+    20,TYMPOLE,10,12
+SuperRod
+    20,TYMPOLE,20,22
+Water,2
+    20,TYMPOLE,10,12
+    10,DWEBBLE,10,14
+    15,TIRTOUGA,10,14
+    5,DUCKLETT,10,14
+PokeRadar,140
+    20,SNIVY,5
+    20,TEPIG,5
+    20,OSHAWOTT,5
+#-------------------------------
+[067] # safari G6
+Land,21
+    20,BUNNELBY,4,9
+    20,SCATTERBUG,4,9
+    20,LITLEO,4,9
+    20,SKIDDO,4,9
+    20,PANCHAM,4,9
+    20,SPRITZEE,4,9
+    20,SWIRLIX,4,9
+    20,INKAY,4,9
+    20,HAWLUCHA,4,9
+    20,KLEFKI,4,9
+OldRod
+    20,CLAUNCHER,10,12
+GoodRod
+    20,CLAUNCHER,10,12
+SuperRod
+    20,CLAUNCHER,20,22
+Water,2
+    20,CLAUNCHER,10,12
+PokeRadar,140
+    20,CHESPIN,5
+    20,FENNEKIN,5
+    20,FROAKIE,5
+#-------------------------------
+[068] # safari G7
+Land,21
+    20,PIKIPEK,4,9
+    20,YUNGOOS,4,9
+    20,GRUBBIN,4,9
+    20,ROCKRUFF,4,9
+    20,WISHIWASHI,4,9
+    20,MAREANIE,4,9
+    20,MUDBRAY,4,9
+    20,SALANDIT,4,9
+    20,STUFFUL,4,9
+    20,BOUNSWEET,4,9
+    20,ORANGURU,4,9
+    20,COMFEY,4,9
+    20,PASSIMIAN,4,9
+    20,KOMALA,4,9
+OldRod
+    20,CRABRAWLER,10,12
+GoodRod
+    20,CRABRAWLER,10,12
+SuperRod
+    20,CRABRAWLER,20,22
+    20,BRUXISH,10,12
+Water,2  
+    20,CRABRAWLER,10,12
+    20,DEWPIDER,10,12
+    20,CRABRAWLER,10,12
+PokeRadar,140
+    20,ROWLET,5
+    20,LITTEN,5
+    20,POPPLIO,5
+#-------------------------------
+[069] # safari G8
+Land,21
+    20,SKWOVET,4,9
+    20,ROOKIDEE,4,9
+    20,BLIPBUG,4,9
+    20,WOOLOO,4,9
+    20,CLOBBOPUS,4,9
+    20,SINISTEA,4,9
+    20,HATENNA,4,9
+    20,IMPIDIMP,4,9
+    20,CUFANT,4,9
+OldRod
+    20,ARROKUDA,10,12
+GoodRod
+    20,ARROKUDA,10,12
+SuperRod
+    20,ARROKUDA,20,22
+Water,2
+    20,ARROKUDA,10,12
+PokeRadar,140
+    20,GROOKEY,5
+    20,SCORBUNNY,5
+    20,SOBBLE,5
+#-------------------------------
+[070] # safari G9
+Land,21
+    20,NYMBLE,4,9
+    20,PAWMI,4,9
+    20,TANDEMAUS,4,9
+    20,FIDOUGH,4,9
+    20,SHROODLE,4,9
+    20,TOEDSCOOL,4,9
+    20,TINKATINK,4,9
+OldRod
+    20,TATSUGIRI,10,12
+    20,TATSUGIRI_1,10,12
+    20,TATSUGIRI_2,10,12
+GoodRod
+    20,VELUZA,10,12
+SuperRod
+    20,VELUZA,15,22
+    20,FINIZEN,20,22
+Water,2
+    20,FINIZEN,10,12
+    20,VELUZA,10,12
+PokeRadar,140
+    20,SPRIGATITO,5
+    20,FUECOCO,5
+    20,QUAXLY,5
 #-------------------------------
 [060] # Grotte des secrets
 Cave,6
     20,UNOWN,10,15
+#-------------------------------
+[062] # Route 11
+LandMorning,21
+    20,STOUTLAND,37,41
+    20,ZEBSTRIKA,37,41
+    20,ARAQUANID,37,41
+    20,BEWEAR,37,41
+    20,CAPSAKID,37,41
+    5,FLAMIGO,37,41
+LandAfternoon,21
+    20,STOUTLAND,37,41
+    20,BEWEAR,37,41
+    20,CAPSAKID,37,41
+    20,FLAMIGO,37,41
+    3,SKARMORY,39,42
+LandEvening,21
+    20,STOUTLAND,37,41
+    20,ZEBSTRIKA,37,41
+    20,ARAQUANID,37,41
+    20,BEWEAR,37,41
+    10,FLAMIGO,37,41
+    4,SKARMORY,39,42
+LandNight,21
+    20,WOOBAT,37,41
+    20,DREEPY,37,41
+    20,STOUTLAND,37,41
+    20,STOUTLAND,37,41
+    1,SKARMORY,39,42
+OldRod
+    20,TYMPOLE,32,36
+GoodRod
+    15,TYMPOLE,35,39
+    10,CLAUNCHER,35,39
+SuperRod
+    15,TYMPOLE,40,44
+    12,CLAWITZER,40,43
+    11,BARRASKEWDA,40,43
+    4,CORSOLA,38,42
+Water,2
+    20,SEISMITOAD,38,42
+    20,CLAUNCHER,38,42
+    20,BARRASKEWDA,38,42
+    22,CORSOLA,38,42
+PokeRadar,120
+    20,AUDINO,38,42
+    18,TINKATON,38,42

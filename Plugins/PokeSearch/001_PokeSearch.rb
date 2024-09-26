@@ -14,7 +14,6 @@
 # If you want to add the PokeSearch to an item
 # un-comment the following lines
 #
-#-------------------------------------------------------------------------------
 ItemHandlers::UseInField.add(:POKESEARCH, proc { |item|
 vPokeSearch
 next true
@@ -24,6 +23,10 @@ next true
 #-------------------------------------------------------------------------------
 
 def vPokeSearch
+  if !$PokemonEncounters.encounter_possible_here?
+    pbMessage("Cet objet ne peut être utilisé que dans une zone avec des rencontres Pokémon.")
+    return
+  end
   scene = PokeSearch_Scene.new
   screen = PokeSearch_Screen.new(scene)
   screen.pbStartScreen
@@ -95,14 +98,14 @@ class PokeSearch_Scene
     @sprites["berry_text"].shadowColor = SHADOW_COLOR
     @sprites["berry_text"].visible     = true
     @sprites["berry_text"].windowskin  = nil
-    @sprites["berry_text"].text = "Add a berry to this slot in order to gain a secondary effect."
+    @sprites["berry_text"].text = "Ajoutez une baie dans cet emplacement pour obtenir un effet secondaire."
     @sprites["repel_icon"] = ItemIconSprite.new(388,124,nil,@viewport)
     @sprites["repel_text"] = Window_UnformattedTextPokemon.newWithSize("",257, 155, 236, 174, @viewport)
     @sprites["repel_text"].baseColor   = BASE_COLOR
     @sprites["repel_text"].shadowColor = SHADOW_COLOR
     @sprites["repel_text"].visible     = true
     @sprites["repel_text"].windowskin  = nil
-    @sprites["repel_text"].text = "Add a repel to this slot in order to increase the encounter odds."
+    @sprites["repel_text"].text = "Ajoutez un repousse dans cet emplacement pour augmenter les chances de rencontre."
     @sprites["berry_icon"].visible = false
     @sprites["repel_icon"].visible = false
     if $PokemonSystem.last_pokesearch_settings != []
@@ -199,7 +202,7 @@ class PokeSearch_Scene
         @sprites["berry_text"].text = description(berry)
         @sprites["berry_icon"].visible = true
       else
-        @sprites["berry_text"].text = "Add a berry to this slot in order to gain a secondary effect."
+        @sprites["berry_text"].text = "Ajoutez une baie dans cet emplacement pour obtenir un effet secondaire."
         @sprites["berry_icon"].visible = false
       end
       @current_berry = berry
@@ -211,27 +214,28 @@ class PokeSearch_Scene
   def description(item)
     case item
     when :REPEL
-      return _INTL("Because of the Repel there is a decent chance of an encounter.")
+      return _INTL("Grâce au Repousse, il y a une chance raisonnable de rencontre.")
     when :SUPERREPEL
-      return _INTL("Because of the Super Repel there is a good chance of an encounter.")
+      return _INTL("Grâce au Super Repousse, il y a une bonne chance de rencontre.")
     when :MAXREPEL
-      return _INTL("Because of the Max Repel an encounters are guaranteed.")
+      return _INTL("Grâce au Max Repousse, les rencontres sont garanties.")
     when :LUMBERRY
-      return _INTL("Lum Berries increase the odds of hidden ability encounters.")
+      return _INTL("Les Baies Prine augmentent les chances de rencontrer des Pokémon avec un talent caché.")
     when :CHESTOBERRY, :CHERIBERRY, :PECHABERRY, :RAWSTBERRY, :PERSIMBERRY, :ASPEARBERRY
-      return _INTL("{1} increase the odds of Pokérus encounters.",GameData::Item.get(item).name_plural)
+      return _INTL("Les {1} augmentent les chances de rencontrer des Pokémon atteints du Pokérus.", GameData::Item.get(item).name_plural)
     when :ORANBERRY
-      return _INTL("Oran Berries slightly increase the IVs of encounters.")
+      return _INTL("Les Baies Oran augmentent légèrement les IV des Pokémon rencontrés.")
     when :SITRUSBERRY
-      return _INTL("Sitrus Berries significantly increase the IVs of encounters.")
+      return _INTL("Les Baies Sitrus augmentent significativement les IV des Pokémon rencontrés.")
     when :LEPPABERRY
-      return _INTL("Leppa Berries lower the level of encounters.")
+      return _INTL("Les Baies Mepo réduisent le niveau des Pokémon rencontrés.")
     when :ENIGMABERRY
-      return _INTL("Enigma Berries increase the odds of shiny encounters.")
+      return _INTL("Les Baies Enigma augmentent les chances de rencontrer des Pokémon chromatiques.")
     else
-      return _INTL("{1} increase the level of encounters.",GameData::Item.get(item).name_plural)
+      return _INTL("Les {1} augmentent le niveau des Pokémon rencontrés.", GameData::Item.get(item).name_plural)
     end
   end
+
 
   # selecting mons based on the encounter table
   def selectMon
@@ -267,7 +271,7 @@ class PokeSearch_Scene
         @sprites["repel_text"].text = description(repel)
         @sprites["repel_icon"].visible = true
       else
-        @sprites["repel_text"].text = "Add a repel to this slot in order to increase the encounter odds."
+        @sprites["repel_text"].text = "Ajoutez un repousse dans cet emplacement pour augmenter les chances de rencontre."
         @sprites["repel_icon"].visible = false
       end
       @current_repel = repel
@@ -279,24 +283,22 @@ class PokeSearch_Scene
   def startSearch
     if @current_mon.nil?
       pbPlayBuzzerSE()
-      pbMessage("Select a Pokémon in order to scan.")
+      pbMessage("Sélectionnez un Pokémon pour lancer le scan.")
       return
     end
     if !$PokemonEncounters.encounter_possible_here? && ONLY_ON_ENCOUNTER_TILE
       pbPlayBuzzerSE()
-      pbMessage("Can only scan when standing in an area where you can get encounters.")
+      pbMessage("Vous ne pouvez scanner que dans une zone où des rencontres sont possibles.")
       return
     end
-    level = @average_level + rand(-2..2)
+    base_level = @average_level
+    level = base_level + rand(-2..2)
     if @current_berry == :LEPPABERRY
-      level = [level-3,1].max
+      level = [level - 4, 1].max
     elsif !@current_berry.nil? && ![:CHESTOBERRY, :CHERIBERRY, :PECHABERRY, :RAWSTBERRY, :PERSIMBERRY, :ASPEARBERRY, :LUMBERRY, :ORANBERRY, :SITRUSBERRY, :ENIGMABERRY].include?(@current_berry)
-      level = [level+3,100].min
+      level = [level + 4, 100].min
     end
-    if 1 > level || level > 100
-      level = [level,1].max
-      level = [level,100].min
-    end
+    level = [[level, 100].min, 1].max
     $PokemonSystem.pokesearch_encounter = true
     odds = rand(0..100) < getRepelOdds
     if !@current_repel.nil?
@@ -314,7 +316,7 @@ class PokeSearch_Scene
     pbMessage(_INTL("{1}\\wtnp[2]", finalMessage))
     if odds
       $scene.spriteset.addUserAnimation(Settings::EXCLAMATION_ANIMATION_ID, $game_player.x, $game_player.y, true, 3)
-      pbWait(20)
+      #pbWait(20)
       WildBattle.start(@current_mon, level)
     else
       pbMessage("No Pokémon appeared.")
@@ -369,21 +371,120 @@ class PokeSearch_Scene
     end
   end
 
+  def pbGetTimeOfDayEssentials
+    timeNow = pbGetTimeNow
+    return :Morning if PBDayNight.isMorning?(timeNow)
+    return :Afternoon if PBDayNight.isAfternoon?(timeNow)
+    return :Evening if PBDayNight.isEvening?(timeNow)
+    return :Night if PBDayNight.isNight?(timeNow)
+  end
+
+  def pbGetEncounterType
+    encounter_type = $PokemonEncounters.encounter_type
+    case encounter_type
+    when :Land, :LandMorning, :LandAfternoon, :LandEvening, :LandNight
+      return :Land
+    when :Water
+      return :Water
+    when :Cave, :CaveMorning, :CaveAfternoon, :CaveEvening, :CaveNight
+      return :Cave
+    when :Sand, :SandMorning, :SandAfternoon, :SandEvening, :SandNight
+      return :Sand
+    else
+      return nil
+    end
+  end
+
+
+
+
+
   # get encounter data
   # again thanks to ThatWelshOne
   def getEncData
     return nil if @encounter_tables.nil?
-    currKey = @encounter_tables.keys[@current_key]
+
+    # Récupère l'heure actuelle de la journée (matin, après-midi, soir, nuit)
+    time_of_day = pbGetTimeOfDayEssentials
+
+    # Détermine la clé à utiliser en fonction de la zone et du moment de la journée
+    currKey = nil
+    encounter_type = pbGetEncounterType  # Vérifie le type de rencontre (herbe, eau, cave, sable, etc.)
+
+    if encounter_type == :Land  # Si le joueur est dans l'herbe
+      if @encounter_tables.has_key?(:Land)  # Vérifie si "Land" général existe
+        currKey = :Land
+      else
+        case time_of_day  # Sélectionne en fonction du moment de la journée
+        when :Morning
+          currKey = :LandMorning if @encounter_tables.has_key?(:LandMorning)
+        when :Afternoon
+          currKey = :LandAfternoon if @encounter_tables.has_key?(:LandAfternoon)
+        when :Evening
+          currKey = :LandEvening if @encounter_tables.has_key?(:LandEvening)
+        when :Night
+          currKey = :LandNight if @encounter_tables.has_key?(:LandNight)
+        end
+      end
+    elsif encounter_type == :Water  # Si le joueur est sur l'eau
+      currKey = :Water if @encounter_tables.has_key?(:Water)
+    elsif encounter_type == :Cave  # Si le joueur est dans une cave
+      if @encounter_tables.has_key?(:Cave)
+        currKey = :Cave
+      else
+        case time_of_day
+        when :Morning
+          currKey = :CaveMorning if @encounter_tables.has_key?(:CaveMorning)
+        when :Afternoon
+          currKey = :CaveAfternoon if @encounter_tables.has_key?(:CaveAfternoon)
+        when :Evening
+          currKey = :CaveEvening if @encounter_tables.has_key?(:CaveEvening)
+        when :Night
+          currKey = :CaveNight if @encounter_tables.has_key?(:CaveNight)
+        end
+      end
+    elsif encounter_type == :Sand  # Si le joueur est dans une zone de sable
+      if @encounter_tables.has_key?(:Sand)
+        currKey = :Sand
+      else
+        case time_of_day
+        when :Morning
+          currKey = :SandMorning if @encounter_tables.has_key?(:SandMorning)
+        when :Afternoon
+          currKey = :SandAfternoon if @encounter_tables.has_key?(:SandAfternoon)
+        when :Evening
+          currKey = :SandEvening if @encounter_tables.has_key?(:SandEvening)
+        when :Night
+          currKey = :SandNight if @encounter_tables.has_key?(:SandNight)
+        end
+      end
+    end
+
+    if currKey.nil?
+      pbMessage("L'utilisation de cet objet n'est pas possible ici.")
+      return nil
+    end
+
+    # Maintenant on récupère les données associées à la clé trouvée
     arr = []
     min_levels = 0
     max_levels = 0
     enc_array = []
-    @encounter_tables[currKey].each { |s| arr.push( s[1] ); min_levels+= s[2]; max_levels += s[3] }
-    GameData::Species.each { |s| enc_array.push(s.id) if arr.include?(s.id) } # From Maruno
+
+    # Remplit le tableau avec les espèces de Pokémon et leurs niveaux
+    @encounter_tables[currKey].each { |s| arr.push(s[1]); min_levels += s[2]; max_levels += s[3] }
+
+    # Récupère les espèces rencontrables
+    GameData::Species.each { |s| enc_array.push(s.id) if arr.include?(s.id) }
     enc_array.uniq!
-    average_level = ((min_levels+max_levels)/2)/arr.length
+
+    # Calcule le niveau moyen des Pokémon
+    average_level = ((min_levels + max_levels) / 2) / arr.length
+
     return enc_array, average_level
   end
+
+
 
   # get max encounters
   # again again thanks to ThatWelshOne

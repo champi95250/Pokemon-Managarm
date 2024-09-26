@@ -181,11 +181,13 @@ Name = Route 08
 Outdoor = true
 ShowArea = true
 MapPosition = 0,16,14
+BattleBack = field
 #-------------------------------
 [043]   # Route 06
 Name = Route 06
 Outdoor = true
 MapPosition = 0,12,10
+BattleBack = field
 #-------------------------------
 [044]   # Cryodeser
 Name = Cryodeser
@@ -202,6 +204,7 @@ MapPosition = 0,17,14
 Name = Canal
 Outdoor = true
 MapPosition = 0,12,15
+BattleBack = field
 #-------------------------------
 [048]   # Desert Cryodese
 Name = Desert Cryodeser
@@ -209,18 +212,21 @@ Outdoor = true
 ShowArea = true
 Weather = Sandstorm,70
 MapPosition = 0,18,14
+BattleBack = rocky
 #-------------------------------
 [049]   # Route 09
 Name = Route 09
 Outdoor = true
 ShowArea = true
 MapPosition = 0,17,13
+BattleBack = field
 #-------------------------------
 [050]   # Route 10
 Name = Route 10
 Outdoor = true
 ShowArea = true
 MapPosition = 0,17,12
+BattleBack = field
 #-------------------------------
 [051]   # Camp Numéro 4 Managarm
 Name = Hangar Managarm
@@ -234,19 +240,24 @@ Outdoor = true
 ShowArea = true
 Weather = Rain,40
 MapPosition = 0,17,10
+BattleBack = field
 #-------------------------------
 [054]   # Arène
 Name = Arène
 MapPosition = 0,17,10
 #-------------------------------
-[055]   # Safari ?
-Name = Safari entrance
+[055]   # Safari Entré
+Name = Safari Park
+ShowArea = true
+MapPosition = 0,17,9
 #-------------------------------
-[056]   # SafariG1
-Name = SAFARI
+[056]   # ZoneSafari
+Name = Zone Safari
 Outdoor = true
 ShowArea = true
+MapPosition = 0,16,9
 SafariMap = true
+BattleBack = field
 Flags = PowerSpot
 #-------------------------------
 [057]   # CenterPKM
@@ -257,6 +268,67 @@ MapPosition = 0,17,10
 Name = Grotte des secrets
 ShowArea = true
 MapPosition = 0,15,14
+BattleBack = cave
+#-------------------------------
+[061]   # Grotte du souvenir
+Name = Grotte du souvenir
+Flags = PowerSpot
+#-------------------------------
+[062]   # Route 11
+Name = Route 11
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,9
+BattleBack = field
+#-------------------------------
+[063]   # SafariG2
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[064]   # SafariG3
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+Flags = PowerSpot
+#-------------------------------
+[065]   # SafariG4
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[066]   # SafariG5
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[067]   # SafariG6
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[068]   # SafariG7
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[069]   # SafariG8
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[070]   # SafariG9
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
 #-------------------------------
 [081]   # MultiMaison
 Name = Maison

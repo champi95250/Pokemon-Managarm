@@ -154,6 +154,17 @@ module ARMLocationPreview
     south: [17, 12],
     north: [17, 9],
   }
+  Route11 = {
+    description: _INTL("<ac>Une magnifique Route avec une belle cascade, menant au Parc Safari</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    south: [17,10],
+    north: [17, 8],
+    east: [18, 9],
+    west: [16, 9],
+  }
+  ZoneSafari = {
+    description: _INTL("<ac>La Zone Safari</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    east: [17, 9],
+  }
 
 
 end

@@ -220,6 +220,25 @@ Pokemon = LUCARIO,32
     EV = 0,0,0,4,160,160
     TeraType = DRAGON
 #-------------------------------
+[RIVAL,Ben,3]
+Items = TERAORB
+LoseText = Tu progresse tellement mieux que moi ! 
+Pokemon = GENGAR,40
+    IV = 20,20,16,25,31,31
+    EV = 0,0,0,4,170,170
+    Moves = SHADOWBALL,FOCUSBLAST,THUNDERBOLT,SUBSTITUTE
+Pokemon = GOGOAT,40
+    IV = 20,15,31,12,20,31
+    EV = 0,70,50,0,0,70
+Pokemon = KLEAVOR,42
+    IV = 16,20,21,31,18,26
+    EV = 0,170,0,4,170,0
+Pokemon = LUCARIO,43
+    IV = 28,26,31,31,27,28
+    EV = 0,200,0,4,0,200
+    Moves = TERABLAST,SWORDSDANCE,CLOSECOMBAT,METEORMASH
+    TeraType = DRAGON
+#-------------------------------
 [RANCHER_1,Katrina]
 LoseText = Super entrainement !
 Pokemon = DODUO,9
@@ -319,24 +338,6 @@ Pokemon = THIEVUL,24
 LoseText = Aie aie aie ...
 Pokemon = YAMPER,18
 Pokemon = PANCHAM,19
-#-------------------------------
-[SBIRE_1,Flammehaze]
-LoseText = Tu entendra parler de nous ...
-Pokemon = LARVITAR,19
-Pokemon = SNORLAX,20
-Pokemon = CROCONAW,22
-#-------------------------------
-[SBIRE_2,Neoskyblue]
-LoseText = Tu entendra parler de nous ...
-Pokemon = BUIZEL,18
-Pokemon = STARAVIA,20
-Pokemon = MONFERNO,22
-#-------------------------------
-[SBIRE_3,Zeke]
-LoseText = Tu entendra parler de nous ...
-Pokemon = GIBLE,20
-Pokemon = GASTLY,20
-Pokemon = FLORAGATO,22
 #-------------------------------
 [TEAM_MANAGARM,Diddy]
 LoseText = OH OH ?!
@@ -842,62 +843,55 @@ Pokemon = SABLEYE,40
 LoseText = Les esprits ricanent... Tu es plus fort que je ne le pensais.
 Pokemon = DRIFBLIM,39
 Pokemon = SPIRITOMB,41
-#------------------------------- ARENE SERAPHYS
-[POKEMONTRAINER_Brendan,Ben]
-Pokemon = FERALIGATR,37
-    Item = ASSAULTVEST
-    Shiny = False
-    SuperShiny = False
-    TeraType = DARK
-    Nature = QUIRKY
-    Ability = TORRENT
-    IV = 31,28,27,29,31,31
-    EV = 9,26,5,21,8,25
-    Moveset = ICEFANG,CRUNCH,WATERGUN,LOWKICK
-Pokemon = FEUNEVOIR,40
-    Shiny = True
-    SuperShiny = True
-    TeraType = FIRE
-    Nature = MODEST
-    Ability = FLASHFIRE
-    IV = 11,21,21,24,7,6
-    EV = 0,2,3,1,0,0
-    Moveset = FLAMETHROWER,QUICKATTACK,DISARMINGVOICE,FIRESPIN
-Pokemon = INFERNAPE,40
-    Item = LEFTOVERS
-    Shiny = False
-    SuperShiny = False
-    TeraType = WATER
-    Nature = NAUGHTY
-    Ability = BLAZE
-    IV = 31,30,27,29,26,31
-    EV = 6,252,0,0,0,252
-    Moveset = TORMENT,POWERUPPUNCH,FLAMEWHEEL,CLOSECOMBAT
-Pokemon = CORVISQUIRE,34
-    Shiny = False
-    SuperShiny = False
-    TeraType = FLYING
-    Nature = IMPISH
-    Ability = KEENEYE
-    IV = 8,29,0,18,12,2
-    EV = 3,0,2,0,0,0
-    Moveset = DRILLPECK,HONECLAWS,FURYATTACK,PLUCK
-Pokemon = LILLIGANT,34
-    Shiny = False
-    SuperShiny = False
-    TeraType = PSYCHIC
-    Nature = BRAVE
-    Ability = HUSTLE
-    IV = 12,4,18,8,14,26
-    EV = 0,0,0,0,0,0
-    Moveset = STUNSPORE,MEGADRAIN,AROMATHERAPY,MAGICALLEAF
-Pokemon = GHOLDENGO,34
-    Shiny = False
-    SuperShiny = False
-    TeraType = DARK
-    Nature = BRAVE
-    Ability = GOODASGOLD
-    IV = 4,1,2,28,10,23
-    EV = 0,0,0,0,0,0
-    Moveset = ASTONISH,TACKLE,SUBSTITUTE,METALSOUND
-
+#------------------------------- ROUTE 11
+[CAMERAMAN,Leo]
+LoseText = J'ai encore mal cadré ... on refait ?
+Pokemon = STOUTLAND,40
+Pokemon = BELLIBOLT,40
+#------------------------------- ROUTE 11
+[REPORTER,Alicia]
+LoseText = C'est sûr que on passera au JT du midi avec ça ! 
+Pokemon = LIEPARD,40
+Pokemon = AUDINO,40
+#------------------------------- ROUTE 10
+[POLICIER,Martin]
+LoseText = Tout tes papiers sont en ordres, tu peux passer ...
+Pokemon = SWELLOW,39
+Pokemon = INTELEON,41
+#------------------------------- ROUTE 05
+[POKEFAN,Rouge]
+LoseText = Ca reste mon choix après tout ...
+Pokemon = BLASTOISE,38
+Pokemon = SCEPTILE,38
+Pokemon = EMBOAR,38
+#-------------------------------
+[CHAMPI,Champi,1]
+Items = MEGARING,HYPERPOTION
+LoseText = Tu es un veritable stratége 
+Pokemon = GOLEM,43
+    Name = Grobleme
+    Form = 1
+    IV = 31,30,28,6,26,31
+    EV = 0,210,22,0,0,210
+Pokemon = ANNIHILAPE,45
+    Name = Gourou
+    Moves = BULKUP,TAUNT,DRAINPUNCH,RAGEFIST
+    IV = 28,20,20,31,31,30
+    EV = 240,0,0,0,16,252
+Pokemon = GENGAR,46
+    Name = Eggto
+    Item = GENGARITE
+    Moves = SHADOWBALL,SLUDGEWAVE,FOCUSBLAST,THUNDERBOLT  
+    AbilityIndex = 0
+    Nature = TIMID
+    IV = 31,24,18,31,24,18
+    EV = 0,60,60,125,60,60
+    Happiness = 255
+    SuperShiny = true
+    Ball = DREAMBALL
+    Size = 225
+#------------------------------- ROUTE 11
+[CANON3,Angele]
+LoseText = J'ai vu qu'le combat de plage est à la mode ...
+Pokemon = ORICORIO,40
+Pokemon = ESPATHRA,42

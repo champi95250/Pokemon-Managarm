@@ -20,7 +20,7 @@ EventHandlers.add(:on_wild_pokemon_created, :pokesearch, proc {|pkmn|
           pkmn.iv[s.id] = [pkmn.iv[s.id]+10, Pokemon::IV_STAT_LIMIT].min
         end
       when :ENIGMABERRY
-        if (rand(25)==1)
+        if (rand(50)==1)
           pkmn.shiny = true
         end
       end

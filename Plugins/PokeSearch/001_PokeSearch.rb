@@ -291,6 +291,7 @@ class PokeSearch_Scene
       pbMessage("Vous ne pouvez scanner que dans une zone où des rencontres sont possibles.")
       return
     end
+
     base_level = @average_level
     level = base_level + rand(-2..2)
     if @current_berry == :LEPPABERRY
@@ -317,6 +318,13 @@ class PokeSearch_Scene
     if odds
       $scene.spriteset.addUserAnimation(Settings::EXCLAMATION_ANIMATION_ID, $game_player.x, $game_player.y, true, 3)
       #pbWait(20)
+      # Vérifie si on est dans la zone Safari
+      if $game_map.metadata&.has_flag?("Safari")
+        # Système de rencontre spécifique Safari
+        pbMessage("Un Pokémon Safari apparaît!")
+        pbSafariBattle(@current_mon, level)
+        return
+      end
       WildBattle.start(@current_mon, level)
     else
       pbMessage("No Pokémon appeared.")

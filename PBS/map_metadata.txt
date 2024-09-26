@@ -258,7 +258,7 @@ ShowArea = true
 MapPosition = 0,16,9
 SafariMap = true
 BattleBack = field
-Flags = PowerSpot
+Flags = PowerSpot,Safari
 #-------------------------------
 [057]   # CenterPKM
 Name = Centre Pokémon

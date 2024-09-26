@@ -12,10 +12,12 @@
 5,East,20,6,West,0
 # Route 03 (10) - Grodoville (6)
 10,West,0,6,East,13
+# Séraphys (53) - Route 11 (62)
+53,North,1,62,South,0
+# Route 12 (71) - Route 11 (62)
+71,West,0,62,East,21
 # Route 10 (50) - Séraphys (53)
 50,North,10,53,South,0
-# Route 11 (62) - Séraphys (53)
-62,South,0,53,North,1
 # Route 09 (49) - Route 10 (50)
 49,North,6,50,South,0
 # Cryodeser (44) - Route 09 (49)

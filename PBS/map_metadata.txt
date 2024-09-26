@@ -251,7 +251,7 @@ Name = Safari Park
 ShowArea = true
 MapPosition = 0,17,9
 #-------------------------------
-[056]   # ZoneSafari
+[056]   # Zone Safari
 Name = Zone Safari
 Outdoor = true
 ShowArea = true
@@ -281,54 +281,62 @@ ShowArea = true
 MapPosition = 0,16,9
 BattleBack = field
 #-------------------------------
-[063]   # SafariG2
+[063]   # Zone Safari G2
 Name = Zone Safari
 Outdoor = true
 MapPosition = 0,16,9
 SafariMap = true
 #-------------------------------
-[064]   # SafariG3
+[064]   # Zone Safari
 Name = Zone Safari
 Outdoor = true
 MapPosition = 0,16,9
 SafariMap = true
 Flags = PowerSpot
 #-------------------------------
-[065]   # SafariG4
+[065]   # Zone Safari
 Name = Zone Safari
 Outdoor = true
 MapPosition = 0,16,9
 SafariMap = true
 #-------------------------------
-[066]   # SafariG5
+[066]   # Zone Safari G5
 Name = Zone Safari
 Outdoor = true
 MapPosition = 0,16,9
 SafariMap = true
 #-------------------------------
-[067]   # SafariG6
+[067]   # Zone Safari G6
 Name = Zone Safari
 Outdoor = true
 MapPosition = 0,16,9
 SafariMap = true
 #-------------------------------
-[068]   # SafariG7
+[068]   # Zone Safari
 Name = Zone Safari
 Outdoor = true
 MapPosition = 0,16,9
 SafariMap = true
 #-------------------------------
-[069]   # SafariG8
+[069]   # Zone Safari G8
 Name = Zone Safari
 Outdoor = true
 MapPosition = 0,16,9
 SafariMap = true
 #-------------------------------
-[070]   # SafariG9
+[070]   # Zone Safari
 Name = Zone Safari
 Outdoor = true
 MapPosition = 0,16,9
 SafariMap = true
+#-------------------------------
+[071]   # Route 12
+Name = Route 12
+Outdoor = true
+ShowArea = true
+Bicycle = true
+BicycleAlways = true
+MapPosition = 0,18,9
 #-------------------------------
 [081]   # MultiMaison
 Name = Maison

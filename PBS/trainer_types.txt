@@ -539,3 +539,102 @@ SkillLevel = 26
 IntroBGM = 013 - Meet kid
 BattleBGM = 030 - Battle 01
 VictoryBGM = 031 - Victory 01
+#-------------------------------
+[MOTARD01]
+Name = Motard
+Gender = Male
+BaseMoney = 30
+SkillLevel = 45
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[MOTARD02]
+Name = Motard
+Gender = Male
+BaseMoney = 30
+SkillLevel = 45
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[MOTARD03]
+Name = Motard
+Gender = Male
+BaseMoney = 30
+SkillLevel = 45
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[CYCLISTE01]
+Name = CYCLISTE
+Gender = Male
+BaseMoney = 32
+SkillLevel = 55
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[CYCLISTE02]
+Name = CYCLISTE
+Gender = Female
+BaseMoney = 32
+SkillLevel = 55
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TRIA]
+Name = Triathlete
+Gender = Male
+BaseMoney = 38
+SkillLevel = 50
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[ROLLER]
+Name = Roller
+Gender = Male
+BaseMoney = 30
+SkillLevel = 40
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[GENTLEMAN01]
+Name = Gentleman
+Gender = Male
+BaseMoney = 38
+SkillLevel = 100
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[MASCOTTE]
+Name = Mascotte
+Gender = Male
+BaseMoney = 38
+SkillLevel = 100
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[SCULPTEUR]
+Name = Sculpteur
+Gender = Male
+BaseMoney = 38
+SkillLevel = 100
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[BARISTA]
+Name = Barista
+Gender = Male
+BaseMoney = 38
+SkillLevel = 100
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01

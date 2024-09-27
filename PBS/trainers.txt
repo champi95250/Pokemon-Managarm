@@ -895,3 +895,72 @@ Pokemon = GENGAR,46
 LoseText = J'ai vu qu'le combat de plage est à la mode ...
 Pokemon = ORICORIO,40
 Pokemon = ESPATHRA,42
+#-------------------------------
+[MOTARD01,Tidus]
+LoseText = Tu as réussi à freiner ma course... Mais la prochaine fois, je passerai à fond !
+Pokemon = CYCLIZAR,43
+    IV = 15,20,15,20,25,31
+Pokemon = REVAVROOM,44
+    IV = 22,24,22,13,15,20
+#-------------------------------
+[MOTARD03,Jean]
+LoseText = Mince... Je crois que j'ai trop joué les acrobates.
+Pokemon = CAMERUPT,44
+    IV = 31,18,22,22,25,22
+Pokemon = TOXTRICITY,45
+    IV = 22,24,27,14,11,22
+    Nature = BOLD
+#-------------------------------
+[MOTARD02,Louis]
+LoseText = Pfff, j'ai pris un virage un peu trop serré cette fois.
+Pokemon = SKUNTANK,44
+    IV = 15,31,15,28,27,18
+Pokemon = TOXTRICITY,45
+    IV = 10,22,21,31,31,20
+    Nature = QUIRKY
+#-------------------------------
+[CYCLISTE01,Fred]
+LoseText = Eh bien, on dirait que je suis encore loin ...
+Pokemon = MANECTRIC,43
+    IV = 23,28,18,31,25,31
+Pokemon = RAPIDASH,44
+    IV = 22,24,31,31,22,22
+#-------------------------------
+[CYCLISTE02,Sia]
+LoseText = Bon, je vais devoir faire quelques tours de plus pour m'entraîner.
+Pokemon = MANECTRIC,43
+    IV = 23,28,18,31,25,31
+Pokemon = RAPIDASH,44
+    IV = 22,24,31,31,22,22
+#-------------------------------
+[ROLLER,Tony]
+LoseText = Tu m’as bloqué, mais je vais vite reprendre ma lancée !
+Pokemon = MANECTRIC,43
+    IV = 23,28,18,31,25,31
+Pokemon = RAPIDASH,44
+    IV = 22,24,31,31,22,22
+#-------------------------------
+[MOTARD01,Tristan]
+LoseText = Aie !
+Pokemon = SALAZZLE,46
+    IV = 22,30,31,28,27,31
+#-------------------------------
+[MOTARD03,Kentin]
+LoseText = Ouille !
+Pokemon = DRAGALGE,46
+    IV = 31,24,22,30,31,22
+#-------------------------------
+[MOTARD02,Kevin]
+LoseText = Hey ! 
+Pokemon = ROSERADE,46
+    IV = 28,31,31,28,28,27
+#-------------------------------
+[ROLLER,Alix]
+LoseText = Rooh !
+Pokemon = JOLTEON,45
+    IV = 31,28,24,31,27,31
+#-------------------------------
+[ROLLER,Felix]
+LoseText = Pff !
+Pokemon = CINDERACE,45
+    IV = 31,28,22,31,30,31

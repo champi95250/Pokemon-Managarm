@@ -338,6 +338,19 @@ Bicycle = true
 BicycleAlways = true
 MapPosition = 0,18,9
 #-------------------------------
+[074]   # Route 13
+Name = Route 13
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[075]   # Aerolith
+Name = Aerolith
+Outdoor = true
+ShowArea = true
+HealingSpot = 75,18,14
+MapPosition = 0,21,11
+BattleBack = city_eve
+#-------------------------------
 [081]   # MultiMaison
 Name = Maison
 MapPosition = 0,6,12

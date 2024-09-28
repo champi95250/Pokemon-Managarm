@@ -181,6 +181,34 @@ Pokemon = GENGAR,44
     EV = 0,0,0,4,252,252
     Happiness = 250
     Size = 220
+#------------------------------- QUENTIN
+[CHAMPION4,Tifa]
+Items = MEGARING
+LoseText = Hé bien ! La musique était à ton gout au moins ? 
+Pokemon = GLISCOR,50
+    Moves = SWORDSDANCE,ICEFANG,KNOCKOFF,EARTHQUAKE
+    IV = 20,20,20,20,20,20
+    EV = 200,0,120,0,0,50
+    NoTera = true
+Pokemon = MUDSDALE,50
+    Moves = EARTHQUAKE,TOXIC,PROTECT,STEALTHROCK
+    AbilityIndex = 2
+    IV = 20,20,20,20,20,20
+    EV = 200,0,120,0,0,50
+    NoTera = true
+Pokemon = AERODACTYL,52
+    Moves = EARTHQUAKE,ROOST,ICEFANG,STONEEDGE
+    AbilityIndex = 0
+    IV = 24,24,24,24,24,24
+    EV = 0,200,20,0,0,80
+Pokemon = GARCHOMP,54
+    Item = GARCHOMPITE
+    Moves = EARTHQUAKE,SWORDSDANCE,AERIALACE,FIREFANG
+    AbilityIndex = 0
+    IV = 31,31,31,31,31,31
+    EV = 0,250,0,0,250,4
+    Happiness = 250
+    Size = 220
 #-------------------------------
 [RIVAL,Ben]
 LoseText = Tu as déjà trouver ton partenaire on dirai !
@@ -964,3 +992,118 @@ Pokemon = JOLTEON,45
 LoseText = Pff !
 Pokemon = CINDERACE,45
     IV = 31,28,22,31,30,31
+#------------------------------- Route 13
+[GARDE2,Katarina]
+LoseText = Mais tu n'est pas un pilleur ?
+Pokemon = BISHARP,47
+    IV = 0,31,27,31,31,27
+    EV = 0,50,0,200,50,0
+#------------------------------- Route 13
+[GARDE,Pyke]
+LoseText = Mais tu n'est pas un pilleur ?
+Pokemon = GOLURK,47
+    IV = 31,31,31,10,31,31
+    EV = 200,0,40,0,0,40
+#------------------------------- Route 13
+[MONTAGNARD2,Hugh]
+LoseText = Je roule si bas ... 
+Pokemon = GARGANACL,45
+    IV = 31,31,31,10,31,31
+    EV = 200,0,40,0,0,40
+Pokemon = STEELIX,46
+    IV = 31,31,31,10,31,31
+    EV = 200,0,40,0,0,40
+#------------------------------- Route 13
+[GARDE,Ekko]
+LoseText = Mais tu n'est pas un pilleur ?
+Pokemon = GIGALITH,46
+    IV = 31,31,31,10,31,31
+    EV = 200,0,40,0,0,40
+Pokemon = EXCADRILL,46
+    IV = 18,31,31,20,31,31
+    EV = 0,60,40,60,60,40
+#------------------------------- Route 13
+[GARDE,Zed]
+LoseText = Sans un bruit.
+Pokemon = FLYGON,47
+    IV = 28,31,18,10,31,18
+    EV = 200,0,40,0,0,40
+Pokemon = ARCHEOPS,47
+    IV = 28,31,18,20,31,18
+    EV = 0,60,40,60,60,40
+#------------------------------- Route 13
+[GARDE2,Akali]
+LoseText = C'est une question d'équilibre.
+Pokemon = DODRIO,47
+    IV = 28,31,18,10,31,18
+    EV = 200,0,40,0,0,40
+Pokemon = FEAROW,47
+    IV = 28,31,18,20,31,18
+    EV = 0,60,40,60,60,40
+#------------------------------- Route 13
+[GARDE,Shaco]
+LoseText = Pourquoi tant de sérieux ?
+Pokemon = DUGTRIO,47
+    IV = 28,31,18,10,31,18
+    EV = 200,0,40,0,0,40
+Pokemon = TOEDSCRUEL,47
+    IV = 28,31,18,20,31,18
+    EV = 200,20,20,20,20,20
+#------------------------------- Route 13
+[OUVRIER,Denis]
+LoseText = Pourquoi tant de sérieux ?
+Pokemon = GLISCOR,47
+    IV = 28,31,18,10,31,18
+    EV = 200,0,40,0,0,40
+Pokemon = HIPPOWDON,47
+    IV = 28,31,18,20,31,18
+    EV = 200,20,20,20,20,20
+#------------------------------- Route 13
+[OUVRIER,Isaac]
+LoseText = Pourquoi tant de sérieux ?
+Pokemon = GLISCOR,47
+    IV = 28,31,18,10,31,18
+    EV = 200,0,40,0,0,40
+Pokemon = EXCADRILL,47
+    IV = 28,31,18,20,31,18
+    EV = 200,20,20,20,20,20
+#------------------------------- Route 13
+[VOLEUR,Bowser]
+LoseText = NIARK !
+Pokemon = TALONFLAME,50
+    IV = 28,31,18,31,31,18
+    EV = 100,20,0,100,20,0
+    Shadow = true
+#------------------------------- Route 13
+[VOLEUR,Bowser,1]
+LoseText = MAIS NOOOOON, MON GOUSAL, MON FEUNEVOIR !
+Pokemon = GOUSAL,5
+    Shadow = true
+Pokemon = FEUNEVOIR,52
+    IV = 24,28,20,30,28,28
+    EV = 0,0,0,0,130,120
+#------------------------------- Route 13
+[VOLEUR2,Aziz]
+LoseText = J'ai rien volé en vrai de vrai ... 
+Pokemon = FERALIGATR,51
+    IV = 31,31,18,31,31,18
+    EV = 100,20,0,100,20,0
+Pokemon = SONGMA,50
+    EV = 0,0,0,0,0,0
+    Shadow = true
+#------------------------------- Route 13
+[TEAM_MANAGARM,Pat]
+LoseText = Les boss vont pas être content !  
+Pokemon = HARIYAMA,51
+    IV = 27,14,18,27,27,18
+Pokemon = MAGNERI,50
+    EV = 0,0,0,0,0,0
+    Shadow = true
+#------------------------------- Route 13
+[TEAM_MANAGARM,Bob]
+LoseText = J'devrai arreter de fusionner n'importe quoi. 
+Pokemon = MAROWAK_1,52
+    IV = 31,22,18,27,27,18
+Pokemon = REMOSEED,50
+    EV = 0,0,0,0,0,0
+    Shadow = true

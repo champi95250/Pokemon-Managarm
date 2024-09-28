@@ -358,3 +358,11 @@ MapPosition = 0,6,12
 [082]   # Laboratoire
 Name = Laboratoire
 MapPosition = 0,6,12
+#-------------------------------
+[083]   # Grotte
+Name = Grotte
+MapPosition = 0,21,10
+#-------------------------------
+[084]   # Hangar - RDC
+Name = Hangar - RDC
+MapPosition = 0,21,10

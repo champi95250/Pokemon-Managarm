@@ -6669,3 +6669,11 @@ Price = 0
 BPPrice = 50
 Flags = MegaStone,Fling_80
 Description = One of a variety of mysterious Mega Stones. Have Drifblim hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[PASSM01]
+Name = Pass M-01
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = Un pass pour ouvrir des portes

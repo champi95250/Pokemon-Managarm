@@ -321,7 +321,7 @@ class PokeSearch_Scene
       # Vérifie si on est dans la zone Safari
       if $game_map.metadata&.has_flag?("Safari")
         # Système de rencontre spécifique Safari
-        pbMessage("Un Pokémon Safari apparaît!")
+        pbMessage("Un Pokémon apparaît!")
         pbSafariBattle(@current_mon, level)
         return
       end

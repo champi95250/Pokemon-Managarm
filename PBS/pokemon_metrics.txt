@@ -6571,3 +6571,45 @@ DmaxBackSprite = 0,70
 DmaxFrontSprite = 0,23
 ShadowSprite = 0,0,3
 SuperShinyHue = -55
+#-------------------------------
+[BRYGMA]
+BackSprite = 1,58
+FrontSprite = 0,0
+DmaxBackSprite = 0,0
+ShadowSprite = -2,0,23
+AnimationSpeed = 1
+SuperShinyHue = -20
+#-------------------------------
+[MANTARIA]
+BackSprite = 2,43
+FrontSprite = -3,1
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,23
+AnimationSpeed = 1
+SuperShinyHue = -170
+#-------------------------------
+[NOCTUCUS]
+BackSprite = 3,44
+FrontSprite = 0,29
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,-8
+AnimationSpeed = 1
+SuperShinyHue = -75
+#-------------------------------
+[REMOSEED]
+BackSprite = 0,13
+FrontSprite = 0,0
+DmaxBackSprite = 0,0
+ShadowSprite = 0,0,9
+SuperShinyHue = 185
+#-------------------------------
+[OCTIFER]
+BackSprite = 0,38
+FrontSprite = 0,23
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,-5
+AnimationSpeed = 1
+SuperShinyHue = 65

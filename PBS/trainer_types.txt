@@ -135,6 +135,16 @@ IntroBGM = 012 - Gym Leader Meet
 BattleBGM = 060 - XIII
 VictoryBGM = 011 - Victory Gym Leader
 #-------------------------------
+[CHAMPION4]
+Name = Champion
+Gender = Female
+BaseMoney = 56
+SkillLevel = 100
+Flags = ReserveLastPokemon,UsePokemonInOrder
+IntroBGM = 012 - Gym Leader Meet
+BattleBGM = 074 - Sol ou Vol
+VictoryBGM = 011 - Victory Gym Leader
+#-------------------------------
 [TRAINER_TAKA]
 Name = King
 Gender = Male
@@ -418,30 +428,6 @@ IntroBGM = 032 - Team Managarm Aggro
 BattleBGM = 033 - Team Managarm Attack
 VictoryBGM = 031 - Victory 01
 #-------------------------------
-[SBIRE_1]
-Name = Super Sbire
-Gender = Male
-BaseMoney = 40
-IntroBGM = SM 057 Trainers_ Eyes Meet (Team Skull)
-BattleBGM = XY 080 Battle! (Team Flare)
-VictoryBGM = SM 059 Victory! (Team Skull)
-#-------------------------------
-[SBIRE_2]
-Name = Super Sbire
-Gender = Male
-BaseMoney = 40
-IntroBGM = SM 057 Trainers_ Eyes Meet (Team Skull)
-BattleBGM = XY 080 Battle! (Team Flare)
-VictoryBGM = SM 059 Victory! (Team Skull)
-#-------------------------------
-[SBIRE_3]
-Name = Super Sbire
-Gender = Male
-BaseMoney = 40
-IntroBGM = SM 057 Trainers_ Eyes Meet (Team Skull)
-BattleBGM = XY 080 Battle! (Team Flare)
-VictoryBGM = SM 059 Victory! (Team Skull)
-#-------------------------------
 [CHAMPI]
 Name = Super
 Gender = Male
@@ -606,7 +592,7 @@ VictoryBGM = 031 - Victory 01
 [GENTLEMAN01]
 Name = Gentleman
 Gender = Male
-BaseMoney = 38
+BaseMoney = 45
 SkillLevel = 100
 IntroBGM = 015 - Meet Gros
 BattleBGM = 069 - Battle 02
@@ -615,7 +601,7 @@ VictoryBGM = 031 - Victory 01
 [MASCOTTE]
 Name = Mascotte
 Gender = Male
-BaseMoney = 38
+BaseMoney = 36
 SkillLevel = 100
 IntroBGM = 015 - Meet Gros
 BattleBGM = 069 - Battle 02
@@ -624,7 +610,7 @@ VictoryBGM = 031 - Victory 01
 [SCULPTEUR]
 Name = Sculpteur
 Gender = Male
-BaseMoney = 38
+BaseMoney = 36
 SkillLevel = 100
 IntroBGM = 015 - Meet Gros
 BattleBGM = 069 - Battle 02
@@ -633,8 +619,80 @@ VictoryBGM = 031 - Victory 01
 [BARISTA]
 Name = Barista
 Gender = Male
-BaseMoney = 38
+BaseMoney = 35
 SkillLevel = 100
 IntroBGM = 015 - Meet Gros
 BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[OUVRIERE2]
+Name = Ouvriere
+Gender = Female
+BaseMoney = 32
+SkillLevel = 60
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[OUVRIER]
+Name = Ouvrier
+Gender = Male
+BaseMoney = 32
+SkillLevel = 60
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[RUINER]
+Name = Ruiner
+Gender = Male
+BaseMoney = 44
+SkillLevel = 70
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[MONTAGNARD2]
+Name = Montagnard
+Gender = Male
+BaseMoney = 29
+SkillLevel = 21
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[GARDE2]
+Name = Gardienne
+Gender = Female
+BaseMoney = 30
+SkillLevel = 100
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[GARDE]
+Name = Garde
+Gender = Male
+BaseMoney = 30
+SkillLevel = 100
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[VOLEUR]
+Name = Voleur
+Gender = Male
+BaseMoney = 30
+SkillLevel = 100
+IntroBGM = 075 - Meet Colere
+BattleBGM = 033 - Team Managarm Attack
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[VOLEUR2]
+Name = Voleur
+Gender = Male
+BaseMoney = 38
+SkillLevel = 60
+IntroBGM = 075 - Meet Colere
+BattleBGM = 033 - Team Managarm Attack
 VictoryBGM = 031 - Victory 01

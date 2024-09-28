@@ -26,7 +26,7 @@ LandNight,21
     20,MORELULL,2,4
     20,VOLBEAT,2,4
     10,TAROUNTULA,2,4
-PokeRadar,120
+PokeRadar,100
     20,SHINX,3,5
     10,SKWOVET,5,7
 HeadbuttLow,21
@@ -74,7 +74,7 @@ LandNight,21
     20,PATRAT,4,6
     20,SEEDOT,4,6
     8,FLETCHLING,4,6
-PokeRadar,120
+PokeRadar,100
     20,VENIPEDE,5,7
     10,SKWOVET,5,7
     5,FLETCHLING,5,7
@@ -104,7 +104,7 @@ LandNight,21
     10,MEDITITE,9,11
     10,SPEAROW,9,11
     7,HOOTHOOT,8,10
-PokeRadar,120
+PokeRadar,100
     20,PANCHAM,10,12
     17,MAKUHITA,9,11
 #-------------------------------
@@ -176,7 +176,7 @@ LandNight,21
     18,PUMPKABOO,13,15
     10,PARAS,12,14
     8,DEERLING,12,16
-PokeRadar,120
+PokeRadar,100
     20,PINECO,14,17
 OldRod
     20,LOTAD,11,14
@@ -221,7 +221,7 @@ LandNight,21
     10,NINJASK,20,22
     10,ROGGENROLA,18,22
     9,SHUPPET,17,20
-PokeRadar,120
+PokeRadar,100
     20,FALINKS,19,23
     20,HONEDGE,18,23
 #-------------------------------
@@ -366,7 +366,7 @@ LandNight,21
     14,SANDYGAST,20,23
     10,GOTHITA,20,23
     5,WINGULL,20,23
-PokeRadar,120
+PokeRadar,100
     20,AZUMARILL,21,25
     20,KLINK,21,25
     15,TAUROS_3,21,25
@@ -412,7 +412,7 @@ LandNight,21
     16,ZORUA,21,24
     15,CORVISQUIRE,21,24
     15,PHANTUMP,21,24
-PokeRadar,120
+PokeRadar,100
     20,ROCKRUFF,22,24
     15,DITTO,22,24
 HeadbuttLow,40
@@ -465,7 +465,7 @@ LandNight,21
     17,SNORUNT,26,29
     12,SANDSLASH_1,26,29
     7,SANDILE,26,29
-PokeRadar,120
+PokeRadar,100
     20,HELIOLISK,26,30
     20,SKORUPI,26,30
 #-------------------------------
@@ -494,7 +494,7 @@ LandNight,21
     20,SNOVER,24,27
     16,LOMBRE,24,27
     15,SCRAGGY,24,27
-PokeRadar,120
+PokeRadar,100
     20,RIOLU,25,28
 #-------------------------------
 [044] # Cryodeser
@@ -543,7 +543,7 @@ LandNight,21
     15,DUSTOX,25,28
     10,AZUMARILL,25,28
     10,KIRLIA,25,28
-PokeRadar,120
+PokeRadar,100
     20,TOGEPI,25,28
     18,EXEGGCUTE,25,29
 #-------------------------------
@@ -620,7 +620,7 @@ LandNight,21
     13,FEAROW,30,33
     13,HYPNO,30,33
     11,TOEDSCRUEL,30,33
-PokeRadar,120
+PokeRadar,100
     20,EEVEE,30,33
     20,PIKACHU,30,33
 #-------------------------------
@@ -648,7 +648,7 @@ LandNight,21
     15,MURKROW,30,33
     12,HOUNDOOM,30,33
     6,TEDDIURSA,30,33
-PokeRadar,120
+PokeRadar,100
     20,AMPHAROS,30,33
     15,GRANBULL,30,34
 #-------------------------------
@@ -1004,6 +1004,57 @@ Water,2
     20,CLAUNCHER,38,42
     20,BARRASKEWDA,38,42
     22,CORSOLA,38,42
-PokeRadar,120
+PokeRadar,100
     20,AUDINO,38,42
     18,TINKATON,38,42
+#-------------------------------
+[074] # Route 13
+LandMorning,21
+    20,LEAFEON,42,45
+    10,NIDOKING,42,45
+    10,NIDOQUEEN,42,45
+    7,RHYDON,42,45
+    9,XATU,41,44
+LandAfternoon,21
+    20,LEAFEON,42,45
+    20,NIDOKING,42,45
+    20,NIDOQUEEN,42,45
+    7,RHYDON,42,45
+    15,XATU,41,44
+    7,TROPIUS,43,46
+    12,HOUNDOOM,44,47
+LandEvening,21
+    20,LEAFEON,42,45
+    20,NIDOKING,42,45
+    20,NIDOQUEEN,42,45
+    7,RHYDON,42,45
+    20,XATU,41,44
+LandNight,21
+    20,GLACEON,43,46
+    13,NIDOKING,42,45
+    13,NIDOQUEEN,42,45
+    13,RHYDON,42,45
+    15,XATU,41,44
+SandMorning,6
+    20,LYCANROC,42,45
+    18,HELIOLISK,41,44
+    7,KROOKODILE,42,44
+    15,DURANT,42,44
+SandAfternoon,6
+    20,LYCANROC,42,45
+    18,HELIOLISK,41,44
+    22,KROOKODILE,42,44
+    10,DURANT,42,44
+SandEvening,6
+    20,LYCANROC_2,42,45
+    18,HELIOLISK,41,44
+    7,KROOKODILE,42,44
+    15,DURANT,42,44
+SandNight,6
+    20,LYCANROC_1,43,46
+    3,HELIOLISK,41,44
+    7,MAMOSWINE,43,46
+    20,DURANT,42,44
+PokeRadar,100
+    20,TORKOAL,42,46
+    20,MAROWAK_1,40,44

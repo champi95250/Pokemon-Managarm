@@ -438,10 +438,29 @@ IntroBGM = 042 - Une rencontre innatendu
 BattleBGM = 043 - Le createur
 VictoryBGM = 031 - Victory 01
 #-------------------------------
+[WATERHAZE]
+Name = Super
+Gender = Male
+BaseMoney = 38
+SkillLevel = 100
+Flags = ReserveLastPokemon
+IntroBGM = 042 - Une rencontre innatendu
+BattleBGM = 043 - Le createur
+VictoryBGM = 031 - Victory 01
+#-------------------------------
 [ZEKE]
 Name = Leadeur Managarm 
 Gender = Male
-BaseMoney = 40
+BaseMoney = 42
+SkillLevel = 100
+IntroBGM = 032 - Team Managarm Aggro
+BattleBGM = 049 - Leader Managarm Phase 1
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[FLAMEHAZE]
+Name = Leadeur Managarm 
+Gender = Male
+BaseMoney = 42
 SkillLevel = 100
 IntroBGM = 032 - Team Managarm Aggro
 BattleBGM = 049 - Leader Managarm Phase 1

@@ -1103,7 +1103,28 @@ Pokemon = MAGNERI,50
 [TEAM_MANAGARM,Bob]
 LoseText = J'devrai arreter de fusionner n'importe quoi. 
 Pokemon = MAROWAK_1,52
+    Form = 1
     IV = 31,22,18,27,27,18
-Pokemon = REMOSEED,50
+Pokemon = REMOSEED,51
     EV = 0,0,0,0,0,0
     Shadow = true
+#------------------------------- Route 13
+[TEAM_MANAGARM,Carlos]
+LoseText = J'devrai arreter de fusionner n'importe quoi. 
+Pokemon = TINKATON,53
+    IV = 31,22,18,27,27,18
+Pokemon = TENABRI,52
+    EV = 0,0,0,0,0,0
+    Shadow = true
+#------------------------------- HANGAR SS3
+[FLAMEHAZE,Flamehaze]
+LoseText = Mais Wesh !  
+Pokemon = FALINKS,52
+    IV = 17,18,18,31,22,18
+    EV = 0,50,0,200,50,0
+Pokemon = DURALUDON,50
+    IV = 28,31,18,10,31,18
+    EV = 200,0,40,0,0,40
+Pokemon = TYRANITAR,55
+    IV = 31,31,18,20,31,18
+    EV = 100,60,40,0,60,40

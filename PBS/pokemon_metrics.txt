@@ -6613,3 +6613,37 @@ DmaxFrontSprite = 0,0
 ShadowSprite = 0,0,-5
 AnimationSpeed = 1
 SuperShinyHue = 65
+#-------------------------------
+[HECATURNE]
+BackSprite = 0,42
+FrontSprite = 0,12
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,3
+AnimationSpeed = 4
+SuperShinyHue = -90
+#-------------------------------
+[CAGRIN]
+BackSprite = 0,41
+FrontSprite = 0,24
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,-9
+SuperShinyHue = -70
+#-------------------------------
+[CRAMALIN]
+BackSprite = 0,29
+FrontSprite = 3,14
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,-2
+AnimationSpeed = 1
+SuperShinyHue = 70
+#-------------------------------
+[TENABRI]
+BackSprite = 5,50
+FrontSprite = -1,18
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,-3
+SuperShinyHue = -180

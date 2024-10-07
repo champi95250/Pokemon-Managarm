@@ -366,3 +366,7 @@ MapPosition = 0,21,10
 [084]   # Hangar - RDC
 Name = Hangar - RDC
 MapPosition = 0,21,10
+#-------------------------------
+[088]   # Hangar - SS3
+Name = Hangar - SS3
+MapPosition = 0,21,10

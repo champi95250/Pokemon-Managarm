@@ -428,6 +428,14 @@ IntroBGM = 032 - Team Managarm Aggro
 BattleBGM = 033 - Team Managarm Attack
 VictoryBGM = 031 - Victory 01
 #-------------------------------
+[TEAM_MANAGARM2]
+Name = Sbire
+Gender = Female
+BaseMoney = 30
+IntroBGM = 032 - Team Managarm Aggro
+BattleBGM = 033 - Team Managarm Attack
+VictoryBGM = 031 - Victory 01
+#-------------------------------
 [CHAMPI]
 Name = Super
 Gender = Male
@@ -458,6 +466,15 @@ BattleBGM = 049 - Leader Managarm Phase 1
 VictoryBGM = 031 - Victory 01
 #-------------------------------
 [FLAMEHAZE]
+Name = Leadeur Managarm 
+Gender = Male
+BaseMoney = 42
+SkillLevel = 100
+IntroBGM = 032 - Team Managarm Aggro
+BattleBGM = 049 - Leader Managarm Phase 1
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[NEOSKYBLUE]
 Name = Leadeur Managarm 
 Gender = Male
 BaseMoney = 42

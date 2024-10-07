@@ -1058,3 +1058,12 @@ SandNight,6
 PokeRadar,100
     20,TORKOAL,42,46
     20,MAROWAK_1,40,44
+#-------------------------------
+[089] # Grotte Lumière
+Cave,4
+    20,MRRIME,53,57
+    20,MRMIME_1,51,55
+    20,PILOSWINE,52,56
+    20,DELIBIRD,51,56
+    20,VANILLISH,47,50
+    10,VANILLUXE,50,56

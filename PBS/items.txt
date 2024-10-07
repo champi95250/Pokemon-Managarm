@@ -6676,4 +6676,20 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 FieldUse = Direct
-Description = Un pass pour ouvrir des portes
+Description = Un pass pour ouvrir des portes dans le Hangar sur la Route 13
+#-------------------------------
+[PASSM02]
+Name = Pass M-02
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = Un pass pour ouvrir des portes dans le Hangar sur la Route 13
+#-------------------------------
+[PASSM03]
+Name = Pass M-03
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = Un pass pour ouvrir des portes dans le Hangar sur la Route 13

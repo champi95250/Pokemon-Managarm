@@ -33,6 +33,24 @@ module ChoixSelections
     "bruyant pour rien",
     "à la ramasse",
   ]
+  Penser = [
+    "Guez",
+    "Drôle",
+    "Forte",
+    "Relou",
+    "Arrogant",
+    "Puante",
+    "Hautain",
+    "Incroyable",
+    "Conne",
+  ]
+  Fort = [
+    "Zeke",
+    "Flamehaze",
+    "Neoskyblue",
+    "Le 1er Sbire",
+    "Aucun",
+  ]
 end
 
   #------------------------------------

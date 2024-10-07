@@ -138,7 +138,6 @@ Pokemon = GOLISOPOD,26
 Pokemon = GYARADOS,28
     SuperShiny = true
     Moves = DRAGONDANCE,WATERFALL,BOUNCE,RAINDANCE
-    SuperShiny = true
     AbilityIndex = 0
     NoTera = true
     IV = 10,31,10,20,31,10
@@ -1091,7 +1090,7 @@ Pokemon = FERALIGATR,51
 Pokemon = SONGMA,50
     EV = 0,0,0,0,0,0
     Shadow = true
-#------------------------------- Route 13
+#------------------------------- Hangar
 [TEAM_MANAGARM,Pat]
 LoseText = Les boss vont pas être content !  
 Pokemon = HARIYAMA,51
@@ -1099,7 +1098,7 @@ Pokemon = HARIYAMA,51
 Pokemon = MAGNERI,50
     EV = 0,0,0,0,0,0
     Shadow = true
-#------------------------------- Route 13
+#------------------------------- Hangar
 [TEAM_MANAGARM,Bob]
 LoseText = J'devrai arreter de fusionner n'importe quoi. 
 Pokemon = MAROWAK_1,52
@@ -1108,7 +1107,7 @@ Pokemon = MAROWAK_1,52
 Pokemon = REMOSEED,51
     EV = 0,0,0,0,0,0
     Shadow = true
-#------------------------------- Route 13
+#------------------------------- Hangar
 [TEAM_MANAGARM,Carlos]
 LoseText = J'devrai arreter de fusionner n'importe quoi. 
 Pokemon = TINKATON,53
@@ -1116,15 +1115,97 @@ Pokemon = TINKATON,53
 Pokemon = TENABRI,52
     EV = 0,0,0,0,0,0
     Shadow = true
+#------------------------------- Hangar
+[TEAM_MANAGARM2,Sally]
+LoseText = C'est d'la magie ce que tu as fait ?!  
+Pokemon = HATTERENE,52
+    IV = 17,10,10,22,31,31
+Pokemon = GRIMMSNARL,52
+    IV = 16,31,31,22,10,10
 #------------------------------- HANGAR SS3
 [FLAMEHAZE,Flamehaze]
 LoseText = Mais Wesh !  
 Pokemon = FALINKS,52
     IV = 17,18,18,31,22,18
     EV = 0,50,0,200,50,0
-Pokemon = DURALUDON,50
+Pokemon = DURALUDON,52
     IV = 28,31,18,10,31,18
     EV = 200,0,40,0,0,40
 Pokemon = TYRANITAR,55
     IV = 31,31,18,20,31,18
     EV = 100,60,40,0,60,40
+Pokemon = HECATURNE,55
+    Shadow = true
+    IV = 31,28,30,10,24,28
+    EV = 0,0,0,0,0,0
+#------------------------------- HANGAR SS3
+[NEOSKYBLUE,Néo]
+LoseText = Abuser ...  
+Pokemon = TOXICROAK,53
+    IV = 17,18,18,31,22,18
+    EV = 0,50,0,200,50,0 
+Pokemon = FLOATZEL,53
+    IV = 17,18,18,31,22,18
+    EV = 0,50,0,200,50,0
+Pokemon = STARAPTOR,54
+    IV = 28,31,18,10,31,18
+    EV = 200,0,40,0,0,40
+Pokemon = INFERNAPE,56
+    IV = 31,31,18,20,31,18
+    EV = 110,60,30,0,60,30
+Pokemon = LAGIACRUS,55
+    Shadow = true
+    IV = 30,31,28,8,22,24
+    EV = 0,0,0,0,0,0
+#------------------------------- HANGAR SS3
+[ZEKE,Zeke,2]
+LoseText = MAIS ENFIN NOOOON !  
+Pokemon = CRAMALIN,53
+    Shadow = true
+Pokemon = TINKATON,53
+    AbilityIndex = 0
+    Shiny = true
+    IV = 22,28,27,31,9,11
+    EV = 150,150,150,0,0,0 
+    Moves = GIGATONHAMMER,SWORDSDANCE,ENCORE,PLAYROUGH
+Pokemon = ALOMOMOLA,53
+    Item = ASSAULTVEST
+    AbilityIndex = 2
+    Shiny = true
+    IV = 17,18,18,31,22,18
+    EV = 50,0,200,0,0,220
+    Moves = AQUAJET,MIRRORCOAT,ICYWIND,FLIPTURN
+Pokemon = CLODSIRE,55
+    AbilityIndex = 0
+    Shiny = true
+    IV = 25,16,16,30,26,28
+    EV = 252,0,160,0,0,96
+    Moves = SPIKES,EARTHQUAKE,RECOVER,POISONJAB
+Pokemon = SKARMORY,56 #-- Airmure
+    Item = LEFTOVERS
+    AbilityIndex = 0
+    Shiny = true
+    IV = 26,27,22,20,22,28
+    EV = 252,0,250,4,0,0
+    Moves = IRONHEAD,ROOST,WHIRLWIND,DEFOG
+Pokemon = OMINSINGE,56
+    AbilityIndex = 0
+    Shadow = true
+    Shiny = true
+    IV = 28,30,25,11,11,11
+    EV = 0,0,0,0,0,0
+#------------------------------- Grotte Lumière
+[OUVRIERE2,Martine]
+LoseText = Très bien, tu peux passer !   
+Pokemon = MRRIME,58
+Pokemon = MAMOSWINE,58
+#------------------------------- Grotte Lumière
+[CAMERAMAN,Tomy]
+LoseText = Manque de lumière ici quand même.
+Pokemon = COALOSSAL,57
+Pokemon = GARGANACL,58
+#------------------------------- Grotte Lumière
+[REPORTER,Jenny]
+LoseText = Mais c'était incroyable comme combat !  
+Pokemon = WYRDEER,57
+Pokemon = AUDINO,58

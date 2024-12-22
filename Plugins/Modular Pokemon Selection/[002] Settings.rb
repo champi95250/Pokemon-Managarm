@@ -46,4 +46,10 @@ module PokemonSelections
     pokeball: :POKEBALL,
     shadow: true
   }
+  SHADOW_fusion = {
+    level: 50,
+    min_iv: 19,
+    pokeball: :POKEBALL,
+    shadow: true
+  }
 end

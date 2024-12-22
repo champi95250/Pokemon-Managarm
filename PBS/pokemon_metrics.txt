@@ -6664,3 +6664,130 @@ DmaxFrontSprite = 0,0
 ShadowSprite = 0,0,3
 AnimationSpeed = 1
 SuperShinyHue = 65
+#-------------------------------
+[RATCYCLABLE]
+BackSprite = 0,21
+FrontSprite = 0,0
+DmaxBackSprite = 0,0
+ShadowSprite = 0,0,22
+AnimationSpeed = 1
+SuperShinyHue = -65
+#-------------------------------
+[RANERGIE]
+BackSprite = 0,47
+FrontSprite = 0,16
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = -220
+#-------------------------------
+[RATCRAFT]
+BackSprite = 0,32
+FrontSprite = -2,17
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,2
+AnimationSpeed = 1
+SuperShinyHue = 110
+#-------------------------------
+[RATCRASH]
+BackSprite = 4,42
+FrontSprite = -5,13
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,2
+AnimationSpeed = 1
+SuperShinyHue = -125
+#-------------------------------
+[PANDEAU]
+BackSprite = 0,35
+FrontSprite = -6,7
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 1,0,2
+SuperShinyHue = 235
+#-------------------------------
+[DRACOLORE]
+BackSprite = 0,53
+FrontSprite = 0,17
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,11
+AnimationSpeed = 1
+SuperShinyHue = -210
+#-------------------------------
+[BRANDATE]
+BackSprite = 0,31
+FrontSprite = 0,13
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,6
+AnimationSpeed = 1
+SuperShinyHue = 80
+#-------------------------------
+[CHAPI]
+BackSprite = 0,22
+FrontSprite = -1,5
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,9
+AnimationSpeed = 1
+SuperShinyHue = 175
+#-------------------------------
+[URINEE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+#-------------------------------
+[TURMOILET]
+BackSprite = 0,20
+FrontSprite = 0,10
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,7
+AnimationSpeed = 1
+SuperShinyHue = -215
+#-------------------------------
+[MARTICOUP]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+#-------------------------------
+[LAWATIN]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+#-------------------------------
+[NOCTURPHIS]
+BackSprite = 0,36
+FrontSprite = -3,13
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,4
+SuperShinyHue = 45
+#-------------------------------
+[PLUMIBRIS]
+BackSprite = 1,12
+FrontSprite = 0,5
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,7
+SuperShinyHue = 40
+#-------------------------------
+[TRAGIKARP]
+BackSprite = 0,38
+FrontSprite = 0,24
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 3
+SuperShinyHue = -90
+#-------------------------------
+[LEVIATROSS]
+BackSprite = 0,42
+FrontSprite = 0,13
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,6
+SuperShinyHue = -100

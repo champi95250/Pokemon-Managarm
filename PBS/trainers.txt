@@ -1,4 +1,4 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
+# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [GAMIN,Karim]
 LoseText = Que ... QUOI ?! ...
@@ -262,6 +262,26 @@ Pokemon = KLEAVOR,42
     EV = 0,170,0,4,170,0
 Pokemon = LUCARIO,43
     IV = 28,26,31,31,27,28
+    EV = 0,200,0,4,0,200
+    Moves = TERABLAST,SWORDSDANCE,CLOSECOMBAT,METEORMASH
+    TeraType = DRAGON
+#-------------------------------
+[RIVAL,Ben,4]
+Items = TERAORB,MEGARING
+LoseText = Tu progresse tellement vite ! 
+Pokemon = GENGAR,62
+    IV = 24,24,20,25,31,31
+    EV = 0,0,0,4,170,170
+    Moves = SHADOWBALL,FOCUSBLAST,THUNDERBOLT,SUBSTITUTE
+Pokemon = LUDICOLO,62
+    IV = 20,15,31,18,20,31
+    EV = 0,70,50,0,0,70
+Pokemon = KLEAVOR,63
+    IV = 31,31,31,25,18,26
+    EV = 0,170,0,4,170,0
+Pokemon = LUCARIO,64
+    Item = LUCARIONITE
+    IV = 29,28,31,31,28,28
     EV = 0,200,0,4,0,200
     Moves = TERABLAST,SWORDSDANCE,CLOSECOMBAT,METEORMASH
     TeraType = DRAGON
@@ -1209,3 +1229,350 @@ Pokemon = GARGANACL,58
 LoseText = Mais c'était incroyable comme combat !  
 Pokemon = WYRDEER,57
 Pokemon = AUDINO,58
+#------------------------------- Route 14
+[WATERHAZE,WaterHaze]
+Items = MEGARING
+LoseText = T'as eu d'la chaaaaaaatte
+Pokemon = ALTARIA,57
+Pokemon = MILOTIC,57
+Pokemon = SNORLAX,58
+Pokemon = TYRANITAR,60
+    Item = TYRANITARITE
+#------------------------------- Grotte Lumière
+[OUVRIERE2,Clara]
+LoseText = Très bien, tu es vraiment fort ! Passe sans problème.
+Pokemon = WHIMSICOTT,58
+    IV = 25,20,30,15,20,30
+    EV = 0,0,0,0,20,20
+Pokemon = LEAFEON,59
+    IV = 30,25,20,30,15,25
+    EV = 10,10,0,10,0,0
+Pokemon = TROPIUS,60
+    IV = 28,28,28,20,20,20
+    EV = 0,10,10,0,20,10
+#------------------------------- Route 14
+[RANGER,Matthieu]
+LoseText = Bien joué, tu sais vraiment comment t’adapter à l’environnement !
+Pokemon = LUXRAY,58
+    IV = 30,28,25,20,20,20
+    EV = 20,10,0,10,0,20
+Pokemon = SCEPTILE,58
+    IV = 28,30,25,25,20,30
+    EV = 10,20,0,10,10,10
+Pokemon = STARAPTOR,59
+    IV = 25,25,30,20,30,25
+    EV = 10,20,10,0,20,0
+#------------------------------- Route 14
+[SKIEUR,Lucas]
+LoseText = Oh, je me suis pris une belle gamelle là... Bien joué !
+Pokemon = WEAVILE,58
+    IV = 30,28,25,30,20,30
+    EV = 10,20,0,10,20,10
+Pokemon = FROSLASS,59
+    IV = 28,25,30,20,25,30
+    EV = 0,10,20,10,10,20
+Pokemon = ABOMASNOW,59
+    IV = 30,30,25,20,30,20
+    EV = 20,0,10,10,20,10
+#------------------------------- Route 15
+[SKIEUR,Bastien]
+LoseText = Pas mal, mais ça ne suffira pas pour impressionner Elsa de l'autre côté !
+Pokemon = WEAVILE,59
+    IV = 30,28,25,30,20,30
+    EV = 10,20,0,10,20,10
+Pokemon = MAMOSWINE,59
+    IV = 28,30,30,20,25,20
+    EV = 20,20,10,0,0,10
+#------------------------------- Route 15
+[SKIEUSE,Elsa]
+LoseText = Tu as battu Bastien ? Tu peux continuer… mais fais attention à toi !
+Pokemon = FROSLASS,58
+    IV = 30,25,30,20,25,30
+    EV = 10,0,10,10,20,20
+Pokemon = ABOMASNOW,59
+    IV = 30,30,25,20,30,20
+    EV = 20,0,10,0,20,10
+Pokemon = GLACEON,59
+    IV = 25,30,25,30,20,30
+    EV = 0,10,0,10,20,10
+#------------------------------- Route 15
+[RANGER,Alex]
+LoseText = Impressionnant ! Tu respectes vraiment la puissance de la nature.
+Pokemon = LYCANROC,57
+    IV = 30,28,30,25,20,20
+    EV = 10,20,0,20,0,10
+Pokemon = LURANTIS,58
+    IV = 25,30,25,30,20,25
+    EV = 20,10,0,10,10,10
+Pokemon = NOIVERN,61
+    IV = 30,25,28,30,25,25
+    EV = 0,0,20,20,20,20
+#------------------------------- Route 15
+[CANONH,Timothé]
+LoseText = Ca ma bien refroidi ça ! 
+Pokemon = STANTLER,58
+    IV = 30,28,30,25,20,20
+    EV = 10,20,0,20,0,10
+Pokemon = GALLADE,60
+    IV = 30,25,28,30,25,25
+    EV = 0,0,20,20,20,20
+#------------------------------- Route 15
+[FILETTE,Liliane]
+LoseText = J'était bien moi ! 
+Pokemon = RAPIDASH,58
+    Form = 1
+Pokemon = GARDEVOIR,60
+#------------------------------- Route 15
+[EMPLOYER,José]
+LoseText = Si il y a un contract, alors il peux rien nous arrivé ! 
+Pokemon = GRAPPLOCT,60
+Pokemon = PANGORO,61
+#------------------------------- Route 15
+[VOLEUR2,Joel]
+LoseText = C'était bien sur pour rire ! Haha
+Pokemon = TENABRI,61
+Pokemon = OMINSINGE,62
+#------------------------------- Route 15
+[RANGEUSE,Camille]
+LoseText = Je vois que tu es en harmonie avec tes Pokémon. Bravo, tu mérites de continuer.
+Pokemon = TSAREENA,60
+    IV = 30,25,30,20,25,30
+    EV = 10,10,0,20,20,10
+Pokemon = SALAZZLE,60
+    IV = 28,30,25,30,20,20
+    EV = 0,10,10,20,20,10
+Pokemon = HAXORUS,62
+    IV = 30,28,25,30,20,25
+    EV = 20,20,0,0,20,10
+#------------------------------- Arène Fake Boréadrin
+[SCULPTEUR,Hadrien]
+LoseText = J’ai sculpté ta victoire dans la glace… Impressionnant.
+Pokemon = DELIBIRD,60
+Pokemon = CRABOMINABLE,61
+#------------------------------- Arène Fake Boréadrin
+[MASCOTTE,Polo]
+LoseText = Oh non, mes Pokémon sont tombés… comme moi sur la glace !
+Pokemon = GLACEON,60
+Pokemon = SNORLAX,61
+#------------------------------- Arène Fake Boréadrin
+[GENTLEMAN01,Edmond]
+LoseText = Bravo, jeune dresseur. Je m’incline face à ton talent !
+Pokemon = TOGEKISS,60
+Pokemon = FROSLASS,61
+#------------------------------- Arène Fake Boréadrin
+[SCULPTEUR,Martin]
+LoseText = Même mes sculptures sont moins fragiles que mes Pokémon…
+Pokemon = AVALUGG,60
+Pokemon = STARAPTOR,61
+#------------------------------- Arène Fake
+[CHAMPI,Champi,2]
+LoseText = Tu es devenu incroyablement fort dit donc !  
+Pokemon = FROSMOTH,60
+    IV = 22,28,27,31,9,11
+    EV = 150,150,150,0,0,0 
+Pokemon = DELIBIRD,60
+    IV = 17,18,18,31,22,18
+    EV = 50,0,200,0,0,220
+Pokemon = MAMOSWINE,60
+    IV = 25,16,16,30,26,28
+    EV = 252,0,160,0,0,96
+Pokemon = LAPRAS,63 #-- Dynamax ! 
+    IV = 26,27,22,20,22,28
+    EV = 252,0,250,4,0,0
+#------------------------------- Arène Acier
+[RANGEUSE,Ophélie]
+LoseText = Même mes sculptures sont moins fragiles que mes Pokémon…
+Pokemon = KLINKLANG,61
+Pokemon = PERRSERKER,62
+#------------------------------- Arène Acier
+[RANGEUSE,Pauline]
+LoseText = Même mes sculptures sont moins fragiles que mes Pokémon…
+Pokemon = MAGNEZONE,61
+Pokemon = COPPERAJAH,62
+#------------------------------- Arène Acier
+[OUVRIERE2,Cassandra]
+LoseText = Même mes sculptures sont moins fragiles que mes Pokémon…
+Pokemon = MAGNEZONE,60
+Pokemon = KLEFKI,60
+Pokemon = EXCADRILL,62
+#------------------------------- Arène Acier
+[OUVRIERE2,Josianne]
+LoseText = Même mes sculptures sont moins fragiles que mes Pokémon…
+Pokemon = DUGTRIO,60
+    Form = 1
+Pokemon = STEELIX,62
+#------------------------------- Route 15
+[WATERHAZE,WaterHaze]
+Items = MEGARING
+LoseText = T'as eu d'la chaaaaaaatte
+Pokemon = ALTARIA,57
+Pokemon = MILOTIC,58
+Pokemon = SNORLAX,58
+Pokemon = TYRANITAR,59
+    Item = TYRANITARITE
+#------------------------------- Crystosombre
+[VOLEUR2,Mourad]
+LoseText = Tes pokémons sont trop chaud ...
+Pokemon = INCINEROAR,62
+Pokemon = ANNIHILAPE,63
+#------------------------------- Crystosombre
+[VOLEUR2,Trash]
+LoseText = C'était juste pour voir si t'avais du talent. 
+Pokemon = STARMIE,62
+Pokemon = CORVIKNIGHT,63
+#------------------------------- Route 18
+[TOPRANGEUR,Dylan]
+LoseText = Un vrai ranger sait quand il doit se retirer ...
+Pokemon = ROSERADE,63
+Pokemon = KANGASKHAN,63
+Pokemon = ALTARIA,64
+#------------------------------- Route 18
+[TOPRANGEUSE,Alexandra]
+LoseText = Quel obstacle impressionnant.
+Pokemon = ARCANINE,63
+Pokemon = TOGEKISS,63
+Pokemon = EXCADRILL,64
+#------------------------------- Route 18
+[TOPRANGEUSE,Camilla]
+LoseText = Hé, pas mal !
+Pokemon = FLYGON,64
+Pokemon = MILOTIC,64
+#------------------------------- Route 18
+[TOPRANGEUR,Thibaut]
+LoseText = Hier, j'était plus en forme ...
+Pokemon = COALOSSAL,63
+Pokemon = TINKATON,63
+Pokemon = GARCHOMP,65
+#------------------------------- MISTRO
+[MISTRO,Mistro]
+Items = MEGARING
+LoseText = Tu te défend bien, mais tu vote ? 
+Pokemon = DOUBLADE,61
+    IV = 20,20,20,20,20,20
+    EV = 200,0,120,0,0,50
+    NoTera = true
+Pokemon = FERROTHORN,61
+    AbilityIndex = 2
+    IV = 20,20,20,20,20,20
+    EV = 200,0,120,0,0,50
+    NoTera = true
+Pokemon = STEELIX,62
+    AbilityIndex = 0
+    IV = 24,24,24,24,24,24
+    EV = 0,200,20,0,0,80
+Pokemon = SCIZOR,64
+    Item = SCIZORITE
+    AbilityIndex = 0
+    IV = 31,31,31,31,31,31
+    EV = 0,250,0,0,250,4
+    Happiness = 250
+    Size = 220
+#------------------------------- PANDA
+[CHAMPION5,Panda]
+Items = MEGARING
+LoseText = Tu te défend bien, mais tu vote ? 
+Pokemon = BAXCALIBUR,62
+    IV = 20,20,20,20,20,20
+    EV = 200,0,120,0,0,50
+    NoTera = true
+Pokemon = CETITAN,62
+    AbilityIndex = 2
+    IV = 20,20,20,20,20,20
+    EV = 200,0,120,0,0,50
+    NoTera = true
+Pokemon = JYNX,63
+    AbilityIndex = 0
+    IV = 24,24,24,24,24,24
+    EV = 0,200,20,0,0,80
+Pokemon = GLALIE,65
+    Item = GLALITITE
+    AbilityIndex = 0
+    IV = 31,31,31,31,31,31
+    EV = 0,250,0,0,250,4
+    Happiness = 250
+    Size = 220
+#------------------------------- JUSTINE
+[CHAMPION8,Justine]
+Items = MEGARING
+LoseText = Tu te défend bien, mais tu vote ? 
+Pokemon = WIGGLYTUFF,66
+    IV = 20,20,20,20,20,20
+    EV = 200,0,120,0,0,50
+    NoTera = true
+Pokemon = AZUMARILL,66
+    AbilityIndex = 2
+    IV = 20,20,20,20,20,20
+    EV = 200,0,120,0,0,50
+    NoTera = true
+Pokemon = TINKATON,68
+    AbilityIndex = 0
+    IV = 24,24,24,24,24,24
+    EV = 0,200,20,0,0,80
+Pokemon = GARDEVOIR,70
+    Item = GARDEVOIRITE
+    AbilityIndex = 0
+    IV = 31,31,31,31,31,31
+    EV = 0,250,0,0,250,4
+    Happiness = 250
+    Size = 220
+#------------------------------- CRYSTOSOMBRE BOSS
+[FLAMEHAZE,Flamehaze,1]
+LoseText = Ok, je boucle cette zone, mais ne pense pas que la création s'arretera là !  
+Pokemon = FALINKS,72
+    IV = 17,18,18,31,22,18
+    EV = 0,50,0,200,50,0
+Pokemon = DURALUDON,72
+    IV = 28,31,18,10,31,18
+    EV = 200,0,40,0,0,40
+Pokemon = TYRANITAR,72
+    IV = 31,31,18,20,31,18
+    EV = 100,60,40,0,60,40
+Pokemon = HECATURNE,73
+    Shadow = true
+    IV = 31,28,30,10,24,28
+    EV = 0,0,0,0,0,0
+#------------------------------- GROTTE VICTOIRE
+[TOPDRESSEUR01,Dylan]
+LoseText = ...
+Pokemon = TALONFLAME,74
+#------------------------------- LIGUE POKEMON 
+[ELITE1,Kaiba]
+LoseText = Le chemin ne fait que commencer ! 
+Pokemon = LUCARIO,75
+Pokemon = DRAGONITE,75
+Pokemon = MAMOSWINE,75
+Pokemon = GARCHOMP,75
+Pokemon = INFERNAPE,75 #---------- ELITE PKM
+#------------------------------- LIGUE POKEMON 
+[ELITE2,Many]
+LoseText = ...
+Pokemon = PERSIAN,76
+Pokemon = TOGEKISS,76
+Pokemon = CLEFABLE,76
+Pokemon = METAGROSS,76
+Pokemon = GHOLDENGO,76
+#------------------------------- LIGUE POKEMON 
+[ELITE3,Pillow]
+LoseText = ...
+Pokemon = MISMAGIUS,77
+Pokemon = HYPNO,77
+Pokemon = CURSOLA,77
+Pokemon = CHANDELURE,77
+Pokemon = GENGAR,77
+#------------------------------- LIGUE POKEMON 
+[ELITE4,Caala]
+LoseText = ...
+Pokemon = ALTARIA,78
+Pokemon = MILOTIC,78
+Pokemon = SYLVEON,78
+Pokemon = FROSLASS,78
+Pokemon = GARDEVOIR,78
+#------------------------------- LIGUE POKEMON 
+[ELITE5,Dreaye]
+LoseText = ...
+Pokemon = TYRANITAR,79
+Pokemon = LUCARIO,79
+Pokemon = AERODACTYL,79
+Pokemon = ARCANINE,79
+Pokemon = LEAFEON,79
+Pokemon = SCIZOR,81

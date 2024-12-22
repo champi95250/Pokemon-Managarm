@@ -1,0 +1,13 @@
+#-------------------------------
+[RAINBOWRUSH]
+Name = Rainbow Rush
+Type = FAIRY
+Category = Physical
+Power = 100
+Accuracy = 75
+TotalPP = 15
+Target = NearOther
+FunctionCode = RaiseUserSpeed1
+EffectChance = 100
+Flags = Contact,CanProtect,CanMirrorMove
+Description = L'utilisateur augmentant sa vitesse, fonce sur la cible, laissant une traînée arc-en-ciel derrière lui.

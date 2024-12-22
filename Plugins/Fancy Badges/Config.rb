@@ -16,9 +16,9 @@ module FancyBadges
       "Badge Plante",
       "Badge Eau",
       "Badge Spectre",
-      "Badge X",
-      "Test Badge 6",
-      "Test Badge 7",
-      "Test Badge 8",
+      "Badge Combat",
+      "Badge Acier",
+      "Badge Glace",
+      "Badge Fée",
   ]    
 end

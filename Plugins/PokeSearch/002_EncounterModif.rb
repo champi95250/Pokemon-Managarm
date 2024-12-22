@@ -23,6 +23,10 @@ EventHandlers.add(:on_wild_pokemon_created, :pokesearch, proc {|pkmn|
         if (rand(50)==1)
           pkmn.shiny = true
         end
+      when :LANSATBERRY
+        if (rand(20)==1)
+          pkmn.shiny = true
+        end
       end
     end
     pkmn.reset_moves

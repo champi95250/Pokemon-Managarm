@@ -165,6 +165,83 @@ module ARMLocationPreview
     description: _INTL("<ac>La Zone Safari</ac>"), # <ac>text</ac> can be used to center text horizontally.
     east: [17, 9],
   }
+  Route12 = {
+    description: _INTL("<ac>Route cyclable, des gangs y traine souvent</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    east: [21, 9],
+    west: [17, 9],
+  }
+  Route13 = {
+    description: _INTL("<ac>Route désertique qui descend sur la ville protégèr Aerolith</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    south: [21,11],
+    west: [20, 9],
+  }
+  Aerolith = {
+    description: _INTL("<ac>Ville protéger par une force mystique</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    north: [21,10],
+  }
+  Route14 = {
+    description: _INTL("<ac>Route 14, très enterer et glaciale</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    west: [7,9],
+  }
+  Boréadrin = {
+    description: _INTL("<ac>Boréadrin veux reprendre l'arène de type Glace ici.</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    west: [6,9],
+    east: [8,9],
+  }
+  Route15 = {
+    description: _INTL("<ac>Route 15, très grande plaine glaciale</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    east: [7,9],
+    west: [4,10],
+    north: [5,8],
+  }
+  Route16 = {
+    description: _INTL("<ac>Route 16, Une monté pour allez à Crystosombre</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    east: [5,10],
+    west: [3,10],
+  }
+  Route17 = {
+    description: _INTL("<ac>Un endroit calme où beaucoup de fleurs sont fleuris chaque jour de l'année.</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    south: [5,9],
+  }
+  Crystosombre = {
+    description: _INTL("<ac>Crystosombre, La ville devenue un lieu de bandit</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    east: [4,10],
+  }
+  Route18 = {
+    description: _INTL("<ac>Une belle route où se trouve beaucoup de grand dresseurs fort et imprésionnant.</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    south: [17,9],
+    north: [17,6],
+  }
+  Auremcity = {
+    description: _INTL("<ac>Auremcity, La ville au mille possibilité</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    south: [17,7],
+    west: [16,5],
+    east: [19,6],
+  }
+  Route20 = {
+    description: _INTL("<ac>Route 20, où commence le début de la victoire</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    west: [18,6],
+    east: [21,6],
+  }
+  RouteVictoire = {
+    description: _INTL("<ac>Route Victoire, où régne pokémon quasi légendaire et dresseurs archi fort.</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    west: [20,6],
+    east: [22,6],
+  }
+  GrotteVictoire = {
+    description: _INTL("<ac>Grotte Victoire, où régne pokémon quasi légendaire et dresseurs archi fort.</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    west: [21,6],
+    south: [26,5],
+  }
+  FinalRoute = {
+    description: _INTL("<ac>La route final, tranquille, sans dresseurs, sans embrouille</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    west: [25,5],
+    north: [26,6],
+  }
+  LiguePokemon = {
+    description: _INTL("<ac>La Ligue pokémon, le dernier endroit où prouver sa valeur</ac>"), # <ac>text</ac> can be used to center text horizontally.
+    east: [26,5],
+  }
 
 
 end

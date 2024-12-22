@@ -107,6 +107,16 @@ module PokemonSelections
     :DECIDUEYE_1,
     :ZORUA_1,
   ]
+  Dealer_fusion = [
+    :FOUINARABRE,
+    :FEUNEVOIR,
+    :MAGNERI,
+    :SONGMA,
+    :TENABRI,
+    :REMOSEED,
+    :CAGRIN,
+    :CRAMALIN,
+  ]
 
   Mythical = [
     :MEW,

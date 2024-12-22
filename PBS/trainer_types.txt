@@ -59,6 +59,15 @@ IntroBGM = 013 - Meet kid
 BattleBGM = 030 - Battle 01
 VictoryBGM = 031 - Victory 01
 #-------------------------------
+[FILETTE]
+Name = Filette
+Gender = Female
+BaseMoney = 22
+SkillLevel = 20
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
 [GAMIN3]
 Name = Gamin
 Gender = Male
@@ -145,6 +154,36 @@ IntroBGM = 012 - Gym Leader Meet
 BattleBGM = 074 - Sol ou Vol
 VictoryBGM = 011 - Victory Gym Leader
 #-------------------------------
+[MISTRO]
+Name = Champion
+Gender = Male
+BaseMoney = 65
+SkillLevel = 100
+Flags = ReserveLastPokemon,UsePokemonInOrder
+IntroBGM = 012 - Gym Leader Meet
+BattleBGM = 047 - Gym Leader 2v2
+VictoryBGM = 011 - Victory Gym Leader
+#-------------------------------
+[CHAMPION5]
+Name = Champion
+Gender = Male
+BaseMoney = 72
+SkillLevel = 100
+Flags = ReserveLastPokemon,UsePokemonInOrder
+IntroBGM = 012 - Gym Leader Meet
+BattleBGM = 047 - Gym Leader 2v2
+VictoryBGM = 011 - Victory Gym Leader
+#-------------------------------
+[CHAMPION8]
+Name = Champion
+Gender = Female
+BaseMoney = 100
+SkillLevel = 100
+Flags = ReserveLastPokemon,UsePokemonInOrder
+IntroBGM = 012 - Gym Leader Meet
+BattleBGM = 074 - Sol ou Vol
+VictoryBGM = 011 - Victory Gym Leader
+#-------------------------------
 [TRAINER_TAKA]
 Name = King
 Gender = Male
@@ -176,6 +215,15 @@ VictoryBGM = 031 - Victory 01
 Name = Canon
 Gender = Female
 BaseMoney = 27
+SkillLevel = 40
+IntroBGM = 013 - Meet kid
+BattleBGM = 030 - Battle 01
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[CANONH]
+Name = Canon
+Gender = Male
+BaseMoney = 32
 SkillLevel = 40
 IntroBGM = 013 - Meet kid
 BattleBGM = 030 - Battle 01
@@ -607,6 +655,15 @@ IntroBGM = 015 - Meet Gros
 BattleBGM = 069 - Battle 02
 VictoryBGM = 031 - Victory 01
 #-------------------------------
+[EMPLOYER]
+Name = Employer
+Gender = Male
+BaseMoney = 51
+SkillLevel = 60
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
 [TRIA]
 Name = Triathlete
 Gender = Male
@@ -732,3 +789,152 @@ SkillLevel = 60
 IntroBGM = 075 - Meet Colere
 BattleBGM = 033 - Team Managarm Attack
 VictoryBGM = 031 - Victory 01
+#-------------------------------
+[SKIEUR]
+Name = Skieur
+Gender = Male
+BaseMoney = 44
+SkillLevel = 70
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[SKIEUSE]
+Name = Skieuse
+Gender = Female
+BaseMoney = 44
+SkillLevel = 70
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[RANGER]
+Name = Ranger
+Gender = Male
+BaseMoney = 46
+SkillLevel = 80
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[RANGEUSE]
+Name = Rangeuse
+Gender = Female
+BaseMoney = 46
+SkillLevel = 80
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TOPRANGEUSE]
+Name = Top Rangeuse
+Gender = Female
+BaseMoney = 55
+SkillLevel = 80
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TOPRANGEUR]
+Name = Top Rangeur
+Gender = Male
+BaseMoney = 55
+SkillLevel = 80
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TOPDRESSEUR01]
+Name = Top Dresseur
+Gender = Male
+BaseMoney = 60
+SkillLevel = 99
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TOPDRESSEUR03]
+Name = Top Dresseur
+Gender = Male
+BaseMoney = 60
+SkillLevel = 99
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TOPDRESSEUR05]
+Name = Top Dresseur
+Gender = Male
+BaseMoney = 60
+SkillLevel = 99
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TOPDRESSEUR02]
+Name = Top Dresseuse
+Gender = Female
+BaseMoney = 60
+SkillLevel = 99
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TOPDRESSEUR04]
+Name = Top Dresseuse
+Gender = Female
+BaseMoney = 60
+SkillLevel = 99
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[TOPDRESSEUR06]
+Name = Top Dresseuse
+Gender = Female
+BaseMoney = 60
+SkillLevel = 99
+IntroBGM = 015 - Meet Gros
+BattleBGM = 069 - Battle 02
+VictoryBGM = 031 - Victory 01
+#-------------------------------
+[ELITE1]
+Name = Conseil 4
+Gender = Male
+BaseMoney = 70
+SkillLevel = 100
+BattleBGM = 103 - Elite 01
+VictoryBGM = 109 - Victory
+#-------------------------------
+[ELITE2]
+Name = Conseil 4
+Gender = Male
+BaseMoney = 70
+SkillLevel = 100
+BattleBGM = 104 - Elite 02
+VictoryBGM = 109 - Victory
+#-------------------------------
+[ELITE3]
+Name = Conseil 4
+Gender = Male
+BaseMoney = 70
+SkillLevel = 100
+BattleBGM = 105 - Elite 03
+VictoryBGM = 109 - Victory
+#-------------------------------
+[ELITE4]
+Name = Conseil 4
+Gender = Female
+BaseMoney = 70
+SkillLevel = 100
+BattleBGM = 106 - Elite 04
+VictoryBGM = 109 - Victory
+#-------------------------------
+[ELITE5]
+Name = Maitre
+Gender = Male
+BaseMoney = 90
+SkillLevel = 100
+BattleBGM = 107 - Maitre de la ligue
+VictoryBGM = 110 - Victory
+

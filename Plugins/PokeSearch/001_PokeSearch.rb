@@ -229,6 +229,10 @@ class PokeSearch_Scene
       return _INTL("Les Baies Sitrus augmentent significativement les IV des Pokémon rencontrés.")
     when :LEPPABERRY
       return _INTL("Les Baies Mepo réduisent le niveau des Pokémon rencontrés.")
+    when :FIGYBERRY
+      return _INTL("Les Baies Figy augmentent fortement le niveau des Pokémon rencontrés.")
+    when :LANSATBERRY
+      return _INTL("Les Baies Lansat augmentent fortement les chances de Pokémon chromatiques.")
     when :ENIGMABERRY
       return _INTL("Les Baies Enigma augmentent les chances de rencontrer des Pokémon chromatiques.")
     else
@@ -295,11 +299,13 @@ class PokeSearch_Scene
     base_level = @average_level
     level = base_level + rand(-2..2)
     if @current_berry == :LEPPABERRY
-      level = [level - 4, 1].max
-    elsif !@current_berry.nil? && ![:CHESTOBERRY, :CHERIBERRY, :PECHABERRY, :RAWSTBERRY, :PERSIMBERRY, :ASPEARBERRY, :LUMBERRY, :ORANBERRY, :SITRUSBERRY, :ENIGMABERRY].include?(@current_berry)
-      level = [level + 4, 100].min
+      level = [[level - 4, 1].max, 120].min
+    elsif !@current_berry.nil? && ![:CHESTOBERRY, :CHERIBERRY, :PECHABERRY, :RAWSTBERRY, :PERSIMBERRY, :ASPEARBERRY, :LUMBERRY, :ORANBERRY, :SITRUSBERRY,:ENIGMABERRY].include?(@current_berry)
+      level = [[level + 4, 1].max, 120].min
+    elsif @current_berry.nil? == :FIGYBERRY
+      level = [[level + 8, 1].max, 120].min
     end
-    level = [[level, 100].min, 1].max
+    level = [[level, 120].min, 1].max
     $PokemonSystem.pokesearch_encounter = true
     odds = rand(0..100) < getRepelOdds
     if !@current_repel.nil?
@@ -487,7 +493,9 @@ class PokeSearch_Scene
     enc_array.uniq!
 
     # Calcule le niveau moyen des Pokémon
-    average_level = ((min_levels + max_levels) / 2) / arr.length
+    # Calcule le niveau moyen des Pokémon
+    average_level = arr.length > 0 ? ((min_levels + max_levels) / 2) / arr.length : 25  # Si arr.length = 0, on utilise 60 par défaut
+
 
     return enc_array, average_level
   end

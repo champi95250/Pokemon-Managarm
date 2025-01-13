@@ -151,7 +151,7 @@ Argent :<<n>><ar>{1}</ar>
 Coins:<<n>><ar>{1}</ar>
 Pièces :<<n>><ar>{1}</ar>
 Battle Points:<<n>><ar>{1}</ar>
-Points de Combat :<<n>><ar>{1}</ar>
+Points Combat:<<n>><ar>{1}</ar>
 Yes
 Oui
 No
@@ -3921,7 +3921,7 @@ Puis-je faire autre chose pour vous ?
 {1} BP
 {1} PCo
 Battle Points:<<n>><r>{1}
-Points de Combat :<<n>><r>{1}
+Points Combat:<<n>><r>{1}
 x{1}<r>{2} BP
 x{1}<r>{2} PCo
 You don't have enough BP.

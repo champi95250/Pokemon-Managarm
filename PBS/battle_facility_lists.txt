@@ -24,7 +24,7 @@ Trainers = cup_fancy_trainers_single.txt
 Pokemon = cup_fancy_pkmn_single.txt
 Challenges = fancycupsingle,fancycupdouble
 #-------------------------------
-[ArenaTrainerList]
-Trainers = arena1_trainer.txt
-Pokemon = arena1_pokemon.txt
-Challenges = arena1singleopen
+[TrainerList]
+Trainers = cup_mushroom_trainers.txt
+Pokemon = cup_mushroom_pokemon.txt
+Challenges = mushroomcupdouble,mushroomcupsingle

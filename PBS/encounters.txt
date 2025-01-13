@@ -1239,6 +1239,18 @@ LandNight,21
     15,CERULEDGE,59,62
 PokeRadar,100
     20,BLISSEY,60,64
+OldRod
+    20,CLAWITZER,15,20
+GoodRod
+    20,CLAWITZER,30,40
+SuperRod
+    20,CLAWITZER,60,65
+    3,KINGDRA,60,65
+Water,2
+    20,VAPOREON,60,65
+    20,ALTARIA,60,65
+    25,FLOATZEL,60,65
+    10,FLAMIGO,60,65
 #-------------------------------
 [096,1] # Route 16
 LandMorning,21
@@ -1267,3 +1279,108 @@ LandNight,21
 PokeRadar,100
     20,GLALIE,55,59
     20,TENABRI,56,60
+#-------------------------------
+[112] # Route 20
+LandMorning,21
+    20,LOKIX,60,63
+    20,TALONFLAME,60,63
+    20,GIRAFARIG,60,63
+    20,RAICHU,60,62
+LandAfternoon,21
+    20,LOKIX,60,63
+    20,HAWLUCHA,60,63
+    18,TALONFLAME,60,62
+    20,GIRAFARIG,60,63
+LandEvening,21
+    20,LOKIX,60,63
+    18,HAWLUCHA,60,62
+    20,TALONFLAME,60,63
+    15,GIRAFARIG,60,63
+    5,RAICHU,60,63
+LandNight,21
+    20,LOKIX,60,63
+    20,HONCHKROW,60,64
+    20,GIRAFARIG,60,63
+    5,CORVIKNIGHT,60,63
+    15,VENOMOTH,60,63
+PokeRadar,100
+    20,FLOETTE,60,60
+    20,FLOETTE_1,60,60
+    20,FLOETTE_2,60,60
+    20,FLOETTE_3,60,60
+    20,FLOETTE_4,60,60
+#-------------------------------
+[114] # Grotte Lumière
+Cave,3
+    20,MACHOKE,62,66
+    20,GRAVELER,62,66
+    20,RHYHORN,62,66
+    20,GABITE,62,66
+    20,BOLDORE,62,66
+    20,EXCADRILL,62,66
+    20,DRUDDIGON,62,66
+    20,ZWEILOUS,60,63
+    10,NOIVERN,62,65
+#-------------------------------
+[116] # Grotte Lumière
+Cave,3
+    20,MACHOKE,62,66
+    20,GRAVELER,62,66
+    20,RHYHORN,62,66
+    20,GABITE,62,66
+    20,BOLDORE,62,66
+    20,EXCADRILL,62,66
+    20,DRUDDIGON,62,66
+    20,ZWEILOUS,60,63
+    10,NOIVERN,62,65
+#-------------------------------
+[115] # Grotte Lumière
+Cave,3
+    20,MACHOKE,62,66
+    20,GRAVELER,62,66
+    20,RHYHORN,62,66
+    20,GABITE,62,66
+    20,BOLDORE,62,66
+    20,EXCADRILL,62,66
+    20,DRUDDIGON,62,66
+    20,ZWEILOUS,60,63
+    10,NOIVERN,62,65
+#-------------------------------
+[117] # Grotte Lumière
+Cave,4
+    20,MACHOKE,62,66
+    20,GRAVELER,62,66
+    20,RHYHORN,62,66
+    20,GABITE,62,66
+    20,BOLDORE,62,66
+    20,EXCADRILL,62,66
+    20,DRUDDIGON,62,66
+    20,ZWEILOUS,60,63
+    10,NOIVERN,62,65
+#-------------------------------
+[118] # Route Victoire
+LandMorning,21
+    20,LOKIX,61,66
+    20,TALONFLAME,60,66
+    20,GIRAFARIG,60,66
+    20,RAICHU,60,66
+LandAfternoon,21
+    20,LOKIX,60,66
+    20,HAWLUCHA,60,66
+    18,TALONFLAME,60,66
+    20,GIRAFARIG,60,66
+LandEvening,21
+    20,LOKIX,60,66
+    18,HAWLUCHA,60,66
+    20,TALONFLAME,60,66
+    15,GIRAFARIG,60,66
+    5,RAICHU,60,66
+LandNight,21
+    20,LOKIX,60,66
+    20,HONCHKROW,60,66
+    20,GIRAFARIG,60,66
+    5,CORVIKNIGHT,60,66
+    15,VENOMOTH,60,66
+PokeRadar,100
+    20,DURALUDON,62,66
+    12,BAXCALIBUR,62,66

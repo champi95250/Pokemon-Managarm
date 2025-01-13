@@ -1531,10 +1531,93 @@ Pokemon = HECATURNE,73
     Shadow = true
     IV = 31,28,30,10,24,28
     EV = 0,0,0,0,0,0
+#------------------------------- ROUTE VICTOIRE
+[TOPDRESSEUR01,Tom]
+LoseText = Pas mal... Peut-être que t'as une chance à la Ligue. Mais garde ça en tête : chaque combat compte.
+Pokemon = BLASTOISE,71
+Pokemon = GRAPPLOCT,72
+Pokemon = SALAZZLE,72
+#------------------------------- ROUTE VICTOIRE
+[TOPDRESSEUR03,Benjamin]
+LoseText = Pas mal... Peut-être que t'as une chance à la Ligue. Mais garde ça en tête : chaque combat compte.
+Pokemon = RAPIDASH,71
+Pokemon = GYARADOS,72
+Pokemon = LUCARIO,72
+#------------------------------- ROUTE VICTOIRE
+[TOPDRESSEUR05,Tony]
+LoseText = Tu m’as battu, mais n’oublie pas : le style, ça compte aussi. Continue de briller.
+Pokemon = SYLVEON,71
+Pokemon = ARCANINE,71
+Pokemon = TOGEKISS,72
+#------------------------------- ROUTE VICTOIRE
+[TOPDRESSEUR02,Justine]
+LoseText = Eh bien... tu m’as surprise. Mais souviens-toi : chaque combat est une leçon.
+Pokemon = MAWILE,71
+Pokemon = ROTOM,72
+    Form = 2
+Pokemon = FROSMOTH,72
 #------------------------------- GROTTE VICTOIRE
-[TOPDRESSEUR01,Dylan]
+[TOPDRESSEUR04,Shirley]
+LoseText = Hmph... Tu as gagné cette bataille, mais la vraie justice se trouve au sommet.
+Pokemon = FORRETRESS,71
+Pokemon = GARDEVOIR,71
+Pokemon = DUSKNOIR,72
+Pokemon = SWAMPERT,73
+#------------------------------- GROTTE VICTOIRE
+[TOPDRESSEUR06,Lucie]
+LoseText = C’est n’importe quoi ! Tu as juste eu de la chance ! Ça ne compte pas vraiment.
+Pokemon = CLOYSTER,71
+Pokemon = WHIMSICOTT,71
+Pokemon = HONCHKROW,72
+Pokemon = HYDREIGON,73
+#------------------------------- GROTTE VICTOIRE
+[TOPDRESSEUR01,Julien]
+LoseText = Wow... T’es plutôt impressionnant toi aussi. Mais je reste le plus séduisant ici, c’est indiscutable.
+Pokemon = MACHAMP,71
+Pokemon = NINETALES,72
+    Form = 1
+Pokemon = ALTARIA,72
+Pokemon = TYRANITAR,73
+#------------------------------- GROTTE VICTOIRE
+[TOPDRESSEUR06,Michelle]
 LoseText = ...
-Pokemon = TALONFLAME,74
+Pokemon = LILLIGANT,71
+Pokemon = SWALOT,71
+Pokemon = DRAPION,71
+#------------------------------- GROTTE VICTOIRE
+[TOPDRESSEUR05,Jacky]
+LoseText = Pas mal, vraiment pas mal. Mais t’inquiète, la prochaine fois, je gagnerai !
+Pokemon = BOLTUND,71
+Pokemon = MEDICHAM,71
+Pokemon = AGGRON,71
+#------------------------------- GROTTE VICTOIRE
+[TOPDRESSEUR01,Hugo]
+LoseText = Quoi ?! Mais j'avais un plan en béton... Zoé, pourquoi tu m’as laissé faire ça ?!
+Pokemon = PROBOPASS,71
+Pokemon = TALONFLAME,73
+#------------------------------- GROTTE VICTOIRE
+[TOPDRESSEUR02,Zoé]
+LoseText = Un plan en béton, hein ? J’aurais dû te laisser seul. Bon, bien joué...
+Pokemon = WIGGLYTUFF,72
+Pokemon = PALOSSAND,73
+#------------------------------- GROTTE VICTOIRE
+[TOPDRESSEUR04,Lyssa]
+LoseText = Ah, je vois… c’était ton moment. Le cosmos est avec toi cette fois, mais un jour, la balance tournera !
+Pokemon = LUNATONE,71
+Pokemon = MAGNEZONE,72
+Pokemon = ORBEETLE,73
+#------------------------------- GROTTE VICTOIRE
+[TOPDRESSEUR03,Dario]
+LoseText = Quoi ? Tu as gagné ? Hmph, profite de ta victoire, ça n’arrivera pas deux fois.
+Pokemon = MISMAGIUS,71
+Pokemon = YANMEGA,72
+Pokemon = MAMOSWINE,73
+#------------------------------- GROTTE VICTOIRE
+[TOPDRESSEUR05,Steven]
+LoseText = Quoi ? J’ai perdu ? Non, pas possible... Bon, j’dois filer, à plus, bye-bye, t’es bon, continue comme ça !
+Pokemon = CROBAT,72
+Pokemon = JOLTEON,72
+Pokemon = VOLCARONA,73
 #------------------------------- LIGUE POKEMON 
 [ELITE1,Kaiba]
 LoseText = Le chemin ne fait que commencer ! 
@@ -1542,7 +1625,7 @@ Pokemon = LUCARIO,75
 Pokemon = DRAGONITE,75
 Pokemon = MAMOSWINE,75
 Pokemon = GARCHOMP,75
-Pokemon = INFERNAPE,75 #---------- ELITE PKM
+Pokemon = INFERNAPE,76 #---------- ELITE PKM
 #------------------------------- LIGUE POKEMON 
 [ELITE2,Many]
 LoseText = ...
@@ -1550,7 +1633,7 @@ Pokemon = PERSIAN,76
 Pokemon = TOGEKISS,76
 Pokemon = CLEFABLE,76
 Pokemon = METAGROSS,76
-Pokemon = GHOLDENGO,76
+Pokemon = GHOLDENGO,77
 #------------------------------- LIGUE POKEMON 
 [ELITE3,Pillow]
 LoseText = ...
@@ -1558,7 +1641,7 @@ Pokemon = MISMAGIUS,77
 Pokemon = HYPNO,77
 Pokemon = CURSOLA,77
 Pokemon = CHANDELURE,77
-Pokemon = GENGAR,77
+Pokemon = GENGAR,78
 #------------------------------- LIGUE POKEMON 
 [ELITE4,Caala]
 LoseText = ...
@@ -1566,7 +1649,7 @@ Pokemon = ALTARIA,78
 Pokemon = MILOTIC,78
 Pokemon = SYLVEON,78
 Pokemon = FROSLASS,78
-Pokemon = GARDEVOIR,78
+Pokemon = GARDEVOIR,79
 #------------------------------- LIGUE POKEMON 
 [ELITE5,Dreaye]
 LoseText = ...
@@ -1574,5 +1657,5 @@ Pokemon = TYRANITAR,79
 Pokemon = LUCARIO,79
 Pokemon = AERODACTYL,79
 Pokemon = ARCANINE,79
-Pokemon = LEAFEON,79
+Pokemon = LEAFEON,80
 Pokemon = SCIZOR,81

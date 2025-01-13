@@ -6790,7 +6790,8 @@ Name = Ticket de Base
 NamePlural = Tickets de Base
 PortionName = Ticket de Base
 PortionNamePlural = Tickets de Base
-Pocket = 4
+BPPrice = 2
+Pocket = 1
 Price = 1000
 Description = Permet d'effectuer un tirage de base au Gatcha. Idéal pour commencer.
 #-------------------------------
@@ -6799,52 +6800,58 @@ Name = Ticket Argent
 NamePlural = Tickets Argent
 PortionName = Ticket Argent
 PortionNamePlural = Tickets Argent
-Pocket = 4
+Pocket = 1
+BPPrice = 10
 Price = 2500
-Description = Accès à un tirage privilégié avec de meilleures chances de Pokémon Rares.
+Description = Accès à un tirage privilégié avec de meilleures chances de Pokémon peu commun.
 #-------------------------------
 [TICKETDORE]
 Name = Ticket Doré
 NamePlural = Tickets Dorés
 PortionName = Ticket Doré
 PortionNamePlural = Tickets Dorés
-Pocket = 4
+BPPrice = 30
+Pocket = 1
 Price = 5000
-Description = Un ticket précieux, garantissant au moins un Pokémon Rare.
+Description = Un ticket précieux, garantissant au moins un Pokémon Oeuf assez Rare.
 #-------------------------------
 [TICKETDIAMANT]
 Name = Ticket Diamant
 NamePlural = Tickets Diamants
 PortionName = Ticket Diamant
 PortionNamePlural = Tickets Diamants
-Pocket = 4
+BPPrice = 60
+Pocket = 1
 Price = 10000
-Description = Le nec plus ultra des tickets, augmente les chances d'obtenir un Pokémon Légendaire.
+Description = Le nec plus ultra des tickets, augmente les chances d'obtenir un Pokémon assez Rare.
 #-------------------------------
 [TICKETLEGENDAIRE]
 Name = Ticket Légendaire
 NamePlural = Tickets Légendaires
 PortionName = Ticket Légendaire
 PortionNamePlural = Tickets Légendaires
-Pocket = 4
+BPPrice = 300
+Pocket = 1
 Price = 20000
 Description = Ce ticket permet d'accéder à un tirage exclusif pour les Pokémon Légendaires.
 #-------------------------------
 [TICKETBONUS]
-Name = Ticket Bonus
-NamePlural = Tickets Bonus
-PortionName = Ticket Bonus
-PortionNamePlural = Tickets Bonus
-Pocket = 4
+Name = Ticket Ultra-Chimère
+NamePlural = Tickets Ultra-Chimère
+PortionName = Ticket Ultra-Chimère
+PortionNamePlural = Tickets Ultra-Chimère
+BPPrice = 300
+Pocket = 1
 Price = 0
-Description = Offert lors d'événements spéciaux, il permet un tirage gratuit au Gatcha.
+Description = Un pokémon Ultra-Chimère venant d'un autre monde. 
 #-------------------------------
 [TICKETSURPRISE]
 Name = Ticket Surprise
 NamePlural = Tickets Surprises
 PortionName = Ticket Surprise
 PortionNamePlural = Tickets Surprises
-Pocket = 4
+BPPrice = 200
+Pocket = 1
 Price = 1500
 Description = Un ticket mystérieux dont le tirage est totalement aléatoire.
 #-------------------------------
@@ -6853,7 +6860,8 @@ Name = Ticket Premium
 NamePlural = Tickets Premiums
 PortionName = Ticket Premium
 PortionNamePlural = Tickets Premiums
-Pocket = 4
+BPPrice = 50
+Pocket = 1
 Price = 7500
 Description = Accès à un tirage de qualité supérieure avec plus de Pokémon Rares.
 #-------------------------------
@@ -6862,7 +6870,8 @@ Name = Ticket Fusion
 NamePlural = Tickets Fusions
 PortionName = Ticket Fusion
 PortionNamePlural = Tickets Fusions
-Pocket = 4
+BPPrice = 25
+Pocket = 1
 Price = 8000
 Description = Utilisable uniquement pour obtenir des Pokémon Fusionnés exclusifs.
 #-------------------------------
@@ -6871,7 +6880,7 @@ Name = Ticket Événement
 NamePlural = Tickets Événements
 PortionName = Ticket Événement
 PortionNamePlural = Tickets Événements
-Pocket = 4
+Pocket = 1
 Price = 0
 Description = Distribué lors des événements, permet un tirage unique et exclusif.
 #-------------------------------
@@ -6880,7 +6889,7 @@ Name = Ticket Arc-en-Ciel
 NamePlural = Tickets Arc-en-Ciel
 PortionName = Ticket Arc-en-Ciel
 PortionNamePlural = Tickets Arc-en-Ciel
-Pocket = 4
+Pocket = 1
 Price = 12000
 Description = Ce ticket augmente légèrement les chances d'obtenir un Pokémon de n'importe quelle rareté.
 #-------------------------------
@@ -6889,6 +6898,6 @@ Name = Ticket Collector
 NamePlural = Tickets Collectors
 PortionName = Ticket Collector
 PortionNamePlural = Tickets Collectors
-Pocket = 4
+Pocket = 1
 Price = 15000
 Description = Un ticket spécial collectionneur, pour obtenir des Pokémon rares et uniques.

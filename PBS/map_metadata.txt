@@ -201,8 +201,9 @@ Name = CenterPKM and Market
 MapPosition = 0,17,14
 #-------------------------------
 [047]   # Canal 1
-Name = Canal
+Name = Canal 1
 Outdoor = true
+ShowArea = true
 MapPosition = 0,12,15
 BattleBack = field
 #-------------------------------

@@ -6791,3 +6791,114 @@ DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
 ShadowSprite = 0,0,6
 SuperShinyHue = -100
+#-------------------------------
+[DRALYTRA]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = -65
+#-------------------------------
+[DROBSON]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = -70
+#-------------------------------
+[HAUNTGLASS]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = -255
+#-------------------------------
+[MERRI]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = -130
+#-------------------------------
+[PANPOTIN]
+BackSprite = -2,26
+FrontSprite = 0,6
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = -140
+#-------------------------------
+[CAROSSELLA]
+BackSprite = 0,26
+FrontSprite = -3,8
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = -76
+#-------------------------------
+[CANCOYOTTE]
+BackSprite = 4,33
+FrontSprite = -4,8
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = 125
+#-------------------------------
+[RISKARD]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+#-------------------------------
+[DECKALL]
+BackSprite = 4,8
+FrontSprite = -6,7
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = 20
+#-------------------------------
+[DECKALL,1]
+BackSprite = 0,0
+FrontSprite = 0,0
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = 20
+#-------------------------------
+[DECKALL,2]
+BackSprite = 0,0
+FrontSprite = 0,0
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = 55
+#-------------------------------
+[DECKALL,3]
+BackSprite = 0,0
+FrontSprite = 0,0
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = 90
+#-------------------------------
+[BALIGID]
+BackSprite = -1,44
+FrontSprite = -1,9
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,17
+AnimationSpeed = 1
+#-------------------------------
+[BALOONE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+AnimationSpeed = 1
+SuperShinyHue = 235

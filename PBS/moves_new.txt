@@ -11,3 +11,13 @@ FunctionCode = RaiseUserSpeed1
 EffectChance = 100
 Flags = Contact,CanProtect,CanMirrorMove
 Description = L'utilisateur augmentant sa vitesse, fonce sur la cible, laissant une traînée arc-en-ciel derrière lui.
+#-------------------------------
+[SPECIALREQUIEM]
+Name = Special Requiem
+Type = GHOST
+Category = Special
+Power = 90
+Accuracy = 100
+PP = 10
+Effect = 8
+Description = Un chant spectral résonne dans l’âme de la cible, troublant sa perception du monde.

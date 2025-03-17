@@ -117,6 +117,16 @@ module PokemonSelections
     :CAGRIN,
     :CRAMALIN,
   ]
+  Dealer_final = [
+    :TOXEL,
+    :DRAKLOAK,
+    :PUPITAR,
+    :HAUNTER,
+    :KIRLIA,
+    :GABITE,
+    :TRIPULZ,
+    :PIXIO,
+  ]
 
   Mythical = [
     :MEW,

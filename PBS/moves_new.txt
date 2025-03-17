@@ -21,3 +21,23 @@ Accuracy = 100
 PP = 10
 Effect = 8
 Description = Un chant spectral résonne dans l’âme de la cible, troublant sa perception du monde.
+#-------------------------------
+[POISONMAX]
+Name = Poison Max
+Type = POISON
+Category = Special
+Power = 110
+Accuracy = 100
+PP = 10
+Effect = 8
+Description = Rataloss crache un nuage toxique ultra-concentré qui peut gravement empoisonner sa cible.
+#-------------------------------
+[WYVERNFLAME]
+Name = Flamme Wyverne
+Type = FIRE
+Category = Special
+Power = 100
+Accuracy = 100
+PP = 15
+Effect = 47
+Description = Un souffle ardent d’une intensité brutale qui transperce toutes les défenses.

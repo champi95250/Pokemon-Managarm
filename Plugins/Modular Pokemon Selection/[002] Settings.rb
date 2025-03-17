@@ -52,4 +52,10 @@ module PokemonSelections
     pokeball: :POKEBALL,
     shadow: true
   }
+  SHADOW_final = {
+    level: 65,
+    min_iv: 26,
+    pokeball: :POKEBALL,
+    shadow: true
+  }
 end

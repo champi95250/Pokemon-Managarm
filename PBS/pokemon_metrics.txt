@@ -6902,3 +6902,54 @@ FrontSprite = 0,0
 ShadowSprite = 0,0,0
 AnimationSpeed = 1
 SuperShinyHue = 235
+#-------------------------------
+[TRIPULZ]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+#-------------------------------
+[MINDSPARK]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+#-------------------------------
+[PYROSTORM]
+BackSprite = 0,32
+FrontSprite = 0,3
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,20
+AnimationSpeed = 1
+SuperShinyHue = -160
+#-------------------------------
+[LILASPECTRA]
+BackSprite = 0,34
+FrontSprite = 0,10
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,9
+AnimationSpeed = 1
+SuperShinyHue = -30
+#-------------------------------
+[DRAGEMENTAL]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowSprite = 0,0,0
+#-------------------------------
+[RATALOSS]
+BackSprite = 0,37
+FrontSprite = 0,16
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = 0,0,10
+AnimationSpeed = 1
+SuperShinyHue = -155
+#-------------------------------
+[PYROQUET]
+BackSprite = 0,39
+FrontSprite = 0,7
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+ShadowSprite = -2,0,17
+AnimationSpeed = 1
+SuperShinyHue = -160

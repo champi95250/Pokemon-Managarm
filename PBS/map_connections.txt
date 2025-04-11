@@ -20,10 +20,16 @@
 95,West,65,96,East,0
 # Crystosombre - Ext (101) - Route 16 (96)
 101,East,0,96,West,8
+# Route Victoire (118) - Ligue Pokémon Ext (119)
+118,West,0,119,East,45
+# Route Victoire (113) - Route Victoire (118)
+113,North,16,118,South,0
+# Route 20 (112) - Route Victoire (113)
+112,East,0,113,West,8
+# Auremcity (109) - Route 20 (112)
+109,East,42,112,West,0
 # Route 18 (106) - Auremcity (109)
 106,North,12,109,South,0
-# Route 20 (112) - Auremcity (109)
-112,West,0,109,East,42
 # Route 11 (62) - Route 18 (106)
 62,North,0,106,South,0
 # Route 12 (71) - Route 18 (106)
@@ -68,15 +74,9 @@
 71,East,8,74,West,0
 # Aerolith (134) - Route 13 (74)
 134,North,6,74,South,0
+# Submeralis (36) - Aerolith (134)
+36,South,528,134,North,0
+# Aerolith (75) - Aerolith (134)
+75,West,0,134,East,6
 # Route 06 (43) - Submeralis (36)
 43,East,0,36,West,1
-# Aerolith (134) - Submeralis (36)
-134,North,0,36,South,528
-# Aerolith (134) - Aerolith (75)
-134,East,6,75,West,0
-# Route Victoire (113) - Route 20 (112)
-113,West,8,112,East,0
-# Route Victoire (118) - Route Victoire (113)
-118,South,0,113,North,16
-# Ligue Pokémon Ext (119) - Route Victoire (118)
-119,East,29,118,West,0

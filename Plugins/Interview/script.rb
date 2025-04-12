@@ -5,7 +5,7 @@ module ChoixSelections
   Managarm = [
     "Champi",
     "Many",
-    "Bobby",
+    "Boby",
     "Sonaku",
     "Lowell",
     "Néoskyblue",
@@ -17,6 +17,8 @@ module ChoixSelections
     "XIII",
     "Chris",
     "Mira",
+    "Caaling",
+    "Vaene",
   ]
   Guez = [
     "Trop Guez",

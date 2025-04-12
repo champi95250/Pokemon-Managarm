@@ -8,9 +8,46 @@ end
 # Speed-up config
 #===============================================================================#
 SPEEDUP_STAGES = [1, 1.5, 2, 3]
+SPEEDUP_IMAGES = ["speed_x1.5", "speed_x2", "speed_x3"]
 $GameSpeed = 0
 $CanToggle = true
 $RefreshEventsForTurbo = false
+#===============================================================================#
+# Speed Indicator (Display on the top-left)
+#===============================================================================#
+class SpeedIndicator
+  def initialize
+    @sprite = Sprite.new
+    @sprite.z = 99999  # Toujours au-dessus des autres éléments
+    update_position
+    update_visibility
+  end
+
+  def update
+    update_visibility
+    update_position
+  end
+
+  def update_position
+    @sprite.x = Graphics.width - 62   # Position en haut à gauche
+    @sprite.y = 10   # Position en haut à gauche
+  end
+
+  def update_visibility
+    if $GameSpeed > 0
+      @sprite.bitmap = Bitmap.new("Graphics/Pictures/#{SPEEDUP_IMAGES[$GameSpeed - 1]}")
+      @sprite.visible = true
+    else
+      @sprite.visible = false
+    end
+  end
+
+  def dispose
+    @sprite.dispose
+  end
+end
+
+$SpeedIndicator = SpeedIndicator.new
 #===============================================================================#
 # Set $CanToggle depending on the saved setting
 #===============================================================================#
@@ -37,6 +74,7 @@ module Input
       $GameSpeed = 0 if $GameSpeed >= SPEEDUP_STAGES.size
       $PokemonSystem.battle_speed = $GameSpeed if $PokemonSystem && $PokemonSystem.only_speedup_battles == 1
       $RefreshEventsForTurbo  = true
+      $SpeedIndicator.update
     end
   end
 end

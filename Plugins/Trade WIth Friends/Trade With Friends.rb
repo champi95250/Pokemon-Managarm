@@ -146,10 +146,10 @@ def pbRetrievePokemon
     pbMessage(_INTL("Could not find any trade data."))
     return
   end
-  if pkmn.owner.id == $player.id
-    pbMessage(_INTL("You can't trade your own Pokemon to yourself!"))
-    return
-  end
+  # ===if pkmn.owner.id == $player.id
+  # ===  pbMessage(_INTL("You can't trade your own Pokemon to yourself!"))
+  # ===  return
+  # ===end
   
   ret = pbCheckForDuplicates(pkmn)
   if ret

@@ -1,10 +1,4 @@
 Name         = Battle With Friend
 Version      = 1.0
 Essentials   = 21.1
-Credits      = Champis95
-
-#===============================================================================
-# Installation
-#===============================================================================
-# Pour installer ce plugin, extrais les fichiers dans le dossier racine de ton jeu.
-# 
+Credits      = Champi95 / Chat GPT

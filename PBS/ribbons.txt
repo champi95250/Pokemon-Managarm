@@ -1098,8 +1098,8 @@ Flags = PersonalityMark
 [PRIDEFULMARK]
 Name = Prideful Mark
 IconPosition = 152
-Description = A mark for an arrogant Pokémon.
-Title = the Arrogant
+Description = Une marque pour un Pokémon arrogant.
+Title = l'Arrogant
 IsMark = true
 Flags = PersonalityMark
 #-------------------------------
@@ -1114,8 +1114,8 @@ Flags = PersonalityMark
 [HUMBLEMARK]
 Name = Humble Mark
 IconPosition = 154
-Description = A mark for a humble Pokémon.
-Title = the Humble
+Description = Une marque pour un modeste Pokémon.
+Title = l'Humble
 IsMark = true
 Flags = PersonalityMark
 #-------------------------------
@@ -1138,40 +1138,40 @@ Flags = PersonalityMark
 [SLUMPMARK]
 Name = Slump Mark
 IconPosition = 157
-Description = A mark for a worn-out Pokémon.
-Title = the Worn-Out
+Description = Une marque pour un Pokémon usé.
+Title = l'usé
 IsMark = true
 Flags = PersonalityMark
 #-------------------------------
 [JUMBOMARK]
 Name = Jumbo Mark
 IconPosition = 158
-Description = A mark for a Pokémon that's the largest it can be.
-Title = the Great
+Description = Marque d'un Pokémon qui est le plus grand possible.
+Title = Le Grand
 IsMark = true
 Flags = SizeMark
 #-------------------------------
 [MINIMARK]
 Name = Mini Mark
 IconPosition = 159
-Description = A mark for a Pokémon that's the smallest it can be.
-Title = the Teeny
+Description = Une marque pour un Pokémon qui est le plus petit possible.
+Title = Le petit
 IsMark = true
 Flags = SizeMark
 #-------------------------------
 [ITEMFINDERMARK]
 Name = Itemfinder Mark
 IconPosition = 160
-Description = A mark for a Pokémon that likes to pick things up.
-Title = the Treasure Hunter
+Description = Une marque pour un Pokémon qui aime ramasser les choses.
+Title = Le chasseur de trésors
 IsMark = true
 Flags = PartyMark
 #-------------------------------
 [PARTNERMARK]
 Name = Partner Mark
 IconPosition = 161
-Description = A mark for a friendly Pokémon.
-Title = the Reliable Partner
+Description = Une marque pour un Pokémon amical.
+Title = Le partenaire fiable
 IsMark = true
 Flags = PartyMark
 #-------------------------------
@@ -1213,4 +1213,11 @@ IconPosition = 166
 Description = A special Ribbon awarded to a Pokémon that was once partnered with another great Trainer.
 Flags = MemorialRibbon
 Title = Mon préfèrer 
-Flags = MemorialRibbon
+#------------------------------- 
+[BETEMARK]
+Name = Bête Mark
+IconPosition = 143
+Description = Une marque pour le pokémon le plus bête.
+Title = Le plus bête de tous
+IsMark = true
+Flags = PartyMark

@@ -1,0 +1,11 @@
+﻿#-------------------------------
+[DRIFBLIM,1]
+FormName = Mega Drifblim
+MegaStone = DRIFBLITINE
+BaseStats = 172,85,65,70,105,65
+BaseExp = 256
+Abilities = THERMALEXCHANGE
+Height = 2.0
+Weight = 32.0
+Pokedex = It's drowzy in daytime, but flies off in the evening in big groups. No one knows where they go.
+Generation = 6

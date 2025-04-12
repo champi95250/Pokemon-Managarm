@@ -151,7 +151,7 @@ Argent :<<n>><ar>{1}</ar>
 Coins:<<n>><ar>{1}</ar>
 Pièces :<<n>><ar>{1}</ar>
 Battle Points:<<n>><ar>{1}</ar>
-Points de Combat :<<n>><ar>{1}</ar>
+Points Combat:<<n>><ar>{1}</ar>
 Yes
 Oui
 No

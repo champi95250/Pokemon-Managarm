@@ -1070,3 +1070,7 @@ Description = Combines Unnerve and Chilling Neigh Abilities.
 [ASONEGRIMNEIGH]
 Name = As One
 Description = Combines Unnerve and Grim Neigh Abilities.
+#-------------------------------
+[WEEPINGSOUL]
+Name = Weeping Soul
+Description = À son entrée, diminue l'Attaque Spéciale des ennemis. À sa mort, baisse leur Précision.

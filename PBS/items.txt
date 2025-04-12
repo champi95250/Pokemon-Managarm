@@ -3208,7 +3208,7 @@ Price = 200
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = Water with high mineral content. It can be used to restore 30 HP to a single Pokémon.
+Description = Water with high mineral content. It can be used to restore 30 HP to a single Pokémon. 
 #-------------------------------
 [SODAPOP]
 Name = Soda Pop
@@ -3761,7 +3761,7 @@ Description = A patch that allows a Pokémon with a regular Ability to have a ra
 Name = Exp. Candy XS
 NamePlural = Exp. Candy XSs
 Pocket = 2
-Price = 20
+Price = 50
 FieldUse = OnPokemon
 Flags = Fling_30
 Description = A candy packed with energy. When consumed, it will grant a Pokémon a very small amount of Exp. Points.
@@ -3770,7 +3770,7 @@ Description = A candy packed with energy. When consumed, it will grant a Pokémo
 Name = Exp. Candy S
 NamePlural = Exp. Candy Ss
 Pocket = 2
-Price = 240
+Price = 300
 FieldUse = OnPokemon
 Flags = Fling_30
 Description = A candy packed with energy. When consumed, it will grant a Pokémon a small amount of Exp. Points.
@@ -3779,7 +3779,7 @@ Description = A candy packed with energy. When consumed, it will grant a Pokémo
 Name = Exp. Candy M
 NamePlural = Exp. Candy Ms
 Pocket = 2
-Price = 1000
+Price = 1250
 FieldUse = OnPokemon
 Flags = Fling_30
 Description = A candy packed with energy. When consumed, it will grant a Pokémon a moderate amount of Exp. Points.
@@ -3788,7 +3788,7 @@ Description = A candy packed with energy. When consumed, it will grant a Pokémo
 Name = Exp. Candy L
 NamePlural = Exp. Candy Ls
 Pocket = 2
-Price = 3000
+Price = 3500
 FieldUse = OnPokemon
 Flags = Fling_30
 Description = A candy packed with energy. When consumed, it will grant a Pokémon a large amount of Exp. Points.
@@ -6652,3 +6652,252 @@ Price = 0
 Flags = KeyItem
 FieldUse = Direct
 Description = Une technologie avancé qui attire un pokémon spécifique
+#-------------------------------
+[CLEBAUDRIVE]
+Name = Clé Bizarre
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = Une clé de forme bizarre, trouver par un Baudrive aujourd'hui décédé. 
+#-------------------------------
+[DRIFBLITINE]
+Name = Drifblitine
+NamePlural = Drifblitines
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Drifblim hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[PASSM01]
+Name = Pass M-01
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = Un pass pour ouvrir des portes dans le Hangar sur la Route 13
+#-------------------------------
+[PASSM02]
+Name = Pass M-02
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = Un pass pour ouvrir des portes dans le Hangar sur la Route 13
+#-------------------------------
+[PASSM03]
+Name = Pass M-03
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = Un pass pour ouvrir des portes dans le Hangar sur la Route 13
+#-------------------------------
+[PAPIERJOURNAL]
+Name = Papier journal
+NamePlural = Papiers journal
+Pocket = 1
+Price = 3000
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = Un Objets pour faire évoluer un certain pokémon. 
+#-------------------------------
+[POUBELLE]
+Name = Poubelle
+NamePlural = Poubelles
+Pocket = 1
+Price = 3000
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = Un Objets pour faire évoluer un certain pokémon. 
+#-------------------------------
+[CANETTE]
+Name = Canette
+NamePlural = Canettes
+Pocket = 1
+Price = 3000
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = Un Objets pour faire évoluer un certain pokémon. 
+#------------------------------- OMG ITEM BROKEN ?
+[ORBEVITALIS]
+Name = Orbe Vitalis
+NamePlural = Orbes Vitalis
+PortionName = Orbe Vitalis
+PortionNamePlural = Orbes Vitalis
+Pocket = 2
+Price = 10000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = Une Orbe mystérieuse qui restaure l'énergie vitale. Augmente l'IV de PV.
+#-------------------------------
+[GRIFFEDEBETE]
+Name = Griffe de Bête
+NamePlural = Griffes de Bête
+PortionName = Griffe de Bête
+PortionNamePlural = Griffes de Bête
+Pocket = 2
+Price = 10000
+FieldUse = OnPokemon
+Description = Une griffe imprégnée de rage brute. Augmente l'IV d'Attaque d'un Pokémon.
+#-------------------------------
+[CARAPACEFOSSILE]
+Name = Carapace Fossile
+NamePlural = Carapaces Fossiles
+PortionName = Carapace Fossile
+PortionNamePlural = Carapaces Fossiles
+Pocket = 2
+Price = 10000
+FieldUse = OnPokemon
+Description = Un ancien fragment de carapace fossilisée. Augmente l'IV de Défense.
+#-------------------------------
+[POUDREASTRALE]
+Name = Poudre Astrale
+NamePlural = Poudres Astrales
+PortionName = Poudre Astrale
+PortionNamePlural = Poudres Astrales
+Pocket = 2
+Price = 10000
+FieldUse = OnPokemon
+Description = De la poussière scintillante issue d'étoiles lointaines. Augmente l'IV d'Attaque Spéciale.
+#-------------------------------
+[VOILEDUREVE]
+Name = Voile du Rêve
+NamePlural = Voiles du Rêve
+PortionName = Voile du Rêve
+PortionNamePlural = Voiles du Rêve
+Pocket = 2
+Price = 10000
+FieldUse = OnPokemon
+Description = Un tissu éthéré imprégné d'énergie spirituelle. Augmente l'IV de Défense Spéciale.
+#-------------------------------
+[PLUMEDEAEROCIEL]
+Name = Plume d'Aérociel
+NamePlural = Plumes d'Aérociel
+PortionName = Plume d'Aérociel
+PortionNamePlural = Plumes d'Aérociel
+Pocket = 2
+Price = 10000
+FieldUse = OnPokemon
+Description = Une plume rare et légère, issue d'un oiseau mythique. Augmente l'IV de Vitesse.
+#-------------------------------
+[TICKETBASE]
+Name = Ticket de Base
+NamePlural = Tickets de Base
+PortionName = Ticket de Base
+PortionNamePlural = Tickets de Base
+BPPrice = 2
+Pocket = 1
+Price = 1000
+Description = Permet d'effectuer un tirage de base au Gatcha. Idéal pour commencer.
+#-------------------------------
+[TICKETARGENT]
+Name = Ticket Argent
+NamePlural = Tickets Argent
+PortionName = Ticket Argent
+PortionNamePlural = Tickets Argent
+Pocket = 1
+BPPrice = 10
+Price = 2500
+Description = Accès à un tirage privilégié avec de meilleures chances de Pokémon peu commun.
+#-------------------------------
+[TICKETDORE]
+Name = Ticket Doré
+NamePlural = Tickets Dorés
+PortionName = Ticket Doré
+PortionNamePlural = Tickets Dorés
+BPPrice = 30
+Pocket = 1
+Price = 5000
+Description = Un ticket précieux, garantissant au moins un Pokémon Oeuf assez Rare.
+#-------------------------------
+[TICKETDIAMANT]
+Name = Ticket Diamant
+NamePlural = Tickets Diamants
+PortionName = Ticket Diamant
+PortionNamePlural = Tickets Diamants
+BPPrice = 60
+Pocket = 1
+Price = 10000
+Description = Le nec plus ultra des tickets, augmente les chances d'obtenir un Pokémon assez Rare.
+#-------------------------------
+[TICKETLEGENDAIRE]
+Name = Ticket Légendaire
+NamePlural = Tickets Légendaires
+PortionName = Ticket Légendaire
+PortionNamePlural = Tickets Légendaires
+BPPrice = 300
+Pocket = 1
+Price = 20000
+Description = Ce ticket permet d'accéder à un tirage exclusif pour les Pokémon Légendaires.
+#-------------------------------
+[TICKETBONUS]
+Name = Ticket Ultra-Chimère
+NamePlural = Tickets Ultra-Chimère
+PortionName = Ticket Ultra-Chimère
+PortionNamePlural = Tickets Ultra-Chimère
+BPPrice = 300
+Pocket = 1
+Price = 0
+Description = Un pokémon Ultra-Chimère venant d'un autre monde. 
+#-------------------------------
+[TICKETSURPRISE]
+Name = Ticket Surprise
+NamePlural = Tickets Surprises
+PortionName = Ticket Surprise
+PortionNamePlural = Tickets Surprises
+BPPrice = 200
+Pocket = 1
+Price = 1500
+Description = Un ticket mystérieux dont le tirage est totalement aléatoire.
+#-------------------------------
+[TICKETPREMIUM]
+Name = Ticket Premium
+NamePlural = Tickets Premiums
+PortionName = Ticket Premium
+PortionNamePlural = Tickets Premiums
+BPPrice = 50
+Pocket = 1
+Price = 7500
+Description = Accès à un tirage de qualité supérieure avec plus de Pokémon Rares.
+#-------------------------------
+[TICKETFUSION]
+Name = Ticket Fusion
+NamePlural = Tickets Fusions
+PortionName = Ticket Fusion
+PortionNamePlural = Tickets Fusions
+BPPrice = 25
+Pocket = 1
+Price = 8000
+Description = Utilisable uniquement pour obtenir des Pokémon Fusionnés exclusifs.
+#-------------------------------
+[TICKETEVENEMENT]
+Name = Ticket Événement
+NamePlural = Tickets Événements
+PortionName = Ticket Événement
+PortionNamePlural = Tickets Événements
+Pocket = 1
+Price = 0
+Description = Distribué lors des événements, permet un tirage unique et exclusif.
+#-------------------------------
+[TICKETARCEENCIEL]
+Name = Ticket Arc-en-Ciel
+NamePlural = Tickets Arc-en-Ciel
+PortionName = Ticket Arc-en-Ciel
+PortionNamePlural = Tickets Arc-en-Ciel
+Pocket = 1
+Price = 12000
+Description = Ce ticket augmente légèrement les chances d'obtenir un Pokémon de n'importe quelle rareté.
+#-------------------------------
+[TICKETCOLLECTOR]
+Name = Ticket Collector
+NamePlural = Tickets Collectors
+PortionName = Ticket Collector
+PortionNamePlural = Tickets Collectors
+Pocket = 1
+Price = 15000
+Description = Un ticket spécial collectionneur, pour obtenir des Pokémon rares et uniques.

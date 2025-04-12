@@ -181,11 +181,13 @@ Name = Route 08
 Outdoor = true
 ShowArea = true
 MapPosition = 0,16,14
+BattleBack = field
 #-------------------------------
 [043]   # Route 06
 Name = Route 06
 Outdoor = true
 MapPosition = 0,12,10
+BattleBack = field
 #-------------------------------
 [044]   # Cryodeser
 Name = Cryodeser
@@ -199,9 +201,11 @@ Name = CenterPKM and Market
 MapPosition = 0,17,14
 #-------------------------------
 [047]   # Canal 1
-Name = Canal
+Name = Canal 1
 Outdoor = true
+ShowArea = true
 MapPosition = 0,12,15
+BattleBack = field
 #-------------------------------
 [048]   # Desert Cryodese
 Name = Desert Cryodeser
@@ -209,18 +213,27 @@ Outdoor = true
 ShowArea = true
 Weather = Sandstorm,70
 MapPosition = 0,18,14
+BattleBack = rocky
 #-------------------------------
 [049]   # Route 09
 Name = Route 09
 Outdoor = true
 ShowArea = true
 MapPosition = 0,17,13
+BattleBack = field
 #-------------------------------
 [050]   # Route 10
 Name = Route 10
 Outdoor = true
 ShowArea = true
 MapPosition = 0,17,12
+BattleBack = field
+#-------------------------------
+[051]   # Camp Numéro 4 Managarm
+Name = Hangar Managarm
+ShowArea = true
+MapPosition = 0,17,11
+BattleBack = hangar
 #-------------------------------
 [053]   # Séraphys
 Name = Séraphys
@@ -228,20 +241,119 @@ Outdoor = true
 ShowArea = true
 Weather = Rain,40
 MapPosition = 0,17,10
+BattleBack = field
 #-------------------------------
-[055]   # Safari ?
-Name = Safari entrance
+[054]   # Arène
+Name = Arène
+MapPosition = 0,17,10
 #-------------------------------
-[056]   # safarii
-Name = SAFARI
+[055]   # Safari Entré
+Name = Safari Park
+ShowArea = true
+MapPosition = 0,17,9
+#-------------------------------
+[056]   # Zone Safari
+Name = Zone Safari
 Outdoor = true
 ShowArea = true
+MapPosition = 0,16,9
 SafariMap = true
-Flags = PowerSpot
+BattleBack = field
+Flags = PowerSpot,Safari
 #-------------------------------
 [057]   # CenterPKM
 Name = Centre Pokémon
 MapPosition = 0,17,10
+#-------------------------------
+[060]   # Grotte des secrets
+Name = Grotte des secrets
+ShowArea = true
+MapPosition = 0,15,14
+BattleBack = cave
+#-------------------------------
+[061]   # Grotte du souvenir
+Name = Grotte du souvenir
+Flags = PowerSpot
+#-------------------------------
+[062]   # Route 11
+Name = Route 11
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,9
+BattleBack = field
+#-------------------------------
+[063]   # Zone Safari G2
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[064]   # Zone Safari
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+Flags = PowerSpot
+#-------------------------------
+[065]   # Zone Safari
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[066]   # Zone Safari G5
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[067]   # Zone Safari G6
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[068]   # Zone Safari
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[069]   # Zone Safari G8
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[070]   # Zone Safari
+Name = Zone Safari
+Outdoor = true
+MapPosition = 0,16,9
+SafariMap = true
+#-------------------------------
+[071]   # Route 12
+Name = Route 12
+Outdoor = true
+ShowArea = true
+Bicycle = true
+BicycleAlways = true
+MapPosition = 0,18,9
+MapSize = 3,111
+#-------------------------------
+[074]   # Route 13
+Name = Route 13
+Outdoor = true
+ShowArea = true
+MapPosition = 0,21,9
+MapSize = 1,11
+#-------------------------------
+[075]   # Aerolith
+Name = Aerolith
+Outdoor = true
+ShowArea = true
+HealingSpot = 75,18,14
+MapPosition = 0,21,11
+BattleBack = city_eve
 #-------------------------------
 [081]   # MultiMaison
 Name = Maison
@@ -250,3 +362,123 @@ MapPosition = 0,6,12
 [082]   # Laboratoire
 Name = Laboratoire
 MapPosition = 0,6,12
+#-------------------------------
+[083]   # Grotte
+Name = Grotte
+MapPosition = 0,21,10
+#-------------------------------
+[084]   # Hangar - RDC
+Name = Hangar - RDC
+MapPosition = 0,21,10
+#-------------------------------
+[088]   # Hangar - SS3
+Name = Hangar - SS3
+MapPosition = 0,21,10
+#-------------------------------
+[092]   # Route 14
+Name = Route 14
+Outdoor = true
+MapPosition = 0,8,9
+#-------------------------------
+[093]   # Boréadrin
+Name = Boréadrin
+Outdoor = true
+HealingSpot = 93,59,21
+MapPosition = 0,7,9
+#-------------------------------
+[095]   # Route 15
+Name = Route 15
+Outdoor = true
+ShowArea = true
+MapPosition = 0,5,9
+MapSize = 2,1110
+#-------------------------------
+[096]   # Route 16
+Name = Route 16
+Outdoor = true
+ShowArea = true
+MapPosition = 0,4,10
+#-------------------------------
+[099]   # Route 17
+Name = Route 17
+Outdoor = true
+Bicycle = true
+MapPosition = 0,5,8
+#-------------------------------
+[101]   # Crystosombre - Ext
+Name = Crystosombre
+Outdoor = true
+MapPosition = 0,3,10
+#-------------------------------
+[102]   # Crystosombre
+Name = Crystosombre
+MapPosition = 0,3,10
+#-------------------------------
+[106]   # Route 18
+Name = Route 18
+Outdoor = true
+ShowArea = true
+MapPosition = 0,17,7
+MapSize = 1,11
+#-------------------------------
+[107]   # Boby
+Name = Bobyland
+Outdoor = true
+MapPosition = 0,17,8
+#-------------------------------
+[109]   # Auremcity
+Name = Auremcity
+Outdoor = true
+ShowArea = true
+MapPosition = 0,17,5
+MapSize = 2,1111
+#-------------------------------
+[112]   # Route 20
+Name = Route 20
+Outdoor = true
+ShowArea = true
+MapPosition = 0,19,6
+MapSize = 2,11
+#-------------------------------
+[113]   # Route Victoire
+Name = Route Victoire
+Outdoor = true
+ShowArea = true
+MapPosition = 0,22,6
+#-------------------------------
+[114]   # Grotte Victoire
+Name = Grotte Victoire
+MapPosition = 0,26,6
+#-------------------------------
+[115]   # Grotte Victoire N-1
+Name = Grotte Victoire
+MapPosition = 0,26,6
+#-------------------------------
+[116]   # Grotte Victoire E-1
+Name = Grotte Victoire
+MapPosition = 0,26,6
+#-------------------------------
+[118]   # Route Victoire
+Name = Route Victoire
+Outdoor = true
+MapPosition = 0,26,5
+#-------------------------------
+[119]   # Ligue Pokémon Ext
+Name = Ligue Pokemon
+Outdoor = true
+ShowArea = true
+MapPosition = 0,25,5
+#-------------------------------
+[120]   # Centre Ligue Pokemon
+Name = Centre Ligue Pokemon
+ShowArea = true
+MapPosition = 0,24,4
+#-------------------------------
+[128]   # Centre Pokemon Ferdi
+Name = Centre
+MapPosition = 0,17,5
+#-------------------------------
+[134]   # Aerolith
+Name = Aerolith
+Outdoor = true
+MapPosition = 0,21,11

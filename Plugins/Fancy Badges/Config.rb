@@ -15,10 +15,10 @@ module FancyBadges
       "Badge Normal",
       "Badge Plante",
       "Badge Eau",
-      "Test Badge 4",
-      "Test Badge 5",
-      "Test Badge 6",
-      "Test Badge 7",
-      "Test Badge 8",
+      "Badge Spectre",
+      "Badge Combat",
+      "Badge Acier",
+      "Badge Glace",
+      "Badge Fée",
   ]    
 end
